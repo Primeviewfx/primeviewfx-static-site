@@ -1,0 +1,93 @@
+PrimeViewFX Daily Site Summary
+==============================
+
+Generated:
+2026-06-21T17:40:08
+
+PUBLIC SUMMARY
+--------------
+Headline: XAUUSD Structure Research - Forward-Frozen Gold Map
+Subheadline: Daily gold-market structure maps built from H4/D1 confluence research, frozen forecasts and retrospective validation.
+Site status: fresh_locked_freeze_differs_from_regenerated_map
+Latest map: 2026-06-22
+Model: H4/D1 two-layer structure
+Pipeline: passed
+Date contract: fresh
+Map source: frozen_registry_map
+Validation: awaiting_future_published_levels
+Latest forward score: 23.97 median error
+Scored forward dates: 1
+Today's focus: Only interested above 4177.944 for expansion.
+Visible reference: Nearest structure window: 4127.402 / 4177.944
+
+MEMBERS SUMMARY
+---------------
+Forecast date: 2026-06-22
+Latest close: 4155.81
+Intraday state: unknown
+Range ratio: 0.718
+Latest freeze: TLF_20260622_3cfc5d2e7e8c
+Freeze validation: awaiting_future_published_levels
+
+Frozen-map authority:
+{
+  "forecast_date": "2026-06-22",
+  "authority_source_mode": "frozen_registry_map",
+  "frozen_map_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-22_3cfc5d2e7e8c.csv",
+  "frozen_state_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_state_2026-06-22_3cfc5d2e7e8c.json",
+  "freeze_id": "TLF_20260622_3cfc5d2e7e8c",
+  "registry_validation_status": "awaiting_future_published_levels",
+  "queue_validation_status": "awaiting_future_published_levels",
+  "frozen_map_exists": true,
+  "latest_confluence_map_exists": true,
+  "frozen_map_hash": "01ba2e182d7fb1a3ec74c5594f44e749c5173ec159349f850839798034aa3b6c",
+  "latest_confluence_map_hash": "92d63afdbc1700b771a2575f50386fc9beb7878a2635e4327ffcde2741b6c827",
+  "latest_differs_from_frozen": true,
+  "publishing_rule": "website_uses_frozen_map_when_available",
+  "publishing_warning": "Current regenerated map differs from locked freeze; site is using locked frozen map."
+}
+
+Nearest context:
+{
+  "nearest_support": 4127.402,
+  "nearest_support_role": "D1_container",
+  "nearest_resistance": 4177.944,
+  "nearest_resistance_role": "D1_container"
+}
+
+H4 local:
+[3856.254, 3898.756, 3941.258, 4111.266]
+
+H4-D1 confluence:
+[3979.768, 4026.29, 4072.812]
+
+D1 container:
+[4127.402, 4177.944, 4228.486, 4279.028]
+
+Forward validation:
+{
+  "latest_scored_freeze_id": "TLF_20260615_78e24a70cde0",
+  "latest_day_quality": "weak_forward_fit",
+  "median_abs_error": 23.968945500000245,
+  "pct_within_10": 25.0,
+  "pct_within_15": 33.33333333333333,
+  "best_role_by_median": "H4_D1_confluence"
+}
+
+Date contract:
+{
+  "run_time": "2026-06-21T17:40:08",
+  "projection_date": "2026-06-22",
+  "selector_date": "2026-06-22",
+  "dual_map_date": "2026-06-22",
+  "confluence_date": "2026-06-22",
+  "registry_latest_forecast_date": "2026-06-22",
+  "queue_latest_forecast_date": "2026-06-22",
+  "latest_h1_time": "",
+  "latest_close": "4155.81",
+  "intraday_state": "unknown",
+  "date_contract_status": "fresh",
+  "first_stale_or_missing_point": ""
+}
+
+Research only. Not a trading signal.

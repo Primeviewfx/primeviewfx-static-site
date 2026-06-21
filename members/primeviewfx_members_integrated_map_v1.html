@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PrimeViewFX Members Integrated Map</title>
+<style>
+  :root {
+    --bg: #05070b;
+    --card: rgba(255,255,255,0.055);
+    --card2: rgba(255,255,255,0.035);
+    --text: #f5f7fb;
+    --muted: rgba(245,247,251,0.68);
+    --line: rgba(255,255,255,0.12);
+    --gold: #f2c14e;
+    --blue: #79a9ff;
+    --green: #65d69e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  .pv-map {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 28px 18px;
+  }
+  .header {
+    border: 1px solid var(--line);
+    border-radius: 22px;
+    padding: 22px;
+    background: linear-gradient(135deg, rgba(242,193,78,0.13), rgba(121,169,255,0.08));
+    margin-bottom: 16px;
+  }
+  .eyebrow {
+    color: var(--gold);
+    font-size: 12px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-size: clamp(24px, 4vw, 42px);
+    line-height: 1.05;
+    margin: 0 0 10px;
+  }
+  .sub {
+    color: var(--muted);
+    margin: 0;
+    line-height: 1.55;
+  }
+  .summary-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0,1fr));
+    gap: 10px;
+    margin: 16px 0;
+  }
+  .summary-card {
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 14px;
+    background: var(--card2);
+  }
+  .summary-label {
+    color: var(--muted);
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  .summary-value {
+    font-size: 18px;
+    font-weight: 750;
+  }
+  .section-title {
+    margin: 24px 0 12px;
+    font-size: 18px;
+  }
+  .zone-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    gap: 12px;
+  }
+  .zone-card {
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 16px;
+    background: var(--card);
+  }
+  .zone-card.high {
+    border-color: rgba(242,193,78,0.55);
+    box-shadow: 0 0 0 1px rgba(242,193,78,0.08) inset;
+  }
+  .zone-card.mid {
+    border-color: rgba(121,169,255,0.38);
+  }
+  .zone-card.low {
+    opacity: 0.82;
+  }
+  .zone-topline {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 10px;
+  }
+  .zone-price {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+  }
+  .zone-category {
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 2px;
+  }
+  .zone-priority {
+    min-width: 42px;
+    text-align: center;
+    border-radius: 999px;
+    padding: 6px 10px;
+    background: rgba(242,193,78,0.14);
+    border: 1px solid rgba(242,193,78,0.35);
+    color: var(--gold);
+    font-weight: 800;
+  }
+  .zone-action {
+    color: var(--text);
+    line-height: 1.45;
+    margin: 0 0 12px;
+  }
+  .zone-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .badge {
+    font-size: 11px;
+    color: var(--muted);
+    border: 1px solid var(--line);
+    background: rgba(255,255,255,0.04);
+    border-radius: 999px;
+    padding: 5px 8px;
+  }
+  .warning {
+    margin-top: 18px;
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  @media (max-width: 780px) {
+    .summary-grid, .zone-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+  <main class="pv-map">
+    <section class="header">
+      <div class="eyebrow">PrimeViewFX Members Map</div>
+      <h1>XAUUSD Integrated Carry + Structure</h1>
+      <p class="sub">Forward-frozen H4/D1 structure combined with the live carry ladder. Zones are ranked by overlap quality and structural role. Research only, not a trading signal.</p>
+    </section>
+
+    <section class="summary-grid">
+      <div class="summary-card">
+        <div class="summary-label">Forecast date</div>
+        <div class="summary-value">2026-06-22</div>
+      </div>
+      <div class="summary-card">
+        <div class="summary-label">Carry confidence</div>
+        <div class="summary-value">caution_confidence</div>
+      </div>
+      <div class="summary-card">
+        <div class="summary-label">Carry anchor</div>
+        <div class="summary-value">4146.70</div>
+      </div>
+      <div class="summary-card">
+        <div class="summary-label">A zones</div>
+        <div class="summary-value">4</div>
+      </div>
+    </section>
+
+    <h2 class="section-title">Priority zones</h2>
+    <section class="zone-grid">
+      
+        <article class="zone-card high">
+          <div class="zone-topline">
+            <div>
+              <div class="zone-price">4026.44</div>
+              <div class="zone-category">Carry + H4/D1 confluence</div>
+            </div>
+            <div class="zone-priority">A</div>
+          </div>
+          <p class="zone-action">High-interest structural reaction zone around 4026.44. Wait for live confirmation; do not pre-empt.</p>
+          <div class="zone-meta">
+            <span class="badge">Hard overlap</span>
+            <span class="badge">Carry 4026.58</span>
+            <span class="badge">Structure 4026.29</span>
+            <span class="badge">Dist 0.29</span>
+          </div>
+        </article>
+        
+        <article class="zone-card high">
+          <div class="zone-topline">
+            <div>
+              <div class="zone-price">4177.34</div>
+              <div class="zone-category">Carry + D1 container</div>
+            </div>
+            <div class="zone-priority">A</div>
+          </div>
+          <p class="zone-action">Important container level around 4177.34. Expansion/continuation depends on acceptance beyond it.</p>
+          <div class="zone-meta">
+            <span class="badge">Hard overlap</span>
+            <span class="badge">Carry 4176.73</span>
+            <span class="badge">Structure 4177.94</span>
+            <span class="badge">Dist 1.21</span>
+          </div>
+        </article>
+        
+        <article class="zone-card high">
+          <div class="zone-topline">
+            <div>
+              <div class="zone-price">4113.97</div>
+              <div class="zone-category">Carry + H4 local</div>
+            </div>
+            <div class="zone-priority">A</div>
+          </div>
+          <p class="zone-action">High-interest local reaction zone around 4113.97. Watch for rejection, acceptance, or reclaim.</p>
+          <div class="zone-meta">
+            <span class="badge">Good overlap</span>
+            <span class="badge">Carry 4116.67</span>
+            <span class="badge">Structure 4111.27</span>
+            <span class="badge">Dist 5.40</span>
+          </div>
+        </article>
+        
+        <article class="zone-card high">
+          <div class="zone-topline">
+            <div>
+              <div class="zone-price">4079.73</div>
+              <div class="zone-category">Carry near H4/D1 confluence</div>
+            </div>
+            <div class="zone-priority">A</div>
+          </div>
+          <p class="zone-action">High-interest structural reaction zone around 4079.73. Wait for live confirmation; do not pre-empt.</p>
+          <div class="zone-meta">
+            <span class="badge">Soft overlap</span>
+            <span class="badge">Carry 4086.64</span>
+            <span class="badge">Structure 4072.81</span>
+            <span class="badge">Dist 13.83</span>
+          </div>
+        </article>
+        
+        <article class="zone-card mid">
+          <div class="zone-topline">
+            <div>
+              <div class="zone-price">4232.64</div>
+              <div class="zone-category">Carry + D1 container</div>
+            </div>
+            <div class="zone-priority">B</div>
+          </div>
+          <p class="zone-action">Secondary watch zone around 4232.64. Useful as context or extension target.</p>
+          <div class="zone-meta">
+            <span class="badge">Good overlap</span>
+            <span class="badge">Carry 4236.79</span>
+            <span class="badge">Structure 4228.49</span>
+            <span class="badge">Dist 8.30</span>
+          </div>
+        </article>
+        
+        <article class="zone-card mid">
+          <div class="zone-topline">
+            <div>
+              <div class="zone-price">3979.77</div>
+              <div class="zone-category">H4/D1 confluence only</div>
+            </div>
+            <div class="zone-priority">B</div>
+          </div>
+          <p class="zone-action">Secondary watch zone around 3979.77. Useful as context or extension target.</p>
+          <div class="zone-meta">
+            <span class="badge">Structural Only No Carry Within 15</span>
+            <span class="badge">No carry</span>
+            <span class="badge">Structure 3979.77</span>
+            <span class="badge">Dist 46.81</span>
+          </div>
+        </article>
+        
+        <article class="zone-card low">
+          <div class="zone-topline">
+            <div>
+              <div class="zone-price">4272.92</div>
+              <div class="zone-category">Carry near D1 container</div>
+            </div>
+            <div class="zone-priority">C</div>
+          </div>
+          <p class="zone-action">Reference zone around 4272.92. Lower confidence unless live behaviour confirms.</p>
+          <div class="zone-meta">
+            <span class="badge">Soft overlap</span>
+            <span class="badge">Carry 4266.82</span>
+            <span class="badge">Structure 4279.03</span>
+            <span class="badge">Dist 12.21</span>
+          </div>
+        </article>
+        
+        <article class="zone-card low">
+          <div class="zone-topline">
+            <div>
+              <div class="zone-price">4206.76</div>
+              <div class="zone-category">Carry only</div>
+            </div>
+            <div class="zone-priority">C</div>
+          </div>
+          <p class="zone-action">Reference zone around 4206.76. Lower confidence unless live behaviour confirms.</p>
+          <div class="zone-meta">
+            <span class="badge">No carry/structure overlap</span>
+            <span class="badge">Carry 4206.76</span>
+            <span class="badge">No structure</span>
+            <span class="badge">Dist 21.73</span>
+          </div>
+        </article>
+        
+        <article class="zone-card low">
+          <div class="zone-topline">
+            <div>
+              <div class="zone-price">4146.70</div>
+              <div class="zone-category">Carry only</div>
+            </div>
+            <div class="zone-priority">C</div>
+          </div>
+          <p class="zone-action">Reference zone around 4146.70. Lower confidence unless live behaviour confirms.</p>
+          <div class="zone-meta">
+            <span class="badge">No carry/structure overlap</span>
+            <span class="badge">Carry 4146.70</span>
+            <span class="badge">No structure</span>
+            <span class="badge">Dist 19.30</span>
+          </div>
+        </article>
+        
+        <article class="zone-card low">
+          <div class="zone-topline">
+            <div>
+              <div class="zone-price">3941.26</div>
+              <div class="zone-category">H4 local only</div>
+            </div>
+            <div class="zone-priority">C</div>
+          </div>
+          <p class="zone-action">Reference zone around 3941.26. Lower confidence unless live behaviour confirms.</p>
+          <div class="zone-meta">
+            <span class="badge">Structural Only No Carry Within 15</span>
+            <span class="badge">No carry</span>
+            <span class="badge">Structure 3941.26</span>
+            <span class="badge">Dist 85.32</span>
+          </div>
+        </article>
+        
+        <article class="zone-card low">
+          <div class="zone-topline">
+            <div>
+              <div class="zone-price">3898.76</div>
+              <div class="zone-category">H4 local only</div>
+            </div>
+            <div class="zone-priority">C</div>
+          </div>
+          <p class="zone-action">Reference zone around 3898.76. Lower confidence unless live behaviour confirms.</p>
+          <div class="zone-meta">
+            <span class="badge">Structural Only No Carry Within 15</span>
+            <span class="badge">No carry</span>
+            <span class="badge">Structure 3898.76</span>
+            <span class="badge">Dist 127.82</span>
+          </div>
+        </article>
+        
+        <article class="zone-card low">
+          <div class="zone-topline">
+            <div>
+              <div class="zone-price">3856.25</div>
+              <div class="zone-category">H4 local only</div>
+            </div>
+            <div class="zone-priority">C</div>
+          </div>
+          <p class="zone-action">Reference zone around 3856.25. Lower confidence unless live behaviour confirms.</p>
+          <div class="zone-meta">
+            <span class="badge">Structural Only No Carry Within 15</span>
+            <span class="badge">No carry</span>
+            <span class="badge">Structure 3856.25</span>
+            <span class="badge">Dist 170.33</span>
+          </div>
+        </article>
+        
+        <article class="zone-card low">
+          <div class="zone-topline">
+            <div>
+              <div class="zone-price">4056.61</div>
+              <div class="zone-category">Carry only</div>
+            </div>
+            <div class="zone-priority">C</div>
+          </div>
+          <p class="zone-action">Reference zone around 4056.61. Lower confidence unless live behaviour confirms.</p>
+          <div class="zone-meta">
+            <span class="badge">No carry/structure overlap</span>
+            <span class="badge">Carry 4056.61</span>
+            <span class="badge">No structure</span>
+            <span class="badge">Dist 16.20</span>
+          </div>
+        </article>
+        
+    </section>
+
+    <p class="warning">This dashboard is a research-control display. It does not provide automatic trade entries. Live confirmation, risk control and execution rules remain required.</p>
+  </main>
+</body>
+</html>

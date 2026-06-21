@@ -1,0 +1,47 @@
+PrimeViewFX Daily Publish Runner v1
+===================================
+
+Run time: 2026-06-21T17:40:10
+Publish package ready: True
+Forecast date: 2026-06-22
+
+VALIDATION SUMMARY
+------------------
+Date contract: fresh
+Authority source: frozen_registry_map
+Freeze ID: TLF_20260622_3cfc5d2e7e8c
+Freeze validation: awaiting_future_published_levels
+Integrated structural status: frozen_exact_forecast_date
+Integrated zones: 13
+Members zones: 13
+A-priority zones: 4
+B-priority zones: 2
+Carry confidence: caution_confidence
+Carry anchor: 4146.699999999999
+
+OUTPUT CHECKS
+-------------
+site_summary_json_exists: True
+site_summary_txt_exists: True
+carry_json_exists: True
+integrated_json_exists: True
+members_json_exists: True
+members_html_exists: True
+
+RUN STAGES
+----------
+two_layer_daily_pipeline: passed | rc=0 | 53.593s
+carry_live_generator: passed | rc=0 | 0.735s
+integrated_carry_structural_map: passed | rc=0 | 0.432s
+members_integrated_export: passed | rc=0 | 0.436s
+
+KEY WEBSITE FILES
+-----------------
+C:\Trading\Data\primeviewfx_daily_site_summary.json
+C:\Trading\Data\PrimeViewFX_daily_site_summary.txt
+C:\Trading\Data\Website\xau_carry_live_ladder_v1.json
+C:\Trading\Data\Website\xau_live_integrated_map_v1.json
+C:\Trading\Data\Website\primeviewfx_members_integrated_map_v1.json
+C:\Trading\Data\Website\primeviewfx_members_integrated_map_v1.html
+
+Research only. Not a trading signal.

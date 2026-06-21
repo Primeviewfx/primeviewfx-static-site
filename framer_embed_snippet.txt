@@ -1,0 +1,31 @@
+PrimeViewFX Framer integration snippets
+========================================
+
+OPTION A - Embed hosted HTML members card
+----------------------------------------
+
+Paste this into a Framer Embed component after replacing the public base URL if needed:
+
+<iframe
+  src="PASTE_PUBLIC_BASE_URL_HERE/members/primeviewfx_members_integrated_map_v1.html"
+  style="width:100%;height:900px;border:0;border-radius:24px;overflow:hidden;"
+  loading="lazy"
+></iframe>
+
+
+OPTION B - Fetch JSON feed
+--------------------------
+
+Members JSON:
+PASTE_PUBLIC_BASE_URL_HERE/data/primeviewfx_members_integrated_map_v1.json
+
+Integrated map JSON:
+PASTE_PUBLIC_BASE_URL_HERE/data/xau_live_integrated_map_v1.json
+
+OPTION C - Framer code component
+--------------------------------
+
+Use the members JSON endpoint above as the source data for a React/Framer code
+component.
+
+Research only. Not a trading signal.

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PrimeViewFX Static Publish</title>
+<style>
+  :root {
+    --bg: #05070b;
+    --card: rgba(255,255,255,0.055);
+    --line: rgba(255,255,255,0.13);
+    --text: #f6f7fb;
+    --muted: rgba(246,247,251,0.68);
+    --gold: #f2c14e;
+    --blue: #79a9ff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 32px 18px;
+  }
+  .hero {
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    padding: 24px;
+    background: linear-gradient(135deg, rgba(242,193,78,0.14), rgba(121,169,255,0.08));
+  }
+  .eyebrow {
+    color: var(--gold);
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  h1 {
+    margin: 0 0 10px;
+    font-size: clamp(28px, 4vw, 48px);
+    line-height: 1;
+  }
+  .sub {
+    color: var(--muted);
+    line-height: 1.55;
+    max-width: 760px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0,1fr));
+    gap: 12px;
+    margin: 18px 0;
+  }
+  .card {
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    background: var(--card);
+    padding: 15px;
+  }
+  .label {
+    color: var(--muted);
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  .value {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    gap: 12px;
+    margin-top: 18px;
+  }
+  a {
+    color: var(--text);
+    text-decoration: none;
+  }
+  .link-card {
+    display: block;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 16px;
+    background: var(--card);
+  }
+  .link-title {
+    font-weight: 800;
+    margin-bottom: 5px;
+  }
+  .link-sub {
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.45;
+  }
+  .warning {
+    color: var(--muted);
+    margin-top: 18px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  @media (max-width: 760px) {
+    .grid, .links { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <div class="eyebrow">PrimeViewFX</div>
+    <h1>Static publish package</h1>
+    <p class="sub">Website-ready PrimeViewFX files generated from the daily forward-frozen XAUUSD research pipeline, carry ladder and integrated members map.</p>
+  </section>
+
+  <section class="grid">
+    <div class="card"><div class="label">Forecast date</div><div class="value">2026-06-22</div></div>
+    <div class="card"><div class="label">Package ready</div><div class="value">True</div></div>
+    <div class="card"><div class="label">Structural status</div><div class="value">frozen_exact_forecast_date</div></div>
+    <div class="card"><div class="label">Member zones</div><div class="value">13 / A 4</div></div>
+  </section>
+
+  <section class="links">
+    <a class="link-card" href="members/primeviewfx_members_integrated_map_v1.html">
+      <div class="link-title">Members HTML card</div>
+      <div class="link-sub">Option A: embed this hosted HTML card in Framer.</div>
+    </a>
+    <a class="link-card" href="data/primeviewfx_members_integrated_map_v1.json">
+      <div class="link-title">Members JSON</div>
+      <div class="link-sub">Option B/C: Fetch this data into Framer or a code component.</div>
+    </a>
+    <a class="link-card" href="data/xau_live_integrated_map_v1.json">
+      <div class="link-title">Integrated map JSON</div>
+      <div class="link-sub">Carry + H4/D1 structural overlap map.</div>
+    </a>
+    <a class="link-card" href="data/xau_carry_live_ladder_v1.json">
+      <div class="link-title">Carry ladder JSON</div>
+      <div class="link-sub">Live carry ladder feed.</div>
+    </a>
+    <a class="link-card" href="public/primeviewfx_daily_site_summary.json">
+      <div class="link-title">Public summary JSON</div>
+      <div class="link-sub">Public PrimeViewFX daily site summary.</div>
+    </a>
+    <a class="link-card" href="publish_manifest.json">
+      <div class="link-title">Publish manifest</div>
+      <div class="link-sub">Audit manifest with file hashes and package status.</div>
+    </a>
+  </section>
+
+  <p class="warning">Research only. Not a trading signal. The package is a display/export layer, not an execution system.</p>
+</main>
+</body>
+</html>

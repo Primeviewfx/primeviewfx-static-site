@@ -1,0 +1,98 @@
+{
+  "run_id": "20260621_174010",
+  "generated_at": "2026-06-21T17:40:10",
+  "package_status": "ready",
+  "forecast_date": "2026-06-22",
+  "publish_package_ready": true,
+  "date_contract_status": "fresh",
+  "structural_status": "frozen_exact_forecast_date",
+  "members_zone_count": 13,
+  "members_a_priority_count": 4,
+  "members_b_priority_count": 2,
+  "archive_package_name": "PrimeViewFX_20260621_174010.zip",
+  "exported_file_count": 11,
+  "missing_required_count": 0,
+  "missing_optional_count": 0,
+  "exported_files": [
+    {
+      "source": "C:\\Trading\\Data\\primeviewfx_daily_site_summary.json",
+      "package_path": "public/primeviewfx_daily_site_summary.json",
+      "size_bytes": 4214,
+      "sha256": "b6b261372732fe38f793bf2618c1fe355e975abe01e641f37342b6897a9ba2b5",
+      "required": true
+    },
+    {
+      "source": "C:\\Trading\\Data\\PrimeViewFX_daily_site_summary.txt",
+      "package_path": "public/PrimeViewFX_daily_site_summary.txt",
+      "size_bytes": 3118,
+      "sha256": "9e74e61b1fe67008f11fb250e99351910859b2d68c99da6f549ba6bb2948f388",
+      "required": true
+    },
+    {
+      "source": "C:\\Trading\\Data\\primeviewfx_daily_site_summary.csv",
+      "package_path": "public/primeviewfx_daily_site_summary.csv",
+      "size_bytes": 1086,
+      "sha256": "cf6a46b56e4b4febfe87754ac55dafb80457eb9f86434748d02f33933f99942c",
+      "required": false
+    },
+    {
+      "source": "C:\\Trading\\Data\\Website\\xau_carry_live_ladder_v1.json",
+      "package_path": "data/xau_carry_live_ladder_v1.json",
+      "size_bytes": 7473,
+      "sha256": "69b4e2d0034ded02f10c1d2406678d228e134c2bc6d65c9a93854e287e71874f",
+      "required": true
+    },
+    {
+      "source": "C:\\Trading\\Data\\Website\\xau_live_integrated_map_v1.json",
+      "package_path": "data/xau_live_integrated_map_v1.json",
+      "size_bytes": 15685,
+      "sha256": "72fc0231d1426a401d2d49f64ecf53ab770fbb6a2840f3a6a29648b79cd765b6",
+      "required": true
+    },
+    {
+      "source": "C:\\Trading\\Data\\Website\\primeviewfx_members_integrated_map_v1.json",
+      "package_path": "data/primeviewfx_members_integrated_map_v1.json",
+      "size_bytes": 11115,
+      "sha256": "55388dc139dedd709b641cf38774eec757a94dba9c3bad486e7fe9e357a5b1e2",
+      "required": true
+    },
+    {
+      "source": "C:\\Trading\\Data\\Website\\primeviewfx_members_integrated_map_v1.html",
+      "package_path": "members/primeviewfx_members_integrated_map_v1.html",
+      "size_bytes": 14452,
+      "sha256": "ac25dff48c2e88df0428e2b77bfa0e502726c0ed6c74857bafdf1dad7fd63559",
+      "required": true
+    },
+    {
+      "source": "C:\\Trading\\Data\\PrimeViewFX_members_integrated_map_v1.txt",
+      "package_path": "members/PrimeViewFX_members_integrated_map_v1.txt",
+      "size_bytes": 1771,
+      "sha256": "56a2b41e7702631554cc050a8d229aaffed29175f462606d4d26b585b42c20a2",
+      "required": false
+    },
+    {
+      "source": "C:\\Trading\\Data\\primeviewfx_members_integrated_map_v1.csv",
+      "package_path": "members/primeviewfx_members_integrated_map_v1.csv",
+      "size_bytes": 3649,
+      "sha256": "3be9fe052c4cc1c8ff12587099c5398f971a2238b33ff72042353b8923c00cd5",
+      "required": false
+    },
+    {
+      "source": "C:\\Trading\\Data\\primeviewfx_daily_publish_runner_v1_latest.json",
+      "package_path": "status/primeviewfx_daily_publish_runner_v1_latest.json",
+      "size_bytes": 1107,
+      "sha256": "6ed54da7e5419f7df7ca3ec3bf94627a218c5a8a09ef01e0b108c1e4b246ee97",
+      "required": false
+    },
+    {
+      "source": "C:\\Trading\\Data\\PrimeViewFX_daily_publish_runner_v1.txt",
+      "package_path": "status/PrimeViewFX_daily_publish_runner_v1.txt",
+      "size_bytes": 1435,
+      "sha256": "ad252a44f5547d0d73af42df75a22637b3dc131d74f96ae40f8a53e5cf41af56",
+      "required": false
+    }
+  ],
+  "missing_required": [],
+  "missing_optional": [],
+  "upload_note": "Upload/copy the contents of PrimeViewFX_Latest to the website integration target. Research only, not a trading signal."
+}

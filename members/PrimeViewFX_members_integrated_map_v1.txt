@@ -1,0 +1,34 @@
+PrimeViewFX Members Integrated Map
+==================================
+
+Generated: 2026-06-21T17:40:10
+Forecast date: 2026-06-22
+Carry confidence: caution_confidence
+Structural source: frozen_exact_forecast_date
+Carry anchor: 4146.70
+Carry step: 30.03
+Invalidation reference: 3996.55
+
+A-priority zones
+----------------
+- 4026.44 | A | Carry + H4/D1 confluence | Hard overlap | High-interest structural reaction zone around 4026.44. Wait for live confirmation; do not pre-empt.
+- 4177.34 | A | Carry + D1 container | Hard overlap | Important container level around 4177.34. Expansion/continuation depends on acceptance beyond it.
+- 4113.97 | A | Carry + H4 local | Good overlap | High-interest local reaction zone around 4113.97. Watch for rejection, acceptance, or reclaim.
+- 4079.73 | A | Carry near H4/D1 confluence | Soft overlap | High-interest structural reaction zone around 4079.73. Wait for live confirmation; do not pre-empt.
+
+B-priority zones
+----------------
+- 4232.64 | Carry + D1 container | Good overlap | Secondary watch zone around 4232.64. Useful as context or extension target.
+- 3979.77 | H4/D1 confluence only | Structural Only No Carry Within 15 | Secondary watch zone around 3979.77. Useful as context or extension target.
+
+Reference zones
+---------------
+- 4272.92 | C | Carry near D1 container | Soft overlap
+- 4206.76 | C | Carry only | No carry/structure overlap
+- 4146.70 | C | Carry only | No carry/structure overlap
+- 3941.26 | C | H4 local only | Structural Only No Carry Within 15
+- 3898.76 | C | H4 local only | Structural Only No Carry Within 15
+- 3856.25 | C | H4 local only | Structural Only No Carry Within 15
+- 4056.61 | C | Carry only | No carry/structure overlap
+
+Research only. Not a trading signal.
