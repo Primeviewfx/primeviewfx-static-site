@@ -1,7 +1,7 @@
 PrimeViewFX Members Integrated Map
 ==================================
 
-Generated: 2026-06-22T06:35:58
+Generated: 2026-06-22T17:07:57
 Forecast date: 2026-06-22
 Carry confidence: caution_confidence
 Structural source: frozen_exact_forecast_date
