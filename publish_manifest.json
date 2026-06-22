@@ -1,6 +1,6 @@
 {
-  "run_id": "20260622_170757",
-  "generated_at": "2026-06-22T17:07:57",
+  "run_id": "20260622_212945",
+  "generated_at": "2026-06-22T21:29:45",
   "status": "ready",
   "source_dir": "C:\\Trading\\Publish\\PrimeViewFX_Latest",
   "site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
@@ -32,17 +32,17 @@
     {
       "path": "data/primeviewfx_members_integrated_map_v1.json",
       "size_bytes": 11115,
-      "sha256": "2d31263d8743e2356188d89b41f4e3ef1afa2a49e4578301e0ac9130d16a2021"
+      "sha256": "1cfe4d890b1df7c25713f3f893dd6cc87a85c909d7002b114e9dade332841fe9"
     },
     {
       "path": "data/xau_carry_live_ladder_v1.json",
       "size_bytes": 7473,
-      "sha256": "6f012e2d6c33747a57ab1e362072f07d75429e7ae9f0479a5244a398a77efa2f"
+      "sha256": "682cfdec8abf81384594959852b2a93fe481e5307b3cddaae8a30574ad7d784d"
     },
     {
       "path": "data/xau_live_integrated_map_v1.json",
       "size_bytes": 15685,
-      "sha256": "991856ba83fdef3073056ab8a592bb10c595824267b21d4e98df468fb5bd61d0"
+      "sha256": "b77c9cdf9a053692f8e3a6ff33a95aea947d8eb6832eeabc3eda04495f2714ed"
     },
     {
       "path": "framer_embed_snippet.html",
@@ -62,7 +62,7 @@
     {
       "path": "manifest.json",
       "size_bytes": 4086,
-      "sha256": "8d803902a9fa298394cec2ce8fa1a9f9c6f941217f69c20ae58cec61b3a96b9d"
+      "sha256": "81dedd3f6533eaf2cc824fbd7c79f98a7a4d13b44dceb8ffdf2486c04aaf2ae1"
     },
     {
       "path": "members/primeviewfx_members_integrated_map_v1.csv",
@@ -77,32 +77,32 @@
     {
       "path": "members/PrimeViewFX_members_integrated_map_v1.txt",
       "size_bytes": 1771,
-      "sha256": "6d78f7378ae431e37d24ecb3370ffd09754404a415e8b67313e4fdea4eda1729"
+      "sha256": "5855ecda905c40c54b046250c26fd8071d1d2d01a4b58df028c61e9620546189"
     },
     {
       "path": "public/primeviewfx_daily_site_summary.csv",
       "size_bytes": 1086,
-      "sha256": "6b0a0a3e5aef4226b3781b09742d772d6a62d3361edaa3569da320b02a3ac773"
+      "sha256": "d4ea687ae8aad685e6175e0b446f38a89e4b794f4880d04c8468987bb461695a"
     },
     {
       "path": "public/primeviewfx_daily_site_summary.json",
       "size_bytes": 4232,
-      "sha256": "f72cc28982543fe864b522d503151b12619027484c5f4f5ea6d8d8917a3a558b"
+      "sha256": "a57f47abbbc8b476c8727942d46b5db9301da0c0f49a2d6eab979a53bac7f081"
     },
     {
       "path": "public/PrimeViewFX_daily_site_summary.txt",
       "size_bytes": 3127,
-      "sha256": "4b46e644eedcc72ba56be72b15dda22b33d9f26f2eb6f93182763f26f79ea4d0"
+      "sha256": "4d8f2990f3537cf5e7f674f8a742a270d9499f843254fd5a39baa1c9bbc4e7cc"
     },
     {
       "path": "README.md",
       "size_bytes": 787,
-      "sha256": "214d5137683ba5d4cf6de14ffa8dd148aea12f92e13ae49fe677d7375e0f8f16"
+      "sha256": "2e3ee2760b62f087603624e7e436de0e062dbe01caaf39c2581283a1c649fdc7"
     },
     {
       "path": "README.txt",
       "size_bytes": 175,
-      "sha256": "e74c2b06ac1839209f9d51e64d59d8ad4ba25a9e31d68c052259023fec4f7591"
+      "sha256": "129f21b0fa07f8f493f398b332c344a049d0d5cc653bd2943ba2fab0b6e5bbc0"
     },
     {
       "path": "robots.txt",
@@ -111,13 +111,13 @@
     },
     {
       "path": "status/PrimeViewFX_daily_publish_runner_v1.txt",
-      "size_bytes": 1435,
-      "sha256": "6a33165803c597ec78e2e30c234bcd039e3f72cd744aad9fe4d3d334989b5e24"
+      "size_bytes": 1434,
+      "sha256": "2e8278d168d70ecd2d3a6550deed65043c132e380cad0b57d932bf211f41f19e"
     },
     {
       "path": "status/primeviewfx_daily_publish_runner_v1_latest.json",
       "size_bytes": 1107,
-      "sha256": "809cda36f0cfb50ded430a2a2a6885fe1b03cf11e44d364fc24373041dfcd267"
+      "sha256": "90116394248e6186a71d44d177ca68c9fcbca766e3bd9671e8be913c7556ad0c"
     }
   ],
   "research_warning": "Research only. Not a trading signal."
