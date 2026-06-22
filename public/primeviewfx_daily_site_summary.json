@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-21T17:40:08",
+  "generated_at": "2026-06-22T06:35:56",
   "model_name": "xau_two_layer_daily_research_pipeline",
   "model_version": "1.2.0",
   "public": {
     "headline": "XAUUSD Structure Research - Forward-Frozen Gold Map",
     "subheadline": "Daily gold-market structure maps built from H4/D1 confluence research, frozen forecasts and retrospective validation.",
     "site_status": "fresh_locked_freeze_differs_from_regenerated_map",
-    "latest_map": "2026-06-22",
+    "latest_map": "2026-06-23",
     "model": "H4/D1 two-layer structure",
     "pipeline_status": "passed",
     "date_contract_status": "fresh",
@@ -14,8 +14,8 @@
     "validation_status": "awaiting_future_published_levels",
     "latest_forward_score": "23.97 median error",
     "scored_forward_dates": "1",
-    "today_focus": "Only interested above 4177.944 for expansion.",
-    "visible_reference": "Nearest structure window: 4127.402 / 4177.944",
+    "today_focus": "Only interested above 4233.313 for expansion.",
+    "visible_reference": "Nearest structure window: 4183.735 / 4233.313",
     "members_teaser": [
       "Full locked H4/D1 confluence map",
       "H4 local levels",
@@ -25,51 +25,52 @@
     ]
   },
   "members": {
-    "forecast_date": "2026-06-22",
-    "latest_close": 4155.81,
+    "forecast_date": "2026-06-23",
+    "latest_close": 4192.15,
     "intraday_state": "unknown",
     "range_ratio_to_prior_median": 0.718,
-    "latest_freeze_id": "TLF_20260622_3cfc5d2e7e8c",
+    "latest_freeze_id": "TLF_20260623_0f85b41fe7b6",
     "latest_freeze_validation_status": "awaiting_future_published_levels",
     "map_authority": {
-      "forecast_date": "2026-06-22",
+      "forecast_date": "2026-06-23",
       "authority_source_mode": "frozen_registry_map",
-      "frozen_map_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-22_3cfc5d2e7e8c.csv",
-      "frozen_state_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_state_2026-06-22_3cfc5d2e7e8c.json",
-      "freeze_id": "TLF_20260622_3cfc5d2e7e8c",
+      "frozen_map_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-23_0f85b41fe7b6.csv",
+      "frozen_state_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_state_2026-06-23_0f85b41fe7b6.json",
+      "freeze_id": "TLF_20260623_0f85b41fe7b6",
       "registry_validation_status": "awaiting_future_published_levels",
       "queue_validation_status": "awaiting_future_published_levels",
       "frozen_map_exists": true,
       "latest_confluence_map_exists": true,
-      "frozen_map_hash": "01ba2e182d7fb1a3ec74c5594f44e749c5173ec159349f850839798034aa3b6c",
-      "latest_confluence_map_hash": "92d63afdbc1700b771a2575f50386fc9beb7878a2635e4327ffcde2741b6c827",
+      "frozen_map_hash": "120b06759555d6fae01e7d8c201a319cd818b81a93cecc5261deb6ff3421e971",
+      "latest_confluence_map_hash": "06541cd00003c9215c7523c5b78467860a0c180a581133a1f2ece9ea9a454f23",
       "latest_differs_from_frozen": true,
       "publishing_rule": "website_uses_frozen_map_when_available",
       "publishing_warning": "Current regenerated map differs from locked freeze; site is using locked frozen map."
     },
     "nearest_context": {
-      "nearest_support": 4127.402,
+      "nearest_support": 4183.735,
       "nearest_support_role": "D1_container",
-      "nearest_resistance": 4177.944,
+      "nearest_resistance": 4233.313,
       "nearest_resistance_role": "D1_container"
     },
     "levels": {
       "h4_local": [
-        3856.254,
-        3898.756,
-        3941.258,
-        4111.266
+        3791.703,
+        3831.901,
+        3872.1,
+        3912.298,
+        3952.497
       ],
       "h4_d1_confluence": [
-        3979.768,
-        4026.29,
-        4072.812
+        3989.058,
+        4033.947
       ],
       "d1_container": [
-        4127.402,
-        4177.944,
-        4228.486,
-        4279.028
+        4084.578,
+        4134.156,
+        4183.735,
+        4233.313,
+        4282.892
       ]
     },
     "forward_validation": {
@@ -81,15 +82,15 @@
       "best_role_by_median": "H4_D1_confluence"
     },
     "date_contract": {
-      "run_time": "2026-06-21T17:40:08",
-      "projection_date": "2026-06-22",
-      "selector_date": "2026-06-22",
-      "dual_map_date": "2026-06-22",
-      "confluence_date": "2026-06-22",
-      "registry_latest_forecast_date": "2026-06-22",
-      "queue_latest_forecast_date": "2026-06-22",
+      "run_time": "2026-06-22T06:35:56",
+      "projection_date": "2026-06-23",
+      "selector_date": "2026-06-23",
+      "dual_map_date": "2026-06-23",
+      "confluence_date": "2026-06-23",
+      "registry_latest_forecast_date": "2026-06-23",
+      "queue_latest_forecast_date": "2026-06-23",
       "latest_h1_time": "",
-      "latest_close": "4155.81",
+      "latest_close": "4192.15",
       "intraday_state": "unknown",
       "date_contract_status": "fresh",
       "first_stale_or_missing_point": ""
