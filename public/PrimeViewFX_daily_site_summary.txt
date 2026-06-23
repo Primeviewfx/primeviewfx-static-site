@@ -2,7 +2,7 @@ PrimeViewFX Daily Site Summary
 ==============================
 
 Generated:
-2026-06-23T06:35:55
+2026-06-23T09:02:02
 
 PUBLIC SUMMARY
 --------------
@@ -23,9 +23,9 @@ Visible reference: Nearest structure window: 4126.805 / 4167.672
 MEMBERS SUMMARY
 ---------------
 Forecast date: 2026-06-24
-Latest close: 4132.81
+Latest close: 4097.49
 Intraday state: unknown
-Range ratio: 0.704
+Range ratio: 0.865
 Latest freeze: TLF_20260624_b272a6749128
 Freeze validation: awaiting_future_published_levels
 
@@ -41,7 +41,7 @@ Frozen-map authority:
   "frozen_map_exists": true,
   "latest_confluence_map_exists": true,
   "frozen_map_hash": "afc4d6d99b7df9f47acce3cba13391abb17d5c4e391735cc97f43ef61014b1a2",
-  "latest_confluence_map_hash": "74ce561f6c737299a84ed5d0e7729118aa2fb3d0847b43df60b7c42721159a01",
+  "latest_confluence_map_hash": "fe11028ae930df695855097e534c51e79252f15d7ae409b255403305a3a88c46",
   "latest_differs_from_frozen": true,
   "publishing_rule": "website_uses_frozen_map_when_available",
   "publishing_warning": "Current regenerated map differs from locked freeze; site is using locked frozen map."
@@ -76,7 +76,7 @@ Forward validation:
 
 Date contract:
 {
-  "run_time": "2026-06-23T06:35:55",
+  "run_time": "2026-06-23T09:02:02",
   "projection_date": "2026-06-24",
   "selector_date": "2026-06-24",
   "dual_map_date": "2026-06-24",
@@ -84,7 +84,7 @@ Date contract:
   "registry_latest_forecast_date": "2026-06-24",
   "queue_latest_forecast_date": "2026-06-24",
   "latest_h1_time": "",
-  "latest_close": "4132.81",
+  "latest_close": "4097.49",
   "intraday_state": "unknown",
   "date_contract_status": "fresh",
   "first_stale_or_missing_point": ""

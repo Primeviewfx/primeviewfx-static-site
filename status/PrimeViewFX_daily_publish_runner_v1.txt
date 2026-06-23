@@ -1,7 +1,7 @@
 PrimeViewFX Daily Publish Runner v1
 ===================================
 
-Run time: 2026-06-23T06:35:57
+Run time: 2026-06-23T09:02:04
 Publish package ready: True
 Forecast date: 2026-06-24
 
@@ -30,10 +30,10 @@ members_html_exists: True
 
 RUN STAGES
 ----------
-two_layer_daily_pipeline: passed | rc=0 | 53.808s
-carry_live_generator: passed | rc=0 | 0.772s
-integrated_carry_structural_map: passed | rc=0 | 0.433s
-members_integrated_export: passed | rc=0 | 0.44s
+two_layer_daily_pipeline: passed | rc=0 | 54.5s
+carry_live_generator: passed | rc=0 | 0.744s
+integrated_carry_structural_map: passed | rc=0 | 0.438s
+members_integrated_export: passed | rc=0 | 0.42s
 
 KEY WEBSITE FILES
 -----------------
