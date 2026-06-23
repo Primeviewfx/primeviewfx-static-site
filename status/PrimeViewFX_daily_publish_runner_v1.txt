@@ -1,7 +1,7 @@
 PrimeViewFX Daily Publish Runner v1
 ===================================
 
-Run time: 2026-06-22T21:29:45
+Run time: 2026-06-23T06:35:57
 Publish package ready: True
 Forecast date: 2026-06-22
 
@@ -9,7 +9,7 @@ VALIDATION SUMMARY
 ------------------
 Date contract: fresh
 Authority source: frozen_registry_map
-Freeze ID: TLF_20260623_0f85b41fe7b6
+Freeze ID: TLF_20260624_b272a6749128
 Freeze validation: awaiting_future_published_levels
 Integrated structural status: frozen_exact_forecast_date
 Integrated zones: 13
@@ -30,10 +30,10 @@ members_html_exists: True
 
 RUN STAGES
 ----------
-two_layer_daily_pipeline: passed | rc=0 | 61.01s
-carry_live_generator: passed | rc=0 | 0.856s
-integrated_carry_structural_map: passed | rc=0 | 0.571s
-members_integrated_export: passed | rc=0 | 0.506s
+two_layer_daily_pipeline: passed | rc=0 | 53.808s
+carry_live_generator: passed | rc=0 | 0.772s
+integrated_carry_structural_map: passed | rc=0 | 0.433s
+members_integrated_export: passed | rc=0 | 0.44s
 
 KEY WEBSITE FILES
 -----------------
