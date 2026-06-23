@@ -1,7 +1,7 @@
 {
   "summary": {
     "run_time": "2026-06-23T06:35:57",
-    "forecast_date": "2026-06-22",
+    "forecast_date": "2026-06-24",
     "status": "members_integrated_map_ready",
     "carry_confidence": "caution_confidence",
     "width_confidence": "good_confidence",
@@ -23,7 +23,10 @@
     },
     "site_status": "",
     "date_contract_status": "",
-    "research_warning": "Research only. Not a trading signal."
+    "research_warning": "Research only. Not a trading signal.",
+    "carry_model_forecast_date": "2026-06-22",
+    "structural_forecast_date": "2026-06-24",
+    "date_authority_source": "frozen_structural_map"
   },
   "zones": [
     {

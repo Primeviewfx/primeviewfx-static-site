@@ -1,7 +1,7 @@
 {
   "summary": {
     "run_time": "2026-06-23T06:35:56",
-    "forecast_date": "2026-06-22",
+    "forecast_date": "2026-06-24",
     "carry_rows": 9,
     "structural_rows": 11,
     "integrated_zone_rows": 13,
@@ -18,12 +18,15 @@
     "hard_overlap_count": 2,
     "good_overlap_count": 2,
     "soft_overlap_count": 2,
-    "research_warning": "Research only. Not a trading signal."
+    "research_warning": "Research only. Not a trading signal.",
+    "carry_model_forecast_date": "2026-06-22",
+    "structural_forecast_date": "2026-06-24",
+    "date_authority_source": "frozen_structural_map"
   },
   "zones": [
     {
       "rank": 1,
-      "forecast_date": "2026-06-22",
+      "forecast_date": "2026-06-24",
       "zone_price": 4026.4350649999988,
       "has_carry": true,
       "has_structural": true,
@@ -48,11 +51,13 @@
       "structural_source_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-22_3cfc5d2e7e8c.csv",
       "priority_score": 6,
       "priority_bucket": "A",
-      "zone_label": "highest_priority_carry_plus_h4_d1"
+      "zone_label": "highest_priority_carry_plus_h4_d1",
+      "carry_model_forecast_date": "2026-06-22",
+      "structural_forecast_date": "2026-06-24"
     },
     {
       "rank": 2,
-      "forecast_date": "2026-06-22",
+      "forecast_date": "2026-06-24",
       "zone_price": 4177.337146,
       "has_carry": true,
       "has_structural": true,
@@ -77,11 +82,13 @@
       "structural_source_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-22_3cfc5d2e7e8c.csv",
       "priority_score": 5,
       "priority_bucket": "A",
-      "zone_label": "medium_priority_carry_plus_d1_container"
+      "zone_label": "medium_priority_carry_plus_d1_container",
+      "carry_model_forecast_date": "2026-06-22",
+      "structural_forecast_date": "2026-06-24"
     },
     {
       "rank": 3,
-      "forecast_date": "2026-06-22",
+      "forecast_date": "2026-06-24",
       "zone_price": 4113.967816999999,
       "has_carry": true,
       "has_structural": true,
@@ -106,11 +113,13 @@
       "structural_source_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-22_3cfc5d2e7e8c.csv",
       "priority_score": 5,
       "priority_bucket": "A",
-      "zone_label": "high_priority_carry_plus_h4_local"
+      "zone_label": "high_priority_carry_plus_h4_local",
+      "carry_model_forecast_date": "2026-06-22",
+      "structural_forecast_date": "2026-06-24"
     },
     {
       "rank": 4,
-      "forecast_date": "2026-06-22",
+      "forecast_date": "2026-06-24",
       "zone_price": 4079.7260284999998,
       "has_carry": true,
       "has_structural": true,
@@ -135,11 +144,13 @@
       "structural_source_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-22_3cfc5d2e7e8c.csv",
       "priority_score": 5,
       "priority_bucket": "A",
-      "zone_label": "carry_structural_soft_or_distant"
+      "zone_label": "carry_structural_soft_or_distant",
+      "carry_model_forecast_date": "2026-06-22",
+      "structural_forecast_date": "2026-06-24"
     },
     {
       "rank": 5,
-      "forecast_date": "2026-06-22",
+      "forecast_date": "2026-06-24",
       "zone_price": 4232.6381255,
       "has_carry": true,
       "has_structural": true,
@@ -164,11 +175,13 @@
       "structural_source_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-22_3cfc5d2e7e8c.csv",
       "priority_score": 3,
       "priority_bucket": "B",
-      "zone_label": "medium_priority_carry_plus_d1_container"
+      "zone_label": "medium_priority_carry_plus_d1_container",
+      "carry_model_forecast_date": "2026-06-22",
+      "structural_forecast_date": "2026-06-24"
     },
     {
       "rank": 6,
-      "forecast_date": "2026-06-22",
+      "forecast_date": "2026-06-24",
       "zone_price": 3979.768204,
       "has_carry": false,
       "has_structural": true,
@@ -193,11 +206,13 @@
       "structural_source_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-22_3cfc5d2e7e8c.csv",
       "priority_score": 3,
       "priority_bucket": "B",
-      "zone_label": "structural_h4_d1_only"
+      "zone_label": "structural_h4_d1_only",
+      "carry_model_forecast_date": "2026-06-22",
+      "structural_forecast_date": "2026-06-24"
     },
     {
       "rank": 7,
-      "forecast_date": "2026-06-22",
+      "forecast_date": "2026-06-24",
       "zone_price": 4272.9241055,
       "has_carry": true,
       "has_structural": true,
@@ -222,11 +237,13 @@
       "structural_source_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-22_3cfc5d2e7e8c.csv",
       "priority_score": 2,
       "priority_bucket": "C",
-      "zone_label": "carry_structural_soft_or_distant"
+      "zone_label": "carry_structural_soft_or_distant",
+      "carry_model_forecast_date": "2026-06-22",
+      "structural_forecast_date": "2026-06-24"
     },
     {
       "rank": 8,
-      "forecast_date": "2026-06-22",
+      "forecast_date": "2026-06-24",
       "zone_price": 4206.759999999999,
       "has_carry": true,
       "has_structural": false,
@@ -251,11 +268,13 @@
       "structural_source_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-22_3cfc5d2e7e8c.csv",
       "priority_score": 2,
       "priority_bucket": "C",
-      "zone_label": "carry_only"
+      "zone_label": "carry_only",
+      "carry_model_forecast_date": "2026-06-22",
+      "structural_forecast_date": "2026-06-24"
     },
     {
       "rank": 9,
-      "forecast_date": "2026-06-22",
+      "forecast_date": "2026-06-24",
       "zone_price": 4146.699999999999,
       "has_carry": true,
       "has_structural": false,
@@ -280,11 +299,13 @@
       "structural_source_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-22_3cfc5d2e7e8c.csv",
       "priority_score": 2,
       "priority_bucket": "C",
-      "zone_label": "carry_only"
+      "zone_label": "carry_only",
+      "carry_model_forecast_date": "2026-06-22",
+      "structural_forecast_date": "2026-06-24"
     },
     {
       "rank": 10,
-      "forecast_date": "2026-06-22",
+      "forecast_date": "2026-06-24",
       "zone_price": 3941.258062,
       "has_carry": false,
       "has_structural": true,
@@ -309,11 +330,13 @@
       "structural_source_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-22_3cfc5d2e7e8c.csv",
       "priority_score": 2,
       "priority_bucket": "C",
-      "zone_label": "structural_h4_local_only"
+      "zone_label": "structural_h4_local_only",
+      "carry_model_forecast_date": "2026-06-22",
+      "structural_forecast_date": "2026-06-24"
     },
     {
       "rank": 11,
-      "forecast_date": "2026-06-22",
+      "forecast_date": "2026-06-24",
       "zone_price": 3898.756169,
       "has_carry": false,
       "has_structural": true,
@@ -338,11 +361,13 @@
       "structural_source_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-22_3cfc5d2e7e8c.csv",
       "priority_score": 2,
       "priority_bucket": "C",
-      "zone_label": "structural_h4_local_only"
+      "zone_label": "structural_h4_local_only",
+      "carry_model_forecast_date": "2026-06-22",
+      "structural_forecast_date": "2026-06-24"
     },
     {
       "rank": 12,
-      "forecast_date": "2026-06-22",
+      "forecast_date": "2026-06-24",
       "zone_price": 3856.254276,
       "has_carry": false,
       "has_structural": true,
@@ -367,11 +392,13 @@
       "structural_source_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-22_3cfc5d2e7e8c.csv",
       "priority_score": 2,
       "priority_bucket": "C",
-      "zone_label": "structural_h4_local_only"
+      "zone_label": "structural_h4_local_only",
+      "carry_model_forecast_date": "2026-06-22",
+      "structural_forecast_date": "2026-06-24"
     },
     {
       "rank": 13,
-      "forecast_date": "2026-06-22",
+      "forecast_date": "2026-06-24",
       "zone_price": 4056.6099999999983,
       "has_carry": true,
       "has_structural": false,
@@ -396,7 +423,9 @@
       "structural_source_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-22_3cfc5d2e7e8c.csv",
       "priority_score": 1,
       "priority_bucket": "C",
-      "zone_label": "carry_only"
+      "zone_label": "carry_only",
+      "carry_model_forecast_date": "2026-06-22",
+      "structural_forecast_date": "2026-06-24"
     }
   ]
 }

@@ -3,7 +3,7 @@ PrimeViewFX Daily Publish Runner v1
 
 Run time: 2026-06-23T06:35:57
 Publish package ready: True
-Forecast date: 2026-06-22
+Forecast date: 2026-06-24
 
 VALIDATION SUMMARY
 ------------------

@@ -2,7 +2,7 @@
   "run_time": "2026-06-23T06:35:57",
   "pipeline_status": "PASSED_WITH_WARNINGS",
   "date_contract_status": "fresh",
-  "forecast_date": "2026-06-22",
+  "forecast_date": "2026-06-24",
   "authority_source_mode": "frozen_registry_map",
   "frozen_map_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-24_b272a6749128.csv",
   "freeze_id": "TLF_20260624_b272a6749128",
@@ -24,5 +24,8 @@
   "members_html_exists": true,
   "publish_package_ready": true,
   "research_warning": "Research only. Not a trading signal.",
-  "required_stage_failed": false
+  "required_stage_failed": false,
+  "carry_model_forecast_date": "2026-06-22",
+  "structural_forecast_date": "2026-06-24",
+  "date_authority_source": "frozen_structural_map"
 }
