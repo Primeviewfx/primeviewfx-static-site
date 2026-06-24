@@ -1,15 +1,15 @@
 {
-  "run_id": "20260623_090204",
-  "generated_at": "2026-06-23T09:02:04",
+  "run_id": "20260624_063557",
+  "generated_at": "2026-06-24T06:35:58",
   "package_status": "ready",
-  "forecast_date": "2026-06-24",
+  "forecast_date": "2026-06-25",
   "publish_package_ready": true,
   "date_contract_status": "fresh",
   "structural_status": "frozen_exact_forecast_date",
   "members_zone_count": 13,
   "members_a_priority_count": 4,
   "members_b_priority_count": 2,
-  "archive_package_name": "PrimeViewFX_20260623_090204.zip",
+  "archive_package_name": "PrimeViewFX_20260624_063557.zip",
   "exported_file_count": 11,
   "missing_required_count": 0,
   "missing_optional_count": 0,
@@ -17,57 +17,57 @@
     {
       "source": "C:\\Trading\\Data\\primeviewfx_daily_site_summary.json",
       "package_path": "public/primeviewfx_daily_site_summary.json",
-      "size_bytes": 4203,
-      "sha256": "5172b05068bd26c429f970e0e9bd017b850e73d34f6b3e6f0a2bff5e6cfd0610",
+      "size_bytes": 4184,
+      "sha256": "67e45ced738c4fc247cf655ae62545879f0859a5a0f060946d33afa4d4b2b962",
       "required": true
     },
     {
       "source": "C:\\Trading\\Data\\PrimeViewFX_daily_site_summary.txt",
       "package_path": "public/PrimeViewFX_daily_site_summary.txt",
-      "size_bytes": 3116,
-      "sha256": "f67a9e02d2687cc57d7fa6f7a49977736c669f08ee9e3e019694299c1b695f87",
+      "size_bytes": 3106,
+      "sha256": "e8e735e4aebce560fdfa14c6ed16f7bc116e8c1c6e3cd8c123fa18040116e26b",
       "required": true
     },
     {
       "source": "C:\\Trading\\Data\\primeviewfx_daily_site_summary.csv",
       "package_path": "public/primeviewfx_daily_site_summary.csv",
       "size_bytes": 1086,
-      "sha256": "040fc150f225b8a9819af364abbe3fe9f8badcdd0fe90410892252d306814872",
+      "sha256": "2f34473f60c2a87d9564826c91aac1ea9bbcba0cb0c32177de825a0a4fd8344a",
       "required": false
     },
     {
       "source": "C:\\Trading\\Data\\Website\\xau_carry_live_ladder_v1.json",
       "package_path": "data/xau_carry_live_ladder_v1.json",
       "size_bytes": 7473,
-      "sha256": "051c8284abc24d3d4832a88e12b6c61d7d440602bf57460cd110920717768b0f",
+      "sha256": "93b085acd2656c5d3846e2d6c554591a1c2491792546a2a95260794a8c94cc7c",
       "required": true
     },
     {
       "source": "C:\\Trading\\Data\\Website\\xau_live_integrated_map_v1.json",
       "package_path": "data/xau_live_integrated_map_v1.json",
       "size_bytes": 17122,
-      "sha256": "24368dc952c2b80178ed74e7203926c1058a9e9a2d514b90df45c9a0f8a112ee",
+      "sha256": "7ba12589caeb43635d1b72fe5a1864bf9993778dfa23859383b78da129c24e54",
       "required": true
     },
     {
       "source": "C:\\Trading\\Data\\Website\\primeviewfx_members_integrated_map_v1.json",
       "package_path": "data/primeviewfx_members_integrated_map_v1.json",
       "size_bytes": 11265,
-      "sha256": "2780d9467ce68f6c233b1878d9a4269ff1e2ccd00c6268c642c39fc1097d7814",
+      "sha256": "f68b231ac054d52ad93e719906b13b00c2481e30e06fe83372437d3c8901b2b9",
       "required": true
     },
     {
       "source": "C:\\Trading\\Data\\Website\\primeviewfx_members_integrated_map_v1.html",
       "package_path": "members/primeviewfx_members_integrated_map_v1.html",
       "size_bytes": 14548,
-      "sha256": "3b8b92d0c176d6405f67dca82189902d1cac6ca96e4cde42ac29e2d18c58118f",
+      "sha256": "2b114aed123666771f37b10c4592cbc33d262a2249067b6b44ef19250b258dea",
       "required": true
     },
     {
       "source": "C:\\Trading\\Data\\PrimeViewFX_members_integrated_map_v1.txt",
       "package_path": "members/PrimeViewFX_members_integrated_map_v1.txt",
       "size_bytes": 1771,
-      "sha256": "cbbf89c9f9f7280fc7ae644fe2bb81cbc7e258c05361f3be71e6ae8182554e34",
+      "sha256": "3e5521e714a3d76bdbcbeafdacc66484a65246f6e41eb735a2c47bb6797da61e",
       "required": false
     },
     {
@@ -81,14 +81,14 @@
       "source": "C:\\Trading\\Data\\primeviewfx_daily_publish_runner_v1_latest.json",
       "package_path": "status/primeviewfx_daily_publish_runner_v1_latest.json",
       "size_bytes": 1251,
-      "sha256": "9a7d7eab6670580df1d2323d7780b4328b42597c18505f6ef21bef9b405ece62",
+      "sha256": "b01f3530a7395f5c8ffa765ad727b3ee4ab8bbdde5885d94197abde9949e5bc8",
       "required": false
     },
     {
       "source": "C:\\Trading\\Data\\PrimeViewFX_daily_publish_runner_v1.txt",
       "package_path": "status/PrimeViewFX_daily_publish_runner_v1.txt",
-      "size_bytes": 1432,
-      "sha256": "bee3791ff5d50796ebb7568576f196ae8cdc60f2887df679a10bbe2b86b38d17",
+      "size_bytes": 1435,
+      "sha256": "e2b5a9e6b91b2f652c9bbe6c9e5a3aafb714199eb4442ab81302dbe4d45aecc0",
       "required": false
     }
   ],
