@@ -2,14 +2,14 @@ PrimeViewFX Daily Site Summary
 ==============================
 
 Generated:
-2026-06-24T06:35:55
+2026-06-25T06:35:56
 
 PUBLIC SUMMARY
 --------------
 Headline: XAUUSD Structure Research - Forward-Frozen Gold Map
 Subheadline: Daily gold-market structure maps built from H4/D1 confluence research, frozen forecasts and retrospective validation.
 Site status: fresh_locked_freeze_differs_from_regenerated_map
-Latest map: 2026-06-25
+Latest map: 2026-06-26
 Model: H4/D1 two-layer structure
 Pipeline: passed
 Date contract: fresh
@@ -17,31 +17,31 @@ Map source: frozen_registry_map
 Validation: awaiting_future_published_levels
 Latest forward score: 23.97 median error
 Scored forward dates: 1
-Today's focus: Only interested above 4089.616 for expansion.
-Visible reference: Nearest structure window: 4051.443 / 4089.616
+Today's focus: Only interested above 3997.963 for expansion.
+Visible reference: Nearest structure window: 3977.246 / 3997.963
 
 MEMBERS SUMMARY
 ---------------
-Forecast date: 2026-06-25
-Latest close: 4081.74
+Forecast date: 2026-06-26
+Latest close: 3993.9
 Intraday state: unknown
-Range ratio: 0.637
-Latest freeze: TLF_20260625_7972f833f700
+Range ratio: 0.513
+Latest freeze: TLF_20260626_9513bdb3642e
 Freeze validation: awaiting_future_published_levels
 
 Frozen-map authority:
 {
-  "forecast_date": "2026-06-25",
+  "forecast_date": "2026-06-26",
   "authority_source_mode": "frozen_registry_map",
-  "frozen_map_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-25_7972f833f700.csv",
-  "frozen_state_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_state_2026-06-25_7972f833f700.json",
-  "freeze_id": "TLF_20260625_7972f833f700",
+  "frozen_map_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-26_9513bdb3642e.csv",
+  "frozen_state_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_state_2026-06-26_9513bdb3642e.json",
+  "freeze_id": "TLF_20260626_9513bdb3642e",
   "registry_validation_status": "awaiting_future_published_levels",
   "queue_validation_status": "awaiting_future_published_levels",
   "frozen_map_exists": true,
   "latest_confluence_map_exists": true,
-  "frozen_map_hash": "38fb2d17ff4b5581562ae72f5e5447fb62230794d1ea3f368a4ffbd3a7e55af8",
-  "latest_confluence_map_hash": "50547b747a1c2c602abbbcb44d91db06a7a4b9ff391372e200c29287fadb19fc",
+  "frozen_map_hash": "35665d84cb14fab3fc74daaef0d1defe4751852ef97e837f8c0392749a233107",
+  "latest_confluence_map_hash": "c06bfd3f7bb13ca93c817d0074effd65b939d46894fa8ceaa5696bda4b72add0",
   "latest_differs_from_frozen": true,
   "publishing_rule": "website_uses_frozen_map_when_available",
   "publishing_warning": "Current regenerated map differs from locked freeze; site is using locked frozen map."
@@ -49,20 +49,20 @@ Frozen-map authority:
 
 Nearest context:
 {
-  "nearest_support": 4051.443,
-  "nearest_support_role": "H4_D1_confluence",
-  "nearest_resistance": 4089.616,
-  "nearest_resistance_role": "H4_D1_confluence"
+  "nearest_support": 3977.246,
+  "nearest_support_role": "H4_local",
+  "nearest_resistance": 3997.963,
+  "nearest_resistance_role": "D1_container"
 }
 
 H4 local:
-[4023.48, 4112.978]
+[3785.615, 3823.941, 3862.267, 3900.593, 3938.92, 3977.246, 4015.572]
 
 H4-D1 confluence:
-[3960.181, 3998.354, 4051.443, 4089.616, 4142.705]
+[]
 
 D1 container:
-[4189.114, 4235.628]
+[3767.321, 3844.201, 3921.082, 3997.963, 4074.844, 4151.724, 4228.605]
 
 Forward validation:
 {
@@ -76,15 +76,15 @@ Forward validation:
 
 Date contract:
 {
-  "run_time": "2026-06-24T06:35:55",
-  "projection_date": "2026-06-25",
-  "selector_date": "2026-06-25",
-  "dual_map_date": "2026-06-25",
-  "confluence_date": "2026-06-25",
-  "registry_latest_forecast_date": "2026-06-25",
-  "queue_latest_forecast_date": "2026-06-25",
+  "run_time": "2026-06-25T06:35:56",
+  "projection_date": "2026-06-26",
+  "selector_date": "2026-06-26",
+  "dual_map_date": "2026-06-26",
+  "confluence_date": "2026-06-26",
+  "registry_latest_forecast_date": "2026-06-26",
+  "queue_latest_forecast_date": "2026-06-26",
   "latest_h1_time": "",
-  "latest_close": "4081.74",
+  "latest_close": "3993.9",
   "intraday_state": "unknown",
   "date_contract_status": "fresh",
   "first_stale_or_missing_point": ""

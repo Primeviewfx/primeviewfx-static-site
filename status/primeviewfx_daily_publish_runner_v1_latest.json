@@ -1,11 +1,11 @@
 {
-  "run_time": "2026-06-24T06:35:57",
+  "run_time": "2026-06-25T06:35:58",
   "pipeline_status": "PASSED_WITH_WARNINGS",
   "date_contract_status": "fresh",
-  "forecast_date": "2026-06-25",
+  "forecast_date": "2026-06-26",
   "authority_source_mode": "frozen_registry_map",
-  "frozen_map_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-25_7972f833f700.csv",
-  "freeze_id": "TLF_20260625_7972f833f700",
+  "frozen_map_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-06-26_9513bdb3642e.csv",
+  "freeze_id": "TLF_20260626_9513bdb3642e",
   "freeze_validation_status": "awaiting_future_published_levels",
   "carry_confidence": "caution_confidence",
   "carry_anchor": 4146.699999999999,
@@ -26,6 +26,6 @@
   "research_warning": "Research only. Not a trading signal.",
   "required_stage_failed": false,
   "carry_model_forecast_date": "2026-06-22",
-  "structural_forecast_date": "2026-06-25",
+  "structural_forecast_date": "2026-06-26",
   "date_authority_source": "frozen_structural_map"
 }
