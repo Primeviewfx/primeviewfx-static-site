@@ -1,6 +1,6 @@
 {
   "version": "v2.5.3.9",
-  "generated_utc": "2026-07-11T18:14:07.338018+00:00",
+  "generated_utc": "2026-07-11T18:40:17.100044+00:00",
   "latest_close": 4119.68,
   "latest_ema5": 4109.494413771269,
   "candles": [
@@ -999,11 +999,11 @@
   },
   "confluence": {
     "dxy": {
-      "latest": 100.795,
-      "change_pct": 0.15899041089083976,
-      "direction": "rising",
-      "symbol": "DXY_U6",
-      "note": "Typically a headwind for gold"
+      "latest": 100.96250155964132,
+      "change_pct": 0.02662490354975333,
+      "direction": "flat",
+      "symbol": "DXY",
+      "note": "Little directional pull from USD right now"
     },
     "xagusd": {
       "latest": 59.836,
