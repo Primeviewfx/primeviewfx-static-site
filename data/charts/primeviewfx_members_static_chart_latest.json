@@ -1,0 +1,62 @@
+{
+  "version": "v2.5.3.9",
+  "created_utc": "2026-07-11T13:32:51.271119+00:00",
+  "data_dir": "C:\\Trading\\Data",
+  "static_site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
+  "outputs": {
+    "latest_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.png",
+    "archive_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\archive\\primeviewfx_members_static_chart_20260711_133251.png",
+    "metadata_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
+    "manifest_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\members_visual_chart\\primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
+    "report_txt": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\members_visual_chart\\primeviewfx_members_visual_chart_report_v2_5_3_9.txt",
+    "live_data_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_chart_data_latest.json",
+    "preview_html": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-static-chart-preview.html"
+  },
+  "status": "PASS",
+  "ohlc_csv": "C:\\Trading\\Data\\XAUUSD_H1_features.csv",
+  "ohlc_info": {
+    "time_col": "time",
+    "price_cols": {
+      "open": "open",
+      "high": "high",
+      "low": "low",
+      "close": "close"
+    },
+    "ema_col": "ema5"
+  },
+  "gate_csv": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\WebsiteLaunch\\primeviewfx_website_trigger_gate_live_v2_4_3.csv",
+  "levels_info": {
+    "found": true,
+    "path": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\WebsiteLaunch\\primeviewfx_website_trigger_gate_live_v2_4_3.csv",
+    "level_col": "forecast_rung",
+    "label_cols": [
+      "survival_probability_v2_1",
+      "survival_probability_pct_v2_1",
+      "survival_score_v2_1",
+      "survival_action_v2_1",
+      "survival_group_level_v2_1",
+      "survival_group_key_v2_1",
+      "survival_training_rows_v2_1",
+      "survival_training_days_v2_1"
+    ],
+    "row_count": 15
+  },
+  "state": {
+    "weekly_play_state": "BULLISH_CHANNEL_TOP_EXTENSION_OR_EXHAUSTION",
+    "weekly_bias": "BULLISH",
+    "ath_state": "NOT_AT_ALL_TIME_HIGH",
+    "channel_zone": "UPPER_HALF",
+    "latest_close": 4114.33,
+    "latest_ema5": 4118.267024641199
+  },
+  "state_sources": {
+    "weekly_play_state": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
+    "weekly_bias": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
+    "ath_state": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
+    "channel_zone": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json"
+  },
+  "latest_close": 4114.33,
+  "latest_ema5": 4118.267024641199,
+  "bars_rendered": 84,
+  "level_count": 15
+}
