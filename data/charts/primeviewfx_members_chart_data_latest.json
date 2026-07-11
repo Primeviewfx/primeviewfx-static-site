@@ -1,6 +1,6 @@
 {
   "version": "v2.5.3.9",
-  "generated_utc": "2026-07-11T17:44:53.625780+00:00",
+  "generated_utc": "2026-07-11T18:14:07.338018+00:00",
   "latest_close": 4119.68,
   "latest_ema5": 4109.494413771269,
   "candles": [
@@ -996,5 +996,21 @@
   "state": {
     "weekly_bias": "BULLISH",
     "channel_zone": "UPPER_HALF"
+  },
+  "confluence": {
+    "dxy": {
+      "latest": 100.795,
+      "change_pct": 0.15899041089083976,
+      "direction": "rising",
+      "symbol": "DXY_U6",
+      "note": "Typically a headwind for gold"
+    },
+    "xagusd": {
+      "latest": 59.836,
+      "change_pct": -0.08682874699438886,
+      "direction": "falling",
+      "symbol": "XAGUSD",
+      "note": "Metals moving together with gold"
+    }
   }
 }

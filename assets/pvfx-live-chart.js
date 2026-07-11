@@ -103,6 +103,23 @@
       '</div>';
   }
 
+  var DIR_ARROW = { rising: '▲', falling: '▼', flat: '▬', unknown: '' };
+  var DIR_COLOR = { rising: COLORS.up, falling: COLORS.down, flat: COLORS.muted, unknown: COLORS.muted };
+
+  function confluenceRow(label, inst) {
+    if (!inst) return '';
+    var arrow = DIR_ARROW[inst.direction] || '';
+    var color = DIR_COLOR[inst.direction] || COLORS.muted;
+    var pct = (inst.change_pct === null || inst.change_pct === undefined)
+      ? '' : (inst.change_pct >= 0 ? '+' : '') + inst.change_pct.toFixed(2) + '%';
+    return '<div class="pvfx-live-confluence-row">' +
+      '<span class="pvfx-live-confluence-label">' + label + '</span>' +
+      '<span class="pvfx-live-confluence-value" style="color:' + color + '">' +
+      fmtPrice(inst.latest) + ' ' + arrow + ' ' + pct + '</span>' +
+      '</div>' +
+      '<div class="pvfx-live-confluence-note">' + inst.note + '</div>';
+  }
+
   function renderLadder(container, data) {
     var levels = data.levels.slice();
     var above = levels.filter(function (l) { return l.price >= data.latest_close; })
@@ -124,6 +141,14 @@
       '<div class="pvfx-live-state-row"><span>Zone</span><span>' + humanState(data.state.channel_zone) + '</span></div>' +
       '<div class="pvfx-live-state-row"><span>EMA5</span><span>' + fmtPrice(data.latest_ema5) + '</span></div>' +
       '</div>';
+
+    if (data.confluence && (data.confluence.dxy || data.confluence.xagusd)) {
+      html += '<div class="pvfx-live-confluence">' +
+        '<div class="pvfx-live-confluence-title">Confluence</div>' +
+        confluenceRow('DXY', data.confluence.dxy) +
+        confluenceRow('XAGUSD', data.confluence.xagusd) +
+        '</div>';
+    }
 
     container.innerHTML = html;
   }
