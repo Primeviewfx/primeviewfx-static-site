@@ -69,7 +69,7 @@
         lineWidth: touched ? 2 : 1,
         lineStyle: touched ? LightweightCharts.LineStyle.Dashed : LightweightCharts.LineStyle.SparseDotted,
         axisLabelVisible: true,
-        title: (touched ? 'GT ✓ ' : 'GT ') + fmtPrice(g.level)
+        title: (touched ? 'GZ ✓ ' : 'GZ ') + fmtPrice(g.level)
       }));
     });
   }

@@ -83,7 +83,7 @@
         title: tag + ' ' + fmtPrice(lv.price)
       }));
     });
-    // Weekly Gold Turns — EMA5 slope-reversal pivots frozen for the week,
+    // Weekly Gold Zones — EMA5 slope-reversal pivots frozen for the week,
     // dashed and colour-distinct so they never read as a published level.
     (goldturns || []).forEach(function (g) {
       priceLines.push(candleSeries.createPriceLine({
@@ -92,7 +92,7 @@
         lineWidth: 1,
         lineStyle: LightweightCharts.LineStyle.Dashed,
         axisLabelVisible: true,
-        title: 'GT ' + fmtPrice(g.level)
+        title: 'GZ ' + fmtPrice(g.level)
       }));
     });
     priceLines.push(candleSeries.createPriceLine({
