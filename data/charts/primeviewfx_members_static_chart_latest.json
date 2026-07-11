@@ -1,16 +1,19 @@
 {
   "version": "v2.5.3.9",
-  "created_utc": "2026-07-11T18:40:15.670937+00:00",
+  "created_utc": "2026-07-11T19:17:53.347300+00:00",
   "data_dir": "C:\\Trading\\Data",
   "static_site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
   "outputs": {
     "latest_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.png",
-    "archive_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\archive\\primeviewfx_members_static_chart_20260711_184015.png",
+    "archive_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\archive\\primeviewfx_members_static_chart_20260711_191753.png",
     "metadata_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
     "manifest_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\members_visual_chart\\primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
     "report_txt": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\members_visual_chart\\primeviewfx_members_visual_chart_report_v2_5_3_9.txt",
     "live_data_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_chart_data_latest.json",
-    "preview_html": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-static-chart-preview.html"
+    "preview_html": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-static-chart-preview.html",
+    "weekly_goldturns_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\goldturns\\primeviewfx_weekly_goldturns_latest.json",
+    "weekly_goldturns_csv": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\goldturns\\primeviewfx_weekly_goldturns_latest.csv",
+    "weekly_goldturns_html": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-weekly-goldturns.html"
   },
   "status": "PASS",
   "ohlc_csv": "C:\\Trading\\Data\\XAUUSD_H1_features.csv",
@@ -54,6 +57,51 @@
     "weekly_bias": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
     "ath_state": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
     "channel_zone": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json"
+  },
+  "weekly_goldturns": {
+    "found": true,
+    "method": "weekly_freeze_from_prior_ema5_turns",
+    "week_start": "2026-07-06",
+    "created_utc": "2026-07-11T19:09:14.025776+00:00",
+    "refresh_rule": "Generated once per new week; hourly chart reads latest weekly file.",
+    "levels": [
+      {
+        "time": "2026-07-08 19:00",
+        "level": 4055.729828921044,
+        "turn_type": "support_turn",
+        "source": "EMA5_slope_reversal"
+      },
+      {
+        "time": "2026-07-08 17:00",
+        "level": 4060.449615072347,
+        "turn_type": "resistance_turn",
+        "source": "EMA5_slope_reversal"
+      },
+      {
+        "time": "2026-07-08 15:00",
+        "level": 4069.85913391278,
+        "turn_type": "support_turn",
+        "source": "EMA5_slope_reversal"
+      },
+      {
+        "time": "2026-07-09 13:00",
+        "level": 4100.024701149452,
+        "turn_type": "resistance_turn",
+        "source": "EMA5_slope_reversal"
+      },
+      {
+        "time": "2026-07-08 03:00",
+        "level": 4110.102430600897,
+        "turn_type": "support_turn",
+        "source": "EMA5_slope_reversal"
+      },
+      {
+        "time": "2026-07-09 21:00",
+        "level": 4126.26325003723,
+        "turn_type": "resistance_turn",
+        "source": "EMA5_slope_reversal"
+      }
+    ]
   },
   "latest_close": 4119.68,
   "latest_ema5": 4109.494413771269,

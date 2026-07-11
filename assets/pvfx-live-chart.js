@@ -16,7 +16,8 @@
     core: '#73d9c6',
     secondary: '#a8b3c3',
     reject: '#ef8f8f',
-    current: '#eef4fb'
+    current: '#eef4fb',
+    goldturn: '#ffd34d'
   };
 
   var LABEL_COLOR = { CORE: COLORS.core, SECONDARY: COLORS.secondary, REJECT: COLORS.reject };
@@ -67,7 +68,7 @@
     return chart;
   }
 
-  function renderLevels(levels, latestClose) {
+  function renderLevels(levels, latestClose, goldturns) {
     priceLines.forEach(function (pl) { candleSeries.removePriceLine(pl); });
     priceLines = [];
     levels.forEach(function (lv) {
@@ -80,6 +81,18 @@
         lineStyle: LightweightCharts.LineStyle.Solid,
         axisLabelVisible: true,
         title: tag + ' ' + fmtPrice(lv.price)
+      }));
+    });
+    // Weekly Gold Turns — EMA5 slope-reversal pivots frozen for the week,
+    // dashed and colour-distinct so they never read as a published level.
+    (goldturns || []).forEach(function (g) {
+      priceLines.push(candleSeries.createPriceLine({
+        price: g.level,
+        color: COLORS.goldturn,
+        lineWidth: 1,
+        lineStyle: LightweightCharts.LineStyle.Dashed,
+        axisLabelVisible: true,
+        title: 'GT ' + fmtPrice(g.level)
       }));
     });
     priceLines.push(candleSeries.createPriceLine({
@@ -166,7 +179,7 @@
         ensureChart(chartEl);
         candleSeries.setData(data.candles);
         emaSeries.setData(data.ema5);
-        renderLevels(data.levels, data.latest_close);
+        renderLevels(data.levels, data.latest_close, data.goldturns);
         renderLadder(ladderEl, data);
         var gen = new Date(data.generated_utc);
         var stamp = isNaN(gen.getTime()) ? data.generated_utc : gen.toISOString().slice(0, 16).replace('T', ' ') + ' UTC';

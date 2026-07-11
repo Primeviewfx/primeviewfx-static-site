@@ -1,0 +1,45 @@
+{
+  "found": true,
+  "method": "weekly_freeze_from_prior_ema5_turns",
+  "week_start": "2026-07-06",
+  "created_utc": "2026-07-11T19:09:14.025776+00:00",
+  "refresh_rule": "Generated once per new week; hourly chart reads latest weekly file.",
+  "levels": [
+    {
+      "time": "2026-07-08 19:00",
+      "level": 4055.729828921044,
+      "turn_type": "support_turn",
+      "source": "EMA5_slope_reversal"
+    },
+    {
+      "time": "2026-07-08 17:00",
+      "level": 4060.449615072347,
+      "turn_type": "resistance_turn",
+      "source": "EMA5_slope_reversal"
+    },
+    {
+      "time": "2026-07-08 15:00",
+      "level": 4069.85913391278,
+      "turn_type": "support_turn",
+      "source": "EMA5_slope_reversal"
+    },
+    {
+      "time": "2026-07-09 13:00",
+      "level": 4100.024701149452,
+      "turn_type": "resistance_turn",
+      "source": "EMA5_slope_reversal"
+    },
+    {
+      "time": "2026-07-08 03:00",
+      "level": 4110.102430600897,
+      "turn_type": "support_turn",
+      "source": "EMA5_slope_reversal"
+    },
+    {
+      "time": "2026-07-09 21:00",
+      "level": 4126.26325003723,
+      "turn_type": "resistance_turn",
+      "source": "EMA5_slope_reversal"
+    }
+  ]
+}

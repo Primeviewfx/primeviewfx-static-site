@@ -1,6 +1,6 @@
 {
   "version": "v2.5.3.9",
-  "generated_utc": "2026-07-11T18:40:17.100044+00:00",
+  "generated_utc": "2026-07-11T19:17:54.643638+00:00",
   "latest_close": 4119.68,
   "latest_ema5": 4109.494413771269,
   "candles": [
@@ -1012,5 +1012,49 @@
       "symbol": "XAGUSD",
       "note": "Metals moving together with gold"
     }
-  }
+  },
+  "goldturns": [
+    {
+      "time": "2026-07-08 19:00",
+      "level": 4055.729828921044,
+      "turn_type": "support_turn",
+      "source": "EMA5_slope_reversal",
+      "touched": true
+    },
+    {
+      "time": "2026-07-08 17:00",
+      "level": 4060.449615072347,
+      "turn_type": "resistance_turn",
+      "source": "EMA5_slope_reversal",
+      "touched": true
+    },
+    {
+      "time": "2026-07-08 15:00",
+      "level": 4069.85913391278,
+      "turn_type": "support_turn",
+      "source": "EMA5_slope_reversal",
+      "touched": true
+    },
+    {
+      "time": "2026-07-09 13:00",
+      "level": 4100.024701149452,
+      "turn_type": "resistance_turn",
+      "source": "EMA5_slope_reversal",
+      "touched": true
+    },
+    {
+      "time": "2026-07-08 03:00",
+      "level": 4110.102430600897,
+      "turn_type": "support_turn",
+      "source": "EMA5_slope_reversal",
+      "touched": true
+    },
+    {
+      "time": "2026-07-09 21:00",
+      "level": 4126.26325003723,
+      "turn_type": "resistance_turn",
+      "source": "EMA5_slope_reversal",
+      "touched": true
+    }
+  ]
 }
