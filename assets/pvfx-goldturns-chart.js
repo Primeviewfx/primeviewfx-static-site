@@ -20,6 +20,9 @@
   }
 
   var chart = null, candleSeries = null, emaSeries = null, priceLines = [];
+  var currentGoldturnLevels = []; // read by the autoscale provider below — kept in
+  // sync by renderGoldturns so the price scale always stretches to fit every
+  // turn, not just whichever ones happen to fall inside the visible candles.
 
   function ensureChart(container) {
     if (chart) return chart;
@@ -33,7 +36,20 @@
     });
     candleSeries = chart.addSeries(LightweightCharts.CandlestickSeries, {
       upColor: COLORS.up, downColor: COLORS.down, borderVisible: false,
-      wickUpColor: COLORS.wick, wickDownColor: COLORS.wick
+      wickUpColor: COLORS.wick, wickDownColor: COLORS.wick,
+      autoscaleInfoProvider: function (original) {
+        var res = original();
+        if (res === null || !currentGoldturnLevels.length) return res;
+        var minValue = res.priceRange.minValue;
+        var maxValue = res.priceRange.maxValue;
+        currentGoldturnLevels.forEach(function (lvl) {
+          if (lvl < minValue) minValue = lvl;
+          if (lvl > maxValue) maxValue = lvl;
+        });
+        res.priceRange.minValue = minValue;
+        res.priceRange.maxValue = maxValue;
+        return res;
+      }
     });
     emaSeries = chart.addSeries(LightweightCharts.LineSeries, {
       color: COLORS.ema, lineWidth: 2, priceLineVisible: false, lastValueVisible: false
@@ -44,6 +60,7 @@
   function renderGoldturns(goldturns) {
     priceLines.forEach(function (pl) { candleSeries.removePriceLine(pl); });
     priceLines = [];
+    currentGoldturnLevels = (goldturns || []).map(function (g) { return g.level; });
     (goldturns || []).forEach(function (g) {
       var touched = !!g.touched;
       priceLines.push(candleSeries.createPriceLine({
@@ -68,6 +85,9 @@
       .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function (data) {
         ensureChart(chartEl);
+        // Levels set before setData() so the autoscale provider sees them on
+        // the very first autoscale pass, not one render behind.
+        currentGoldturnLevels = (data.goldturns || []).map(function (g) { return g.level; });
         candleSeries.setData(data.candles);
         emaSeries.setData(data.ema5);
         renderGoldturns(data.goldturns);
