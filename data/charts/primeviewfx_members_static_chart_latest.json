@@ -1,11 +1,11 @@
 {
   "version": "v2.5.3.9",
-  "created_utc": "2026-07-11T19:17:53.347300+00:00",
+  "created_utc": "2026-07-11T19:58:31.216006+00:00",
   "data_dir": "C:\\Trading\\Data",
   "static_site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
   "outputs": {
     "latest_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.png",
-    "archive_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\archive\\primeviewfx_members_static_chart_20260711_191753.png",
+    "archive_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\archive\\primeviewfx_members_static_chart_20260711_195831.png",
     "metadata_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
     "manifest_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\members_visual_chart\\primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
     "report_txt": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\members_visual_chart\\primeviewfx_members_visual_chart_report_v2_5_3_9.txt",
@@ -62,43 +62,61 @@
     "found": true,
     "method": "weekly_freeze_from_prior_ema5_turns",
     "week_start": "2026-07-06",
-    "created_utc": "2026-07-11T19:09:14.025776+00:00",
+    "created_utc": "2026-07-11T19:58:31.910527+00:00",
     "refresh_rule": "Generated once per new week; hourly chart reads latest weekly file.",
     "levels": [
       {
-        "time": "2026-07-08 19:00",
-        "level": 4055.729828921044,
+        "time": "2026-06-30 09:00",
+        "level": 3996.750418305084,
         "turn_type": "support_turn",
         "source": "EMA5_slope_reversal"
       },
       {
-        "time": "2026-07-08 17:00",
-        "level": 4060.449615072347,
-        "turn_type": "resistance_turn",
-        "source": "EMA5_slope_reversal"
-      },
-      {
-        "time": "2026-07-08 15:00",
-        "level": 4069.85913391278,
+        "time": "2026-06-24 16:00",
+        "level": 4036.974748374343,
         "turn_type": "support_turn",
         "source": "EMA5_slope_reversal"
       },
       {
-        "time": "2026-07-09 13:00",
-        "level": 4100.024701149452,
-        "turn_type": "resistance_turn",
-        "source": "EMA5_slope_reversal"
-      },
-      {
-        "time": "2026-07-08 03:00",
-        "level": 4110.102430600897,
+        "time": "2026-07-02 15:00",
+        "level": 4083.566662831049,
         "turn_type": "support_turn",
         "source": "EMA5_slope_reversal"
       },
       {
-        "time": "2026-07-09 21:00",
-        "level": 4126.26325003723,
+        "time": "2026-06-23 04:00",
+        "level": 4180.93715990479,
         "turn_type": "resistance_turn",
+        "source": "EMA5_slope_reversal"
+      },
+      {
+        "time": "2026-06-17 21:00",
+        "level": 4335.42711590196,
+        "turn_type": "resistance_turn",
+        "source": "EMA5_slope_reversal"
+      },
+      {
+        "time": "2026-06-05 15:00",
+        "level": 4445.080753307882,
+        "turn_type": "resistance_turn",
+        "source": "EMA5_slope_reversal"
+      },
+      {
+        "time": "2026-06-04 19:00",
+        "level": 4481.875054691291,
+        "turn_type": "support_turn",
+        "source": "EMA5_slope_reversal"
+      },
+      {
+        "time": "2026-05-29 20:00",
+        "level": 4555.770640251285,
+        "turn_type": "resistance_turn",
+        "source": "EMA5_slope_reversal"
+      },
+      {
+        "time": "2026-05-14 09:00",
+        "level": 4694.103628810247,
+        "turn_type": "support_turn",
         "source": "EMA5_slope_reversal"
       }
     ]

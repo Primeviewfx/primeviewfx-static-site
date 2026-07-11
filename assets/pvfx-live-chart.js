@@ -179,7 +179,9 @@
         ensureChart(chartEl);
         candleSeries.setData(data.candles);
         emaSeries.setData(data.ema5);
-        renderLevels(data.levels, data.latest_close, data.goldturns);
+        // Goldturns intentionally not rendered here — see pvfx-goldturns-chart.js
+        // and members-weekly-goldturns.html for the dedicated view.
+        renderLevels(data.levels, data.latest_close);
         renderLadder(ladderEl, data);
         var gen = new Date(data.generated_utc);
         var stamp = isNaN(gen.getTime()) ? data.generated_utc : gen.toISOString().slice(0, 16).replace('T', ' ') + ' UTC';
