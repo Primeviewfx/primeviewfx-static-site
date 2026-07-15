@@ -1,0 +1,5 @@
+# Gated indicator files must never be committed to this PUBLIC repo -
+# they're distributed only via the token-gated /api/download/:file route,
+# with bytes stored in Cloudflare KV, not as static assets here.
+*.ex5
+*.mq5
