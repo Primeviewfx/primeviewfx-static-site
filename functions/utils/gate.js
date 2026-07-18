@@ -33,8 +33,11 @@ export async function checkGate(request, env) {
   return { ok: true, token, setCookie: Boolean(tokenFromUrl) };
 }
 
+// ?locked=1 flags to founder-beta.html that this visit came from a blocked
+// members-only link, so it can show a "subscribe to unlock" banner instead
+// of the plain landing page.
 export function redirectToPayment(origin) {
-  return Response.redirect(`${origin}/founder-beta.html`, 302);
+  return Response.redirect(`${origin}/founder-beta.html?locked=1`, 302);
 }
 
 // Fetches `assetPath` (e.g. "/members-research.html") from the same

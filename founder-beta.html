@@ -20,6 +20,19 @@
 <h1>PrimeViewFX Founder Beta</h1>
 <p class="muted">XAUUSD market-structure research, live weighted-levels charting, and directional indicators.</p>
 
+<div id="pvfx-locked-banner" style="display:none;margin:16px 0;padding:14px 18px;border-radius:12px;
+background:rgba(247,201,72,.12);border:1px solid rgba(247,201,72,.45);color:#f8fafc;">
+  🔒 That link is for active subscribers. Subscribe below to unlock it — access is instant.
+</div>
+<script>
+(function () {
+  if (new URLSearchParams(location.search).get('locked') === '1') {
+    var b = document.getElementById('pvfx-locked-banner');
+    if (b) b.style.display = 'block';
+  }
+})();
+</script>
+
 <div class="box">
 <h2>Gold structure before the move</h2>
 <p>PrimeViewFX maps Gold's weekly channel structure, directional range boxes, survival levels and range-breaker conditions to help traders understand where Gold is likely to react next.</p>
@@ -35,8 +48,8 @@
 <li>CORE / SECONDARY / REJECT level classification</li>
 <li>Range-breaker state</li>
 <li>Strict activation research watchlist</li>
-<li>Bullish/bearish cascade research — see <a href="cascade-research-summary.html">cascade research summary</a></li>
-<li>Weighted-level scanner — see <a href="weighted-level-scanner.html">weighted-level scanner</a></li>
+<li>Bullish/bearish cascade research summary</li>
+<li>Weighted-level scanner</li>
 <li>Research notes and model updates</li>
 </ul>
 </div>
