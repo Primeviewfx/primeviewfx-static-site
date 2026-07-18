@@ -1,0 +1,7 @@
+# Members-only content is meant to be reached exclusively through its
+# Cloudflare Pages Function gate (/member-area, /member-area/chart), which
+# fetches these exact files via the env.ASSETS binding - an internal fetch
+# that bypasses this file. These rules block the underlying filenames from
+# being served directly to anyone hitting the raw URL.
+/members-research.html          /founder-beta.html   403
+/members-weekly-goldturns.html  /founder-beta.html   403
