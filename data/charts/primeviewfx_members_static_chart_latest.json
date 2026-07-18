@@ -1,11 +1,11 @@
 {
   "version": "v2.5.3.9",
-  "created_utc": "2026-07-18T15:28:22.473472+00:00",
+  "created_utc": "2026-07-18T15:42:00.627766+00:00",
   "data_dir": "C:\\Trading\\Data",
   "static_site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
   "outputs": {
     "latest_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.png",
-    "archive_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\archive\\primeviewfx_members_static_chart_20260718_152822.png",
+    "archive_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\archive\\primeviewfx_members_static_chart_20260718_154200.png",
     "metadata_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
     "manifest_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\members_visual_chart\\primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
     "report_txt": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\members_visual_chart\\primeviewfx_members_visual_chart_report_v2_5_3_9.txt",
@@ -13,7 +13,7 @@
     "preview_html": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-static-chart-preview.html",
     "weekly_goldturns_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\goldturns\\primeviewfx_weekly_goldturns_latest.json",
     "weekly_goldturns_csv": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\goldturns\\primeviewfx_weekly_goldturns_latest.csv",
-    "weekly_goldturns_html": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-weekly-goldturns.html"
+    "weekly_goldturns_html": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-weekly-goldturns-5ca15a7d08b31d56.html"
   },
   "status": "PASS",
   "ohlc_csv": "C:\\Trading\\Data\\XAUUSD_H1_features.csv",
@@ -62,7 +62,7 @@
     "found": true,
     "method": "weekly_freeze_from_prior_ema5_turns",
     "week_start": "2026-07-13",
-    "created_utc": "2026-07-18T15:28:23.102444+00:00",
+    "created_utc": "2026-07-18T15:42:01.265062+00:00",
     "refresh_rule": "Generated once per new week; hourly chart reads latest weekly file.",
     "levels": [
       {

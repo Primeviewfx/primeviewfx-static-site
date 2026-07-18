@@ -2,7 +2,7 @@
   "found": true,
   "method": "weekly_freeze_from_prior_ema5_turns",
   "week_start": "2026-07-13",
-  "created_utc": "2026-07-18T15:28:23.102444+00:00",
+  "created_utc": "2026-07-18T15:42:01.265062+00:00",
   "refresh_rule": "Generated once per new week; hourly chart reads latest weekly file.",
   "levels": [
     {
