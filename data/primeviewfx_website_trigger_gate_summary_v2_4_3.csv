@@ -1,0 +1,6 @@
+website_gate_v2_4_3,website_label_v2_4_3,validation_grade_v2_4_3,rows,min_level,max_level,median_channel_frozen_hit_pct,median_channel_frozen_false_pct,max_display_priority
+SCALP_ONLY,Counter-trend scalp-only research watch,TINY_FROZEN_SAMPLE_PROMISING,2,4135.32,4167.4,100.0,0.0,70
+WATCH_ONLY,Channel break watch,MIXED_OR_INCONCLUSIVE,1,4099.68,4099.68,50.0,50.0,60
+TRANSITION_ONLY,Weekly-play transition research watch,TINY_FROZEN_SAMPLE_PROMISING,3,4003.44,4069.63,100.0,0.0,50
+CONTEXT_ONLY,Secondary context level,NO_FROZEN_SAMPLE,3,3890.27,3965.25,,,10
+REJECT,Rejected structure level,FROZEN_WEAK_OR_FAILED,6,3785.63,4272.04,45.45454545454545,21.052631578947366,0
