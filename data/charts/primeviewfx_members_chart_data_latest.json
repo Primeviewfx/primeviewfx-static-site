@@ -1,51 +1,9 @@
 {
   "version": "v2.5.3.9",
-  "generated_utc": "2026-07-17T14:11:18.201686+00:00",
-  "latest_close": 3998.07,
-  "latest_ema5": 3991.787179857941,
+  "generated_utc": "2026-07-18T14:14:17.098875+00:00",
+  "latest_close": 4018.17,
+  "latest_ema5": 4013.3837716199023,
   "candles": [
-    {
-      "time": 1783998000,
-      "open": 4001.18,
-      "high": 4007.26,
-      "low": 3983.61,
-      "close": 4004.25
-    },
-    {
-      "time": 1784001600,
-      "open": 4004.25,
-      "high": 4012.18,
-      "low": 3991.79,
-      "close": 4010.64
-    },
-    {
-      "time": 1784005200,
-      "open": 4010.63,
-      "high": 4019.04,
-      "low": 4006.06,
-      "close": 4012.29
-    },
-    {
-      "time": 1784008800,
-      "open": 4012.27,
-      "high": 4019.08,
-      "low": 4011.13,
-      "close": 4016.96
-    },
-    {
-      "time": 1784012400,
-      "open": 4016.99,
-      "high": 4023.38,
-      "low": 4013.46,
-      "close": 4020.3
-    },
-    {
-      "time": 1784016000,
-      "open": 4020.34,
-      "high": 4034.08,
-      "low": 4019.73,
-      "close": 4031.41
-    },
     {
       "time": 1784019600,
       "open": 4031.44,
@@ -588,36 +546,54 @@
     {
       "time": 1784307600,
       "open": 3997.27,
-      "high": 4000.12,
+      "high": 4004.58,
       "low": 3990.26,
-      "close": 3998.07
+      "close": 4001.25
+    },
+    {
+      "time": 1784311200,
+      "open": 4001.2,
+      "high": 4021.24,
+      "low": 3997.78,
+      "close": 4019.32
+    },
+    {
+      "time": 1784314800,
+      "open": 4019.45,
+      "high": 4023.86,
+      "low": 4010.98,
+      "close": 4015.05
+    },
+    {
+      "time": 1784318400,
+      "open": 4015.14,
+      "high": 4019.31,
+      "low": 4008.38,
+      "close": 4010.1
+    },
+    {
+      "time": 1784322000,
+      "open": 4010.2,
+      "high": 4016.22,
+      "low": 4006.66,
+      "close": 4011.36
+    },
+    {
+      "time": 1784325600,
+      "open": 4011.35,
+      "high": 4016.63,
+      "low": 4002.28,
+      "close": 4015.46
+    },
+    {
+      "time": 1784329200,
+      "open": 4015.45,
+      "high": 4018.3,
+      "low": 4008.65,
+      "close": 4018.17
     }
   ],
   "ema5": [
-    {
-      "time": 1783998000,
-      "value": 4003.0923936016848
-    },
-    {
-      "time": 1784001600,
-      "value": 4005.6082624011233
-    },
-    {
-      "time": 1784005200,
-      "value": 4007.835508267416
-    },
-    {
-      "time": 1784008800,
-      "value": 4010.8770055116106
-    },
-    {
-      "time": 1784012400,
-      "value": 4014.0180036744073
-    },
-    {
-      "time": 1784016000,
-      "value": 4019.8153357829374
-    },
     {
       "time": 1784019600,
       "value": 4021.1935571886256
@@ -928,7 +904,31 @@
     },
     {
       "time": 1784307600,
-      "value": 3991.787179857941
+      "value": 3992.847179857941
+    },
+    {
+      "time": 1784311200,
+      "value": 4001.671453238628
+    },
+    {
+      "time": 1784314800,
+      "value": 4006.130968825752
+    },
+    {
+      "time": 1784318400,
+      "value": 4007.453979217168
+    },
+    {
+      "time": 1784322000,
+      "value": 4008.755986144779
+    },
+    {
+      "time": 1784325600,
+      "value": 4010.990657429853
+    },
+    {
+      "time": 1784329200,
+      "value": 4013.3837716199023
     }
   ],
   "levels": [
@@ -999,18 +999,18 @@
   },
   "confluence": {
     "dxy": {
-      "latest": 100.83702197347472,
-      "change_pct": 0.19640740021674802,
-      "direction": "rising",
+      "latest": 100.75041470294828,
+      "change_pct": 0.028594814121914024,
+      "direction": "flat",
       "symbol": "DXY",
-      "note": "Typically a headwind for gold"
+      "note": "Little directional pull from USD right now"
     },
     "xagusd": {
-      "latest": 54.985,
-      "change_pct": -1.495879613041922,
-      "direction": "falling",
+      "latest": 55.859,
+      "change_pct": 0.256658769473761,
+      "direction": "rising",
       "symbol": "XAGUSD",
-      "note": "Metals diverging from gold"
+      "note": "Metals moving together with gold"
     }
   },
   "goldturns": [
@@ -1036,8 +1036,8 @@
       "touched": true
     },
     {
-      "time": "2026-07-06 13:00",
-      "level": 4153.303360862604,
+      "time": "2026-07-06 10:00",
+      "level": 4160.402592911286,
       "turn_type": "support_turn",
       "source": "EMA5_slope_reversal",
       "touched": true
@@ -1050,18 +1050,11 @@
       "touched": true
     },
     {
-      "time": "2026-06-18 08:00",
-      "level": 4310.02351820833,
+      "time": "2026-06-17 21:00",
+      "level": 4335.42711590196,
       "turn_type": "resistance_turn",
       "source": "EMA5_slope_reversal",
       "touched": false
-    },
-    {
-      "time": "2026-06-16 15:00",
-      "level": 4345.5892946034655,
-      "turn_type": "support_turn",
-      "source": "EMA5_slope_reversal",
-      "touched": true
     },
     {
       "time": "2026-06-05 15:00",
@@ -1083,13 +1076,6 @@
       "turn_type": "resistance_turn",
       "source": "EMA5_slope_reversal",
       "touched": true
-    },
-    {
-      "time": "2026-05-14 09:00",
-      "level": 4694.103628810247,
-      "turn_type": "support_turn",
-      "source": "EMA5_slope_reversal",
-      "touched": false
     }
   ]
 }

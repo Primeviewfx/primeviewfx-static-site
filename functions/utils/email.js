@@ -1,16 +1,17 @@
 // Resend (https://resend.com) transactional email wrapper, plain fetch -
 // no SDK dependency, consistent with the rest of this Functions layer.
 
-export async function sendAccessLinkEmail(env, { to, redZonesUrl, greenZonesUrl, isWelcomeBack }) {
+export async function sendAccessLinkEmail(env, { to, redZonesUrl, greenZonesUrl, membersUrl, isWelcomeBack }) {
   const subject = isWelcomeBack
     ? "Your PrimeViewFX access is active again"
     : "Your PrimeViewFX indicator access";
 
   const bodyIntro = isWelcomeBack
-    ? "Welcome back — your subscription is active again and your download links below work as before."
-    : "Thanks for subscribing. Here are your personal download links for the PrimeViewFX indicators (MetaTrader 5, .ex5).";
+    ? "Welcome back — your subscription is active again and your links below work as before."
+    : "Thanks for subscribing. Here is your personal access.";
 
   const html = `<p>${bodyIntro}</p>
+<p><a href="${membersUrl}">Open your members research page</a></p>
 <p><a href="${redZonesUrl}">Download Red Zones</a><br><a href="${greenZonesUrl}">Download Green Zones</a></p>
 <p>These links stay valid for as long as your subscription is active. Keep them private -
 anyone with the link can use it while your subscription remains active.</p>

@@ -23,6 +23,10 @@ function downloadUrls(origin) {
   };
 }
 
+function membersUrl(origin, token) {
+  return `${origin}/members?token=${token}`;
+}
+
 async function handleCheckoutCompleted(event, env, origin) {
   const session = event.data.object;
   const customerId = session.customer;
@@ -54,6 +58,7 @@ async function handleCheckoutCompleted(event, env, origin) {
     to: email,
     redZonesUrl: `${redZonesUrl}?token=${token}`,
     greenZonesUrl: `${greenZonesUrl}?token=${token}`,
+    membersUrl: membersUrl(origin, token),
     isWelcomeBack,
   });
 }

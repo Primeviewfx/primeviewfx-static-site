@@ -71,31 +71,9 @@
     font-size: 18px;
     font-weight: 800;
   }
-  .links {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0,1fr));
-    gap: 12px;
-    margin-top: 18px;
-  }
   a {
     color: var(--text);
     text-decoration: none;
-  }
-  .link-card {
-    display: block;
-    border: 1px solid var(--line);
-    border-radius: 16px;
-    padding: 16px;
-    background: var(--card);
-  }
-  .link-title {
-    font-weight: 800;
-    margin-bottom: 5px;
-  }
-  .link-sub {
-    color: var(--muted);
-    font-size: 13px;
-    line-height: 1.45;
   }
   .warning {
     color: var(--muted);
@@ -104,7 +82,7 @@
     line-height: 1.5;
   }
   @media (max-width: 760px) {
-    .grid, .links { grid-template-columns: 1fr; }
+    .grid { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -123,33 +101,6 @@
     <div class="card"><div class="label">Member zones</div><div class="value">10 / A 5</div></div>
   </section>
 
-  <section class="links">
-    <a class="link-card" href="members/primeviewfx_members_integrated_map_v1.html">
-      <div class="link-title">Members HTML card</div>
-      <div class="link-sub">Option A: embed this hosted HTML card in Framer.</div>
-    </a>
-    <a class="link-card" href="data/primeviewfx_members_integrated_map_v1.json">
-      <div class="link-title">Members JSON</div>
-      <div class="link-sub">Option B/C: Fetch this data into Framer or a code component.</div>
-    </a>
-    <a class="link-card" href="data/xau_live_integrated_map_v1.json">
-      <div class="link-title">Integrated map JSON</div>
-      <div class="link-sub">Carry + H4/D1 structural overlap map.</div>
-    </a>
-    <a class="link-card" href="data/xau_carry_live_ladder_v1.json">
-      <div class="link-title">Carry ladder JSON</div>
-      <div class="link-sub">Live carry ladder feed.</div>
-    </a>
-    <a class="link-card" href="public/primeviewfx_daily_site_summary.json">
-      <div class="link-title">Public summary JSON</div>
-      <div class="link-sub">Public PrimeViewFX daily site summary.</div>
-    </a>
-    <a class="link-card" href="publish_manifest.json">
-      <div class="link-title">Publish manifest</div>
-      <div class="link-sub">Audit manifest with file hashes and package status.</div>
-    </a>
-  </section>
-
   <p class="warning">Research only. Not a trading signal. The package is a display/export layer, not an execution system.</p>
 <!-- PRIMEVIEWFX_WEBSITE_GATE_CARD_START -->
 <section id="primeviewfx-gold-structure" class="pvfx-card">
@@ -163,59 +114,18 @@
       color: #e5e7eb;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
+    .pvfx-card *, .pvfx-card *::before, .pvfx-card *::after {
+      overflow-wrap: break-word;
+      word-break: break-word;
+      box-sizing: border-box;
+    }
     .pvfx-card h2 { margin: 0 0 6px; font-size: 1.55rem; }
     .pvfx-card h3 { margin-top: 22px; font-size: 1.1rem; }
-    .pvfx-card h4 { margin: 8px 0 6px; }
     .pvfx-muted { color: #94a3b8; }
-    .pvfx-lead { max-width: 920px; color: #cbd5e1; }
-    .pvfx-channel-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 12px;
-      margin-top: 14px;
-    }
-    .pvfx-channel-grid div {
-      background: rgba(30,41,59,0.75);
-      border: 1px solid rgba(148,163,184,0.18);
-      border-radius: 12px;
-      padding: 12px;
-    }
-    .pvfx-channel-grid span { display: block; font-size: 0.78rem; margin-bottom: 5px; }
-    .pvfx-channel-grid strong { font-size: 0.95rem; }
-    .pvfx-summary-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-      gap: 12px;
-      margin-top: 12px;
-    }
-    .pvfx-mini-card {
-      background: rgba(30,41,59,0.62);
-      border: 1px solid rgba(148,163,184,0.18);
-      border-radius: 12px;
-      padding: 12px;
-    }
-    .pvfx-mini-card p { margin: 4px 0; }
-    .pvfx-table-wrap { overflow-x: auto; margin-top: 10px; }
-    .pvfx-gate-table { width: 100%; border-collapse: collapse; min-width: 980px; }
-    .pvfx-gate-table th, .pvfx-gate-table td {
-      border-bottom: 1px solid rgba(148,163,184,0.20);
-      padding: 10px 8px;
-      text-align: left;
-      font-size: 0.88rem;
-      vertical-align: top;
-    }
-    .pvfx-gate-table th { color: #cbd5e1; font-weight: 700; }
-    .pvfx-level { font-weight: 800; color: #f8fafc; }
-    .pvfx-grade { color: #cbd5e1; font-size: 0.8rem; }
+    .pvfx-lead { max-width: 820px; color: #cbd5e1; }
     .pvfx-badge {
-      display: inline-block;
-      border-radius: 999px;
-      padding: 4px 8px;
-      font-size: 0.72rem;
-      font-weight: 800;
-      letter-spacing: .02em;
-      white-space: nowrap;
-      border: 1px solid rgba(255,255,255,0.14);
+      display: inline-block; border-radius: 999px; padding: 4px 8px; font-size: 0.72rem;
+      font-weight: 800; letter-spacing: .02em; white-space: nowrap; border: 1px solid rgba(255,255,255,0.14);
     }
     .pvfx-badge-confirmed { background: rgba(34,197,94,.20); color: #86efac; }
     .pvfx-badge-scalp { background: rgba(59,130,246,.20); color: #93c5fd; }
@@ -223,249 +133,63 @@
     .pvfx-badge-transition { background: rgba(168,85,247,.20); color: #d8b4fe; }
     .pvfx-badge-context { background: rgba(148,163,184,.18); color: #cbd5e1; }
     .pvfx-badge-reject { background: rgba(239,68,68,.18); color: #fca5a5; }
+    .pvfx-sample-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap:12px; margin-top:10px; }
+    .pvfx-sample-card { min-width:0; background: rgba(30,41,59,.7); border:1px solid rgba(148,163,184,.18); border-radius:12px; padding:14px; }
+    .pvfx-sample-level { font-size:1.4rem; font-weight:800; margin-top:6px; color:#f8fafc; }
+    .pvfx-mini-preview { display:grid; grid-template-columns: repeat(auto-fit, minmax(120px,1fr)); gap:10px; margin-top:10px; }
+    .pvfx-mini-preview div { min-width:0; background: rgba(30,41,59,.5); border:1px solid rgba(148,163,184,.15); border-radius:10px; padding:10px; }
+    .pvfx-blurred { filter: blur(5px); user-select: none; }
+    .pvfx-daily-note { margin:14px 0; padding:12px; border-radius:10px; background: rgba(30,41,59,.5); border:1px solid rgba(148,163,184,.18); }
+    .pvfx-daily-note p { margin: 6px 0 0; color: #e5e7eb; }
+    #pvfx-home-chart { width:100%; height:320px; border-radius:12px; overflow:hidden; background:#0f1d2f; margin-top:14px; }
     .pvfx-risk-note {
-      margin-top: 16px;
-      padding: 12px;
-      border-radius: 12px;
-      background: rgba(127,29,29,0.22);
-      border: 1px solid rgba(248,113,113,0.25);
-      color: #fecaca;
-      font-size: 0.9rem;
+      margin-top: 16px; padding: 12px; border-radius: 12px; background: rgba(127,29,29,0.22);
+      border: 1px solid rgba(248,113,113,0.25); color: #fecaca; font-size: 0.9rem;
     }
     .pvfx-risk-note a { color: #fecaca; text-decoration: underline; }
   </style>
 
-  <div class="pvfx-muted">PrimeViewFX Founder Beta · Updated 2026-07-18 12:05 UTC</div>
-  <h2>Today’s Gold Structure</h2>
+  <div class="pvfx-muted">PrimeViewFX · Updated 2026-07-18 14:13 UTC</div>
+  <h2>Gold structure, mapped daily</h2>
   <p class="pvfx-lead">
-    This dashboard shows XAUUSD market-structure research labels from the PrimeViewFX model stack.
-    It is designed to map channels, boxes, range conditions and survival levels. It is not a personal trade recommendation.
+    PrimeViewFX tracks XAUUSD market structure — weekly channels, directional range boxes,
+    survival levels and range-breaker conditions — and turns it into a daily research
+    watchlist. Subscribers get the full dashboard, a live weighted-levels chart with
+    goldturns and DXY/Silver confluence, and directional MT5/TradingView indicators.
   </p>
 
-  <h3>Weekly EMA5 Channel State</h3>
   
-      <div class="pvfx-channel-grid">
-        <div><span class="pvfx-muted">Weekly state</span><strong>BULLISH_CHANNEL_TOP_EXTENSION_OR_EXHAUSTION</strong></div>
-        <div><span class="pvfx-muted">Bias</span><strong>BULLISH</strong></div>
-        <div><span class="pvfx-muted">Channel</span><strong>ASCENDING</strong></div>
-        <div><span class="pvfx-muted">Zone</span><strong>UPPER_HALF</strong></div>
-        <div><span class="pvfx-muted">Floor</span><strong>4095.96</strong></div>
-        <div><span class="pvfx-muted">Midline</span><strong>4151.45</strong></div>
-        <div><span class="pvfx-muted">Top</span><strong>4206.94</strong></div>
-        <div><span class="pvfx-muted">Close / EMA5</span><strong>4174.94 / 4171.39</strong></div>
+      <div class="pvfx-daily-note">
+        <span class="pvfx-muted">Today's outlook · 2026-07-18</span>
+        <p>Outlook note placeholder — replace this file&#x27;s &quot;note&quot; text each day with a short, original summary of what could move XAUUSD/DXY today (e.g. scheduled Fed speakers, CPI/NFP releases, other known events). Only the exact &quot;date&quot; (YYYY-MM-DD, UTC) matches today will show on the homepage; anything else is treated as stale and hidden automatically.</p>
       </div>
-    
 
-  <h3>Website Gate Summary</h3>
-  <div class="pvfx-summary-grid">
-          <div class="pvfx-mini-card">
-            <div><span class="pvfx-badge pvfx-badge-scalp">SCALP_ONLY</span></div>
-            <h4>Counter-trend scalp-only research watch</h4>
-            <p><strong>2</strong> level(s), 4135.32 → 4167.40</p>
-            <p class="pvfx-muted">Validation: TINY_FROZEN_SAMPLE_PROMISING</p>
-            <p class="pvfx-muted">Frozen hit/false median: 100.00% / 0.00%</p>
+  <div id="pvfx-home-chart"></div>
+
+  <h3>Sample levels from today's watchlist</h3>
+  <div class="pvfx-sample-grid">
+          <div class="pvfx-sample-card">
+            <span class="pvfx-badge pvfx-badge-scalp">SCALP_ONLY</span>
+            <div class="pvfx-sample-level">4167.40</div>
+            <div class="pvfx-muted">Counter-trend scalp-only research watch</div>
           </div>
-          <div class="pvfx-mini-card">
-            <div><span class="pvfx-badge pvfx-badge-watch">WATCH_ONLY</span></div>
-            <h4>Channel break watch</h4>
-            <p><strong>1</strong> level(s), 4099.68 → 4099.68</p>
-            <p class="pvfx-muted">Validation: MIXED_OR_INCONCLUSIVE</p>
-            <p class="pvfx-muted">Frozen hit/false median: 50.00% / 50.00%</p>
-          </div>
-          <div class="pvfx-mini-card">
-            <div><span class="pvfx-badge pvfx-badge-transition">TRANSITION_ONLY</span></div>
-            <h4>Weekly-play transition research watch</h4>
-            <p><strong>3</strong> level(s), 4003.44 → 4069.63</p>
-            <p class="pvfx-muted">Validation: TINY_FROZEN_SAMPLE_PROMISING</p>
-            <p class="pvfx-muted">Frozen hit/false median: 100.00% / 0.00%</p>
-          </div>
-          <div class="pvfx-mini-card">
-            <div><span class="pvfx-badge pvfx-badge-context">CONTEXT_ONLY</span></div>
-            <h4>Secondary context level</h4>
-            <p><strong>3</strong> level(s), 3890.27 → 3965.25</p>
-            <p class="pvfx-muted">Validation: NO_FROZEN_SAMPLE</p>
-            <p class="pvfx-muted">Frozen hit/false median: —% / —%</p>
-          </div>
-          <div class="pvfx-mini-card">
-            <div><span class="pvfx-badge pvfx-badge-reject">REJECT</span></div>
-            <h4>Rejected structure level</h4>
-            <p><strong>6</strong> level(s), 3785.63 → 4272.04</p>
-            <p class="pvfx-muted">Validation: FROZEN_WEAK_OR_FAILED</p>
-            <p class="pvfx-muted">Frozen hit/false median: 45.45% / 21.05%</p>
+          <div class="pvfx-sample-card">
+            <span class="pvfx-badge pvfx-badge-scalp">SCALP_ONLY</span>
+            <div class="pvfx-sample-level">4135.32</div>
+            <div class="pvfx-muted">Counter-trend scalp-only research watch</div>
           </div></div>
 
-  <h3>Live Research Watchlist</h3>
+  <h3>Full dashboard preview</h3>
   
-      <div class="pvfx-table-wrap">
-        <table class="pvfx-gate-table">
-          <thead>
-            <tr>
-              <th>Level</th>
-              <th>Class</th>
-              <th>Zone</th>
-              <th>Website Gate</th>
-              <th>Research Label</th>
-              <th>Next Map Level</th>
-              <th>Distance</th>
-              <th>Validation</th>
-            </tr>
-          </thead>
-          <tbody>
-            
-          <tr>
-            <td class="pvfx-level">4167.40</td>
-            <td>SURVIVAL_CORE</td>
-            <td>CHANNEL_MIDLINE</td>
-            <td><span class="pvfx-badge pvfx-badge-scalp">SCALP_ONLY</span></td>
-            <td>Counter-trend scalp-only research watch</td>
-            <td>4135.32</td>
-            <td>32.08</td>
-            <td class="pvfx-grade">TINY_FROZEN_SAMPLE_PROMISING</td>
-          </tr>
-          <tr>
-            <td class="pvfx-level">4135.32</td>
-            <td>SURVIVAL_CORE</td>
-            <td>CHANNEL_MIDLINE</td>
-            <td><span class="pvfx-badge pvfx-badge-scalp">SCALP_ONLY</span></td>
-            <td>Counter-trend scalp-only research watch</td>
-            <td>4099.68</td>
-            <td>35.64</td>
-            <td class="pvfx-grade">TINY_FROZEN_SAMPLE_PROMISING</td>
-          </tr>
-          <tr>
-            <td class="pvfx-level">4099.68</td>
-            <td>SURVIVAL_CORE</td>
-            <td>CHANNEL_FLOOR</td>
-            <td><span class="pvfx-badge pvfx-badge-watch">WATCH_ONLY</span></td>
-            <td>Channel break watch</td>
-            <td>4069.63</td>
-            <td>30.05</td>
-            <td class="pvfx-grade">MIXED_OR_INCONCLUSIVE</td>
-          </tr>
-          <tr>
-            <td class="pvfx-level">4069.63</td>
-            <td>SURVIVAL_CORE</td>
-            <td>BELOW_CHANNEL</td>
-            <td><span class="pvfx-badge pvfx-badge-transition">TRANSITION_ONLY</span></td>
-            <td>Weekly-play transition research watch</td>
-            <td>4037.56</td>
-            <td>32.07</td>
-            <td class="pvfx-grade">TINY_FROZEN_SAMPLE_PROMISING</td>
-          </tr>
-          <tr>
-            <td class="pvfx-level">4037.56</td>
-            <td>SURVIVAL_CORE</td>
-            <td>BELOW_CHANNEL</td>
-            <td><span class="pvfx-badge pvfx-badge-transition">TRANSITION_ONLY</span></td>
-            <td>Weekly-play transition research watch</td>
-            <td>4003.44</td>
-            <td>34.12</td>
-            <td class="pvfx-grade">TINY_FROZEN_SAMPLE_PROMISING</td>
-          </tr>
-          <tr>
-            <td class="pvfx-level">4003.44</td>
-            <td>SURVIVAL_CORE</td>
-            <td>BELOW_CHANNEL</td>
-            <td><span class="pvfx-badge pvfx-badge-transition">TRANSITION_ONLY</span></td>
-            <td>Weekly-play transition research watch</td>
-            <td>3965.25</td>
-            <td>38.19</td>
-            <td class="pvfx-grade">TINY_FROZEN_SAMPLE_PROMISING</td>
-          </tr>
-          <tr>
-            <td class="pvfx-level">3965.25</td>
-            <td>SURVIVAL_SECONDARY</td>
-            <td>BELOW_CHANNEL</td>
-            <td><span class="pvfx-badge pvfx-badge-context">CONTEXT_ONLY</span></td>
-            <td>Secondary context level</td>
-            <td>3927.57</td>
-            <td>37.68</td>
-            <td class="pvfx-grade">NO_FROZEN_SAMPLE</td>
-          </tr>
-          <tr>
-            <td class="pvfx-level">3927.57</td>
-            <td>SURVIVAL_SECONDARY</td>
-            <td>BELOW_CHANNEL</td>
-            <td><span class="pvfx-badge pvfx-badge-context">CONTEXT_ONLY</span></td>
-            <td>Secondary context level</td>
-            <td>3890.27</td>
-            <td>37.30</td>
-            <td class="pvfx-grade">NO_FROZEN_SAMPLE</td>
-          </tr>
-          <tr>
-            <td class="pvfx-level">3890.27</td>
-            <td>SURVIVAL_SECONDARY</td>
-            <td>BELOW_CHANNEL</td>
-            <td><span class="pvfx-badge pvfx-badge-context">CONTEXT_ONLY</span></td>
-            <td>Secondary context level</td>
-            <td>—</td>
-            <td>—</td>
-            <td class="pvfx-grade">NO_FROZEN_SAMPLE</td>
-          </tr>
-          <tr>
-            <td class="pvfx-level">4272.04</td>
-            <td>SURVIVAL_REJECT</td>
-            <td>ABOVE_CHANNEL</td>
-            <td><span class="pvfx-badge pvfx-badge-reject">REJECT</span></td>
-            <td>Rejected structure level</td>
-            <td>—</td>
-            <td>—</td>
-            <td class="pvfx-grade">FROZEN_WEAK_OR_FAILED</td>
-          </tr>
-          <tr>
-            <td class="pvfx-level">4237.16</td>
-            <td>SURVIVAL_REJECT</td>
-            <td>ABOVE_CHANNEL</td>
-            <td><span class="pvfx-badge pvfx-badge-reject">REJECT</span></td>
-            <td>Rejected structure level</td>
-            <td>—</td>
-            <td>—</td>
-            <td class="pvfx-grade">FROZEN_WEAK_OR_FAILED</td>
-          </tr>
-          <tr>
-            <td class="pvfx-level">4202.28</td>
-            <td>SURVIVAL_REJECT</td>
-            <td>CHANNEL_TOP</td>
-            <td><span class="pvfx-badge pvfx-badge-reject">REJECT</span></td>
-            <td>Rejected structure level</td>
-            <td>—</td>
-            <td>—</td>
-            <td class="pvfx-grade">FROZEN_WEAK_OR_FAILED</td>
-          </tr>
-          <tr>
-            <td class="pvfx-level">3855.39</td>
-            <td>SURVIVAL_REJECT</td>
-            <td>BELOW_CHANNEL</td>
-            <td><span class="pvfx-badge pvfx-badge-reject">REJECT</span></td>
-            <td>Rejected structure level</td>
-            <td>—</td>
-            <td>—</td>
-            <td class="pvfx-grade">FROZEN_WEAK_OR_FAILED</td>
-          </tr>
-          <tr>
-            <td class="pvfx-level">3820.51</td>
-            <td>SURVIVAL_REJECT</td>
-            <td>BELOW_CHANNEL</td>
-            <td><span class="pvfx-badge pvfx-badge-reject">REJECT</span></td>
-            <td>Rejected structure level</td>
-            <td>—</td>
-            <td>—</td>
-            <td class="pvfx-grade">FROZEN_WEAK_OR_FAILED</td>
-          </tr>
-          <tr>
-            <td class="pvfx-level">3785.63</td>
-            <td>SURVIVAL_REJECT</td>
-            <td>BELOW_CHANNEL</td>
-            <td><span class="pvfx-badge pvfx-badge-reject">REJECT</span></td>
-            <td>Rejected structure level</td>
-            <td>—</td>
-            <td>—</td>
-            <td class="pvfx-grade">FROZEN_WEAK_OR_FAILED</td>
-          </tr>
-          </tbody>
-        </table>
+      <div class="pvfx-mini-preview">
+        <div><span class="pvfx-muted">Bias</span><strong>BULLISH</strong></div>
+        <div><span class="pvfx-muted">Floor</span><strong class="pvfx-blurred">4095.96</strong></div>
+        <div><span class="pvfx-muted">Midline</span><strong class="pvfx-blurred">4151.45</strong></div>
+        <div><span class="pvfx-muted">Top</span><strong class="pvfx-blurred">4206.94</strong></div>
       </div>
-    
+  <p class="pvfx-muted" style="margin-top:6px;font-size:.85rem;">Exact levels, the full watchlist, and validation history are for active subscribers.</p>
+
+  <p style="margin-top:16px;"><a href="/members" style="display:inline-block;background:#f7c948;color:#1a1608;font-weight:700;padding:10px 18px;border-radius:10px;text-decoration:none;">Members — view full dashboard</a></p>
 
   <div class="pvfx-risk-note">
     <strong>Risk notice:</strong> PrimeViewFX is for education and research only. It does not provide personal financial advice,
@@ -473,13 +197,15 @@
     See <a href="risk-methodology-limitations.html">Risk, Methodology &amp; Limitations</a>.
   </div>
 </section>
+<script src="./assets/lightweight-charts.standalone.production.js"></script>
+<script src="./assets/pvfx-home-chart.js"></script>
 <!-- PRIMEVIEWFX_WEBSITE_GATE_CARD_END -->
 <!-- PRIMEVIEWFX_SUBSCRIBE_CTA_START -->
 <div style="margin:24px 0;padding:22px;border:1px solid rgba(247,201,72,.4);border-radius:16px;
 background:rgba(26,22,8,.55);color:#e5e7eb;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
 <h2 style="margin:0 0 8px;color:#f8fafc;">PrimeViewFX Founder Beta</h2>
 <p style="color:#cbd5e1;max-width:820px;">Daily XAUUSD structure research, the live weighted-levels chart, and the MT5/TradingView indicators — see what's included and subscribe.</p>
-<a href="founder-beta.html" style="display:inline-block;background:#f7c948;color:#1a1608;font-weight:700;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;padding:12px 22px;border-radius:10px;text-decoration:none;margin-top:10px;">See what's included</a>
+<a href="founder-beta.html" style="display:inline-block;background:#f7c948;color:#1a1608;font-weight:700;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;padding:12px 22px;border-radius:10px;text-decoration:none;margin-top:10px;">See what's included</a> <a href="members-weekly-goldturns.html" style="display:inline-block;color:#f7c948;font-weight:700;padding:12px 6px;text-decoration:none;">View the live chart →</a>
 <p style="margin-top:8px;font-size:.85rem;color:#94a3b8;">Cancel anytime. Research and education only — not financial advice.</p>
 </div>
 <!-- PRIMEVIEWFX_SUBSCRIBE_CTA_END -->
