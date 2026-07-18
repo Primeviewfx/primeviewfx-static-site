@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PrimeViewFX Weighted Level Scanner</title>
+  <style>
+    :root {
+      --bg:#080b12; --panel:#101722; --panel2:#111c2c; --text:#eef3ff;
+      --muted:#94a3b8; --line:rgba(255,255,255,.10); --accent:#60a5fa;
+      --good:#4ade80; --watch:#facc15; --bad:#fb7185; --neutral:#94a3b8;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0; background:radial-gradient(circle at top left,#142036,var(--bg) 45%);
+      color:var(--text); font-family:Inter,Segoe UI,Arial,sans-serif; line-height:1.45;
+    }
+    .wrap { max-width:1180px; margin:0 auto; padding:28px 18px 44px; }
+    .top { display:flex; justify-content:space-between; gap:16px; align-items:flex-start; margin-bottom:18px; }
+    .eyebrow { color:var(--accent); font-size:12px; letter-spacing:.12em; text-transform:uppercase; font-weight:800; }
+    h1 { margin:5px 0 6px; font-size:clamp(26px,4vw,42px); line-height:1.05; }
+    h2 { margin:0 0 14px; font-size:20px; }
+    h3 { margin:3px 0 0; font-size:16px; word-break:break-word; }
+    .muted,.basis { color:var(--muted); }
+    .basis { font-size:13px; }
+    .panel,.card {
+      background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));
+      border:1px solid var(--line); border-radius:18px; padding:18px;
+      box-shadow:0 16px 40px rgba(0,0,0,.24); margin-bottom:16px;
+    }
+    .setup { background:var(--panel); }
+    .card-head { display:flex; justify-content:space-between; gap:12px; align-items:flex-start; }
+    .grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
+    .grid.small { margin-top:14px; }
+    .grid div { background:rgba(255,255,255,.035); border:1px solid var(--line); border-radius:14px; padding:14px; }
+    .grid.small div { padding:10px; }
+    .grid span { display:block; color:var(--muted); font-size:12px; margin-bottom:7px; }
+    .grid strong { font-size:17px; word-break:break-word; }
+    .grid.small strong { font-size:14px; }
+    .badge { display:inline-block; border-radius:999px; padding:6px 10px; font-weight:900; font-size:12px; border:1px solid currentColor; white-space:nowrap; }
+    .badge.good { color:var(--good); background:rgba(74,222,128,.09); }
+    .badge.watch { color:var(--watch); background:rgba(250,204,21,.10); }
+    .badge.bad { color:var(--bad); background:rgba(251,113,133,.10); }
+    .badge.neutral { color:var(--neutral); background:rgba(148,163,184,.10); }
+    .table-wrap { overflow-x:auto; border:1px solid var(--line); border-radius:14px; }
+    table { width:100%; border-collapse:collapse; min-width:720px; background:var(--panel); }
+    th,td { padding:10px 12px; border-bottom:1px solid var(--line); text-align:left; font-size:14px; }
+    th { color:var(--muted); font-weight:800; background:var(--panel2); }
+    tr:last-child td { border-bottom:0; }
+    .num { text-align:right; font-variant-numeric:tabular-nums; }
+    .footer { color:var(--muted); font-size:13px; margin-top:20px; }
+    @media(max-width:850px) { .top,.card-head{flex-direction:column} .grid{grid-template-columns:repeat(2,minmax(0,1fr))} }
+    @media(max-width:520px) { .grid{grid-template-columns:1fr} }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <div class="eyebrow">PrimeViewFX Research Layer</div>
+        <h1>Weighted Level Scanner</h1>
+        <p class="muted">EMA5 cross-lock state-machine candidate dashboard.</p>
+      </div>
+      <div><span class="badge watch">NO_CANDIDATE_MAP</span></div>
+    </div>
+
+    <section class="panel">
+      <h2>Live Status</h2>
+      <div class="grid">
+        <div><span>Promoted Candidate</span><strong>NO_CANDIDATE_MAP</strong></div>
+        <div><span>Watchlist</span><strong>WAITING_FOR_TRIGGER</strong></div>
+        <div><span>Latest Close</span><strong>3,981.69</strong></div>
+        <div><span>EMA5</span><strong>3,983.58</strong></div>
+        <div><span>State</span><strong>ema_proxy_neutral</strong></div>
+        <div><span>Up Alignment</span><strong>neutral_state</strong></div>
+        <div><span>Down Alignment</span><strong>neutral_state</strong></div>
+        <div><span>Level Date</span><strong>2026-07-06</strong></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Promoted Candidate</h2>
+      
+    <div class="card setup">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">PROMOTED</div>
+          <h3>PROMOTED_UP_LV3_TO_LV2_15_30</h3>
+        </div>
+        <span class="badge watch">NO_CANDIDATE_MAP</span>
+      </div>
+      <div class="grid small">
+        <div><span>Direction</span><strong>UP</strong></div>
+        <div><span>Trigger</span><strong>LV3 @ 4,255.75</strong></div>
+        <div><span>Target</span><strong>LV2 @ 4,305.66</strong></div>
+        <div><span>Distance</span><strong>49.90 / 30_50</strong></div>
+      </div>
+      <p class="muted">LV3-&gt;LV2 distance bucket is 30_50, not required bucket 15_30.</p>
+      <p class="basis">Canonical DMY v1.3 promoted candidate: UP LV3 -&gt; LV2, next-distance 15-30, with_state.</p>
+    </div>
+    
+    </section>
+
+    <section class="panel">
+      <h2>Watchlist</h2>
+      
+    <div class="card setup">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">WATCHLIST</div>
+          <h3>WATCHLIST_DOWN_LV5_TO_LV6_15_30</h3>
+        </div>
+        <span class="badge watch">NO_CANDIDATE_MAP</span>
+      </div>
+      <div class="grid small">
+        <div><span>Direction</span><strong>DOWN</strong></div>
+        <div><span>Trigger</span><strong>LV5 @ 4,172.92</strong></div>
+        <div><span>Target</span><strong>LV6 @ 4,131.50</strong></div>
+        <div><span>Distance</span><strong>41.42 / 30_50</strong></div>
+      </div>
+      <p class="muted">LV5-&gt;LV6 distance bucket is 30_50, not required bucket 15_30.</p>
+      <p class="basis">Canonical DMY v1.3 watchlist: DOWN LV5 -&gt; LV6, next-distance 15-30, with_state. Watchlist because MFE edge failed despite target/invalidation edges.</p>
+    </div>
+    
+    <div class="card setup">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">WATCHLIST</div>
+          <h3>WATCHLIST_UP_LV4_TO_LV3_30_50</h3>
+        </div>
+        <span class="badge watch">WAITING_FOR_TRIGGER</span>
+      </div>
+      <div class="grid small">
+        <div><span>Direction</span><strong>UP</strong></div>
+        <div><span>Trigger</span><strong>LV4 @ 4,214.34</strong></div>
+        <div><span>Target</span><strong>LV3 @ 4,255.75</strong></div>
+        <div><span>Distance</span><strong>41.42 / 30_50</strong></div>
+      </div>
+      <p class="muted">Map condition exists; waiting for EMA5 cross-lock upward through LV4.</p>
+      <p class="basis">Canonical DMY v1.3 watchlist: UP LV4 -&gt; LV3, next-distance 30-50, with_state. Watchlist only; target and MFE promotion checks did not pass.</p>
+    </div>
+    
+    <div class="card setup">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">WATCHLIST</div>
+          <h3>WATCHLIST_DOWN_LV7_TO_LV8_30_50</h3>
+        </div>
+        <span class="badge watch">WAITING_FOR_TRIGGER</span>
+      </div>
+      <div class="grid small">
+        <div><span>Direction</span><strong>DOWN</strong></div>
+        <div><span>Trigger</span><strong>LV7 @ 4,090.09</strong></div>
+        <div><span>Target</span><strong>LV8 @ 4,058.40</strong></div>
+        <div><span>Distance</span><strong>31.68 / 30_50</strong></div>
+      </div>
+      <p class="muted">Map condition exists; waiting for EMA5 cross-lock downward through LV7.</p>
+      <p class="basis">Canonical DMY v1.3 watchlist: DOWN LV7 -&gt; LV8, next-distance 30-50, with_state. It is not promoted after canonical DMY retest because target edge failed.</p>
+    </div>
+    
+    <div class="card setup">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">WATCHLIST</div>
+          <h3>WATCHLIST_UP_LV5_TO_LV4_15_30</h3>
+        </div>
+        <span class="badge watch">NO_CANDIDATE_MAP</span>
+      </div>
+      <div class="grid small">
+        <div><span>Direction</span><strong>UP</strong></div>
+        <div><span>Trigger</span><strong>LV5 @ 4,172.92</strong></div>
+        <div><span>Target</span><strong>LV4 @ 4,214.34</strong></div>
+        <div><span>Distance</span><strong>41.42 / 30_50</strong></div>
+      </div>
+      <p class="muted">LV5-&gt;LV4 distance bucket is 30_50, not required bucket 15_30.</p>
+      <p class="basis">Canonical DMY v1.3 watchlist: UP LV5 -&gt; LV4, next-distance 15-30, with_state. Watchlist only; target and invalidation promotion checks did not pass.</p>
+    </div>
+    
+    <div class="card setup">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">WATCHLIST</div>
+          <h3>WATCHLIST_UP_LV6_TO_LV5_30_50</h3>
+        </div>
+        <span class="badge watch">ABOVE_TRIGGER_NO_RECENT_CROSS</span>
+      </div>
+      <div class="grid small">
+        <div><span>Direction</span><strong>UP</strong></div>
+        <div><span>Trigger</span><strong>LV6 @ 4,131.50</strong></div>
+        <div><span>Target</span><strong>LV5 @ 4,172.92</strong></div>
+        <div><span>Distance</span><strong>41.42 / 30_50</strong></div>
+      </div>
+      <p class="muted">Price/EMA5 are above LV6, but no recent EMA5 cross-lock through LV6 was found.</p>
+      <p class="basis">Added 2026-07-14 from a fresh audit re-run of the state-machine tester against current data (XAUUSD_H1.csv through 07-14, published_levels.csv through 07-10) - not in the original canonical DMY evidence set. UP LV6 -&gt; LV5, next-distance 30-50, with_state.</p>
+    </div>
+    
+    <div class="card setup">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">WATCHLIST</div>
+          <h3>WATCHLIST_DOWN_LV6_TO_LV7_15_30</h3>
+        </div>
+        <span class="badge watch">NO_CANDIDATE_MAP</span>
+      </div>
+      <div class="grid small">
+        <div><span>Direction</span><strong>DOWN</strong></div>
+        <div><span>Trigger</span><strong>LV6 @ 4,131.50</strong></div>
+        <div><span>Target</span><strong>LV7 @ 4,090.09</strong></div>
+        <div><span>Distance</span><strong>41.42 / 30_50</strong></div>
+      </div>
+      <p class="muted">LV6-&gt;LV7 distance bucket is 30_50, not required bucket 15_30.</p>
+      <p class="basis">Added 2026-07-14 from the same fresh audit re-run - not in the original canonical DMY evidence set. DOWN LV6 -&gt; LV7, next-distance 15-30, with_state.</p>
+    </div>
+    
+    <div class="card setup">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">WATCHLIST</div>
+          <h3>WATCHLIST_DOWN_LV6_TO_LV7_30_50</h3>
+        </div>
+        <span class="badge watch">WAITING_FOR_TRIGGER</span>
+      </div>
+      <div class="grid small">
+        <div><span>Direction</span><strong>DOWN</strong></div>
+        <div><span>Trigger</span><strong>LV6 @ 4,131.50</strong></div>
+        <div><span>Target</span><strong>LV7 @ 4,090.09</strong></div>
+        <div><span>Distance</span><strong>41.42 / 30_50</strong></div>
+      </div>
+      <p class="muted">Map condition exists; waiting for EMA5 cross-lock downward through LV6.</p>
+      <p class="basis">Added 2026-07-14 from the same fresh audit re-run - not in the original canonical DMY evidence set. DOWN LV6 -&gt; LV7, next-distance 30-50, with_state. Weakest of the 3 newly-added setups (fails target-edge and invalidation-edge both) - kept for transparency, not a strong lead.</p>
+    </div>
+    
+    </section>
+
+    <section class="panel">
+      <h2>Current Ranked Map</h2>
+      
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Level</th>
+            <th>Role</th>
+            <th>Label</th>
+            <th>Higher</th>
+            <th>Lower</th>
+          </tr>
+        </thead>
+        <tbody><tr><td>LV1</td><td class='num'>4,350.11</td><td>D1_container</td><td>Caution</td><td></td><td>LV2</td></tr><tr><td>LV2</td><td class='num'>4,305.66</td><td>D1_container</td><td>Caution</td><td>LV1</td><td>LV3</td></tr><tr><td>LV3</td><td class='num'>4,255.75</td><td>H4_D1_confluence</td><td>Caution</td><td>LV2</td><td>LV4</td></tr><tr><td>LV4</td><td class='num'>4,214.34</td><td>H4_D1_confluence</td><td>Caution</td><td>LV3</td><td>LV5</td></tr><tr><td>LV5</td><td class='num'>4,172.92</td><td>H4_D1_confluence</td><td>Caution</td><td>LV4</td><td>LV6</td></tr><tr><td>LV6</td><td class='num'>4,131.50</td><td>H4_D1_confluence</td><td>Caution</td><td>LV5</td><td>LV7</td></tr><tr><td>LV7</td><td class='num'>4,090.09</td><td>H4_D1_confluence</td><td>Caution</td><td>LV6</td><td>LV8</td></tr><tr><td>LV8</td><td class='num'>4,058.40</td><td>H4_local</td><td>Caution</td><td>LV7</td><td>LV9</td></tr><tr><td>LV9</td><td class='num'>4,020.02</td><td>H4_local</td><td>Caution</td><td>LV8</td><td>LV10</td></tr></tbody>
+      </table>
+    </div>
+    
+    </section>
+
+    <section class="panel">
+      <h2>Date Policy</h2>
+      <p class="muted">Runtime level-map dates must be explicit ISO YYYY-MM-DD. No day-first or month-first guessing is used by scanner v1.3. Canonical DMY historical evidence is not parsed by this live dashboard.</p>
+    </section>
+
+    <div class="footer">
+      Created UTC: 2026-07-18T22:46:23Z<br>
+      Latest bar: 2026-07-17 08:00:00<br>
+      Research only. Not a trading signal.
+    </div>
+  </div>
+<!-- PRIMEVIEWFX_RESEARCH_TOOLS_NAV_V1_START -->
+<section id="primeviewfx-research-tools-nav-v1" class="primeviewfx-research-tools-nav-v1" aria-label="PrimeViewFX research tools">
+  <style>
+    .primeviewfx-research-tools-nav-v1 {
+      margin: 24px 0;
+      padding: 22px;
+      border: 1px solid rgba(148, 163, 184, 0.22);
+      border-radius: 18px;
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(30, 41, 59, 0.92));
+      color: #e5e7eb;
+      box-shadow: 0 16px 45px rgba(0, 0, 0, 0.22);
+    }
+    .primeviewfx-research-tools-nav-v1 * { box-sizing: border-box; }
+    .primeviewfx-research-tools-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+      margin-bottom: 16px;
+    }
+    .primeviewfx-research-tools-kicker {
+      display: inline-block;
+      margin-bottom: 6px;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #93c5fd;
+      font-weight: 700;
+    }
+    .primeviewfx-research-tools-nav-v1 h2 {
+      margin: 0;
+      font-size: clamp(20px, 2vw, 28px);
+      line-height: 1.15;
+      color: #f8fafc;
+    }
+    .primeviewfx-research-tools-nav-v1 p {
+      margin: 8px 0 0;
+      color: #cbd5e1;
+      line-height: 1.5;
+    }
+    .primeviewfx-research-tools-disclaimer {
+      display: inline-flex;
+      align-items: center;
+      white-space: nowrap;
+      border: 1px solid rgba(251, 191, 36, 0.32);
+      background: rgba(251, 191, 36, 0.10);
+      color: #fde68a;
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .primeviewfx-research-tools-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .primeviewfx-research-tool-card {
+      border: 1px solid rgba(148, 163, 184, 0.20);
+      border-radius: 14px;
+      padding: 14px;
+      background: rgba(15, 23, 42, 0.72);
+      min-height: 178px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .primeviewfx-research-tool-card--missing { opacity: 0.68; }
+    .primeviewfx-research-tool-card-top,
+    .primeviewfx-research-tool-meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .primeviewfx-research-tool-badge,
+    .primeviewfx-research-tool-status,
+    .primeviewfx-research-tool-meta span {
+      font-size: 11px;
+      border-radius: 999px;
+      padding: 5px 8px;
+      background: rgba(59, 130, 246, 0.12);
+      color: #bfdbfe;
+      border: 1px solid rgba(96, 165, 250, 0.25);
+    }
+    .primeviewfx-research-tool-status {
+      background: rgba(34, 197, 94, 0.12);
+      color: #bbf7d0;
+      border-color: rgba(34, 197, 94, 0.25);
+    }
+    .primeviewfx-research-tool-card h3 {
+      margin: 0;
+      color: #f8fafc;
+      font-size: 16px;
+      line-height: 1.25;
+    }
+    .primeviewfx-research-tool-card p {
+      margin: 0;
+      font-size: 13px;
+      color: #cbd5e1;
+      flex: 1;
+    }
+    .primeviewfx-research-tool-meta span {
+      background: rgba(148, 163, 184, 0.10);
+      color: #cbd5e1;
+      border-color: rgba(148, 163, 184, 0.20);
+    }
+    .primeviewfx-research-tool-link {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      text-decoration: none;
+      border-radius: 10px;
+      padding: 9px 12px;
+      color: #0f172a;
+      background: #93c5fd;
+      font-weight: 800;
+      transition: transform 0.12s ease, filter 0.12s ease;
+    }
+    .primeviewfx-research-tool-link:hover { transform: translateY(-1px); filter: brightness(1.05); }
+    .primeviewfx-research-tool-link--disabled { background: rgba(148, 163, 184, 0.24); color: #cbd5e1; }
+    @media (max-width: 1050px) {
+      .primeviewfx-research-tools-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 640px) {
+      .primeviewfx-research-tools-header { display: block; }
+      .primeviewfx-research-tools-disclaimer { margin-top: 12px; white-space: normal; }
+      .primeviewfx-research-tools-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+  <div class="primeviewfx-research-tools-header">
+    <div>
+      <span class="primeviewfx-research-tools-kicker">PrimeViewFX research tools</span>
+      <h2>Research dashboard shortcuts</h2>
+      <p>Open the live weighted scanner, bearish cascade, bullish cascade, and combined evidence summary from one panel.</p>
+    </div>
+    <span class="primeviewfx-research-tools-disclaimer">Research only. Not a trading signal.</span>
+  </div>
+  <div class="primeviewfx-research-tools-grid">
+
+        <article class="primeviewfx-research-tool-card">
+          <div class="primeviewfx-research-tool-card-top">
+            <span class="primeviewfx-research-tool-badge">Dashboard</span>
+            <span class="primeviewfx-research-tool-status">Available</span>
+          </div>
+          <h3>Members Research</h3>
+          <p>Full daily XAUUSD structure dashboard and live research watchlist.</p>
+          <div class="primeviewfx-research-tool-meta">
+            <span>Daily</span>
+            <span>—</span>
+          </div>
+          <a class="primeviewfx-research-tool-link" href="/member-area">Open</a>
+        </article>
+
+        <article class="primeviewfx-research-tool-card">
+          <div class="primeviewfx-research-tool-card-top">
+            <span class="primeviewfx-research-tool-badge">Live chart</span>
+            <span class="primeviewfx-research-tool-status">Available</span>
+          </div>
+          <h3>Live Weighted-Levels Chart</h3>
+          <p>Adjustable live chart: weighted ladder levels, goldturns, DXY/Silver confluence.</p>
+          <div class="primeviewfx-research-tool-meta">
+            <span>Continuous</span>
+            <span>—</span>
+          </div>
+          <a class="primeviewfx-research-tool-link" href="/member-area/chart">Open</a>
+        </article>
+
+        <article class="primeviewfx-research-tool-card">
+          <div class="primeviewfx-research-tool-card-top">
+            <span class="primeviewfx-research-tool-badge">Live watchlist</span>
+            <span class="primeviewfx-research-tool-status">Available</span>
+          </div>
+          <h3>Weighted Level Scanner</h3>
+          <p>EMA5 cross-lock watchlist and weighted level candidate map.</p>
+          <div class="primeviewfx-research-tool-meta">
+            <span>Operational</span>
+            <span>Data OK</span>
+          </div>
+          <a class="primeviewfx-research-tool-link" href="/member-area/scanner">Open</a>
+        </article>
+
+        <article class="primeviewfx-research-tool-card">
+          <div class="primeviewfx-research-tool-card-top">
+            <span class="primeviewfx-research-tool-badge">Research layer</span>
+            <span class="primeviewfx-research-tool-status">Available</span>
+          </div>
+          <h3>Bearish Cascade</h3>
+          <p>Bearish intraday reaction zones ranked high-to-low.</p>
+          <div class="primeviewfx-research-tool-meta">
+            <span>Robust / primary zones</span>
+            <span>Data OK</span>
+          </div>
+          <a class="primeviewfx-research-tool-link" href="/member-area/bearish-cascade">Open</a>
+        </article>
+
+        <article class="primeviewfx-research-tool-card">
+          <div class="primeviewfx-research-tool-card-top">
+            <span class="primeviewfx-research-tool-badge">Research layer</span>
+            <span class="primeviewfx-research-tool-status">Available</span>
+          </div>
+          <h3>Bullish Cascade</h3>
+          <p>Bullish intraday reaction zones ranked low-to-high.</p>
+          <div class="primeviewfx-research-tool-meta">
+            <span>Promising / sample-limited</span>
+            <span>Data OK</span>
+          </div>
+          <a class="primeviewfx-research-tool-link" href="/member-area/bullish-cascade">Open</a>
+        </article>
+
+        <article class="primeviewfx-research-tool-card">
+          <div class="primeviewfx-research-tool-card-top">
+            <span class="primeviewfx-research-tool-badge">Evidence summary</span>
+            <span class="primeviewfx-research-tool-status">Available</span>
+          </div>
+          <h3>Combined Cascade Research Summary</h3>
+          <p>Side-by-side confidence flags for bearish and bullish cascade layers.</p>
+          <div class="primeviewfx-research-tool-meta">
+            <span>ROBUST:2 / PROMISING:2</span>
+            <span>Data OK</span>
+          </div>
+          <a class="primeviewfx-research-tool-link" href="/member-area/cascade-summary">Open</a>
+        </article>
+
+        <article class="primeviewfx-research-tool-card">
+          <div class="primeviewfx-research-tool-card-top">
+            <span class="primeviewfx-research-tool-badge">Priority zones</span>
+            <span class="primeviewfx-research-tool-status">Available</span>
+          </div>
+          <h3>Integrated Carry + Structure Map</h3>
+          <p>Carry ladder + H4/D1 structural overlap priority zones.</p>
+          <div class="primeviewfx-research-tool-meta">
+            <span>Daily</span>
+            <span>Data OK</span>
+          </div>
+          <a class="primeviewfx-research-tool-link" href="/member-area/map">Open</a>
+        </article>
+
+        <article class="primeviewfx-research-tool-card">
+          <div class="primeviewfx-research-tool-card-top">
+            <span class="primeviewfx-research-tool-badge">Indicators</span>
+            <span class="primeviewfx-research-tool-status">Available</span>
+          </div>
+          <h3>MT5 / TradingView Indicators</h3>
+          <p>Directional Box indicator access - download links are emailed to active subscribers.</p>
+          <div class="primeviewfx-research-tool-meta">
+            <span>Available</span>
+            <span>—</span>
+          </div>
+          <a class="primeviewfx-research-tool-link" href="members-indicators.html">Open</a>
+        </article>
+  </div>
+</section>
+<!-- PRIMEVIEWFX_RESEARCH_TOOLS_NAV_V1_END -->
+</body>
+</html>

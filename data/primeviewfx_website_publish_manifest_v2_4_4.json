@@ -1,6 +1,6 @@
 {
   "version": "v2.4.4",
-  "created_utc": "2026-07-18T12:05:12.596721+00:00",
+  "created_utc": "2026-07-18T22:47:00.581706+00:00",
   "dry_run": false,
   "governance": "Website publish integration. Inserts research-only dashboard card and risk footer. No buy/sell/entry/TP/SL wording.",
   "inputs": {
@@ -18,7 +18,8 @@
     "summary_csv_static": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_website_trigger_gate_summary_v2_4_3.csv",
     "latest_state_static": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_weekly_play_ema5_channel_latest_state_v2_4.csv",
     "risk_page": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\risk-methodology-limitations.html",
-    "founder_beta_page": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\founder-beta.html"
+    "founder_beta_page": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\founder-beta.html",
+    "members_research_page": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-research-a8502a7b66e839df.html"
   },
   "markers": {
     "card_start": "<!-- PRIMEVIEWFX_WEBSITE_GATE_CARD_START -->",
