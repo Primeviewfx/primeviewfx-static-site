@@ -3,5 +3,10 @@
 # fetches these exact files via the env.ASSETS binding - an internal fetch
 # that bypasses this file. These rules block the underlying filenames from
 # being served directly to anyone hitting the raw URL.
-/members-research.html          /founder-beta.html   403
-/members-weekly-goldturns.html  /founder-beta.html   403
+#
+# Requests for the .html form get Cloudflare's automatic clean-URL 308 to
+# the extensionless form BEFORE these rules are evaluated, so the rule has
+# to target the extensionless path - blocking the .html form directly does
+# nothing, the redirect happens first regardless.
+/members-research           /founder-beta.html   403
+/members-weekly-goldturns   /founder-beta.html   403
