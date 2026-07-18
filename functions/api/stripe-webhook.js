@@ -24,7 +24,7 @@ function downloadUrls(origin) {
 }
 
 function membersUrl(origin, token) {
-  return `${origin}/members?token=${token}`;
+  return `${origin}/member-area?token=${token}`;
 }
 
 async function handleCheckoutCompleted(event, env, origin) {
