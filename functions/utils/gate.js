@@ -73,3 +73,7 @@ export async function serveGatedAsset(context, assetPath, gateResult) {
 
   return new Response(assetResponse.body, { status: 200, headers });
 }
+
+// no-op touch to force a fresh Cloudflare Pages deployment (2026-07-19) -
+// confirming ADMIN_TOKEN is actually read at request time by a genuinely
+// new build, not a retried/cached one.
