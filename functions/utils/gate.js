@@ -77,3 +77,5 @@ export async function serveGatedAsset(context, assetPath, gateResult) {
 // no-op touch to force a fresh Cloudflare Pages deployment (2026-07-19) -
 // confirming ADMIN_TOKEN is actually read at request time by a genuinely
 // new build, not a retried/cached one.
+// second touch (2026-07-19) - after re-setting ADMIN_TOKEN fresh to rule
+// out a stray-whitespace paste issue in the original value.
