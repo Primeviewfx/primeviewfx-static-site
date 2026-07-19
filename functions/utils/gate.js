@@ -19,6 +19,12 @@ function readCookie(request, name) {
 // active subscriber token (via ?token= or the pvfx_token cookie), otherwise
 // { ok: false }. `setCookie` is true only when the token came from the URL
 // (a fresh click-through) - that's the one case the caller should Set-Cookie.
+//
+// env.ADMIN_TOKEN (a Cloudflare Pages secret, set via `wrangler pages secret
+// put ADMIN_TOKEN`) is checked first as a standing bypass for the site
+// owner - lets them reach any gated page without needing an active
+// subscription or a fabricated KV record. Skipped entirely if the secret
+// isn't configured.
 export async function checkGate(request, env) {
   const url = new URL(request.url);
   const tokenFromUrl = url.searchParams.get("token");
@@ -26,6 +32,10 @@ export async function checkGate(request, env) {
   const token = tokenFromUrl || tokenFromCookie;
 
   if (!token) return { ok: false };
+
+  if (env.ADMIN_TOKEN && token === env.ADMIN_TOKEN) {
+    return { ok: true, token, setCookie: Boolean(tokenFromUrl) };
+  }
 
   const record = await getSubscriberByToken(env.PVFX_TOKENS, token);
   if (!record || record.status !== "active") return { ok: false };
