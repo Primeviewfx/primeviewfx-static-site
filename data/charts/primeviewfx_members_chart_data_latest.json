@@ -1,16 +1,9 @@
 {
   "version": "v2.5.3.9",
-  "generated_utc": "2026-07-21T15:05:31.116982+00:00",
-  "latest_close": 4067.42,
-  "latest_ema5": 4062.9171768645983,
+  "generated_utc": "2026-07-21T16:05:31.215639+00:00",
+  "latest_close": 4077.47,
+  "latest_ema5": 4069.288117909732,
   "candles": [
-    {
-      "time": 1784174400,
-      "open": 4044.71,
-      "high": 4050.57,
-      "low": 4033.84,
-      "close": 4039.08
-    },
     {
       "time": 1784178000,
       "open": 4039.08,
@@ -588,16 +581,19 @@
     {
       "time": 1784656800,
       "open": 4068.45,
-      "high": 4071.0,
-      "low": 4067.42,
-      "close": 4067.42
+      "high": 4083.36,
+      "low": 4065.48,
+      "close": 4074.26
+    },
+    {
+      "time": 1784660400,
+      "open": 4074.24,
+      "high": 4077.99,
+      "low": 4073.57,
+      "close": 4077.47
     }
   ],
   "ema5": [
-    {
-      "time": 1784174400,
-      "value": 4048.650787797643
-    },
     {
       "time": 1784178000,
       "value": 4042.9505251984287
@@ -928,7 +924,11 @@
     },
     {
       "time": 1784656800,
-      "value": 4062.9171768645983
+      "value": 4065.197176864598
+    },
+    {
+      "time": 1784660400,
+      "value": 4069.288117909732
     }
   ],
   "levels": [
@@ -999,15 +999,15 @@
   },
   "confluence": {
     "dxy": {
-      "latest": 101.12479986647232,
-      "change_pct": 0.1331373539575805,
+      "latest": 101.09274121653957,
+      "change_pct": 0.09805230324793997,
       "direction": "rising",
       "symbol": "DXY",
       "note": "Typically a headwind for gold"
     },
     "xagusd": {
-      "latest": 58.849,
-      "change_pct": 3.676755575913457,
+      "latest": 59.083,
+      "change_pct": 4.112847803485517,
       "direction": "rising",
       "symbol": "XAGUSD",
       "note": "Metals moving together with gold"
