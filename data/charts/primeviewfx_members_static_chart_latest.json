@@ -1,11 +1,11 @@
 {
   "version": "v2.5.3.9",
-  "created_utc": "2026-07-18T22:46:39.807737+00:00",
+  "created_utc": "2026-07-21T14:13:01.145030+00:00",
   "data_dir": "C:\\Trading\\Data",
   "static_site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
   "outputs": {
     "latest_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.png",
-    "archive_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\archive\\primeviewfx_members_static_chart_20260718_224639.png",
+    "archive_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\archive\\primeviewfx_members_static_chart_20260721_141301.png",
     "metadata_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
     "manifest_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\members_visual_chart\\primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
     "report_txt": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\members_visual_chart\\primeviewfx_members_visual_chart_report_v2_5_3_9.txt",
@@ -49,32 +49,38 @@
     "weekly_bias": "BULLISH",
     "ath_state": "NOT_AT_ALL_TIME_HIGH",
     "channel_zone": "UPPER_HALF",
-    "latest_close": 4018.17,
-    "latest_ema5": 4013.3837716199023
+    "latest_close": 4057.05,
+    "latest_ema5": 4056.865765296897
   },
   "state_sources": {
-    "weekly_play_state": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\WeeklyPlayChannelState\\primeviewfx_weekly_play_ema5_channel_latest_state_v2_4.json",
-    "weekly_bias": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\WeeklyPlayChannelState\\primeviewfx_weekly_play_ema5_channel_latest_state_v2_4.json",
-    "ath_state": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\WeeklyPlayChannelState\\primeviewfx_weekly_play_ema5_channel_latest_state_v2_4.json",
-    "channel_zone": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\WeeklyPlayChannelState\\primeviewfx_weekly_play_ema5_channel_latest_state_v2_4.json"
+    "weekly_play_state": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
+    "weekly_bias": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
+    "ath_state": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
+    "channel_zone": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json"
   },
   "weekly_goldturns": {
     "found": true,
     "method": "weekly_freeze_from_prior_ema5_turns",
-    "week_start": "2026-07-13",
-    "created_utc": "2026-07-18T22:46:40.494655+00:00",
+    "week_start": "2026-07-20",
+    "created_utc": "2026-07-21T06:05:28.654879+00:00",
     "refresh_rule": "Generated once per new week; hourly chart reads latest weekly file.",
     "levels": [
       {
-        "time": "2026-06-30 09:00",
-        "level": 3996.750418305084,
-        "turn_type": "support_turn",
+        "time": "2026-07-17 15:00",
+        "level": 3984.263654680366,
+        "turn_type": "resistance_turn",
         "source": "EMA5_slope_reversal"
       },
       {
-        "time": "2026-07-08 19:00",
-        "level": 4055.729828921044,
-        "turn_type": "support_turn",
+        "time": "2026-07-16 15:00",
+        "level": 4020.145972290864,
+        "turn_type": "resistance_turn",
+        "source": "EMA5_slope_reversal"
+      },
+      {
+        "time": "2026-07-14 19:00",
+        "level": 4063.679023227509,
+        "turn_type": "resistance_turn",
         "source": "EMA5_slope_reversal"
       },
       {
@@ -84,8 +90,8 @@
         "source": "EMA5_slope_reversal"
       },
       {
-        "time": "2026-07-06 10:00",
-        "level": 4160.402592911286,
+        "time": "2026-07-06 13:00",
+        "level": 4153.303360862604,
         "turn_type": "support_turn",
         "source": "EMA5_slope_reversal"
       },
@@ -96,9 +102,15 @@
         "source": "EMA5_slope_reversal"
       },
       {
-        "time": "2026-06-17 21:00",
-        "level": 4335.42711590196,
+        "time": "2026-06-18 08:00",
+        "level": 4310.02351820833,
         "turn_type": "resistance_turn",
+        "source": "EMA5_slope_reversal"
+      },
+      {
+        "time": "2026-06-16 15:00",
+        "level": 4345.5892946034655,
+        "turn_type": "support_turn",
         "source": "EMA5_slope_reversal"
       },
       {
@@ -121,8 +133,8 @@
       }
     ]
   },
-  "latest_close": 4018.17,
-  "latest_ema5": 4013.3837716199023,
+  "latest_close": 4057.05,
+  "latest_ema5": 4056.865765296897,
   "bars_rendered": 84,
   "level_count": 15
 }

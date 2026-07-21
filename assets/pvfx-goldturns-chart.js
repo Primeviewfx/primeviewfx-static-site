@@ -1,7 +1,11 @@
 (function () {
   'use strict';
 
-  var DATA_URL = './data/charts/primeviewfx_members_chart_data_latest.json';
+  // Absolute path - this page is served through /member-area/chart (a
+  // Function proxying the real file), so a relative path would resolve
+  // against the wrong URL and 404 silently, leaving the chart stuck on
+  // "Connecting to live data..." forever.
+  var DATA_URL = '/data/charts/primeviewfx_members_chart_data_latest.json';
   var POLL_MS = 45000;
 
   var COLORS = {

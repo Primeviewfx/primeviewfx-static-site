@@ -1,6 +1,6 @@
 {
   "version": "v2.4.4",
-  "created_utc": "2026-07-18T22:47:00.581706+00:00",
+  "created_utc": "2026-07-21T14:13:20.321131+00:00",
   "dry_run": false,
   "governance": "Website publish integration. Inserts research-only dashboard card and risk footer. No buy/sell/entry/TP/SL wording.",
   "inputs": {
