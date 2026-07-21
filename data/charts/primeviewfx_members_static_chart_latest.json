@@ -1,11 +1,11 @@
 {
   "version": "v2.5.3.9",
-  "created_utc": "2026-07-21T16:05:29.772052+00:00",
+  "created_utc": "2026-07-21T19:23:59.500640+00:00",
   "data_dir": "C:\\Trading\\Data",
   "static_site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
   "outputs": {
     "latest_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.png",
-    "archive_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\archive\\primeviewfx_members_static_chart_20260721_160529.png",
+    "archive_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\archive\\primeviewfx_members_static_chart_20260721_192359.png",
     "metadata_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
     "manifest_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\members_visual_chart\\primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
     "report_txt": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\members_visual_chart\\primeviewfx_members_visual_chart_report_v2_5_3_9.txt",
@@ -49,20 +49,20 @@
     "weekly_bias": "BULLISH",
     "ath_state": "NOT_AT_ALL_TIME_HIGH",
     "channel_zone": "UPPER_HALF",
-    "latest_close": 4077.47,
-    "latest_ema5": 4069.288117909732
+    "latest_close": 4084.03,
+    "latest_ema5": 4076.434874442391
   },
   "state_sources": {
-    "weekly_play_state": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
-    "weekly_bias": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
-    "ath_state": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
-    "channel_zone": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json"
+    "weekly_play_state": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\WeeklyPlayChannelState\\primeviewfx_weekly_play_ema5_channel_latest_state_v2_4.json",
+    "weekly_bias": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\WeeklyPlayChannelState\\primeviewfx_weekly_play_ema5_channel_latest_state_v2_4.json",
+    "ath_state": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\WeeklyPlayChannelState\\primeviewfx_weekly_play_ema5_channel_latest_state_v2_4.json",
+    "channel_zone": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\WeeklyPlayChannelState\\primeviewfx_weekly_play_ema5_channel_latest_state_v2_4.json"
   },
   "weekly_goldturns": {
     "found": true,
     "method": "weekly_freeze_from_prior_ema5_turns",
     "week_start": "2026-07-20",
-    "created_utc": "2026-07-21T06:05:28.654879+00:00",
+    "created_utc": "2026-07-21T19:24:00.276228+00:00",
     "refresh_rule": "Generated once per new week; hourly chart reads latest weekly file.",
     "levels": [
       {
@@ -133,8 +133,8 @@
       }
     ]
   },
-  "latest_close": 4077.47,
-  "latest_ema5": 4069.288117909732,
+  "latest_close": 4084.03,
+  "latest_ema5": 4076.434874442391,
   "bars_rendered": 84,
   "level_count": 15
 }
