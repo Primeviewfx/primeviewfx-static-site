@@ -26,10 +26,6 @@
   }
 
   var chart = null, candleSeries = null, emaSeries = null, priceLines = [], levelLines = [];
-  var currentGoldturnLevels = []; // read by the autoscale provider below — kept in
-  // sync by renderGoldturns so the price scale always stretches to fit every
-  // turn, not just whichever ones happen to fall inside the visible candles.
-  var currentLadderLevels = []; // same idea, for the weighted ladder (data.levels)
 
   function ensureChart(container) {
     if (chart) return chart;
@@ -41,23 +37,14 @@
       rightPriceScale: { borderColor: '#2a3d56' },
       crosshair: { mode: LightweightCharts.CrosshairMode.Normal }
     });
+    // No custom autoscaleInfoProvider here (deliberately removed) - the price
+    // scale now fits tightly to the visible candles/EMA5 by default instead
+    // of stretching to cover every goldturn + ladder level, which squished
+    // the actual price action into a thin band at the bottom of the chart.
+    // Price lines for distant levels still draw; zoom/scroll out to see them.
     candleSeries = chart.addSeries(LightweightCharts.CandlestickSeries, {
       upColor: COLORS.up, downColor: COLORS.down, borderVisible: false,
-      wickUpColor: COLORS.wick, wickDownColor: COLORS.wick,
-      autoscaleInfoProvider: function (original) {
-        var res = original();
-        var extra = currentGoldturnLevels.concat(currentLadderLevels);
-        if (res === null || !extra.length) return res;
-        var minValue = res.priceRange.minValue;
-        var maxValue = res.priceRange.maxValue;
-        extra.forEach(function (lvl) {
-          if (lvl < minValue) minValue = lvl;
-          if (lvl > maxValue) maxValue = lvl;
-        });
-        res.priceRange.minValue = minValue;
-        res.priceRange.maxValue = maxValue;
-        return res;
-      }
+      wickUpColor: COLORS.wick, wickDownColor: COLORS.wick
     });
     emaSeries = chart.addSeries(LightweightCharts.LineSeries, {
       color: COLORS.ema, lineWidth: 2, priceLineVisible: false, lastValueVisible: false
@@ -68,7 +55,6 @@
   function renderGoldturns(goldturns) {
     priceLines.forEach(function (pl) { candleSeries.removePriceLine(pl); });
     priceLines = [];
-    currentGoldturnLevels = (goldturns || []).map(function (g) { return g.level; });
     (goldturns || []).forEach(function (g) {
       var touched = !!g.touched;
       priceLines.push(candleSeries.createPriceLine({
@@ -85,7 +71,6 @@
   function renderLevels(levels) {
     levelLines.forEach(function (pl) { candleSeries.removePriceLine(pl); });
     levelLines = [];
-    currentLadderLevels = (levels || []).map(function (l) { return l.price; });
     (levels || []).forEach(function (l) {
       levelLines.push(candleSeries.createPriceLine({
         price: l.price,
@@ -161,10 +146,6 @@
       .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function (data) {
         ensureChart(chartEl);
-        // Levels set before setData() so the autoscale provider sees them on
-        // the very first autoscale pass, not one render behind.
-        currentGoldturnLevels = (data.goldturns || []).map(function (g) { return g.level; });
-        currentLadderLevels = (data.levels || []).map(function (l) { return l.price; });
         candleSeries.setData(data.candles);
         emaSeries.setData(data.ema5);
         renderGoldturns(data.goldturns);
