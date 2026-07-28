@@ -1,0 +1,133 @@
+PrimeViewFX Green/Red Box Alignment Tester v1.7
+============================================
+created_utc:             2026-07-02T11:39:40Z
+overall_status:          PASSED
+manifest_forecast_date:  2026-07-02
+alignment_interpretation:BOX_ALIGNMENT_PROMISING
+tested_level_count:      1836
+tested_date_count:       192
+box_count:               4
+box_padding_points:      30.0
+tolerance_points:        3.0
+median_abs_distance:     2.675
+mean_abs_distance:       5.845849
+pct_within_1:            23.91
+pct_within_2:            41.56
+pct_within_3:            54.58
+pct_within_5:            73.91
+pct_within_10:           94.06
+blocking_count:          0
+warning_count:           2
+
+TOP ANCHOR FAMILIES
+-------------------
+green_box_quarter: count=376; median_abs=2.8775; within3=51.33%; within5=73.67%
+red_box_quarter: count=346; median_abs=2.9987500000000002; within3=50.0%; within5=72.54%
+prior_range_fraction: count=253; median_abs=1.37884; within3=78.26%; within5=90.51%
+green_box_edge: count=188; median_abs=4.3675; within3=34.04%; within5=57.98%
+red_box_edge: count=183; median_abs=4.08; within3=42.62%; within5=57.92%
+prior_hlc: count=171; median_abs=1.97; within3=70.18%; within5=87.72%
+green_box_midline: count=163; median_abs=2.75; within3=53.99%; within5=74.23%
+red_box_midline: count=156; median_abs=2.6475; within3=56.41%; within5=73.08%
+
+TOP FORMULA CANDIDATES
+----------------------
+prior_hlc::previous_pivot_hlc3 | rows=27 | dates=27 | median=0.893333 | within3=92.592593% | within5=100.0% | score=92.133334
+green_box_quarter::green_box_1_25pct | rows=35 | dates=35 | median=1.34375 | within3=88.571429% | within5=100.0% | score=89.997768
+prior_range_fraction::prev_range_0.333333 | rows=24 | dates=24 | median=0.943415 | within3=91.666667% | within5=91.666667% | score=89.208129
+prior_hlc::previous_mid | rows=29 | dates=29 | median=1.125 | within3=86.206897% | within5=96.551724% | score=88.018534
+prior_range_fraction::prev_range_0.875 | rows=40 | dates=39 | median=1.340625 | within3=85.0% | within5=95.0% | score=87.548438
+green_box_edge::green_edge_1 | rows=20 | dates=20 | median=0.335 | within3=85.0% | within5=90.0% | score=86.9125
+red_box_edge::red_edge_1 | rows=28 | dates=28 | median=1.2125 | within3=85.714286% | within5=92.857143% | score=86.554464
+red_box_midline::red_mid_1 | rows=27 | dates=27 | median=1.4325 | within3=85.185185% | within5=96.296296% | score=86.526157
+green_box_quarter::green_box_2_25pct | rows=31 | dates=31 | median=0.73375 | within3=80.645161% | within5=93.548387% | score=85.943044
+red_box_quarter::red_box_2_25pct | rows=35 | dates=35 | median=0.98375 | within3=80.0% | within5=94.285714% | score=85.612054
+prior_range_fraction::prev_range_0.382 | rows=35 | dates=35 | median=1.43848 | within3=80.0% | within5=97.142857% | score=85.189514
+prior_range_fraction | rows=253 | dates=150 | median=1.37884 | within3=78.26087% | within5=90.513834% | score=84.39875
+prior_hlc::previous_close | rows=24 | dates=24 | median=1.53 | within3=79.166667% | within5=95.833333% | score=83.158333
+prior_range_fraction::prev_range_0.666667 | rows=26 | dates=26 | median=1.180014 | within3=76.923077% | within5=88.461538% | score=81.380733
+prior_range_fraction::prev_range_0.75 | rows=39 | dates=39 | median=1.6825 | within3=76.923077% | within5=87.179487% | score=81.104006
+green_box_quarter::green_box_1_75pct | rows=39 | dates=39 | median=1.4375 | within3=69.230769% | within5=97.435897% | score=80.819071
+red_box_quarter::red_box_1_25pct | rows=27 | dates=27 | median=1.2775 | within3=77.777778% | within5=85.185185% | score=80.802546
+green_box_midline::green_mid_1 | rows=22 | dates=22 | median=1.1975 | within3=72.727273% | within5=95.454545% | score=80.797159
+prior_range_fraction::prev_range_0.125 | rows=37 | dates=37 | median=1.06625 | within3=72.972973% | within5=86.486486% | score=80.493834
+prior_range_fraction::prev_range_0.618 | rows=24 | dates=24 | median=1.79946 | within3=70.833333% | within5=95.833333% | score=78.734683
+
+FORMULA FINGERPRINT V1.5
+------------------------
+top_candidate: L4 -> green_box_edge::green_edge_1 | type=level_name_anchor | rows=6 | dates=6 | median=0.14 | within3=100.0% | score=95.25
+reconstruction: count=1836 | dates=192 | median_abs_error=43.231667 | within3=5.12% | within5=7.41%
+date_outlier_count: 10
+row_outlier_count: 42
+
+SEQUENCE CLASSIFIER V1.5
+------------------------
+template_interpretation: SEQUENCE_TEMPLATES_FOUND
+daily_sequence_count: 192
+sequence_template_count: 31
+focus_l4_l7_template_count: 29
+T_focus_l4_l7_anchor_exact_6381f5b5 | scope=focus_l4_l7_anchor_exact | type=BOX_INTERNAL_TEMPLATE | dates=2 | median_day_abs=1.0975 | avg_within3=87.5% | score=83.40625
+T_focus_l4_l7_family_0c7c5c55 | scope=focus_l4_l7_family | type=BOX_INTERNAL_TEMPLATE | dates=2 | median_day_abs=1.0975 | avg_within3=87.5% | score=83.40625
+T_focus_l4_l7_family_cfc6cc7e | scope=focus_l4_l7_family | type=BOX_INTERNAL_TEMPLATE | dates=2 | median_day_abs=1.379063 | avg_within3=83.333334% | score=79.674566
+T_focus_l4_l7_family_5ca12015 | scope=focus_l4_l7_family | type=BOX_INTERNAL_TEMPLATE | dates=2 | median_day_abs=1.525625 | avg_within3=77.5% | score=76.985938
+T_focus_l4_l7_family_bb6272e7 | scope=focus_l4_l7_family | type=BOX_INTERNAL_TEMPLATE | dates=2 | median_day_abs=2.091771 | avg_within3=77.777778% | score=76.837239
+T_focus_l4_l7_anchor_exact_ba8b48bd | scope=focus_l4_l7_anchor_exact | type=BOX_INTERNAL_TEMPLATE | dates=2 | median_day_abs=1.21375 | avg_within3=73.214286% | score=75.472768
+T_focus_l4_l7_family_d82fb88c | scope=focus_l4_l7_family | type=BOX_INTERNAL_TEMPLATE | dates=2 | median_day_abs=1.21375 | avg_within3=73.214286% | score=75.472768
+T_focus_l4_l7_anchor_exact_10f7130a | scope=focus_l4_l7_anchor_exact | type=BOX_INTERNAL_TEMPLATE | dates=2 | median_day_abs=1.63125 | avg_within3=68.888889% | score=72.977431
+T_focus_l4_l7_family_d483f861 | scope=focus_l4_l7_family | type=BOX_INTERNAL_TEMPLATE | dates=2 | median_day_abs=1.63125 | avg_within3=68.888889% | score=72.977431
+T_focus_l4_l7_family_8e5a6478 | scope=focus_l4_l7_family | type=BOX_INTERNAL_TEMPLATE | dates=2 | median_day_abs=2.415 | avg_within3=62.5% | score=68.175
+
+LATEST DATE
+-----------
+level_date: 2026-06-30
+level_count: 9
+median_abs_distance: 3.91875
+mean_abs_distance: 3.412361
+pct_within_1: 22.22
+pct_within_2: 22.22
+pct_within_3: 33.33
+pct_within_5: 77.78
+pct_within_10: 100.0
+
+LATEST LEVEL MATCHES
+--------------------
+4,169.40 -> green_box_edge::green_edge_3 @ 4,175.05; abs=5.645; signed=-5.645
+4,137.32 -> green_box_quarter::green_box_3_25pct @ 4,131.17; abs=6.154; signed=6.154
+4,101.68 -> green_box_quarter::green_box_2_75pct @ 4,101.91; abs=0.234; signed=-0.234
+4,071.63 -> red_box_quarter::red_box_1_25pct @ 4,071.91; abs=0.284; signed=-0.284
+4,039.56 -> red_box_quarter::red_box_1_75pct @ 4,042.66; abs=3.101; signed=-3.101
+4,005.44 -> prior_range_fraction::prev_range_0.125 @ 4,010.41; abs=4.966; signed=-4.966
+3,967.25 -> red_box_edge::red_edge_2 @ 3,969.53; abs=2.280; signed=-2.280
+3,929.57 -> red_box_quarter::red_box_3_75pct @ 3,925.65; abs=3.919; signed=3.919
+3,892.27 -> red_box_quarter::red_box_4_25pct @ 3,896.40; abs=4.129; signed=-4.129
+
+FINDINGS
+--------
+[PASS] inputs::data_dir_exists
+  path:     C:\Trading\Data
+[PASS] inputs::static_site_dir_exists
+  path:     C:\Trading\Publish\PrimeViewFX_Static_Site
+[PASS] contract::manifest_forecast_date_detected
+  path:     C:\Trading\Publish\PrimeViewFX_Static_Site\publish_manifest.json
+[PASS] inputs::published_levels_loaded
+  detail:   rows=1843; dates=193; date_col=date; date_range=2025-02-18->2026-06-30; price_range=400.59->5658.75; level_col=level_price
+  path:     C:\Trading\Data\published_levels.csv
+[WARNING] inputs::published_level_price_scale_review
+  detail:   Published level price scale looks low for XAUUSD: 400.59->5658.75. Check that a price column, not level_name, was selected.
+  path:     C:\Trading\Data\published_levels.csv
+[PASS] inputs::ohlc_source_located
+  detail:   source_type=daily
+  path:     C:\Trading\Data\XAUUSD_D1.csv
+[PASS] inputs::ohlc_loaded
+  detail:   daily_rows=300; date_range=2025-05-06->2026-07-02; price_range=3120.57->5598.38; source=loaded from XAUUSD_D1.csv
+  path:     C:\Trading\Data\XAUUSD_D1.csv
+[WARNING] alignment::dates_without_prior_ohlc
+  detail:   skipped_dates=1
+[PASS] alignment::matches_created
+  detail:   matches=1836; dates=192
+[PASS] breakdowns::v1_7_breakdowns_created
+  detail:   tables=37
+[PASS] interpretation::alignment_strength
+  detail:   BOX_ALIGNMENT_PROMISING
+
+Research only. Not a trading signal.

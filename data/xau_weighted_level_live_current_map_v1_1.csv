@@ -1,0 +1,15 @@
+level_price,level_date,level_role,level_rank,level_label,source_row,final_rank,rank_bucket,next_higher_rank,next_lower_rank
+4228.604885,2026-06-26,D1_container,,Caution,13,1.0,LV1,,LV2
+4151.724196,2026-06-26,D1_container,,Caution,12,2.0,LV2,LV1,LV3
+4074.843508,2026-06-26,D1_container,,Caution,11,3.0,LV3,LV2,LV4
+4015.572137,2026-06-26,H4_local,,Caution,10,4.0,LV4,LV3,LV5
+3997.96282,2026-06-26,D1_container,,Caution,9,5.0,LV5,LV4,LV6
+3977.245898,2026-06-26,H4_local,,Caution,8,6.0,LV6,LV5,LV7
+3938.919658,2026-06-26,H4_local,,Caution,7,7.0,LV7,LV6,LV8
+3921.082131,2026-06-26,D1_container,,Caution,6,8.0,LV8,LV7,LV9
+3900.593418,2026-06-26,H4_local,,Caution,5,9.0,LV9,LV8,LV10
+3862.267179,2026-06-26,H4_local,,Caution,4,10.0,LV10,LV9,LV11
+3844.201443,2026-06-26,D1_container,,Caution,3,11.0,LV11,LV10,LV12
+3823.940939,2026-06-26,H4_local,,Caution,2,12.0,LV12,LV11,LV13
+3785.614699,2026-06-26,H4_local,,Caution,1,13.0,LV13,LV12,LV14
+3767.320755,2026-06-26,D1_container,,Caution,0,14.0,LV14,LV13,LV15

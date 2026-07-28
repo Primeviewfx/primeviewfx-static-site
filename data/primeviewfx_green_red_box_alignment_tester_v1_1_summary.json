@@ -1,0 +1,156 @@
+{
+  "tool": "PrimeViewFX Green/Red Box Alignment Tester",
+  "version": "v1.1",
+  "created_utc": "2026-07-01T21:07:22Z",
+  "overall_status": "PASSED",
+  "manifest_forecast_date": "2026-07-01",
+  "blocking_count": 0,
+  "warning_count": 1,
+  "finding_count": 9,
+  "pass_count": 7,
+  "info_count": 1,
+  "status_counts": {
+    "PASS": 7,
+    "WARNING": 1,
+    "INFO": 1
+  },
+  "input_paths": {
+    "data_dir": "C:\\Trading\\Data",
+    "published_levels_csv": "C:\\Trading\\Data\\published_levels.csv",
+    "ohlc_source": "C:\\Trading\\Data\\XAUUSD_D1.csv",
+    "static_site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
+    "latest_dir": "C:\\Trading\\Publish\\PrimeViewFX_Latest",
+    "local_dir": "C:\\Trading\\Data\\GreenRedBoxAlignment"
+  },
+  "alignment_stats": {
+    "alignment_interpretation": "WEAK_ALIGNMENT",
+    "tested_level_count": 1827,
+    "tested_date_count": 192,
+    "anchor_count": 9216,
+    "box_count": 4,
+    "box_padding_points": 30.0,
+    "alignment_tolerance_points": 3.0,
+    "median_abs_distance_points": 4267.08,
+    "mean_abs_distance_points": 4255.467783,
+    "pct_within_1": 0.0,
+    "pct_within_2": 0.0,
+    "pct_within_3": 0.0,
+    "pct_within_5": 0.0,
+    "pct_within_10": 0.0,
+    "top_anchor_families": [
+      {
+        "best_anchor_family": "red_box_edge",
+        "level_count": 1827,
+        "median_abs_distance": 4267.08,
+        "pct_within_3": 0.0,
+        "pct_within_5": 0.0
+      }
+    ],
+    "latest_date_stats": {
+      "level_date": "2026-06-30",
+      "level_count": 9,
+      "median_abs_distance": 3847.52,
+      "mean_abs_distance": 3847.52,
+      "pct_within_1": 0.0,
+      "pct_within_2": 0.0,
+      "pct_within_3": 0.0,
+      "pct_within_5": 0.0,
+      "pct_within_10": 0.0
+    }
+  },
+  "findings": [
+    {
+      "component": "inputs",
+      "name": "data_dir_exists",
+      "status": "PASS",
+      "detail": "",
+      "path": "C:\\Trading\\Data",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "inputs",
+      "name": "static_site_dir_exists",
+      "status": "PASS",
+      "detail": "",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "contract",
+      "name": "manifest_forecast_date_detected",
+      "status": "PASS",
+      "detail": "",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\publish_manifest.json",
+      "expected": null,
+      "actual": "2026-07-01",
+      "blocking": false
+    },
+    {
+      "component": "inputs",
+      "name": "published_levels_loaded",
+      "status": "PASS",
+      "detail": "rows=1834; dates=193; date_col=date; date_range=2025-02-18->2026-06-30; price_range=1.0->16.0",
+      "path": "C:\\Trading\\Data\\published_levels.csv",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "inputs",
+      "name": "ohlc_source_located",
+      "status": "PASS",
+      "detail": "source_type=daily",
+      "path": "C:\\Trading\\Data\\XAUUSD_D1.csv",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "inputs",
+      "name": "ohlc_loaded",
+      "status": "PASS",
+      "detail": "daily_rows=300; date_range=2025-05-05->2026-07-01; price_range=3120.57->5598.38; source=loaded from XAUUSD_D1.csv",
+      "path": "C:\\Trading\\Data\\XAUUSD_D1.csv",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "alignment",
+      "name": "dates_without_prior_ohlc",
+      "status": "WARNING",
+      "detail": "skipped_dates=1",
+      "path": null,
+      "expected": null,
+      "actual": [
+        "2025-02-18"
+      ],
+      "blocking": false
+    },
+    {
+      "component": "alignment",
+      "name": "matches_created",
+      "status": "PASS",
+      "detail": "matches=1827; dates=192",
+      "path": null,
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "interpretation",
+      "name": "alignment_strength",
+      "status": "INFO",
+      "detail": "WEAK_ALIGNMENT; this is a research result, not a pipeline failure",
+      "path": null,
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    }
+  ],
+  "disclaimer": "Research only. Not a trading signal."
+}

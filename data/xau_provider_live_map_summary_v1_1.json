@@ -1,0 +1,17 @@
+{
+  "forecast_date": "2026-07-20",
+  "zone_count": 8,
+  "provider_events_considered": 0,
+  "provider_match_tolerance": 10.0,
+  "provider_tagged_zone_count": 0,
+  "provider_high_grade_zone_count": 0,
+  "provider_grade_counts": {},
+  "provider_role_counts": {},
+  "provider_confirmation_class_counts": {},
+  "provider_live_label": "No provider confirmation",
+  "provider_live_warning": "No A/B/C provider-state events matched the current live map zones within tolerance.",
+  "map_confidence_label": "",
+  "map_confidence_warning": "",
+  "state_quality_gate": "",
+  "state_range_ratio": null
+}

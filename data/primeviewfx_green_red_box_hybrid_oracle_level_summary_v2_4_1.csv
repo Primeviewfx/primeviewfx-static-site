@@ -1,0 +1,5 @@
+level_name,row_count,oracle_pct_within_3,oracle_pct_within_5,router_pct_within_3,router_pct_within_5,oracle_median_abs_error,router_median_abs_error,median_router_minus_oracle_gap,router_missed_available_within_5_pct,mode_selection_failure_pct,candidate_ranking_failure_pct,candidate_generation_failure_pct
+L4,190.0,14.210526,29.473684,6.842105,13.157895,10.27812,18.188738,0.0,16.315789,3.157895,13.157895,51.578947
+L5,190.0,20.0,31.052632,10.0,18.421053,9.47125,18.36,0.0,12.631579,0.526316,12.105263,47.368421
+L6,190.0,19.473684,30.0,11.052632,12.631579,10.41988,19.73134,0.0,17.368421,2.105263,15.263158,51.052632
+L7,189.0,22.222222,28.042328,11.640212,14.285714,12.34625,25.16,0.0,13.756614,4.232804,9.52381,57.671958

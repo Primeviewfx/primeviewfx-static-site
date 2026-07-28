@@ -1,0 +1,54 @@
+PrimeViewFX Combined Cascade Research Summary v1
+========================================================
+created_utc:        2026-06-27T22:28:30Z
+overall_status:     PASSED
+layer_count:        4
+
+RESEARCH FLAGS
+--------------
+bearish_deeper_touch_sequence: REVIEW
+  focus:     Do later bearish touches become more reactive than first touch?
+  median:    
+  strong:    
+  weak/fail: 
+  label:     Bearish cascade: review layer
+  rationale: Touch-sequence statistics were not available.
+
+bearish_primary_reaction_zone: REVIEW
+  focus:     Do bearish ranks 7-9 act as a main reaction-watch zone?
+  median:    45.802
+  strong:    90.79%
+  weak/fail: 
+  label:     Primary bearish reaction zone — review
+  rationale: Needs more data, stronger stability, or cleaner failure profile before promotion.
+
+bullish_primary_reaction_zone: REVIEW
+  focus:     Do bullish ranks 7-9 act as a main upside reaction-watch zone?
+  median:    69.915
+  strong:    78.57%
+  weak/fail: 
+  label:     Primary bullish reaction zone — review
+  rationale: Needs more data, stronger stability, or cleaner failure profile before promotion.
+
+bullish_touch_sequence_cascade: PROMISING
+  focus:     Does bullish behaviour show the same weak-early-touch cascade pattern?
+  median:    48.073
+  strong:    80.95%
+  weak/fail: 9.52%
+  label:     Bullish touch-sequence cascade — review only
+  rationale: Later touches improve versus first touch, but evidence is not yet broad enough for robust status.
+
+SOURCE FILES
+------------
+bearish_rank_stats:       C:\Trading\Data\xau_intraday_reaction_cascade_by_published_rank_v1_2.csv
+bearish_touch_stats:      C:\Trading\Data\xau_intraday_reaction_cascade_by_touch_sequence_v1_2.csv
+bullish_role_stats:       C:\Trading\Data\xau_bullish_intraday_reaction_cascade_by_role_v1.csv
+bullish_touch_stats:      C:\Trading\Data\xau_bullish_intraday_reaction_cascade_by_touch_sequence_v1.csv
+bullish_sensitivity:      C:\Trading\Data\xau_bullish_intraday_reaction_cascade_primary_zone_sensitivity_v1.csv
+
+INTERPRETATION
+--------------
+- ROBUST: evidence currently strong enough for a core research-layer label.
+- PROMISING: evidence is directionally clean but sample-size or stability limits remain.
+- REVIEW: visible for research, but not yet promoted as a strong historical edge.
+- Research only. Not a trading signal.

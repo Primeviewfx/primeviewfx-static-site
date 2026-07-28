@@ -1,0 +1,282 @@
+﻿{
+    "component":  "filtered_reproduced_ladder",
+    "version":  "v1.8.1",
+    "generated_utc":  "2026-07-04T07:50:59.6137489Z",
+    "source_out_dir":  "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\PriceBehaviour",
+    "latest_dir":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\filtered_reproduced_ladder",
+    "static_data_dir":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\filtered_reproduced_ladder",
+    "static_page_dir":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\filtered_reproduced_ladder",
+    "forecast_for":  "2026-07-01",
+    "source_day":  "2026-06-30",
+    "risk_state":  "NORMAL_CARRY",
+    "risk_reasons":  null,
+    "kept_count":  9,
+    "excluded_count":  6,
+    "kept_levels_low_to_high":  [
+                                    3890.27,
+                                    3927.57,
+                                    3965.25,
+                                    4003.44,
+                                    4037.56,
+                                    4069.63,
+                                    4099.68,
+                                    4135.32,
+                                    4167.4
+                                ],
+    "excluded_levels_low_to_high":  [
+                                        3785.63,
+                                        3820.51,
+                                        3855.39,
+                                        4202.28,
+                                        4237.16,
+                                        4272.04
+                                    ],
+    "kept_levels_text":  "3890.27,3927.57,3965.25,4003.44,4037.56,4069.63,4099.68,4135.32,4167.40",
+    "excluded_levels_text":  "3785.63,3820.51,3855.39,4202.28,4237.16,4272.04",
+    "strongest_centre_candidates":  [
+                                        {
+                                            "forecast_rung":  4003.44,
+                                            "confidence_tag":  "HIGH_CONFIDENCE_REPRODUCED",
+                                            "estimated_within_10_rate":  87.125748502994014,
+                                            "estimated_over_20_rate":  2.9940119760479043
+                                        },
+                                        {
+                                            "forecast_rung":  4037.56,
+                                            "confidence_tag":  "HIGH_CONFIDENCE_REPRODUCED",
+                                            "estimated_within_10_rate":  87.125748502994014,
+                                            "estimated_over_20_rate":  2.9940119760479043
+                                        },
+                                        {
+                                            "forecast_rung":  4069.63,
+                                            "confidence_tag":  "HIGH_CONFIDENCE_REPRODUCED",
+                                            "estimated_within_10_rate":  87.125748502994014,
+                                            "estimated_over_20_rate":  2.9940119760479043
+                                        }
+                                    ],
+    "files":  [
+                  {
+                      "role":  "latest/all_csv",
+                      "filename":  "filtered_reproduced_ladder_all_latest.csv",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\filtered_reproduced_ladder\\filtered_reproduced_ladder_all_latest.csv",
+                      "exists":  true,
+                      "bytes":  12440,
+                      "modified_utc":  "2026-07-04T07:50:59.3498420Z"
+                  },
+                  {
+                      "role":  "latest/kept_csv",
+                      "filename":  "filtered_reproduced_ladder_kept_latest.csv",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\filtered_reproduced_ladder\\filtered_reproduced_ladder_kept_latest.csv",
+                      "exists":  true,
+                      "bytes":  8008,
+                      "modified_utc":  "2026-07-04T07:50:59.3518471Z"
+                  },
+                  {
+                      "role":  "latest/excluded_csv",
+                      "filename":  "filtered_reproduced_ladder_excluded_latest.csv",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\filtered_reproduced_ladder\\filtered_reproduced_ladder_excluded_latest.csv",
+                      "exists":  true,
+                      "bytes":  5618,
+                      "modified_utc":  "2026-07-04T07:50:59.3538518Z"
+                  },
+                  {
+                      "role":  "latest/summary_json",
+                      "filename":  "filtered_reproduced_ladder_summary_latest.json",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\filtered_reproduced_ladder\\filtered_reproduced_ladder_summary_latest.json",
+                      "exists":  true,
+                      "bytes":  989,
+                      "modified_utc":  "2026-07-04T07:50:59.3538518Z"
+                  },
+                  {
+                      "role":  "latest/report_txt",
+                      "filename":  "filtered_reproduced_ladder_report_latest.txt",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\filtered_reproduced_ladder\\filtered_reproduced_ladder_report_latest.txt",
+                      "exists":  true,
+                      "bytes":  1559,
+                      "modified_utc":  "2026-07-04T07:50:59.3538518Z"
+                  },
+                  {
+                      "role":  "latest/pine_inputs_txt",
+                      "filename":  "filtered_reproduced_ladder_pine_inputs_latest.txt",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\filtered_reproduced_ladder\\filtered_reproduced_ladder_pine_inputs_latest.txt",
+                      "exists":  true,
+                      "bytes":  518,
+                      "modified_utc":  "2026-07-04T07:50:59.3558560Z"
+                  },
+                  {
+                      "role":  "latest/live_confidence_csv",
+                      "filename":  "filtered_reproduced_ladder_live_confidence_latest.csv",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\filtered_reproduced_ladder\\filtered_reproduced_ladder_live_confidence_latest.csv",
+                      "exists":  true,
+                      "bytes":  10784,
+                      "modified_utc":  "2026-07-04T07:50:57.7857761Z"
+                  },
+                  {
+                      "role":  "latest/live_confidence_summary_csv",
+                      "filename":  "filtered_reproduced_ladder_confidence_summary_latest.csv",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\filtered_reproduced_ladder\\filtered_reproduced_ladder_confidence_summary_latest.csv",
+                      "exists":  true,
+                      "bytes":  216,
+                      "modified_utc":  "2026-07-04T07:50:57.7857761Z"
+                  },
+                  {
+                      "role":  "latest/holdout_summary_csv",
+                      "filename":  "filtered_reproduced_ladder_holdout_summary_latest.csv",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\filtered_reproduced_ladder\\filtered_reproduced_ladder_holdout_summary_latest.csv",
+                      "exists":  true,
+                      "bytes":  1609,
+                      "modified_utc":  "2026-07-04T07:50:57.8123718Z"
+                  },
+                  {
+                      "role":  "latest/risk_tagged_forecast_csv",
+                      "filename":  "filtered_reproduced_ladder_risk_tagged_forecast_latest.csv",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\filtered_reproduced_ladder\\filtered_reproduced_ladder_risk_tagged_forecast_latest.csv",
+                      "exists":  true,
+                      "bytes":  3031,
+                      "modified_utc":  "2026-07-04T07:50:55.7406527Z"
+                  },
+                  {
+                      "role":  "latest/risk_state_json",
+                      "filename":  "filtered_reproduced_ladder_risk_state_latest.json",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\filtered_reproduced_ladder\\filtered_reproduced_ladder_risk_state_latest.json",
+                      "exists":  true,
+                      "bytes":  650,
+                      "modified_utc":  "2026-07-04T07:50:55.7416511Z"
+                  },
+                  {
+                      "role":  "static_data/all_csv",
+                      "filename":  "filtered_reproduced_ladder_all_latest.csv",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\filtered_reproduced_ladder\\filtered_reproduced_ladder_all_latest.csv",
+                      "exists":  true,
+                      "bytes":  12440,
+                      "modified_utc":  "2026-07-04T07:50:59.3498420Z"
+                  },
+                  {
+                      "role":  "static_data/kept_csv",
+                      "filename":  "filtered_reproduced_ladder_kept_latest.csv",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\filtered_reproduced_ladder\\filtered_reproduced_ladder_kept_latest.csv",
+                      "exists":  true,
+                      "bytes":  8008,
+                      "modified_utc":  "2026-07-04T07:50:59.3518471Z"
+                  },
+                  {
+                      "role":  "static_data/excluded_csv",
+                      "filename":  "filtered_reproduced_ladder_excluded_latest.csv",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\filtered_reproduced_ladder\\filtered_reproduced_ladder_excluded_latest.csv",
+                      "exists":  true,
+                      "bytes":  5618,
+                      "modified_utc":  "2026-07-04T07:50:59.3538518Z"
+                  },
+                  {
+                      "role":  "static_data/summary_json",
+                      "filename":  "filtered_reproduced_ladder_summary_latest.json",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\filtered_reproduced_ladder\\filtered_reproduced_ladder_summary_latest.json",
+                      "exists":  true,
+                      "bytes":  989,
+                      "modified_utc":  "2026-07-04T07:50:59.3538518Z"
+                  },
+                  {
+                      "role":  "static_data/report_txt",
+                      "filename":  "filtered_reproduced_ladder_report_latest.txt",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\filtered_reproduced_ladder\\filtered_reproduced_ladder_report_latest.txt",
+                      "exists":  true,
+                      "bytes":  1559,
+                      "modified_utc":  "2026-07-04T07:50:59.3538518Z"
+                  },
+                  {
+                      "role":  "static_data/pine_inputs_txt",
+                      "filename":  "filtered_reproduced_ladder_pine_inputs_latest.txt",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\filtered_reproduced_ladder\\filtered_reproduced_ladder_pine_inputs_latest.txt",
+                      "exists":  true,
+                      "bytes":  518,
+                      "modified_utc":  "2026-07-04T07:50:59.3558560Z"
+                  },
+                  {
+                      "role":  "static_data/live_confidence_csv",
+                      "filename":  "filtered_reproduced_ladder_live_confidence_latest.csv",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\filtered_reproduced_ladder\\filtered_reproduced_ladder_live_confidence_latest.csv",
+                      "exists":  true,
+                      "bytes":  10784,
+                      "modified_utc":  "2026-07-04T07:50:57.7857761Z"
+                  },
+                  {
+                      "role":  "static_data/live_confidence_summary_csv",
+                      "filename":  "filtered_reproduced_ladder_confidence_summary_latest.csv",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\filtered_reproduced_ladder\\filtered_reproduced_ladder_confidence_summary_latest.csv",
+                      "exists":  true,
+                      "bytes":  216,
+                      "modified_utc":  "2026-07-04T07:50:57.7857761Z"
+                  },
+                  {
+                      "role":  "static_data/holdout_summary_csv",
+                      "filename":  "filtered_reproduced_ladder_holdout_summary_latest.csv",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\filtered_reproduced_ladder\\filtered_reproduced_ladder_holdout_summary_latest.csv",
+                      "exists":  true,
+                      "bytes":  1609,
+                      "modified_utc":  "2026-07-04T07:50:57.8123718Z"
+                  },
+                  {
+                      "role":  "static_data/risk_tagged_forecast_csv",
+                      "filename":  "filtered_reproduced_ladder_risk_tagged_forecast_latest.csv",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\filtered_reproduced_ladder\\filtered_reproduced_ladder_risk_tagged_forecast_latest.csv",
+                      "exists":  true,
+                      "bytes":  3031,
+                      "modified_utc":  "2026-07-04T07:50:55.7406527Z"
+                  },
+                  {
+                      "role":  "static_data/risk_state_json",
+                      "filename":  "filtered_reproduced_ladder_risk_state_latest.json",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\filtered_reproduced_ladder\\filtered_reproduced_ladder_risk_state_latest.json",
+                      "exists":  true,
+                      "bytes":  650,
+                      "modified_utc":  "2026-07-04T07:50:55.7416511Z"
+                  },
+                  {
+                      "role":  "latest/manifest_json",
+                      "filename":  "filtered_reproduced_ladder_publish_manifest_v1_8_1.json",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\filtered_reproduced_ladder\\filtered_reproduced_ladder_publish_manifest_v1_8_1.json",
+                      "exists":  true,
+                      "bytes":  14257,
+                      "modified_utc":  "2026-07-04T07:50:59.8166186Z"
+                  },
+                  {
+                      "role":  "static_data/manifest_json",
+                      "filename":  "filtered_reproduced_ladder_publish_manifest_v1_8_1.json",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\filtered_reproduced_ladder\\filtered_reproduced_ladder_publish_manifest_v1_8_1.json",
+                      "exists":  true,
+                      "bytes":  14257,
+                      "modified_utc":  "2026-07-04T07:50:59.8166186Z"
+                  },
+                  {
+                      "role":  "latest/html_partial",
+                      "filename":  "filtered_reproduced_ladder_partial_v1_8_1.html",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\filtered_reproduced_ladder\\filtered_reproduced_ladder_partial_v1_8_1.html",
+                      "exists":  true,
+                      "bytes":  2851,
+                      "modified_utc":  "2026-07-04T07:50:59.8256955Z"
+                  },
+                  {
+                      "role":  "latest/index_html",
+                      "filename":  "index.html",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\filtered_reproduced_ladder\\index.html",
+                      "exists":  true,
+                      "bytes":  3537,
+                      "modified_utc":  "2026-07-04T07:50:59.8256955Z"
+                  },
+                  {
+                      "role":  "static_data/html_partial",
+                      "filename":  "filtered_reproduced_ladder_partial_v1_8_1.html",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\filtered_reproduced_ladder\\filtered_reproduced_ladder_partial_v1_8_1.html",
+                      "exists":  true,
+                      "bytes":  2851,
+                      "modified_utc":  "2026-07-04T07:50:59.8256955Z"
+                  },
+                  {
+                      "role":  "static_page/index_html",
+                      "filename":  "index.html",
+                      "path":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\filtered_reproduced_ladder\\index.html",
+                      "exists":  true,
+                      "bytes":  3537,
+                      "modified_utc":  "2026-07-04T07:50:59.8256955Z"
+                  }
+              ]
+}

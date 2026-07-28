@@ -1,0 +1,82 @@
+﻿{
+    "created_at":  "2026-07-28T06:38:06.7267276+01:00",
+    "started_at":  "2026-07-28T06:35:01.8510327+01:00",
+    "finished_at":  "2026-07-28T06:38:06.7253813+01:00",
+    "overall_status":  "FAILED",
+    "blocking_count":  4,
+    "warning_count":  0,
+    "v1_9_1_exit_code":  1,
+    "production_health_auditor_exit_code":  1,
+    "forecast_date":  "2026-07-20",
+    "row_count":  "16",
+    "primary_reaction_zone":  "3,961.29, 3,977.92, 3,994.39",
+    "cascade_injected_count":  "2",
+    "research_layer_count":  "4",
+    "research_status_counts":  "{\"ROBUST\":2,\"PROMISING\":2,\"REVIEW\":0}",
+    "robust_count":  "2",
+    "promising_count":  "2",
+    "review_count":  "0",
+    "research_tools_tool_count":  8,
+    "research_tools_available_count":  8,
+    "research_tools_injected_count":  13,
+    "research_tools_marker_count":  13,
+    "production_health_status":  "FAILED",
+    "production_health_manifest_forecast_date":  "2026-07-20",
+    "production_health_finding_count":  201,
+    "production_health_blocking_count":  8,
+    "production_health_warning_count":  12,
+    "production_health_pass_count":  167,
+    "production_health_info_count":  14,
+    "v1_9_1_summary_json":  "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_9_1_summary.json",
+    "production_health_step_summary_json":  "C:\\Trading\\Data\\ProductionHealth\\primeviewfx_production_health_auditor_step_v1_4_summary.json",
+    "checks":  [
+                   {
+                       "name":  "wrapper_v1_9_1_exists",
+                       "status":  "PASS",
+                       "detail":  "C:\\Trading\\Python\\run_primeviewfx_daily_publish_with_provider_v1_9_1.ps1",
+                       "blocking":  false
+                   },
+                   {
+                       "name":  "production_health_step_exists",
+                       "status":  "PASS",
+                       "detail":  "C:\\Trading\\Python\\PrimeViewFX_production_health_auditor_step_v1_4.ps1",
+                       "blocking":  false
+                   },
+                   {
+                       "name":  "daily_publish_v1_9_1_exit_code",
+                       "status":  "FAIL",
+                       "detail":  "exit_code=1",
+                       "blocking":  true
+                   },
+                   {
+                       "name":  "production_health_auditor_exit_code",
+                       "status":  "FAIL",
+                       "detail":  "exit_code=1",
+                       "blocking":  true
+                   },
+                   {
+                       "name":  "v1_9_1_summary_parseable",
+                       "status":  "PASS",
+                       "detail":  "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_9_1_summary.json",
+                       "blocking":  false
+                   },
+                   {
+                       "name":  "v1_9_1_summary_status_passed",
+                       "status":  "FAIL",
+                       "detail":  "overall_status=FAILED; blocking_count=4; warning_count=0",
+                       "blocking":  true
+                   },
+                   {
+                       "name":  "production_health_step_summary_parseable",
+                       "status":  "PASS",
+                       "detail":  "C:\\Trading\\Data\\ProductionHealth\\primeviewfx_production_health_auditor_step_v1_4_summary.json",
+                       "blocking":  false
+                   },
+                   {
+                       "name":  "production_health_summary_status_passed",
+                       "status":  "FAIL",
+                       "detail":  "step_status=FAILED; step_blocking=2; step_warning=0; auditor_status=FAILED; auditor_blocking=8; auditor_warning=12; finding_count=201",
+                       "blocking":  true
+                   }
+               ]
+}

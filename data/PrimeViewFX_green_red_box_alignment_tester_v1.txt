@@ -1,0 +1,77 @@
+PrimeViewFX Green/Red Box Alignment Tester v1
+============================================
+created_utc:             2026-07-01T20:57:13Z
+overall_status:          PASSED
+manifest_forecast_date:  2026-07-01
+alignment_interpretation:WEAK_ALIGNMENT
+tested_level_count:      656
+tested_date_count:       69
+box_count:               4
+box_padding_points:      30.0
+tolerance_points:        3.0
+median_abs_distance:     3855.74
+mean_abs_distance:       3975.657454
+pct_within_1:            0.0
+pct_within_2:            0.0
+pct_within_3:            0.0
+pct_within_5:            0.0
+pct_within_10:           0.0
+blocking_count:          0
+warning_count:           1
+
+TOP ANCHOR FAMILIES
+-------------------
+red_box_edge: count=656; median_abs=3855.74; within3=0.0%; within5=0.0%
+
+LATEST DATE
+-----------
+level_date: 2026-12-06
+level_count: 12
+median_abs_distance: 3852.24
+mean_abs_distance: 3852.24
+pct_within_1: 0.0
+pct_within_2: 0.0
+pct_within_3: 0.0
+pct_within_5: 0.0
+pct_within_10: 0.0
+
+LATEST LEVEL MATCHES
+--------------------
+12.00 -> red_box_edge::red_edge_4 @ 3,858.74; abs=3846.740; signed=-3846.740
+11.00 -> red_box_edge::red_edge_4 @ 3,858.74; abs=3847.740; signed=-3847.740
+10.00 -> red_box_edge::red_edge_4 @ 3,858.74; abs=3848.740; signed=-3848.740
+9.00 -> red_box_edge::red_edge_4 @ 3,858.74; abs=3849.740; signed=-3849.740
+8.00 -> red_box_edge::red_edge_4 @ 3,858.74; abs=3850.740; signed=-3850.740
+7.00 -> red_box_edge::red_edge_4 @ 3,858.74; abs=3851.740; signed=-3851.740
+6.00 -> red_box_edge::red_edge_4 @ 3,858.74; abs=3852.740; signed=-3852.740
+5.00 -> red_box_edge::red_edge_4 @ 3,858.74; abs=3853.740; signed=-3853.740
+4.00 -> red_box_edge::red_edge_4 @ 3,858.74; abs=3854.740; signed=-3854.740
+3.00 -> red_box_edge::red_edge_4 @ 3,858.74; abs=3855.740; signed=-3855.740
+2.00 -> red_box_edge::red_edge_4 @ 3,858.74; abs=3856.740; signed=-3856.740
+1.00 -> red_box_edge::red_edge_4 @ 3,858.74; abs=3857.740; signed=-3857.740
+
+FINDINGS
+--------
+[PASS] inputs::data_dir_exists
+  path:     C:\Trading\Data
+[PASS] inputs::static_site_dir_exists
+  path:     C:\Trading\Publish\PrimeViewFX_Static_Site
+[PASS] contract::manifest_forecast_date_detected
+  path:     C:\Trading\Publish\PrimeViewFX_Static_Site\publish_manifest.json
+[PASS] inputs::published_levels_loaded
+  detail:   rows=740; dates=78; date_col=date
+  path:     C:\Trading\Data\published_levels.csv
+[PASS] inputs::ohlc_source_located
+  detail:   source_type=daily
+  path:     C:\Trading\Data\XAUUSD_D1.csv
+[PASS] inputs::ohlc_loaded
+  detail:   daily_rows=300; source=loaded from XAUUSD_D1.csv
+  path:     C:\Trading\Data\XAUUSD_D1.csv
+[WARNING] alignment::dates_without_prior_ohlc
+  detail:   skipped_dates=9
+[PASS] alignment::matches_created
+  detail:   matches=656; dates=69
+[INFO] interpretation::alignment_strength
+  detail:   WEAK_ALIGNMENT; this is a research result, not a pipeline failure
+
+Research only. Not a trading signal.

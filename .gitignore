@@ -3,3 +3,5 @@
 # with bytes stored in Cloudflare KV, not as static assets here.
 *.ex5
 *.mq5
+data/primeviewfx_green_red_box_rolling_residual_candidates_v2_5_1.csv
+data/primeviewfx_green_red_box_selector_calibration_candidates_v2_5_2.csv

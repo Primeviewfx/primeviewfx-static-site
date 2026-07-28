@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PrimeViewFX Green/Red Box Alignment Tester v1.8</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 24px; color: #111; }
+  .card { border: 1px solid #ddd; border-radius: 12px; padding: 18px; margin-bottom: 18px; }
+  .status { font-weight: 700; }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  th, td { border-bottom: 1px solid #eee; padding: 7px 8px; text-align: left; }
+  th { background: #f7f7f7; }
+  .muted { color: #666; }
+  code { background: #f7f7f7; padding: 1px 4px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<h1>PrimeViewFX Green/Red Box Alignment Tester v1.8</h1>
+<p class="muted">Generated: 2026-07-02T11:50:21Z</p>
+<div class="card">
+  <h2>Summary</h2>
+  <p>Status: <span class="status">PASSED</span></p>
+  <p>Manifest forecast date: <code>2026-07-02</code></p>
+  <p>Interpretation: <strong>BOX_ALIGNMENT_PROMISING</strong></p>
+  <p>Tested levels: 1836 across 192 dates.</p>
+  <p>Median abs distance: 2.675 | Mean abs distance: 5.845849</p>
+  <p>Within 3 pts: 54.58% | Within 5 pts: 73.91% | Within 10 pts: 94.06%</p>
+</div>
+<div class="card">
+  <h2>Top nearest-anchor families</h2>
+  <table><thead><tr><th>Family</th><th>Levels</th><th>Median abs distance</th><th>% within 3</th><th>% within 5</th></tr></thead><tbody><tr><td>green_box_quarter</td><td>376</td><td>2.8775</td><td>51.33</td><td>73.67</td></tr>
+<tr><td>red_box_quarter</td><td>346</td><td>2.9987500000000002</td><td>50.0</td><td>72.54</td></tr>
+<tr><td>prior_range_fraction</td><td>253</td><td>1.37884</td><td>78.26</td><td>90.51</td></tr>
+<tr><td>green_box_edge</td><td>188</td><td>4.3675</td><td>34.04</td><td>57.98</td></tr>
+<tr><td>red_box_edge</td><td>183</td><td>4.08</td><td>42.62</td><td>57.92</td></tr>
+<tr><td>prior_hlc</td><td>171</td><td>1.97</td><td>70.18</td><td>87.72</td></tr>
+<tr><td>green_box_midline</td><td>163</td><td>2.75</td><td>53.99</td><td>74.23</td></tr>
+<tr><td>red_box_midline</td><td>156</td><td>2.6475</td><td>56.41</td><td>73.08</td></tr>
+</tbody></table>
+</div>
+<div class="card">
+  <h2>Latest date level alignment</h2>
+  <table><thead><tr><th>Level</th><th>Nearest anchor</th><th>Abs dist</th><th>Signed dist</th><th>Family</th><th>Name</th><th>Side</th><th>Within 3</th><th>Within 5</th></tr></thead><tbody><tr><td>4169.4</td><td>4175.045</td><td>5.645</td><td>-5.645</td><td>green_box_edge</td><td>green_edge_3</td><td>green</td><td>False</td><td>False</td></tr>
+<tr><td>4137.32</td><td>4131.16625</td><td>6.15375</td><td>6.15375</td><td>green_box_quarter</td><td>green_box_3_25pct</td><td>green</td><td>False</td><td>False</td></tr>
+<tr><td>4101.68</td><td>4101.91375</td><td>0.23375</td><td>-0.23375</td><td>green_box_quarter</td><td>green_box_2_75pct</td><td>green</td><td>True</td><td>True</td></tr>
+<tr><td>4071.63</td><td>4071.91375</td><td>0.28375</td><td>-0.28375</td><td>red_box_quarter</td><td>red_box_1_25pct</td><td>red</td><td>True</td><td>True</td></tr>
+<tr><td>4039.56</td><td>4042.66125</td><td>3.10125</td><td>-3.10125</td><td>red_box_quarter</td><td>red_box_1_75pct</td><td>red</td><td>False</td><td>True</td></tr>
+<tr><td>4005.44</td><td>4010.40625</td><td>4.96625</td><td>-4.96625</td><td>prior_range_fraction</td><td>prev_range_0.125</td><td>neutral</td><td>False</td><td>True</td></tr>
+<tr><td>3967.25</td><td>3969.53</td><td>2.28</td><td>-2.28</td><td>red_box_edge</td><td>red_edge_2</td><td>red</td><td>True</td><td>True</td></tr>
+<tr><td>3929.57</td><td>3925.65125</td><td>3.91875</td><td>3.91875</td><td>red_box_quarter</td><td>red_box_3_75pct</td><td>red</td><td>False</td><td>True</td></tr>
+<tr><td>3892.27</td><td>3896.39875</td><td>4.12875</td><td>-4.12875</td><td>red_box_quarter</td><td>red_box_4_25pct</td><td>red</td><td>False</td><td>True</td></tr>
+</tbody></table>
+</div>
+<p class="muted">Research only. Not a trading signal.</p>
+</body>
+</html>

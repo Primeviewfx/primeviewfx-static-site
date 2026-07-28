@@ -1,0 +1,66 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PrimeViewFX Survival Reproduced Ladder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; line-height: 1.45; color: #1f2933; }
+    .card { border: 1px solid #ddd; border-radius: 14px; padding: 18px; margin: 18px 0; background: #fff; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(190px,1fr)); gap: 12px; }
+    .metric { border: 1px solid #eee; border-radius: 10px; padding: 12px; }
+    .metric-label { font-size: 0.88rem; color: #666; }
+    .metric-value { font-size: 1.2rem; font-weight: 700; }
+    table { border-collapse: collapse; width: 100%; margin: 10px 0 20px; font-size: 0.92rem; }
+    th, td { border: 1px solid #ddd; padding: 7px; text-align: left; }
+    th { background: #f6f7f8; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>PrimeViewFX Survival Reproduced Ladder</h1>
+    <p>Survival-ranked reproduced red ladder. CORE and SECONDARY are publishable map levels; WATCH is observation only; REJECT is excluded from weighted map use.</p>
+    <section class="card"><h2>Live production split</h2><div class="grid">
+      <div class="metric"><div class="metric-label">CORE</div><div class="metric-value">6</div></div>
+      <div class="metric"><div class="metric-label">SECONDARY</div><div class="metric-value">3</div></div>
+      <div class="metric"><div class="metric-label">WATCH</div><div class="metric-value">0</div></div>
+      <div class="metric"><div class="metric-label">REJECT</div><div class="metric-value">6</div></div>
+      <div class="metric"><div class="metric-label">Best CORE block</div><div class="metric-value">4003.44,4037.56,4069.63</div></div>
+      <div class="metric"><div class="metric-label">Best CORE score</div><div class="metric-value">85.27% survival / 3.45% over-20</div></div>
+    </div><p><strong>CORE:</strong> 4003.44,4037.56,4069.63,4099.68,4135.32,4167.40</p><p><strong>SECONDARY:</strong> 3890.27,3927.57,3965.25</p><p><strong>WATCH:</strong> </p><p><strong>REJECT:</strong> 3785.63,3820.51,3855.39,4202.28,4237.16,4272.04</p></section>
+    <section class="card"><h2>Frozen holdout confirmation</h2><p><strong>Frozen CORE actual:</strong> 99.50% survival / 0.50% over-20</p><table><thead><tr><th>Action</th><th>Rows</th><th>Days</th><th>Pred. survival</th><th>Pred. over-20</th><th>Actual survival</th><th>Actual over-20</th><th>Score</th></tr></thead><tbody><tr><td>SURVIVAL_CORE</td><td>202</td><td>27</td><td>94.52%</td><td>4.21%</td><td>99.50%</td><td>0.50%</td><td>0.903</td></tr>
+<tr><td>SURVIVAL_WATCH</td><td>22</td><td>3</td><td>48.04%</td><td>37.00%</td><td>81.82%</td><td>0.00%</td><td>0.110</td></tr>
+<tr><td>SURVIVAL_REJECT</td><td>245</td><td>30</td><td>5.55%</td><td>81.30%</td><td>10.20%</td><td>74.29%</td><td>-0.757</td></tr>
+</tbody></table></section>
+    <section class="card"><h2>Live summary</h2><table><thead><tr><th>Action</th><th>Rows</th><th>Days</th><th>Avg survival</th><th>Avg over-20</th><th>Actual survival</th><th>Actual over-20</th><th>Score</th></tr></thead><tbody><tr><td>SURVIVAL_CORE</td><td>6</td><td></td><td>80.15%</td><td>7.25%</td><td>0.00%</td><td>0.00%</td><td>0.729</td></tr>
+<tr><td>SURVIVAL_SECONDARY</td><td>3</td><td></td><td>65.11%</td><td>19.63%</td><td>0.00%</td><td>0.00%</td><td>0.455</td></tr>
+<tr><td>SURVIVAL_REJECT</td><td>6</td><td></td><td>16.01%</td><td>77.38%</td><td>0.00%</td><td>0.00%</td><td>-0.614</td></tr>
+</tbody></table></section>
+    <section class="card"><h2>CORE levels</h2><table><thead><tr><th>Level</th><th>Action</th><th>Origin</th><th>Rank</th><th>Band</th><th>Survival</th><th>Over-20</th><th>Score</th></tr></thead><tbody><tr><td>4003.44</td><td>SURVIVAL_CORE</td><td>persisted</td><td>7</td><td>CENTER</td><td>85.27%</td><td>3.45%</td><td>0.818</td></tr>
+<tr><td>4037.56</td><td>SURVIVAL_CORE</td><td>persisted</td><td>8</td><td>CENTER</td><td>85.27%</td><td>3.45%</td><td>0.818</td></tr>
+<tr><td>4069.63</td><td>SURVIVAL_CORE</td><td>persisted</td><td>9</td><td>CENTER</td><td>85.27%</td><td>3.45%</td><td>0.818</td></tr>
+<tr><td>4099.68</td><td>SURVIVAL_CORE</td><td>persisted</td><td>10</td><td>UPPER_MID</td><td>75.03%</td><td>11.05%</td><td>0.640</td></tr>
+<tr><td>4135.32</td><td>SURVIVAL_CORE</td><td>persisted</td><td>11</td><td>UPPER_MID</td><td>75.03%</td><td>11.05%</td><td>0.640</td></tr>
+<tr><td>4167.40</td><td>SURVIVAL_CORE</td><td>persisted</td><td>12</td><td>UPPER_MID</td><td>75.03%</td><td>11.05%</td><td>0.640</td></tr>
+</tbody></table></section>
+    <section class="card"><h2>SECONDARY levels</h2><table><thead><tr><th>Level</th><th>Action</th><th>Origin</th><th>Rank</th><th>Band</th><th>Survival</th><th>Over-20</th><th>Score</th></tr></thead><tbody><tr><td>3890.27</td><td>SURVIVAL_SECONDARY</td><td>persisted</td><td>4</td><td>LOWER_MID</td><td>65.11%</td><td>19.63%</td><td>0.455</td></tr>
+<tr><td>3927.57</td><td>SURVIVAL_SECONDARY</td><td>persisted</td><td>5</td><td>LOWER_MID</td><td>65.11%</td><td>19.63%</td><td>0.455</td></tr>
+<tr><td>3965.25</td><td>SURVIVAL_SECONDARY</td><td>persisted</td><td>6</td><td>LOWER_MID</td><td>65.11%</td><td>19.63%</td><td>0.455</td></tr>
+</tbody></table></section>
+    <section class="card"><h2>WATCH levels</h2><table><thead><tr><th>Level</th><th>Action</th><th>Origin</th><th>Rank</th><th>Band</th><th>Survival</th><th>Over-20</th><th>Score</th></tr></thead><tbody><tr><td colspan="8">No rows.</td></tr></tbody></table></section>
+    <section class="card"><h2>REJECT levels</h2><table><thead><tr><th>Level</th><th>Action</th><th>Origin</th><th>Rank</th><th>Band</th><th>Survival</th><th>Over-20</th><th>Score</th></tr></thead><tbody><tr><td>3785.63</td><td>SURVIVAL_REJECT</td><td>extension</td><td>1</td><td>LOWER_EDGE</td><td>11.63%</td><td>84.67%</td><td>-0.730</td></tr>
+<tr><td>3820.51</td><td>SURVIVAL_REJECT</td><td>extension</td><td>2</td><td>LOWER_EDGE</td><td>11.63%</td><td>84.67%</td><td>-0.730</td></tr>
+<tr><td>3855.39</td><td>SURVIVAL_REJECT</td><td>extension</td><td>3</td><td>LOWER_EDGE</td><td>11.63%</td><td>84.67%</td><td>-0.730</td></tr>
+<tr><td>4202.28</td><td>SURVIVAL_REJECT</td><td>extension</td><td>13</td><td>UPPER_EDGE</td><td>20.39%</td><td>70.08%</td><td>-0.497</td></tr>
+<tr><td>4237.16</td><td>SURVIVAL_REJECT</td><td>extension</td><td>14</td><td>UPPER_EDGE</td><td>20.39%</td><td>70.08%</td><td>-0.497</td></tr>
+<tr><td>4272.04</td><td>SURVIVAL_REJECT</td><td>extension</td><td>15</td><td>UPPER_EDGE</td><td>20.39%</td><td>70.08%</td><td>-0.497</td></tr>
+</tbody></table></section>
+    <section class="card"><h2>Development validation</h2><table><thead><tr><th>Action</th><th>Rows</th><th>Days</th><th>Pred. survival</th><th>Pred. over-20</th><th>Actual survival</th><th>Actual over-20</th><th>Score</th></tr></thead><tbody><tr><td>SURVIVAL_CORE</td><td>282</td><td>41</td><td>91.86%</td><td>5.99%</td><td>89.72%</td><td>3.19%</td><td>0.859</td></tr>
+<tr><td>SURVIVAL_SECONDARY</td><td>20</td><td>7</td><td>61.33%</td><td>31.09%</td><td>60.00%</td><td>30.00%</td><td>0.302</td></tr>
+<tr><td>SURVIVAL_WATCH</td><td>31</td><td>15</td><td>44.50%</td><td>38.28%</td><td>41.94%</td><td>22.58%</td><td>0.062</td></tr>
+<tr><td>SURVIVAL_REJECT</td><td>442</td><td>49</td><td>9.08%</td><td>73.98%</td><td>16.29%</td><td>65.84%</td><td>-0.649</td></tr>
+</tbody></table></section>
+    <p><a href="../index.html">Back to dashboard</a></p>
+  </main>
+</body>
+</html>

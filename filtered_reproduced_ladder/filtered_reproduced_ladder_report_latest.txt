@@ -1,0 +1,34 @@
+PrimeViewFX Filtered Live Reproduced Ladder v1.6
+================================================
+forecast_for: 2026-07-01
+source_day:   2026-06-30
+risk_state:   NORMAL_CARRY
+
+input rungs:    15
+kept rungs:     9
+excluded rungs: 6
+
+KEPT MAIN / SECONDARY LEVELS
+----------------------------
+3890.27 | MAIN | persisted | rank 4 | est within-10 71.8% | over-20 15.5%
+3927.57 | MAIN | persisted | rank 5 | est within-10 71.8% | over-20 15.5%
+3965.25 | MAIN | persisted | rank 6 | est within-10 71.8% | over-20 15.5%
+4003.44 | MAIN | persisted | rank 7 | est within-10 87.1% | over-20 3.0%
+4037.56 | MAIN | persisted | rank 8 | est within-10 87.1% | over-20 3.0%
+4069.63 | MAIN | persisted | rank 9 | est within-10 87.1% | over-20 3.0%
+4099.68 | MAIN | persisted | rank 10 | est within-10 71.8% | over-20 17.0%
+4135.32 | MAIN | persisted | rank 11 | est within-10 71.8% | over-20 17.0%
+4167.40 | MAIN | persisted | rank 12 | est within-10 71.8% | over-20 17.0%
+
+EXCLUDED LEVELS
+---------------
+3785.63 | extension | est within-10 12.5% | over-20 83.8%
+3820.51 | extension | est within-10 12.5% | over-20 83.8%
+3855.39 | extension | est within-10 12.5% | over-20 83.8%
+4202.28 | extension | est within-10 17.7% | over-20 75.2%
+4237.16 | extension | est within-10 17.7% | over-20 75.2%
+4272.04 | extension | est within-10 17.7% | over-20 75.2%
+
+Research note:
+Use these as reproduced placement-confidence levels, not standalone trade signals.
+EMA5 lock, weekly Gold Turns, and provider state/context should remain separate filters.

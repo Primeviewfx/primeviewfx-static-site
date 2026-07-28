@@ -1,0 +1,10 @@
+level_date,level_name,published_rank_low_to_high,published_rank_high_to_low,published_level,formula_source,formula_anchor_family,formula_anchor_name,formula_candidate_score,reconstructed_level,signed_reconstruction_error,abs_reconstruction_error,reconstruction_within_3,reconstruction_within_5,nearest_anchor_family,nearest_anchor_name,nearest_anchor_abs_distance
+2026-06-30,L1,9,1,4169.4,level_name,green_box_quarter,green_box_2_75pct,74.274816,4101.91375,67.48625,67.48625,False,False,green_box_edge,green_edge_3,5.645
+2026-06-30,L2,8,2,4137.32,level_name,prior_range_fraction,prev_range_0.875,91.7625,4075.66375,61.65625,61.65625,False,False,green_box_quarter,green_box_3_25pct,6.15375
+2026-06-30,L3,7,3,4101.68,level_name,prior_range_fraction,prev_range_0.875,85.240625,4075.66375,26.01625,26.01625,False,False,green_box_quarter,green_box_2_75pct,0.23375
+2026-06-30,L4,6,4,4071.63,level_name,green_box_edge,green_edge_1,95.25,4058.035,13.595,13.595,False,False,red_box_quarter,red_box_1_25pct,0.28375
+2026-06-30,L5,5,5,4039.56,level_name,green_box_edge,green_edge_1,94.7375,4058.035,-18.475,18.475,False,False,red_box_quarter,red_box_1_75pct,3.10125
+2026-06-30,L6,4,6,4005.44,level_name,prior_hlc,previous_pivot_hlc3,92.570834,4034.206667,-28.766667,28.766667,False,False,prior_range_fraction,prev_range_0.125,4.96625
+2026-06-30,L7,3,7,3967.25,level_name,red_box_quarter,red_box_2_25pct,94.43125,4013.40875,-46.15875,46.15875,False,False,red_box_edge,red_edge_2,2.28
+2026-06-30,L8,2,8,3929.57,level_name,prior_range_fraction,prev_range_0.25,80.7125,4021.2825,-91.7125,91.7125,False,False,red_box_quarter,red_box_3_75pct,3.91875
+2026-06-30,L9,1,9,3892.27,level_name,red_box_quarter,red_box_4_25pct,70.301562,3896.39875,-4.12875,4.12875,False,True,red_box_quarter,red_box_4_25pct,4.12875

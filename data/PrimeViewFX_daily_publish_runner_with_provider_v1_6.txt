@@ -1,0 +1,72 @@
+PRIMEVIEWFX DAILY PUBLISH RUNNER WITH PROVIDER V1.6
+===================================================
+
+SUMMARY
+-------
+status: PASSED
+started_utc: 2026-06-26T16:22:21Z
+ended_utc: 2026-06-26T16:24:07Z
+script_dir: C:\Trading\Python
+data_dir: C:\Trading\Data
+publish_root: C:\Trading\Publish
+blocking_count: 0
+warning_count: 0
+
+V1.6 WEIGHTED LEVEL SCANNER
+---------------------------
+scanner_json_found: True
+promoted_candidate_status: NO_CANDIDATE_MAP
+watchlist_status: WAITING_FOR_TRIGGER
+selected_level_date: 2026-06-26
+scan_date: 2026-06-26
+latest_datetime: 2026-06-26 19:00:00
+latest_close: 4085.76
+latest_ema5: 4077.3393310967144
+latest_channel_state: ema_proxy_up
+latest_state_alignment_up: with_state
+latest_state_alignment_down: counter_state
+
+DATE CONTRACT AUDITOR
+---------------------
+auditor_report_found: True
+overall_status: PASSED
+blocking_count: 0
+
+STEPS
+-----
+base_v1_5_runner: PASSED
+  returncode: 0
+  script: C:\Trading\Python\primeviewfx_daily_publish_runner_with_provider_v1_5.py
+  detail: 
+weighted_level_live_scanner_v1_1: PASSED
+  returncode: 0
+  script: C:\Trading\Python\xau_weighted_level_live_candidate_scanner_v1_1.py
+  detail: 
+final_static_site_publish: PASSED
+  returncode: 0
+  script: C:\Trading\Python\primeviewfx_static_site_publisher_v1.py
+  detail: 
+date_contract_auditor_v1_1: PASSED
+  returncode: 0
+  script: C:\Trading\Python\primeviewfx_date_contract_auditor_v1_1.py
+  detail: 
+
+BLOCKERS
+--------
+none
+
+WARNINGS
+--------
+none
+
+PUBLISHED COPIES
+----------------
+none
+
+NOTES
+-----
+- v1.5 remains the proven daily publish authority.
+- v1.6 adds weighted-level scanner output into the publish package.
+- Scanner output is research-only and should not be treated as a trading signal.
+
+Research only. Not a trading signal.

@@ -1,0 +1,19 @@
+// PrimeViewFX Filtered Live Reproduced Ladder v1.6
+// Paste these into your TradingView script inputs or use as reference.
+
+// KEPT MAIN/SECONDARY LEVELS
+keptLevelsText = "3890.27,3927.57,3965.25,4003.44,4037.56,4069.63,4099.68,4135.32,4167.40"
+
+// EXCLUDED LEVELS
+excludedLevelsText = "3785.63,3820.51,3855.39,4202.28,4237.16,4272.04"
+
+// Individual kept levels
+// L1: 3890.27
+// L2: 3927.57
+// L3: 3965.25
+// L4: 4003.44
+// L5: 4037.56
+// L6: 4069.63
+// L7: 4099.68
+// L8: 4135.32
+// L9: 4167.40

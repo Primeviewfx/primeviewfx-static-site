@@ -1,0 +1,20 @@
+{
+  "drift_mode": "fixed_minus_2",
+  "latest_source_day": "2026-06-30",
+  "risk_model_source_ohlc_date": "2026-06-30",
+  "risk_state_v1_3": "NORMAL_CARRY",
+  "risk_reasons_v1_3": [],
+  "thresholds": {
+    "range_q90": 196.27000000000044,
+    "abs_close_move_q90": 131.19000000000003,
+    "abs_close_change_atr_q90": 1.0999804509872322
+  },
+  "source_features": {
+    "range": 120.11999999999989,
+    "abs_close_to_close_change": 9.110000000000127,
+    "range_vs_atr14": 1.043076980331589,
+    "abs_close_change_vs_atr14": 0.07910781960390373,
+    "close_position": 0.5338827838827853,
+    "body_vs_range": 0.15034965034965003
+  }
+}

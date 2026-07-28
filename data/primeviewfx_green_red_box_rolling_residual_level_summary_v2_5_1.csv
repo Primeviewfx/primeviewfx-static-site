@@ -1,0 +1,5 @@
+level_name,row_count,superset_audited_pct_within_5,rolling_oracle_pct_within_5,rolling_selected_pct_within_5,rolling_audited_pct_within_5,superset_audited_median_abs_error,rolling_oracle_median_abs_error,rolling_selected_median_abs_error,rolling_audited_median_abs_error,rolling_recovered_within_5_pct,rolling_better_than_superset_pct
+L4,190.0,31.052632,76.842105,25.263158,76.842105,9.685,0.348922,9.724175,0.348922,45.789474,96.315789
+L5,190.0,34.210526,77.894737,32.105263,77.894737,9.41875,0.408854,8.891406,0.408854,43.684211,96.315789
+L6,190.0,32.105263,75.263158,28.421053,75.263158,10.106875,0.365466,10.3481,0.365466,43.157895,96.315789
+L7,189.0,28.571429,71.957672,25.925926,71.957672,12.31125,0.631563,12.840625,0.631563,43.386243,96.296296

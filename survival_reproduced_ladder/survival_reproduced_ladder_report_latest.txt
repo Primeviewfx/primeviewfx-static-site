@@ -1,0 +1,31 @@
+PrimeViewFX Reproduced Ladder Survival Model v2.1
+=================================================
+
+GOVERNANCE
+----------
+Training uses the v2.0 training pool excluding the frozen holdout.
+Frozen holdout evaluation: NOT_EVALUATED_BY_DEFAULT
+
+OVERALL TRAINING
+----------------
+rows:          2504
+days:          161
+survival_rate: 48.24%
+over20_rate:   40.18%
+
+LIVE SUMMARY
+------------
+survival_action_v2_1  rows days  avg_survival_probability_pct  avg_over20_probability_pct  avg_survival_score
+       SURVIVAL_CORE     6 None                     80.150180                    7.249822            0.729004
+  SURVIVAL_SECONDARY     3 None                     65.109765                   19.628434            0.454813
+     SURVIVAL_REJECT     6 None                     16.010458                   77.377734           -0.613673
+
+DEV VALIDATION SUMMARY
+----------------------
+survival_action_v2_1  rows  days  avg_survival_probability_pct  avg_over20_probability_pct  avg_survival_score  actual_survival_rate_pct  actual_over20_rate_pct
+       SURVIVAL_CORE   282    41                     91.860116                    5.985404            0.858747                 89.716312                3.191489
+  SURVIVAL_SECONDARY    20     7                     61.326084                   31.086453            0.302396                 60.000000               30.000000
+      SURVIVAL_WATCH    31    15                     44.504902                   38.277892            0.062270                 41.935484               22.580645
+     SURVIVAL_REJECT   442    49                      9.083880                   73.977846           -0.648940                 16.289593               65.837104
+
+Interpretation: SURVIVAL_CORE/SECONDARY are survival-selected rungs. Treat probabilities as ranking until calibration approves sizing.

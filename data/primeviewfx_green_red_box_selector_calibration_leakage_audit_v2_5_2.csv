@@ -1,0 +1,2 @@
+candidate_count,selector_level_row_count,unsafe_input_candidate_count,selector_same_day_performance_leakage_count,selector_future_performance_leakage_count,selector_unsafe_selection_count,selector_date_safety_pass
+219453,759,0,0,0,0,True

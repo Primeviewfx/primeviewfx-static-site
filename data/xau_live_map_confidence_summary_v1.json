@@ -1,0 +1,23 @@
+{
+  "forecast_date": "2026-07-20",
+  "freeze_id": "TLF_20260720_83a1d2a5e060",
+  "frozen_map_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-07-20_83a1d2a5e060.csv",
+  "state_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_state_2026-07-20_83a1d2a5e060.json",
+  "input_asof_time": "2026-07-17T00:00:00",
+  "state_intraday_state": "unknown",
+  "state_latest_close": 3981.69,
+  "state_range_ratio": 0.4407883262601,
+  "state_quality_gate": "weak_d1_active",
+  "h4_local_cluster_count": 1,
+  "h4_d1_confluence_cluster_count": 6,
+  "d1_container_cluster_count": 1,
+  "total_cluster_count": 8,
+  "carry_tagged_levels": 0,
+  "carry_tag_rate_pct": 0.0,
+  "map_width": 223.9715100000003,
+  "map_centre": 3945.649426,
+  "experimental_quality_score": 12.0,
+  "quality_bucket": "high_quality_structure",
+  "map_confidence_label": "Caution",
+  "map_confidence_warning": "D1 wide/active state is present, but expansion is weak (range ratio 0.441). Prior forward testing showed this state can underperform. Use the map with caution and favour confirmed reaction behaviour."
+}

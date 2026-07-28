@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PrimeViewFX Combined Cascade Research Summary</title>
+<style>
+:root { color-scheme: dark; --bg:#071018; --panel:#101b28; --panel2:#0c1723; --text:#eaf2ff; --muted:#9fb0c5; --line:#24364b; --green:#35d07f; --amber:#f4c35d; --blue:#73a8ff; }
+body { margin:0; font-family: Inter, Segoe UI, Arial, sans-serif; background:linear-gradient(180deg,#071018,#0a111b); color:var(--text); }
+.wrap { max-width:1100px; margin:0 auto; padding:28px 18px 44px; }
+header { padding:22px; border:1px solid var(--line); border-radius:22px; background:rgba(16,27,40,.88); box-shadow:0 18px 40px rgba(0,0,0,.25); }
+h1 { margin:0 0 8px; font-size:28px; }
+.sub { color:var(--muted); margin:0; line-height:1.45; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:16px; margin-top:18px; }
+.layer-card { border:1px solid var(--line); border-radius:20px; padding:18px; background:rgba(16,27,40,.82); }
+.layer-head { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+h2 { margin:0; font-size:18px; }
+.badge { border-radius:999px; padding:6px 10px; font-size:12px; font-weight:800; letter-spacing:.04em; }
+.badge.robust { background:rgba(53,208,127,.16); color:#9dffc5; border:1px solid rgba(53,208,127,.4); }
+.badge.promising { background:rgba(115,168,255,.16); color:#b8d2ff; border:1px solid rgba(115,168,255,.4); }
+.badge.review { background:rgba(244,195,93,.14); color:#ffe1a1; border:1px solid rgba(244,195,93,.4); }
+.focus,.rationale,.label { color:var(--muted); line-height:1.45; }
+.metrics { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:14px 0; }
+.metrics div { background:var(--panel2); border:1px solid var(--line); border-radius:14px; padding:10px; }
+.metrics span { display:block; color:var(--muted); font-size:12px; margin-bottom:5px; }
+.metrics strong { font-size:16px; }
+footer { margin-top:18px; color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>PrimeViewFX Combined Cascade Research Summary</h1>
+  <p class="sub">Bearish and bullish intraday cascade evidence side-by-side. Created 2026-06-27T22:31:14Z. Overall status: PASSED. Research only. Not a trading signal.</p>
+</header>
+<div class="grid">
+
+        <section class="layer-card">
+          <div class="layer-head">
+            <h2>Bearish Deeper Touch Sequence</h2>
+            <span class="badge robust">ROBUST</span>
+          </div>
+          <p class="focus">Do later bearish touches become more reactive than first touch?</p>
+          <div class="metrics">
+            <div><span>Events</span><strong>184</strong></div>
+            <div><span>Dates</span><strong></strong></div>
+            <div><span>Median reaction</span><strong>38.803</strong></div>
+            <div><span>Strong %</span><strong>89.67%</strong></div>
+            <div><span>Weak/fail %</span><strong>10.33%</strong></div>
+          </div>
+          <p class="label"><strong>Member label:</strong> Bearish cascade: later/deeper touches are the stronger research layer</p>
+          <p class="rationale">Later touches materially outperform first touch with strong follow-through and low failure.</p>
+        </section>
+        
+        <section class="layer-card">
+          <div class="layer-head">
+            <h2>Bearish Primary Reaction Zone</h2>
+            <span class="badge robust">ROBUST</span>
+          </div>
+          <p class="focus">Do bearish ranks 7-9 act as a main reaction-watch zone?</p>
+          <div class="metrics">
+            <div><span>Events</span><strong>132</strong></div>
+            <div><span>Dates</span><strong>69</strong></div>
+            <div><span>Median reaction</span><strong>43.893</strong></div>
+            <div><span>Strong %</span><strong>90.15%</strong></div>
+            <div><span>Weak/fail %</span><strong>9.85%</strong></div>
+          </div>
+          <p class="label"><strong>Member label:</strong> Primary bearish reaction zone</p>
+          <p class="rationale">Meets strength, failure, stability, and sample-size thresholds.</p>
+        </section>
+        
+        <section class="layer-card">
+          <div class="layer-head">
+            <h2>Bullish Primary Reaction Zone</h2>
+            <span class="badge promising">PROMISING</span>
+          </div>
+          <p class="focus">Do bullish ranks 7-9 act as a main upside reaction-watch zone?</p>
+          <div class="metrics">
+            <div><span>Events</span><strong>14</strong></div>
+            <div><span>Dates</span><strong>6</strong></div>
+            <div><span>Median reaction</span><strong>69.915</strong></div>
+            <div><span>Strong %</span><strong>78.57%</strong></div>
+            <div><span>Weak/fail %</span><strong>0.00%</strong></div>
+          </div>
+          <p class="label"><strong>Member label:</strong> Primary bullish reaction zone — promising, sample-limited research layer</p>
+          <p class="rationale">Strength/failure profile is good and stable, but sample size is still limited.</p>
+        </section>
+        
+        <section class="layer-card">
+          <div class="layer-head">
+            <h2>Bullish Touch Sequence Cascade</h2>
+            <span class="badge promising">PROMISING</span>
+          </div>
+          <p class="focus">Does bullish behaviour show the same weak-early-touch cascade pattern?</p>
+          <div class="metrics">
+            <div><span>Events</span><strong>21</strong></div>
+            <div><span>Dates</span><strong></strong></div>
+            <div><span>Median reaction</span><strong>48.073</strong></div>
+            <div><span>Strong %</span><strong>80.95%</strong></div>
+            <div><span>Weak/fail %</span><strong>9.52%</strong></div>
+          </div>
+          <p class="label"><strong>Member label:</strong> Bullish touch-sequence cascade — review only</p>
+          <p class="rationale">Later touches improve versus first touch, but evidence is not yet broad enough for robust status.</p>
+        </section>
+        
+</div>
+<footer>Research only. Not a trading signal.</footer>
+</div>
+</body>
+</html>

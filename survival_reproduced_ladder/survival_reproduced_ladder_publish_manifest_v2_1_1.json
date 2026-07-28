@@ -1,0 +1,21 @@
+﻿{
+    "component":  "survival_reproduced_ladder",
+    "version":  "v2.1.1",
+    "generated_utc":  "2026-07-04T10:07:00.8349033Z",
+    "source_out_dir":  "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\SurvivalModel",
+    "core_count":  6,
+    "secondary_count":  3,
+    "watch_count":  0,
+    "reject_count":  6,
+    "core_levels_text":  "4003.44,4037.56,4069.63,4099.68,4135.32,4167.40",
+    "secondary_levels_text":  "3890.27,3927.57,3965.25",
+    "watch_levels_text":  "",
+    "reject_levels_text":  "3785.63,3820.51,3855.39,4202.28,4237.16,4272.04",
+    "kept_levels_text":  "3890.27,3927.57,3965.25,4003.44,4037.56,4069.63,4099.68,4135.32,4167.40",
+    "best_core_block":  "4003.44,4037.56,4069.63",
+    "best_core_survival":  "85.27%",
+    "best_core_over20":  "3.45%",
+    "frozen_core_actual_survival":  "99.50%",
+    "frozen_core_actual_over20":  "0.50%",
+    "dashboard_index_path":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\index.html"
+}

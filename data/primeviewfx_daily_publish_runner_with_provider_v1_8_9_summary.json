@@ -1,0 +1,117 @@
+﻿{
+    "version":  "v1.8.9",
+    "created_utc":  "2026-07-28T05:37:59Z",
+    "finished_local":  "2026-07-28T06:37:59.4845242+01:00",
+    "overall_status":  "FAILED",
+    "blocking_count":  5,
+    "warning_count":  0,
+    "v1_8_8_exit_code":  1,
+    "combined_cascade_research_summary_exit_code":  0,
+    "forecast_date":  "2026-07-20",
+    "row_count":  "16",
+    "primary_reaction_zone":  "3,961.29, 3,977.92, 3,994.39",
+    "injected_count":  "2",
+    "research_layer_count":  "4",
+    "research_status_counts":  "{\"ROBUST\":2,\"PROMISING\":2,\"REVIEW\":0}",
+    "robust_count":  "2",
+    "promising_count":  "2",
+    "review_count":  "0",
+    "checks":  [
+                   {
+                       "name":  "wrapper_v1_8_8_exists",
+                       "status":  "PASS",
+                       "detail":  "C:\\Trading\\Python\\run_primeviewfx_daily_publish_with_provider_v1_8_8.ps1",
+                       "blocking":  false,
+                       "warning":  false
+                   },
+                   {
+                       "name":  "combined_cascade_research_summary_step_exists",
+                       "status":  "PASS",
+                       "detail":  "C:\\Trading\\Python\\PrimeViewFX_combined_cascade_research_summary_step_v1_2.ps1",
+                       "blocking":  false,
+                       "warning":  false
+                   },
+                   {
+                       "name":  "daily_publish_v1_8_8_exit_code",
+                       "status":  "FAIL",
+                       "detail":  "exit_code=1",
+                       "blocking":  true,
+                       "warning":  false
+                   },
+                   {
+                       "name":  "combined_cascade_research_summary_step_exit_code",
+                       "status":  "PASS",
+                       "detail":  "exit_code=0",
+                       "blocking":  false,
+                       "warning":  false
+                   },
+                   {
+                       "name":  "v1_8_8_summary_parseable",
+                       "status":  "PASS",
+                       "detail":  "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_8_8_summary.json",
+                       "blocking":  false,
+                       "warning":  false
+                   },
+                   {
+                       "name":  "v1_8_8_summary_status_passed",
+                       "status":  "FAIL",
+                       "detail":  "overall_status=FAILED; blocking_count=4; warning_count=0",
+                       "blocking":  true,
+                       "warning":  false
+                   },
+                   {
+                       "name":  "combined_step_summary_parseable",
+                       "status":  "PASS",
+                       "detail":  "C:\\Trading\\Data\\primeviewfx_combined_cascade_research_summary_step_v1_2_summary.json",
+                       "blocking":  false,
+                       "warning":  false
+                   },
+                   {
+                       "name":  "combined_step_summary_status_passed",
+                       "status":  "FAIL",
+                       "detail":  "overall_status=PASSED_WITH_WARNINGS; blocking_count=0; warning_count=2",
+                       "blocking":  true,
+                       "warning":  false
+                   },
+                   {
+                       "name":  "combined_research_summary_parseable",
+                       "status":  "PASS",
+                       "detail":  "C:\\Trading\\Data\\primeviewfx_combined_cascade_research_summary_v1_2.json",
+                       "blocking":  false,
+                       "warning":  false
+                   },
+                   {
+                       "name":  "combined_research_summary_status_passed",
+                       "status":  "PASS",
+                       "detail":  "overall_status=PASSED; layer_count=4; status_counts={\"ROBUST\":2,\"PROMISING\":2,\"REVIEW\":0}",
+                       "blocking":  false,
+                       "warning":  false
+                   },
+                   {
+                       "name":  "combined_layers_csv_exists",
+                       "status":  "PASS",
+                       "detail":  "C:\\Trading\\Data\\primeviewfx_combined_cascade_research_layers_v1_2.csv",
+                       "blocking":  false,
+                       "warning":  false
+                   },
+                   {
+                       "name":  "combined_research_static_page_exists",
+                       "status":  "FAIL",
+                       "detail":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\cascade-research-summary.html",
+                       "blocking":  true,
+                       "warning":  false
+                   },
+                   {
+                       "name":  "combined_research_latest_page_exists",
+                       "status":  "FAIL",
+                       "detail":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\cascade-research-summary.html",
+                       "blocking":  true,
+                       "warning":  false
+                   }
+               ],
+    "log_path":  "C:\\Trading\\Logs\\primeviewfx_daily_publish_with_provider_v1_8_9_20260728_063504.log",
+    "report_path":  "C:\\Trading\\Data\\PrimeViewFXDaily\\PrimeViewFX_daily_publish_runner_with_provider_v1_8_9.txt",
+    "summary_json":  "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_8_9_summary.json",
+    "research_only":  true,
+    "disclaimer":  "Research only. Not a trading signal."
+}

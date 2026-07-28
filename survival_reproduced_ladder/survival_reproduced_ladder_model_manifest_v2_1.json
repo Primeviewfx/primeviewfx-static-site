@@ -1,0 +1,94 @@
+{
+  "version": "v2.1",
+  "model": "PrimeViewFX reproduced ladder survival model",
+  "training_pool_csv": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\ModelGovernance\\primeviewfx_training_pool_excluding_frozen_holdout_v2_0.csv",
+  "live_forecast_csv": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\primeviewfx_published_ladder_risk_tagged_forecast_v1_3.csv",
+  "frozen_holdout_evaluation": "NOT_EVALUATED_BY_DEFAULT",
+  "target": "survived_within_10",
+  "distance_column": "nearest_actual_distance",
+  "min_group_rows": 30,
+  "overall_training": {
+    "rows": 2504,
+    "days": 161,
+    "overall_survival_rate": 0.48242811501597443,
+    "overall_over20_rate": 0.40175718849840253,
+    "overall_survival_rate_pct": 48.242811501597444,
+    "overall_over20_rate_pct": 40.17571884984025,
+    "alpha": 8.0
+  },
+  "hierarchies": [
+    [
+      "rung_origin",
+      "rank_band",
+      "risk_state_v1_3",
+      "source_gap_bucket"
+    ],
+    [
+      "rung_origin",
+      "rank_edge_bucket",
+      "risk_state_v1_3",
+      "source_gap_bucket"
+    ],
+    [
+      "rung_origin",
+      "rank_band",
+      "risk_state_v1_3"
+    ],
+    [
+      "rung_origin",
+      "rank_edge_bucket",
+      "risk_state_v1_3"
+    ],
+    [
+      "rung_origin",
+      "rank_band"
+    ],
+    [
+      "rung_origin",
+      "rank_edge_bucket"
+    ],
+    [
+      "rank_band",
+      "risk_state_v1_3"
+    ],
+    [
+      "rank_edge_bucket",
+      "risk_state_v1_3"
+    ],
+    [
+      "rank_band"
+    ],
+    [
+      "rank_edge_bucket"
+    ],
+    [
+      "rung_origin"
+    ],
+    [
+      "risk_state_v1_3"
+    ]
+  ],
+  "input_hashes": {
+    "training_pool_csv_sha256": "ba4fdeddadcaa2c93456c8f3ed049e4bdc95241d456b4b60c245045d279f7db4",
+    "live_forecast_csv_sha256": "e9b5780681c6502c5d0711bc4f8c5dbc8297444450530f67f3b7a4d0162e1000"
+  },
+  "live_counts": {
+    "input_rows": 15,
+    "kept_core_or_secondary": 9,
+    "watch": 0,
+    "rejected": 6
+  },
+  "outputs": {
+    "group_stats": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\SurvivalModel\\primeviewfx_survival_model_group_stats_v2_1.csv",
+    "live_scored": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\SurvivalModel\\primeviewfx_live_survival_scored_ladder_v2_1.csv",
+    "live_summary": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\SurvivalModel\\primeviewfx_live_survival_summary_v2_1.csv",
+    "kept": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\SurvivalModel\\primeviewfx_live_survival_ladder_kept_v2_1.csv",
+    "watch": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\SurvivalModel\\primeviewfx_live_survival_ladder_watch_v2_1.csv",
+    "rejected": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\SurvivalModel\\primeviewfx_live_survival_ladder_rejected_v2_1.csv",
+    "dev_events": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\SurvivalModel\\primeviewfx_survival_model_dev_validation_events_v2_1.csv",
+    "dev_summary": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\SurvivalModel\\primeviewfx_survival_model_dev_validation_summary_v2_1.csv",
+    "manifest": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\SurvivalModel\\primeviewfx_survival_model_manifest_v2_1.json",
+    "report": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\SurvivalModel\\primeviewfx_survival_model_report_v2_1.txt"
+  },
+  "governance_note": "Frozen holdout is not evaluated unless explicitly requested. Do not use frozen results for tuning."
+}

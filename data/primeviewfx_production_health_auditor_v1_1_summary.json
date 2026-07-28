@@ -1,0 +1,1935 @@
+{
+  "version": "v1.1",
+  "created_utc": "2026-06-30T15:04:22Z",
+  "overall_status": "FAILED",
+  "manifest_forecast_date": null,
+  "finding_count": 183,
+  "status_counts": {
+    "PASS": 139,
+    "FAIL": 7,
+    "INFO": 34,
+    "WARNING": 3
+  },
+  "component_counts": {
+    "root": {
+      "PASS": 5
+    },
+    "manifest": {
+      "PASS": 2,
+      "FAIL": 1,
+      "INFO": 1
+    },
+    "members_map": {
+      "PASS": 6,
+      "INFO": 4
+    },
+    "provider_state": {
+      "PASS": 9,
+      "INFO": 8
+    },
+    "weighted_scanner": {
+      "PASS": 22,
+      "INFO": 7
+    },
+    "bearish_cascade": {
+      "PASS": 27,
+      "INFO": 7,
+      "FAIL": 2
+    },
+    "bullish_cascade": {
+      "PASS": 27,
+      "INFO": 7,
+      "FAIL": 2
+    },
+    "combined_research": {
+      "PASS": 19
+    },
+    "research_tools_nav": {
+      "PASS": 9,
+      "FAIL": 1
+    },
+    "site_markers": {
+      "PASS": 10,
+      "WARNING": 2
+    },
+    "wrapper_summaries": {
+      "PASS": 3,
+      "FAIL": 1,
+      "WARNING": 1
+    }
+  },
+  "blocking_count": 7,
+  "warning_count": 3,
+  "fail_count": 7,
+  "pass_count": 139,
+  "info_count": 34,
+  "data_dir": "C:\\Trading\\Data",
+  "static_site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
+  "latest_dir": "C:\\Trading\\Publish\\PrimeViewFX_Latest",
+  "local_dir": "C:\\Trading\\Data\\ProductionHealth",
+  "findings": [
+    {
+      "component": "root",
+      "name": "data_dir",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data",
+      "path": "C:\\Trading\\Data",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "root",
+      "name": "static_site_dir",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "root",
+      "name": "static_data_dir",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "root",
+      "name": "latest_dir",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "root",
+      "name": "latest_data_dir",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "manifest",
+      "name": "static_publish_manifest_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\publish_manifest.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\publish_manifest.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "manifest",
+      "name": "static_publish_manifest_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\publish_manifest.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\publish_manifest.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "manifest",
+      "name": "static_manifest_forecast_date",
+      "status": "FAIL",
+      "detail": "forecast_date missing",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\publish_manifest.json",
+      "expected": null,
+      "actual": null,
+      "blocking": true
+    },
+    {
+      "component": "manifest",
+      "name": "latest_publish_manifest_exists",
+      "status": "INFO",
+      "detail": "optional file missing",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\publish_manifest.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "members_map",
+      "name": "static_members_map_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_members_integrated_map_v1.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_members_integrated_map_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "members_map",
+      "name": "static_members_map_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_members_integrated_map_v1.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_members_integrated_map_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "members_map",
+      "name": "static_members_map_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_members_integrated_map_v1.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "members_map",
+      "name": "static_members_map_row_count_not_found",
+      "status": "INFO",
+      "detail": "no row/level count field found",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_members_integrated_map_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "members_map",
+      "name": "latest_members_map_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\primeviewfx_members_integrated_map_v1.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\primeviewfx_members_integrated_map_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "members_map",
+      "name": "latest_members_map_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\primeviewfx_members_integrated_map_v1.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\primeviewfx_members_integrated_map_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "members_map",
+      "name": "latest_members_map_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\primeviewfx_members_integrated_map_v1.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "members_map",
+      "name": "latest_members_map_row_count_not_found",
+      "status": "INFO",
+      "detail": "no row/level count field found",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\primeviewfx_members_integrated_map_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "members_map",
+      "name": "static_member_map_html",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members\\primeviewfx_members_integrated_map_v1.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members\\primeviewfx_members_integrated_map_v1.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "members_map",
+      "name": "latest_member_map_html",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members\\primeviewfx_members_integrated_map_v1.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members\\primeviewfx_members_integrated_map_v1.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "provider_state",
+      "name": "provider_state_dir",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\ProviderMessageState",
+      "path": "C:\\Trading\\Data\\ProviderMessageState",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "provider_state",
+      "name": "data_date_safe_summary_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\ProviderMessageState\\xau_provider_live_map_date_safe_summary_v1_2.json",
+      "path": "C:\\Trading\\Data\\ProviderMessageState\\xau_provider_live_map_date_safe_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "provider_state",
+      "name": "data_date_safe_summary_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\ProviderMessageState\\xau_provider_live_map_date_safe_summary_v1_2.json",
+      "path": "C:\\Trading\\Data\\ProviderMessageState\\xau_provider_live_map_date_safe_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "provider_state",
+      "name": "data_date_safe_summary_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Data\\ProviderMessageState\\xau_provider_live_map_date_safe_summary_v1_2.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "provider_state",
+      "name": "data_date_safe_summary_status_not_found",
+      "status": "INFO",
+      "detail": "no provider status field found",
+      "path": "C:\\Trading\\Data\\ProviderMessageState\\xau_provider_live_map_date_safe_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "provider_state",
+      "name": "data_live_map_summary_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\ProviderMessageState\\xau_provider_live_map_summary_v1_2.json",
+      "path": "C:\\Trading\\Data\\ProviderMessageState\\xau_provider_live_map_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "provider_state",
+      "name": "data_live_map_summary_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\ProviderMessageState\\xau_provider_live_map_summary_v1_2.json",
+      "path": "C:\\Trading\\Data\\ProviderMessageState\\xau_provider_live_map_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "provider_state",
+      "name": "data_live_map_summary_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Data\\ProviderMessageState\\xau_provider_live_map_summary_v1_2.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "provider_state",
+      "name": "data_live_map_summary_status_not_found",
+      "status": "INFO",
+      "detail": "no provider status field found",
+      "path": "C:\\Trading\\Data\\ProviderMessageState\\xau_provider_live_map_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "provider_state",
+      "name": "static_live_map_summary_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_provider_live_map_summary_v1_2.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_provider_live_map_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "provider_state",
+      "name": "static_live_map_summary_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_provider_live_map_summary_v1_2.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_provider_live_map_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "provider_state",
+      "name": "static_live_map_summary_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_provider_live_map_summary_v1_2.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "provider_state",
+      "name": "static_live_map_summary_status_not_found",
+      "status": "INFO",
+      "detail": "no provider status field found",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_provider_live_map_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "provider_state",
+      "name": "latest_live_map_summary_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\xau_provider_live_map_summary_v1_2.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\xau_provider_live_map_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "provider_state",
+      "name": "latest_live_map_summary_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\xau_provider_live_map_summary_v1_2.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\xau_provider_live_map_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "provider_state",
+      "name": "latest_live_map_summary_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\xau_provider_live_map_summary_v1_2.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "provider_state",
+      "name": "latest_live_map_summary_status_not_found",
+      "status": "INFO",
+      "detail": "no provider status field found",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\xau_provider_live_map_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "local_dir",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\WeightedLevelLiveScanner",
+      "path": "C:\\Trading\\Data\\WeightedLevelLiveScanner",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "local_candidate_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\WeightedLevelLiveScanner\\xau_weighted_level_live_candidate_v1_3.json",
+      "path": "C:\\Trading\\Data\\WeightedLevelLiveScanner\\xau_weighted_level_live_candidate_v1_3.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "local_candidate_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\WeightedLevelLiveScanner\\xau_weighted_level_live_candidate_v1_3.json",
+      "path": "C:\\Trading\\Data\\WeightedLevelLiveScanner\\xau_weighted_level_live_candidate_v1_3.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "local_candidate_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Data\\WeightedLevelLiveScanner\\xau_weighted_level_live_candidate_v1_3.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "local_candidate_status_present",
+      "status": "PASS",
+      "detail": "status=NO_CANDIDATE_MAP",
+      "path": "C:\\Trading\\Data\\WeightedLevelLiveScanner\\xau_weighted_level_live_candidate_v1_3.json",
+      "expected": null,
+      "actual": "NO_CANDIDATE_MAP",
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "static_candidate_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_weighted_level_live_candidate_v1_3.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_weighted_level_live_candidate_v1_3.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "static_candidate_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_weighted_level_live_candidate_v1_3.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_weighted_level_live_candidate_v1_3.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "static_candidate_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_weighted_level_live_candidate_v1_3.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "static_candidate_status_present",
+      "status": "PASS",
+      "detail": "status=NO_CANDIDATE_MAP",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_weighted_level_live_candidate_v1_3.json",
+      "expected": null,
+      "actual": "NO_CANDIDATE_MAP",
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "latest_candidate_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\xau_weighted_level_live_candidate_v1_3.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\xau_weighted_level_live_candidate_v1_3.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "latest_candidate_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\xau_weighted_level_live_candidate_v1_3.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\xau_weighted_level_live_candidate_v1_3.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "latest_candidate_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\xau_weighted_level_live_candidate_v1_3.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "latest_candidate_status_present",
+      "status": "PASS",
+      "detail": "status=NO_CANDIDATE_MAP",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\xau_weighted_level_live_candidate_v1_3.json",
+      "expected": null,
+      "actual": "NO_CANDIDATE_MAP",
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "local_dashboard_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\WeightedLevelLiveScanner\\weighted_level_dashboard_card_v1_3.json",
+      "path": "C:\\Trading\\Data\\WeightedLevelLiveScanner\\weighted_level_dashboard_card_v1_3.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "local_dashboard_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\WeightedLevelLiveScanner\\weighted_level_dashboard_card_v1_3.json",
+      "path": "C:\\Trading\\Data\\WeightedLevelLiveScanner\\weighted_level_dashboard_card_v1_3.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "local_dashboard_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Data\\WeightedLevelLiveScanner\\weighted_level_dashboard_card_v1_3.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "local_dashboard_status_present",
+      "status": "PASS",
+      "detail": "status=NO_CANDIDATE_MAP",
+      "path": "C:\\Trading\\Data\\WeightedLevelLiveScanner\\weighted_level_dashboard_card_v1_3.json",
+      "expected": null,
+      "actual": "NO_CANDIDATE_MAP",
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "static_dashboard_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\weighted_level_dashboard_card_v1_3.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\weighted_level_dashboard_card_v1_3.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "static_dashboard_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\weighted_level_dashboard_card_v1_3.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\weighted_level_dashboard_card_v1_3.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "static_dashboard_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\weighted_level_dashboard_card_v1_3.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "static_dashboard_status_present",
+      "status": "PASS",
+      "detail": "status=NO_CANDIDATE_MAP",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\weighted_level_dashboard_card_v1_3.json",
+      "expected": null,
+      "actual": "NO_CANDIDATE_MAP",
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "latest_dashboard_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\weighted_level_dashboard_card_v1_3.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\weighted_level_dashboard_card_v1_3.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "latest_dashboard_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\weighted_level_dashboard_card_v1_3.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\weighted_level_dashboard_card_v1_3.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "latest_dashboard_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\weighted_level_dashboard_card_v1_3.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "latest_dashboard_status_present",
+      "status": "PASS",
+      "detail": "status=NO_CANDIDATE_MAP",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\weighted_level_dashboard_card_v1_3.json",
+      "expected": null,
+      "actual": "NO_CANDIDATE_MAP",
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "static_weighted_page",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\weighted-level-scanner.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\weighted-level-scanner.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "latest_weighted_page",
+      "status": "INFO",
+      "detail": "optional file missing",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\weighted-level-scanner.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "local_setups_csv",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\WeightedLevelLiveScanner\\xau_weighted_level_live_candidate_setups_v1_3.csv",
+      "path": "C:\\Trading\\Data\\WeightedLevelLiveScanner\\xau_weighted_level_live_candidate_setups_v1_3.csv",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "weighted_scanner",
+      "name": "static_setups_csv",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_weighted_level_live_candidate_setups_v1_3.csv",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_weighted_level_live_candidate_setups_v1_3.csv",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "local_dir",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\BearishCascade",
+      "path": "C:\\Trading\\Data\\BearishCascade",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "static_page",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\bearish-cascade.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\bearish-cascade.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "latest_page",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\bearish-cascade.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\bearish-cascade.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "static_dashboard_html",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bearish_cascade_dashboard_card_v1.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bearish_cascade_dashboard_card_v1.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "latest_dashboard_html",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bearish_cascade_dashboard_card_v1.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bearish_cascade_dashboard_card_v1.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "local_dashboard_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\BearishCascade\\bearish_cascade_dashboard_card_v1.json",
+      "path": "C:\\Trading\\Data\\BearishCascade\\bearish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "local_dashboard_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\BearishCascade\\bearish_cascade_dashboard_card_v1.json",
+      "path": "C:\\Trading\\Data\\BearishCascade\\bearish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "local_dashboard_status_passed",
+      "status": "PASS",
+      "detail": "status accepted",
+      "path": "C:\\Trading\\Data\\BearishCascade\\bearish_cascade_dashboard_card_v1.json",
+      "expected": [
+        "PASSED",
+        "PASSED_WITH_WARNINGS",
+        "ready",
+        "READY"
+      ],
+      "actual": "PASSED",
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "local_dashboard_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Data\\BearishCascade\\bearish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "local_dashboard_row_count_positive",
+      "status": "PASS",
+      "detail": "count=21",
+      "path": "C:\\Trading\\Data\\BearishCascade\\bearish_cascade_dashboard_card_v1.json",
+      "expected": 1,
+      "actual": 21,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "local_dashboard_primary_zone_not_found",
+      "status": "INFO",
+      "detail": "primary_reaction_zone field missing",
+      "path": "C:\\Trading\\Data\\BearishCascade\\bearish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "static_dashboard_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bearish_cascade_dashboard_card_v1.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bearish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "static_dashboard_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bearish_cascade_dashboard_card_v1.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bearish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "static_dashboard_status_passed",
+      "status": "PASS",
+      "detail": "status accepted",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bearish_cascade_dashboard_card_v1.json",
+      "expected": [
+        "PASSED",
+        "PASSED_WITH_WARNINGS",
+        "ready",
+        "READY"
+      ],
+      "actual": "PASSED",
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "static_dashboard_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bearish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "static_dashboard_row_count_positive",
+      "status": "PASS",
+      "detail": "count=21",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bearish_cascade_dashboard_card_v1.json",
+      "expected": 1,
+      "actual": 21,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "static_dashboard_primary_zone_not_found",
+      "status": "INFO",
+      "detail": "primary_reaction_zone field missing",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bearish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "latest_dashboard_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bearish_cascade_dashboard_card_v1.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bearish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "latest_dashboard_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bearish_cascade_dashboard_card_v1.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bearish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "latest_dashboard_status_passed",
+      "status": "PASS",
+      "detail": "status accepted",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bearish_cascade_dashboard_card_v1.json",
+      "expected": [
+        "PASSED",
+        "PASSED_WITH_WARNINGS",
+        "ready",
+        "READY"
+      ],
+      "actual": "PASSED",
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "latest_dashboard_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bearish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "latest_dashboard_row_count_positive",
+      "status": "PASS",
+      "detail": "count=21",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bearish_cascade_dashboard_card_v1.json",
+      "expected": 1,
+      "actual": 21,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "latest_dashboard_primary_zone_not_found",
+      "status": "INFO",
+      "detail": "primary_reaction_zone field missing",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bearish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "publish_step_summary_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\primeviewfx_bearish_cascade_publish_step_v1_summary.json",
+      "path": "C:\\Trading\\Data\\primeviewfx_bearish_cascade_publish_step_v1_summary.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "publish_step_summary_parseable",
+      "status": "FAIL",
+      "detail": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+      "path": "C:\\Trading\\Data\\primeviewfx_bearish_cascade_publish_step_v1_summary.json",
+      "expected": null,
+      "actual": null,
+      "blocking": true
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "site_link_summary_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\BearishCascade\\primeviewfx_bearish_cascade_site_link_step_v1_summary.json",
+      "path": "C:\\Trading\\Data\\BearishCascade\\primeviewfx_bearish_cascade_site_link_step_v1_summary.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "site_link_summary_parseable",
+      "status": "FAIL",
+      "detail": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+      "path": "C:\\Trading\\Data\\BearishCascade\\primeviewfx_bearish_cascade_site_link_step_v1_summary.json",
+      "expected": null,
+      "actual": null,
+      "blocking": true
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "local_tags_json",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json",
+      "path": "C:\\Trading\\Data\\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "local_tags_csv",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\xau_bearish_reaction_cascade_level_tags_latest_v1_3.csv",
+      "path": "C:\\Trading\\Data\\xau_bearish_reaction_cascade_level_tags_latest_v1_3.csv",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "static_tags_json",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "static_tagger_summary",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_bearish_reaction_cascade_level_tagger_summary_v1_3.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_bearish_reaction_cascade_level_tagger_summary_v1_3.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "tags_json_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json",
+      "path": "C:\\Trading\\Data\\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "tags_json_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json",
+      "path": "C:\\Trading\\Data\\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "tags_json_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Data\\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "tags_json_rows_positive",
+      "status": "PASS",
+      "detail": "count=21",
+      "path": "C:\\Trading\\Data\\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json",
+      "expected": 1,
+      "actual": 21,
+      "blocking": false
+    },
+    {
+      "component": "bearish_cascade",
+      "name": "tags_json_primary_role_count",
+      "status": "PASS",
+      "detail": "count=3",
+      "path": "C:\\Trading\\Data\\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json",
+      "expected": 1,
+      "actual": 3,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "local_dir",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\BullishCascade",
+      "path": "C:\\Trading\\Data\\BullishCascade",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "static_page",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\bullish-cascade.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\bullish-cascade.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "latest_page",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\bullish-cascade.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\bullish-cascade.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "static_dashboard_html",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bullish_cascade_dashboard_card_v1.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bullish_cascade_dashboard_card_v1.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "latest_dashboard_html",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bullish_cascade_dashboard_card_v1.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bullish_cascade_dashboard_card_v1.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "local_dashboard_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\BullishCascade\\bullish_cascade_dashboard_card_v1.json",
+      "path": "C:\\Trading\\Data\\BullishCascade\\bullish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "local_dashboard_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\BullishCascade\\bullish_cascade_dashboard_card_v1.json",
+      "path": "C:\\Trading\\Data\\BullishCascade\\bullish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "local_dashboard_status_passed",
+      "status": "PASS",
+      "detail": "status accepted",
+      "path": "C:\\Trading\\Data\\BullishCascade\\bullish_cascade_dashboard_card_v1.json",
+      "expected": [
+        "PASSED",
+        "PASSED_WITH_WARNINGS",
+        "ready",
+        "READY"
+      ],
+      "actual": "PASSED",
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "local_dashboard_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Data\\BullishCascade\\bullish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "local_dashboard_row_count_positive",
+      "status": "PASS",
+      "detail": "count=21",
+      "path": "C:\\Trading\\Data\\BullishCascade\\bullish_cascade_dashboard_card_v1.json",
+      "expected": 1,
+      "actual": 21,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "local_dashboard_primary_zone_not_found",
+      "status": "INFO",
+      "detail": "primary_reaction_zone field missing",
+      "path": "C:\\Trading\\Data\\BullishCascade\\bullish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "static_dashboard_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bullish_cascade_dashboard_card_v1.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bullish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "static_dashboard_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bullish_cascade_dashboard_card_v1.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bullish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "static_dashboard_status_passed",
+      "status": "PASS",
+      "detail": "status accepted",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bullish_cascade_dashboard_card_v1.json",
+      "expected": [
+        "PASSED",
+        "PASSED_WITH_WARNINGS",
+        "ready",
+        "READY"
+      ],
+      "actual": "PASSED",
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "static_dashboard_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bullish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "static_dashboard_row_count_positive",
+      "status": "PASS",
+      "detail": "count=21",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bullish_cascade_dashboard_card_v1.json",
+      "expected": 1,
+      "actual": 21,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "static_dashboard_primary_zone_not_found",
+      "status": "INFO",
+      "detail": "primary_reaction_zone field missing",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\bullish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "latest_dashboard_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bullish_cascade_dashboard_card_v1.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bullish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "latest_dashboard_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bullish_cascade_dashboard_card_v1.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bullish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "latest_dashboard_status_passed",
+      "status": "PASS",
+      "detail": "status accepted",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bullish_cascade_dashboard_card_v1.json",
+      "expected": [
+        "PASSED",
+        "PASSED_WITH_WARNINGS",
+        "ready",
+        "READY"
+      ],
+      "actual": "PASSED",
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "latest_dashboard_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bullish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "latest_dashboard_row_count_positive",
+      "status": "PASS",
+      "detail": "count=21",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bullish_cascade_dashboard_card_v1.json",
+      "expected": 1,
+      "actual": 21,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "latest_dashboard_primary_zone_not_found",
+      "status": "INFO",
+      "detail": "primary_reaction_zone field missing",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\bullish_cascade_dashboard_card_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "publish_step_summary_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\primeviewfx_bullish_cascade_publish_step_v1_summary.json",
+      "path": "C:\\Trading\\Data\\primeviewfx_bullish_cascade_publish_step_v1_summary.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "publish_step_summary_parseable",
+      "status": "FAIL",
+      "detail": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+      "path": "C:\\Trading\\Data\\primeviewfx_bullish_cascade_publish_step_v1_summary.json",
+      "expected": null,
+      "actual": null,
+      "blocking": true
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "site_link_summary_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\BullishCascade\\primeviewfx_bullish_cascade_site_link_step_v1_summary.json",
+      "path": "C:\\Trading\\Data\\BullishCascade\\primeviewfx_bullish_cascade_site_link_step_v1_summary.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "site_link_summary_parseable",
+      "status": "FAIL",
+      "detail": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+      "path": "C:\\Trading\\Data\\BullishCascade\\primeviewfx_bullish_cascade_site_link_step_v1_summary.json",
+      "expected": null,
+      "actual": null,
+      "blocking": true
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "local_tags_json",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\xau_bullish_reaction_cascade_level_tags_latest_v1.json",
+      "path": "C:\\Trading\\Data\\xau_bullish_reaction_cascade_level_tags_latest_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "local_tags_csv",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\xau_bullish_reaction_cascade_level_tags_latest_v1.csv",
+      "path": "C:\\Trading\\Data\\xau_bullish_reaction_cascade_level_tags_latest_v1.csv",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "static_tags_json",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_bullish_reaction_cascade_level_tags_latest_v1.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_bullish_reaction_cascade_level_tags_latest_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "static_tagger_summary",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_bullish_reaction_cascade_level_tagger_summary_v1.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\xau_bullish_reaction_cascade_level_tagger_summary_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "tags_json_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\xau_bullish_reaction_cascade_level_tags_latest_v1.json",
+      "path": "C:\\Trading\\Data\\xau_bullish_reaction_cascade_level_tags_latest_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "tags_json_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\xau_bullish_reaction_cascade_level_tags_latest_v1.json",
+      "path": "C:\\Trading\\Data\\xau_bullish_reaction_cascade_level_tags_latest_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "tags_json_date_matches_manifest",
+      "status": "INFO",
+      "detail": "manifest forecast_date unavailable; date check not applied",
+      "path": "C:\\Trading\\Data\\xau_bullish_reaction_cascade_level_tags_latest_v1.json",
+      "expected": null,
+      "actual": "2026-06-26",
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "tags_json_rows_positive",
+      "status": "PASS",
+      "detail": "count=21",
+      "path": "C:\\Trading\\Data\\xau_bullish_reaction_cascade_level_tags_latest_v1.json",
+      "expected": 1,
+      "actual": 21,
+      "blocking": false
+    },
+    {
+      "component": "bullish_cascade",
+      "name": "tags_json_primary_role_count",
+      "status": "PASS",
+      "detail": "count=3",
+      "path": "C:\\Trading\\Data\\xau_bullish_reaction_cascade_level_tags_latest_v1.json",
+      "expected": 1,
+      "actual": 3,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "local_summary_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\primeviewfx_combined_cascade_research_summary_v1_2.json",
+      "path": "C:\\Trading\\Data\\primeviewfx_combined_cascade_research_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "local_summary_parseable",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\primeviewfx_combined_cascade_research_summary_v1_2.json",
+      "path": "C:\\Trading\\Data\\primeviewfx_combined_cascade_research_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "local_summary_status_passed",
+      "status": "PASS",
+      "detail": "status accepted",
+      "path": "C:\\Trading\\Data\\primeviewfx_combined_cascade_research_summary_v1_2.json",
+      "expected": [
+        "PASSED"
+      ],
+      "actual": "PASSED",
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "layer_count",
+      "status": "PASS",
+      "detail": "count=4",
+      "path": "C:\\Trading\\Data\\primeviewfx_combined_cascade_research_summary_v1_2.json",
+      "expected": 4,
+      "actual": 4,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "status_counts_expected",
+      "status": "PASS",
+      "detail": "ROBUST=2; PROMISING=2; REVIEW=0",
+      "path": "C:\\Trading\\Data\\primeviewfx_combined_cascade_research_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "local_primeviewfx_combined_cascade_research_summary_v1_2.json",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\primeviewfx_combined_cascade_research_summary_v1_2.json",
+      "path": "C:\\Trading\\Data\\primeviewfx_combined_cascade_research_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "static_data_primeviewfx_combined_cascade_research_summary_v1_2.json",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_combined_cascade_research_summary_v1_2.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_combined_cascade_research_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "latest_data_primeviewfx_combined_cascade_research_summary_v1_2.json",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\primeviewfx_combined_cascade_research_summary_v1_2.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\primeviewfx_combined_cascade_research_summary_v1_2.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "local_primeviewfx_combined_cascade_research_layers_v1_2.csv",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\primeviewfx_combined_cascade_research_layers_v1_2.csv",
+      "path": "C:\\Trading\\Data\\primeviewfx_combined_cascade_research_layers_v1_2.csv",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "static_data_primeviewfx_combined_cascade_research_layers_v1_2.csv",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_combined_cascade_research_layers_v1_2.csv",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_combined_cascade_research_layers_v1_2.csv",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "latest_data_primeviewfx_combined_cascade_research_layers_v1_2.csv",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\primeviewfx_combined_cascade_research_layers_v1_2.csv",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\primeviewfx_combined_cascade_research_layers_v1_2.csv",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "local_PrimeViewFX_combined_cascade_research_summary_v1_2.txt",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\PrimeViewFX_combined_cascade_research_summary_v1_2.txt",
+      "path": "C:\\Trading\\Data\\PrimeViewFX_combined_cascade_research_summary_v1_2.txt",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "static_data_PrimeViewFX_combined_cascade_research_summary_v1_2.txt",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\PrimeViewFX_combined_cascade_research_summary_v1_2.txt",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\PrimeViewFX_combined_cascade_research_summary_v1_2.txt",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "latest_data_PrimeViewFX_combined_cascade_research_summary_v1_2.txt",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\PrimeViewFX_combined_cascade_research_summary_v1_2.txt",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\PrimeViewFX_combined_cascade_research_summary_v1_2.txt",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "local_primeviewfx_combined_cascade_research_summary_v1_2.html",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\primeviewfx_combined_cascade_research_summary_v1_2.html",
+      "path": "C:\\Trading\\Data\\primeviewfx_combined_cascade_research_summary_v1_2.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "static_data_primeviewfx_combined_cascade_research_summary_v1_2.html",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_combined_cascade_research_summary_v1_2.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_combined_cascade_research_summary_v1_2.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "latest_data_primeviewfx_combined_cascade_research_summary_v1_2.html",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\primeviewfx_combined_cascade_research_summary_v1_2.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\primeviewfx_combined_cascade_research_summary_v1_2.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "static_page",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\cascade-research-summary.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\cascade-research-summary.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "combined_research",
+      "name": "latest_page",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\cascade-research-summary.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\cascade-research-summary.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "research_tools_nav",
+      "name": "local_dir",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\ResearchToolsNav",
+      "path": "C:\\Trading\\Data\\ResearchToolsNav",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "research_tools_nav",
+      "name": "step_summary_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\ResearchToolsNav\\primeviewfx_research_tools_nav_step_v1_summary.json",
+      "path": "C:\\Trading\\Data\\ResearchToolsNav\\primeviewfx_research_tools_nav_step_v1_summary.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "research_tools_nav",
+      "name": "step_summary_parseable",
+      "status": "FAIL",
+      "detail": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+      "path": "C:\\Trading\\Data\\ResearchToolsNav\\primeviewfx_research_tools_nav_step_v1_summary.json",
+      "expected": null,
+      "actual": null,
+      "blocking": true
+    },
+    {
+      "component": "research_tools_nav",
+      "name": "local_primeviewfx_research_tools_nav_injector_v1_summary.json",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\ResearchToolsNav\\primeviewfx_research_tools_nav_injector_v1_summary.json",
+      "path": "C:\\Trading\\Data\\ResearchToolsNav\\primeviewfx_research_tools_nav_injector_v1_summary.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "research_tools_nav",
+      "name": "local_PrimeViewFX_research_tools_nav_injector_v1.txt",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\ResearchToolsNav\\PrimeViewFX_research_tools_nav_injector_v1.txt",
+      "path": "C:\\Trading\\Data\\ResearchToolsNav\\PrimeViewFX_research_tools_nav_injector_v1.txt",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "research_tools_nav",
+      "name": "local_primeviewfx_research_tools_nav_v1.html",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\ResearchToolsNav\\primeviewfx_research_tools_nav_v1.html",
+      "path": "C:\\Trading\\Data\\ResearchToolsNav\\primeviewfx_research_tools_nav_v1.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "research_tools_nav",
+      "name": "static_data_primeviewfx_research_tools_nav_v1.json",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_research_tools_nav_v1.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_research_tools_nav_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "research_tools_nav",
+      "name": "latest_data_primeviewfx_research_tools_nav_v1.json",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\primeviewfx_research_tools_nav_v1.json",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\primeviewfx_research_tools_nav_v1.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "research_tools_nav",
+      "name": "static_data_primeviewfx_research_tools_nav_v1.html",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_research_tools_nav_v1.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_research_tools_nav_v1.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "research_tools_nav",
+      "name": "latest_data_primeviewfx_research_tools_nav_v1.html",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\primeviewfx_research_tools_nav_v1.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\data\\primeviewfx_research_tools_nav_v1.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "site_markers",
+      "name": "static_index_research_tools_nav_marker",
+      "status": "PASS",
+      "detail": "marker/text present: PRIMEVIEWFX_RESEARCH_TOOLS_NAV_V1_START",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\index.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "site_markers",
+      "name": "static_member_research_tools_nav_marker",
+      "status": "PASS",
+      "detail": "marker/text present: PRIMEVIEWFX_RESEARCH_TOOLS_NAV_V1_START",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members\\primeviewfx_members_integrated_map_v1.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "site_markers",
+      "name": "latest_member_research_tools_nav_marker",
+      "status": "PASS",
+      "detail": "marker/text present: PRIMEVIEWFX_RESEARCH_TOOLS_NAV_V1_START",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members\\primeviewfx_members_integrated_map_v1.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "site_markers",
+      "name": "static_index_bearish_cascade_link_marker",
+      "status": "PASS",
+      "detail": "marker/text present: PRIMEVIEWFX_BEARISH_CASCADE_LINK_V1_START",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\index.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "site_markers",
+      "name": "static_member_bearish_cascade_link_marker",
+      "status": "PASS",
+      "detail": "marker/text present: PRIMEVIEWFX_BEARISH_CASCADE_LINK_V1_START",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members\\primeviewfx_members_integrated_map_v1.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "site_markers",
+      "name": "latest_member_bearish_cascade_link_marker",
+      "status": "WARNING",
+      "detail": "marker/text missing: PRIMEVIEWFX_BEARISH_CASCADE_LINK_V1_START",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members\\primeviewfx_members_integrated_map_v1.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "site_markers",
+      "name": "static_index_bullish_cascade_link_marker",
+      "status": "PASS",
+      "detail": "marker/text present: PRIMEVIEWFX_BULLISH_CASCADE_LINK_V1_START",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\index.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "site_markers",
+      "name": "static_member_bullish_cascade_link_marker",
+      "status": "PASS",
+      "detail": "marker/text present: PRIMEVIEWFX_BULLISH_CASCADE_LINK_V1_START",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members\\primeviewfx_members_integrated_map_v1.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "site_markers",
+      "name": "latest_member_bullish_cascade_link_marker",
+      "status": "WARNING",
+      "detail": "marker/text missing: PRIMEVIEWFX_BULLISH_CASCADE_LINK_V1_START",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members\\primeviewfx_members_integrated_map_v1.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "site_markers",
+      "name": "framer_embed_html",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\framer_embed_snippet.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\framer_embed_snippet.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "site_markers",
+      "name": "framer_embed_txt",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\framer_embed_snippet.txt",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\framer_embed_snippet.txt",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "site_markers",
+      "name": "framer_embed_targets_member_map",
+      "status": "PASS",
+      "detail": "marker/text present: members/primeviewfx_members_integrated_map_v1.html",
+      "path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\framer_embed_snippet.html",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "wrapper_summaries",
+      "name": "daily_dir",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\PrimeViewFXDaily",
+      "path": "C:\\Trading\\Data\\PrimeViewFXDaily",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "wrapper_summaries",
+      "name": "v1_8_9_summary_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_8_9_summary.json",
+      "path": "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_8_9_summary.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "wrapper_summaries",
+      "name": "v1_8_9_summary_parseable",
+      "status": "FAIL",
+      "detail": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+      "path": "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_8_9_summary.json",
+      "expected": null,
+      "actual": null,
+      "blocking": true
+    },
+    {
+      "component": "wrapper_summaries",
+      "name": "v1_9_1_summary_exists",
+      "status": "PASS",
+      "detail": "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_9_1_summary.json",
+      "path": "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_9_1_summary.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    },
+    {
+      "component": "wrapper_summaries",
+      "name": "v1_9_1_summary_parseable",
+      "status": "WARNING",
+      "detail": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+      "path": "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_9_1_summary.json",
+      "expected": null,
+      "actual": null,
+      "blocking": false
+    }
+  ],
+  "disclaimer": "Research only. Not a trading signal."
+}

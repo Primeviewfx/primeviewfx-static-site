@@ -1,0 +1,42 @@
+{
+  "model": "PrimeViewFX filtered live reproduced ladder v1.6",
+  "forecast_for": "2026-07-01",
+  "source_day": "2026-06-30",
+  "risk_state_v1_3": "NORMAL_CARRY",
+  "total_input_rungs": 15,
+  "kept_rungs": 9,
+  "excluded_rungs": 6,
+  "confidence_tag_counts": {
+    "HIGH_CONFIDENCE_REPRODUCED": 9,
+    "REJECT_OVER_20_RISK": 6
+  },
+  "publish_tier_counts": {
+    "MAIN": 9,
+    "EXCLUDED": 6
+  },
+  "kept_levels_low_to_high": [
+    3890.27,
+    3927.57,
+    3965.25,
+    4003.44,
+    4037.56,
+    4069.63,
+    4099.68,
+    4135.32,
+    4167.4
+  ],
+  "excluded_levels_low_to_high": [
+    3785.63,
+    3820.51,
+    3855.39,
+    4202.28,
+    4237.16,
+    4272.04
+  ],
+  "kept_low": 3890.27,
+  "kept_high": 4167.4,
+  "avg_kept_estimated_within_10_rate": 76.93463647417809,
+  "avg_kept_estimated_over_20_rate": 11.821758781287997,
+  "avg_excluded_estimated_within_10_rate": 15.0997150997151,
+  "avg_excluded_estimated_over_20_rate": 79.48717948717949
+}

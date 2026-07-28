@@ -1,0 +1,2 @@
+candidate_count,level_row_count,same_day_leakage_count,future_leakage_count,unsafe_candidate_count,oracle_unsafe_count,selected_unsafe_count,date_safety_pass
+219453,759,0,0,0,0,0,True

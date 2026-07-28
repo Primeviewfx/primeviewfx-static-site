@@ -1,0 +1,5 @@
+level_name,row_count,superset_audited_pct_within_5,dynamic_oracle_pct_within_5,dynamic_audited_pct_within_5,superset_audited_median_abs_error,dynamic_oracle_median_abs_error,dynamic_audited_median_abs_error,dynamic_recovered_within_5_pct,dynamic_better_than_superset_pct
+L4,190.0,31.052632,65.263158,65.263158,9.685,1.49568,1.49568,34.210526,93.684211
+L5,190.0,34.210526,63.684211,63.684211,9.41875,1.567032,1.567032,29.473684,92.631579
+L6,190.0,32.105263,66.842105,66.842105,10.106875,1.454202,1.454202,34.736842,95.263158
+L7,189.0,28.571429,64.021164,64.021164,12.31125,2.2525,2.2525,35.449735,92.592593
