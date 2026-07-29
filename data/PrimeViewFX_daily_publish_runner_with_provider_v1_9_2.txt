@@ -1,6 +1,6 @@
 ﻿PrimeViewFX Daily Publish with Provider v1.9.2
 ============================================================
-Started: 2026-07-29T08:32:40.9176658+01:00
+Started: 2026-07-29T15:15:56.4641147+01:00
 Wrapper v1.9.1: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_9_1.ps1
 Production Health step: C:\Trading\Python\PrimeViewFX_production_health_auditor_step_v1_4.ps1
 SkipDailyPublish: False
@@ -19,7 +19,7 @@ Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_9_1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_9_1.ps1"
 PrimeViewFX Daily Publish with Provider v1.9.1
 ============================================================
-Started: 2026-07-29T08:32:42.0439289+01:00
+Started: 2026-07-29T15:15:57.6465804+01:00
 Wrapper v1.8.9: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_9.ps1
 Research Tools nav step: C:\Trading\Python\PrimeViewFX_research_tools_nav_step_v1.ps1
 SkipDailyPublish: False
@@ -36,7 +36,7 @@ Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_9.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_9.ps1"
 PrimeViewFX Daily Publish with Provider v1.8.9
 ============================================================
-Started: 2026-07-29T08:32:43.2565863+01:00
+Started: 2026-07-29T15:15:59.1316438+01:00
 Wrapper v1.8.8: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_8.ps1
 Combined cascade research summary step: C:\Trading\Python\PrimeViewFX_combined_cascade_research_summary_step_v1_2.ps1
 SkipDailyPublish: False
@@ -53,7 +53,7 @@ Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_8.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_8.ps1"
 PrimeViewFX Daily Publish with Provider v1.8.8
 ============================================================
-Started: 2026-07-29T08:32:44.6643770+01:00
+Started: 2026-07-29T15:16:00.7044342+01:00
 Wrapper v1.8.7: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_7.ps1
 Bullish cascade publish step: C:\Trading\Python\PrimeViewFX_bullish_cascade_publish_step_v1.ps1
 Bullish cascade dashboard step: C:\Trading\Python\PrimeViewFX_bullish_cascade_dashboard_card_step_v1.ps1
@@ -78,7 +78,7 @@ Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_7.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_7.ps1"
 PrimeViewFX Daily Publish with Provider v1.8.7
 ============================================================
-Started: 2026-07-29T08:32:46.0075511+01:00
+Started: 2026-07-29T15:16:02.1393562+01:00
 Wrapper v1.8.4: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_4.ps1
 Bearish cascade site link step: C:\Trading\Python\PrimeViewFX_bearish_cascade_site_link_step_v1.ps1
 SkipDailyPublish: False
@@ -95,7 +95,7 @@ Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_4.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_4.ps1"
 PrimeViewFX Daily Publish with Provider v1.8.4
 ============================================================
-Started: 2026-07-29T08:32:47.3564124+01:00
+Started: 2026-07-29T15:16:03.6111354+01:00
 Daily wrapper: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1
 Bearish cascade step: C:\Trading\Python\PrimeViewFX_bearish_cascade_publish_step_v1.ps1
 Bearish cascade dashboard step: C:\Trading\Python\PrimeViewFX_bearish_cascade_dashboard_card_step_v1.ps1
@@ -115,13 +115,13 @@ PREFLIGHT
 Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1"
 PrimeViewFX Daily Publish with Provider v1.8.1
-Started: 2026-07-29T08:32:48.4979178+01:00
+Started: 2026-07-29T15:16:04.8305230+01:00
 Python: C:\Trading\Python\python.exe
 Runner: C:\Trading\Python\primeviewfx_daily_publish_runner_with_provider_v1_8_1.py
 
 PrimeViewFX Daily Publish Runner with Provider v1.8.1
 ===================================================
-Started UTC: 2026-07-29T07:32:48Z
+Started UTC: 2026-07-29T14:16:04Z
 Script dir:  C:\Trading\Python
 Data dir:    C:\Trading\Data
 Publish:     C:\Trading\Publish
@@ -214,8 +214,8 @@ RESULT: PASSED returncode=0
 PRIMEVIEWFX DAILY PUBLISH WITH PROVIDER LAYER V1.5
 ==================================================
 
-run_time: 2026-07-29T08:35:06
-log_path: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260729_083248.log
+run_time: 2026-07-29T15:18:47
+log_path: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260729_151605.log
 
 SUMMARY
 -------
@@ -261,7 +261,7 @@ v1.5 refreshes live confidence from explicit forecast-date sources only.
 v1.5 keeps auditor v1.1 as the final required step.
 Research only. Not a trading signal.
 
-Log saved: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260729_083248.log
+Log saved: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260729_151605.log
 Latest report: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_latest.txt
 
 
@@ -297,9 +297,9 @@ promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
 selected_level_date: 2026-07-20
 scan_date: 2026-07-20
-latest_close: 4046.53
-latest_ema5: 4037.278487637132
-latest_channel_state: ema_proxy_up
+latest_close: 4001.66
+latest_ema5: 4015.2375459918712
+latest_channel_state: ema_proxy_down
 
 PROMOTED | PROMOTED_UP_LV3_TO_LV2_15_30
   status: NO_CANDIDATE_MAP
@@ -386,7 +386,7 @@ Dashboard summary
 -----------------
 promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
-latest_channel_state: ema_proxy_up
+latest_channel_state: ema_proxy_down
 
 Research only. Not a trading signal.
 
@@ -444,7 +444,7 @@ Source folder: C:\Trading\Publish\PrimeViewFX_Latest
 Site folder: C:\Trading\Publish\PrimeViewFX_Static_Site
 Required missing: 0
 Optional missing: 0
-Files published: 997
+Files published: 999
 
 Key outputs:
   C:\Trading\Publish\PrimeViewFX_Static_Site\index.html
@@ -485,7 +485,7 @@ Dashboard summary
 -----------------
 promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
-latest_channel_state: ema_proxy_up
+latest_channel_state: ema_proxy_down
 
 Research only. Not a trading signal.
 
@@ -645,44 +645,301 @@ Copied v1.8.1 summary to publish folders:
 
 Final v1.8.1 status
 -----------------
-status: FAILED
-blocking_count: 1
+status: PASSED
+blocking_count: 0
 warning_count: 0
 promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
-dashboard_html_found: False
+dashboard_html_found: True
 auditor_overall_status: PASSED
 auditor_blocking_count: 0
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-29T08:35:14.9982103+01:00
+Finished: 2026-07-29T15:18:56.9019598+01:00
+ExitCode: 0
+ExitCode: 0
+[PASS] daily_publish_v1_8_1_exit_code - exit_code=0
+
+--- bearish_cascade_publish_step_v1 ---
+Script: C:\Trading\Python\PrimeViewFX_bearish_cascade_publish_step_v1.ps1
+Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bearish_cascade_publish_step_v1.ps1"
+PrimeViewFX Bearish Cascade Publish Step v1
+============================================================
+created_utc:              2026-07-29T14:18:59Z
+python_exe:               py
+python_script:            C:\Trading\Python\xau_bearish_reaction_cascade_level_tagger_v1_3.py
+data_dir:                 C:\Trading\Data
+static_site_dir:          C:\Trading\Publish\PrimeViewFX_Static_Site
+latest_dir:               C:\Trading\Publish\PrimeViewFX_Latest
+live_cluster_tolerance:   2.5
+skip_run:                 False
+non_blocking:             False
+
+MANIFEST CONTRACT
+-----------------
+contract_forecast_date:   2026-07-20
+contract_source:          C:\Trading\Publish\PrimeViewFX_Static_Site\publish_manifest.json
+
+[PASS] manifest_forecast_date_present - forecast_date=2026-07-20; source=C:\Trading\Publish\PrimeViewFX_Static_Site\publish_manifest.json
+[PASS] python_tagger_script_exists - C:\Trading\Python\xau_bearish_reaction_cascade_level_tagger_v1_3.py
+
+RUN TAGGER
+----------
+command: py C:\Trading\Python\xau_bearish_reaction_cascade_level_tagger_v1_3.py --out-dir C:\Trading\Data --static-site-dir C:\Trading\Publish\PrimeViewFX_Static_Site --latest-dir C:\Trading\Publish\PrimeViewFX_Latest --live-cluster-tolerance 2.5
+XAU Bearish Reaction Cascade Level Tagger v1.3
+================================================
+published_levels_csv:   C:\Trading\Data\published_levels.csv
+rank_stats_csv:         C:\Trading\Data\xau_intraday_reaction_cascade_by_published_rank_v1_2.csv
+touch_stats_csv:        C:\Trading\Data\xau_intraday_reaction_cascade_by_touch_sequence_v1_2.csv
+out_dir:                C:\Trading\Data
+static_site_dir:        C:\Trading\Publish\PrimeViewFX_Static_Site
+latest_dir:             C:\Trading\Publish\PrimeViewFX_Latest
+contract_forecast_date: 2026-07-20
+contract_source:        static_publish_manifest: C:\Trading\Publish\PrimeViewFX_Static_Site\publish_manifest.json
+early_max_rank:         5
+transition_rank:        6
+primary_rank_range:     7-9
+deep_min_rank:          10
+live_cluster_tolerance: 2.5
+live_clustering:        True
+
+Saved:
+  C:\Trading\Data\xau_bearish_reaction_cascade_level_tags_v1_3.csv
+  C:\Trading\Data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.csv
+  C:\Trading\Data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json
+  C:\Trading\Data\xau_bearish_reaction_cascade_level_tags_latest_available_v1_3.csv
+  C:\Trading\Data\xau_bearish_reaction_cascade_level_tags_latest_available_v1_3.json
+  C:\Trading\Data\xau_bearish_reaction_cascade_level_tags_by_role_v1_3.csv
+  C:\Trading\Data\xau_bearish_reaction_cascade_level_tags_by_date_v1_3.csv
+  C:\Trading\Data\XAU_bearish_reaction_cascade_level_tagger_v1_3.txt
+  C:\Trading\Data\xau_bearish_reaction_cascade_level_tagger_summary_v1_3.json
+
+DATE CONTRACT
+-------------
+status:                 PASSED
+contract_forecast_date: 2026-07-20
+source:                 static_publish_manifest: C:\Trading\Publish\PrimeViewFX_Static_Site\publish_manifest.json
+latest_available_date:  2026-07-20
+publish_copy_allowed:   True
+detail:                 Contract forecast_date exists in tagged published levels; latest member export is date-safe.
+
+LIVE LEVEL RESOLVER
+-------------------
+status:                 FOUND
+source_file:            C:\Trading\Publish\PrimeViewFX_Static_Site\data\primeviewfx_members_integrated_map_v1.json
+source_status:          OK
+level_count:            16
+attempt_count:          1
+
+LIVE LEVEL CLUSTERING
+---------------------
+status:                 OK
+cluster_enabled:        True
+cluster_tolerance:      2.5
+raw_level_count:        22
+clustered_level_count:  16
+reduction:              6
+multi-source_clusters:  3
+
+Copied date-safe latest files to publish folders:
+  C:\Trading\Publish\PrimeViewFX_Latest\data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.csv
+  C:\Trading\Publish\PrimeViewFX_Latest\data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json
+  C:\Trading\Publish\PrimeViewFX_Latest\data\xau_bearish_reaction_cascade_level_tagger_summary_v1_3.json
+  C:\Trading\Publish\PrimeViewFX_Static_Site\data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.csv
+  C:\Trading\Publish\PrimeViewFX_Static_Site\data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json
+  C:\Trading\Publish\PrimeViewFX_Static_Site\data\xau_bearish_reaction_cascade_level_tagger_summary_v1_3.json
+
+LIVE CONTRACT TAG SUMMARY
+-------------------------
+ published_level  published_rank_high_to_low           bearish_cascade_role expected_reaction_strength continuation_risk  reaction_priority_score  cluster_source_count     cluster_source_levels
+         4133.32                           1        early_continuation_risk              Low to medium              High                       35                   1.0                   4133.32
+         4107.42                           2        early_continuation_risk              Low to medium              High                       35                   1.0                   4107.42
+         4081.52                           3        early_continuation_risk              Low to medium              High                       35                   1.0                   4081.52
+         4056.63                           4        early_continuation_risk              Low to medium              High                       35                   3.0 4057.64; 4056.63; 4055.62
+         4028.61                           5        early_continuation_risk              Low to medium              High                       35                   3.0 4029.72; 4028.61; 4027.49
+         4003.82                           6      transition_reaction_watch                     Medium            Medium                       55                   1.0                   4003.82
+         3999.11                           7  primary_bearish_reaction_zone                       High             Lower                       75                   1.0                   3999.11
+         3994.39                           8  primary_bearish_reaction_zone                       High             Lower                       75                   1.0                   3994.39
+         3977.92                           9  primary_bearish_reaction_zone                       High             Lower                       75                   1.0                   3977.92
+         3961.29                          10 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                   3961.29
+         3956.65                          11 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                   3956.65
+         3952.02                          12 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                   3952.02
+         3927.15                          13 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   3.0 3928.18; 3927.15; 3926.12
+         3895.08                          14 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                   3895.08
+         3861.98                          15 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                   3861.98
+         3833.66                          16 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                   3833.66
+
+LATEST AVAILABLE HISTORICAL TAG SUMMARY
+---------------------------------------
+ published_level  published_rank_high_to_low           bearish_cascade_role expected_reaction_strength continuation_risk  reaction_priority_score  cluster_source_count     cluster_source_levels
+         4133.32                           1        early_continuation_risk              Low to medium              High                       35                   1.0                   4133.32
+         4107.42                           2        early_continuation_risk              Low to medium              High                       35                   1.0                   4107.42
+         4081.52                           3        early_continuation_risk              Low to medium              High                       35                   1.0                   4081.52
+         4056.63                           4        early_continuation_risk              Low to medium              High                       35                   3.0 4057.64; 4056.63; 4055.62
+         4028.61                           5        early_continuation_risk              Low to medium              High                       35                   3.0 4029.72; 4028.61; 4027.49
+         4003.82                           6      transition_reaction_watch                     Medium            Medium                       55                   1.0                   4003.82
+         3999.11                           7  primary_bearish_reaction_zone                       High             Lower                       75                   1.0                   3999.11
+         3994.39                           8  primary_bearish_reaction_zone                       High             Lower                       75                   1.0                   3994.39
+         3977.92                           9  primary_bearish_reaction_zone                       High             Lower                       75                   1.0                   3977.92
+         3961.29                          10 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                   3961.29
+         3956.65                          11 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                   3956.65
+         3952.02                          12 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                   3952.02
+         3927.15                          13 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   3.0 3928.18; 3927.15; 3926.12
+         3895.08                          14 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                   3895.08
+         3861.98                          15 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                   3861.98
+         3833.66                          16 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                   3833.66
+
+Research only. Not a trading signal.
+[PASS] tagger_process_exit_code - exit_code=0
+
+VALIDATION
+----------
+[PASS] tagger_text_summary_exists - C:\Trading\Data\XAU_bearish_reaction_cascade_level_tagger_v1_3.txt
+[PASS] tagger_json_summary_exists - C:\Trading\Data\xau_bearish_reaction_cascade_level_tagger_summary_v1_3.json
+[PASS] local_latest_csv_exists - C:\Trading\Data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.csv
+[PASS] local_latest_json_exists - C:\Trading\Data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json
+[PASS] date_contract_passed - tagger summary reports PASSED date contract
+[PASS] publish_copy_allowed_true - tagger summary reports publish_copy_allowed=True
+[PASS] live_level_clustering_ok - tagger summary reports LIVE LEVEL CLUSTERING OK and enabled
+[PASS] live_level_source_resolved - tagger summary reports live publish package source
+[PASS] live_contract_rows_positive - live_contract_level_rows=16
+[PASS] clustered_count_not_greater_than_raw - raw=22; clustered=16
+[PASS] cluster_reduction_detected - raw=22; clustered=16; reduction=6
+[PASS] tagger_json_summary_parseable - C:\Trading\Data\xau_bearish_reaction_cascade_level_tagger_summary_v1_3.json
+[PASS] local_latest_json_parseable - C:\Trading\Data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json
+[PASS] local_latest_csv_has_rows - row_count=16
+[PASS] local_latest_csv_matches_contract_date - csv_dates=2026-07-20; contract=2026-07-20
+[PASS] publish_file_exists: xau_bearish_reaction_cascade_level_tags_latest_v1_3.csv @ data - C:\Trading\Publish\PrimeViewFX_Latest\data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.csv
+[PASS] publish_file_exists: xau_bearish_reaction_cascade_level_tags_latest_v1_3.json @ data - C:\Trading\Publish\PrimeViewFX_Latest\data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json
+[PASS] publish_file_exists: xau_bearish_reaction_cascade_level_tagger_summary_v1_3.json @ data - C:\Trading\Publish\PrimeViewFX_Latest\data\xau_bearish_reaction_cascade_level_tagger_summary_v1_3.json
+[PASS] publish_file_exists: xau_bearish_reaction_cascade_level_tags_latest_v1_3.csv @ data - C:\Trading\Publish\PrimeViewFX_Static_Site\data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.csv
+[PASS] publish_file_exists: xau_bearish_reaction_cascade_level_tags_latest_v1_3.json @ data - C:\Trading\Publish\PrimeViewFX_Static_Site\data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json
+[PASS] publish_file_exists: xau_bearish_reaction_cascade_level_tagger_summary_v1_3.json @ data - C:\Trading\Publish\PrimeViewFX_Static_Site\data\xau_bearish_reaction_cascade_level_tagger_summary_v1_3.json
+[PASS] publish_csv_matches_local @ data - C:\Trading\Publish\PrimeViewFX_Latest\data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.csv
+[PASS] publish_json_matches_local @ data - C:\Trading\Publish\PrimeViewFX_Latest\data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json
+[PASS] publish_csv_matches_local @ data - C:\Trading\Publish\PrimeViewFX_Static_Site\data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.csv
+[PASS] publish_json_matches_local @ data - C:\Trading\Publish\PrimeViewFX_Static_Site\data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json
+
+CHECK SUMMARY
+-------------
+overall_status:          PASSED
+blocking_failure_count:  0
+warning_count:           0
+
+OUTPUTS
+-------
+step_log:                C:\Trading\Data\PrimeViewFX_bearish_cascade_publish_step_v1.txt
+step_summary_json:       C:\Trading\Data\primeviewfx_bearish_cascade_publish_step_v1_summary.json
+
+Research only. Not a trading signal.
+ExitCode: 0
+[PASS] bearish_cascade_publish_step_exit_code - exit_code=0
+
+--- bearish_cascade_dashboard_card_step_v1 ---
+Script: C:\Trading\Python\PrimeViewFX_bearish_cascade_dashboard_card_step_v1.ps1
+Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bearish_cascade_dashboard_card_step_v1.ps1"
+PrimeViewFX Bearish Cascade Dashboard Card Step v1
+===================================================
+created_utc:        2026-07-29T14:19:02Z
+python_exe:         C:\Trading\Python\python.exe
+python_script:      C:\Trading\Python\primeviewfx_bearish_cascade_dashboard_card_v1.py
+data_dir:           C:\Trading\Data
+static_site_dir:    C:\Trading\Publish\PrimeViewFX_Static_Site
+latest_dir:         C:\Trading\Publish\PrimeViewFX_Latest
+
+[PASS] python_exe_exists - C:\Trading\Python\python.exe
+[PASS] python_dashboard_script_exists - C:\Trading\Python\primeviewfx_bearish_cascade_dashboard_card_v1.py
+
+RUN DASHBOARD CARD
+------------------
+command: C:\Trading\Python\python.exe C:\Trading\Python\primeviewfx_bearish_cascade_dashboard_card_v1.py --site-dir C:\Trading\Publish\PrimeViewFX_Static_Site --latest-dir C:\Trading\Publish\PrimeViewFX_Latest --local-dir C:\Trading\Data\BearishCascade
+PrimeViewFX Bearish Cascade Dashboard Card v1
+=============================================
+Tags JSON:          C:\Trading\Data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json
+Tags CSV fallback:  C:\Trading\Data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.csv
+Tagger summary:     C:\Trading\Data\primeviewfx_bearish_cascade_publish_step_v1_summary.json
+Site dir:           C:\Trading\Publish\PrimeViewFX_Static_Site
+Latest dir:         C:\Trading\Publish\PrimeViewFX_Latest
+
+Saved:
+  C:\Trading\Publish\PrimeViewFX_Static_Site\bearish-cascade-0171dd2ecccd13fa.html
+  C:\Trading\Publish\PrimeViewFX_Static_Site\data\bearish_cascade_dashboard_card_v1.json
+  C:\Trading\Publish\PrimeViewFX_Static_Site\data\bearish_cascade_dashboard_card_v1.html
+  C:\Trading\Data\BearishCascade\bearish_cascade_dashboard_card_v1.json
+  C:\Trading\Data\BearishCascade\bearish_cascade_dashboard_card_v1.html
+  C:\Trading\Data\BearishCascade\PrimeViewFX_bearish_cascade_dashboard_card_v1.txt
+
+Copied to latest folder:
+  C:\Trading\Publish\PrimeViewFX_Latest\bearish-cascade-0171dd2ecccd13fa.html
+  C:\Trading\Publish\PrimeViewFX_Latest\data\bearish_cascade_dashboard_card_v1.json
+  C:\Trading\Publish\PrimeViewFX_Latest\data\bearish_cascade_dashboard_card_v1.html
+
+Dashboard summary
+-----------------
+dashboard_status: PASSED
+forecast_date: 2026-07-20
+date_contract_status: PASSED
+row_count: 16
+primary_reaction_zone: 3,999.11, 3,994.39, 3,977.92
+
+Research only. Not a trading signal.
+[PASS] dashboard_card_process_exit_code - exit_code=0
+
+VALIDATION
+----------
+[FAIL] output_exists: bearish-cascade.html - Missing output: C:\Trading\Publish\PrimeViewFX_Static_Site\bearish-cascade.html
+[PASS] output_exists: bearish_cascade_dashboard_card_v1.json - C:\Trading\Publish\PrimeViewFX_Static_Site\data\bearish_cascade_dashboard_card_v1.json
+[PASS] output_exists: bearish_cascade_dashboard_card_v1.html - C:\Trading\Publish\PrimeViewFX_Static_Site\data\bearish_cascade_dashboard_card_v1.html
+[FAIL] output_exists: bearish-cascade.html - Missing output: C:\Trading\Publish\PrimeViewFX_Latest\bearish-cascade.html
+[PASS] output_exists: bearish_cascade_dashboard_card_v1.json - C:\Trading\Publish\PrimeViewFX_Latest\data\bearish_cascade_dashboard_card_v1.json
+[PASS] output_exists: bearish_cascade_dashboard_card_v1.html - C:\Trading\Publish\PrimeViewFX_Latest\data\bearish_cascade_dashboard_card_v1.html
+[PASS] output_exists: bearish_cascade_dashboard_card_v1.json - C:\Trading\Data\BearishCascade\bearish_cascade_dashboard_card_v1.json
+[PASS] output_exists: PrimeViewFX_bearish_cascade_dashboard_card_v1.txt - C:\Trading\Data\BearishCascade\PrimeViewFX_bearish_cascade_dashboard_card_v1.txt
+[PASS] dashboard_json_parseable - C:\Trading\Data\BearishCascade\bearish_cascade_dashboard_card_v1.json
+[PASS] dashboard_json_has_rows - row_count=16
+[PASS] dashboard_status_passed - dashboard_status=PASSED
+
+CHECK SUMMARY
+-------------
+overall_status:          FAILED
+blocking_count:          2
+warning_count:           0
+forecast_date:           2026-07-20
+row_count:               16
+dashboard_status:        PASSED
+
+Research only. Not a trading signal.
+
+OUTPUTS
+-------
+step_log:          C:\Trading\Data\BearishCascade\PrimeViewFX_bearish_cascade_dashboard_card_step_v1.txt
+step_summary_json: C:\Trading\Data\BearishCascade\primeviewfx_bearish_cascade_dashboard_card_step_v1_summary.json
 ExitCode: 1
-ExitCode: 1
-[FAIL] daily_publish_v1_8_1_exit_code - exit_code=1
+[FAIL] bearish_cascade_dashboard_card_step_exit_code - exit_code=1
 
 SUMMARY VALIDATION
 ------------------
 [PASS] daily_summary_parseable - C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_with_provider_v1_8_1_summary.json
-[FAIL] daily_summary_status_passed - status=FAILED; blocking_count=1
+[PASS] daily_summary_status_passed - status=PASSED
 [PASS] cascade_summary_parseable - C:\Trading\Data\primeviewfx_bearish_cascade_publish_step_v1_summary.json
-[FAIL] cascade_summary_status_passed - overall_status=FAILED; blocking_failure_count=2
+[PASS] cascade_summary_status_passed - overall_status=PASSED; blocking_failure_count=0; warning_count=0
 [PASS] dashboard_summary_parseable - C:\Trading\Data\BearishCascade\primeviewfx_bearish_cascade_dashboard_card_step_v1_summary.json
-[PASS] dashboard_summary_status_passed - overall_status=PASSED; dashboard_status=PASSED; row_count=21; warning_count=0
+[FAIL] dashboard_summary_status_passed - overall_status=FAILED; dashboard_status=PASSED; row_count=16; blocking_count=2
 
 FINAL v1.8.4 STATUS
 -------------------
 overall_status: FAILED
-blocking_count: 3
+blocking_count: 2
 warning_count: 0
-daily_exit_code: 1
-bearish_cascade_exit_code: -999
-bearish_cascade_dashboard_exit_code: -999
+daily_exit_code: 0
+bearish_cascade_exit_code: 0
+bearish_cascade_dashboard_exit_code: 1
 summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_with_provider_v1_8_4_summary.json
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-29T08:35:16.6084274+01:00
+Finished: 2026-07-29T15:19:03.8340121+01:00
 ExitCode: 1
 [FAIL] daily_publish_v1_8_4_exit_code - exit_code=1
 
@@ -691,7 +948,7 @@ Script: C:\Trading\Python\PrimeViewFX_bearish_cascade_site_link_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bearish_cascade_site_link_step_v1.ps1"
 PrimeViewFX Bearish Cascade Site Link Step v1
 ==============================================
-created_utc:        2026-07-29T07:35:19Z
+created_utc:        2026-07-29T14:19:07Z
 python_exe:         C:\Trading\Python\python.exe
 python_script:      C:\Trading\Python\primeviewfx_bearish_cascade_site_link_injector_v1.py
 static_site_dir:    C:\Trading\Publish\PrimeViewFX_Static_Site
@@ -716,9 +973,9 @@ SUMMARY
 overall_status: PASSED
 blocking_count: 0
 warning_count: 0
-forecast_date: 2026-06-26
-row_count: 10
-primary_reaction_zone: 4,003.24, 3,966.23, 3,922.30
+forecast_date: 2026-07-20
+row_count: 16
+primary_reaction_zone: 3,999.11, 3,994.39, 3,977.92
 injected_count: 2
 
 TARGETS
@@ -750,9 +1007,9 @@ CHECK SUMMARY
 overall_status:          PASSED
 blocking_count:          0
 warning_count:           0
-forecast_date:           2026-06-26
-row_count:               10
-primary_reaction_zone:   4,003.24, 3,966.23, 3,922.30
+forecast_date:           2026-07-20
+row_count:               16
+primary_reaction_zone:   3,999.11, 3,994.39, 3,977.92
 injected_count:          2
 
 OUTPUTS
@@ -767,7 +1024,7 @@ ExitCode: 0
 SUMMARY VALIDATION
 ------------------
 [PASS] v1_8_4_summary_parseable - C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_with_provider_v1_8_4_summary.json
-[FAIL] v1_8_4_summary_status_passed - overall_status=FAILED; blocking_count=3; warning_count=0
+[FAIL] v1_8_4_summary_status_passed - overall_status=FAILED; blocking_count=2; warning_count=0
 [PASS] site_link_summary_parseable - C:\Trading\Data\BearishCascade\primeviewfx_bearish_cascade_site_link_step_v1_summary.json
 [PASS] site_link_summary_status_passed - overall_status=PASSED; injected_count=2; warning_count=0
 
@@ -778,15 +1035,15 @@ blocking_count: 2
 warning_count: 0
 v1_8_4_exit_code: 1
 bearish_cascade_site_link_exit_code: 0
-forecast_date: 2026-06-26
-row_count: 10
-primary_reaction_zone: 4,003.24, 3,966.23, 3,922.30
+forecast_date: 2026-07-20
+row_count: 16
+primary_reaction_zone: 3,999.11, 3,994.39, 3,977.92
 injected_count: 2
 summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_with_provider_v1_8_7_summary.json
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-29T08:35:21.4419144+01:00
+Finished: 2026-07-29T15:19:09.5496644+01:00
 ExitCode: 1
 [FAIL] daily_publish_v1_8_7_exit_code - exit_code=1
 
@@ -795,7 +1052,7 @@ Script: C:\Trading\Python\PrimeViewFX_bullish_cascade_publish_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bullish_cascade_publish_step_v1.ps1"
 PrimeViewFX Bullish Cascade Publish Step v1
 ============================================================
-created_utc:              2026-07-29T07:35:24Z
+created_utc:              2026-07-29T14:19:13Z
 python_exe:               py
 python_script:            C:\Trading\Python\xau_bullish_reaction_cascade_level_tagger_v1.py
 data_dir:                 C:\Trading\Data
@@ -970,7 +1227,7 @@ Script: C:\Trading\Python\PrimeViewFX_bullish_cascade_dashboard_card_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bullish_cascade_dashboard_card_step_v1.ps1"
 PrimeViewFX Bullish Cascade Dashboard Card Step v1
 ===================================================
-created_utc:        2026-07-29T07:35:27Z
+created_utc:        2026-07-29T14:19:16Z
 python_exe:         C:\Trading\Python\python.exe
 python_script:      C:\Trading\Python\primeviewfx_bullish_cascade_dashboard_card_v1.py
 data_dir:           C:\Trading\Data
@@ -1052,7 +1309,7 @@ Script: C:\Trading\Python\PrimeViewFX_bullish_cascade_site_link_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bullish_cascade_site_link_step_v1.ps1"
 PrimeViewFX Bullish Cascade Site Link Step v1
 ==============================================
-created_utc:        2026-07-29T07:35:29Z
+created_utc:        2026-07-29T14:19:18Z
 python_exe:         C:\Trading\Python\python.exe
 python_script:      C:\Trading\Python\primeviewfx_bullish_cascade_site_link_injector_v1.py
 static_site_dir:    C:\Trading\Publish\PrimeViewFX_Static_Site
@@ -1153,7 +1410,7 @@ summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-29T08:35:31.7371129+01:00
+Finished: 2026-07-29T15:19:20.7540824+01:00
 ExitCode: 1
 [FAIL] daily_publish_v1_8_8_exit_code - exit_code=1
 
@@ -1162,7 +1419,7 @@ Script: C:\Trading\Python\PrimeViewFX_combined_cascade_research_summary_step_v1_
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_combined_cascade_research_summary_step_v1_2.ps1"
 PrimeViewFX Combined Cascade Research Summary Step v1.2
 ======================================================
-created_utc:     2026-07-29T07:35:34Z
+created_utc:     2026-07-29T14:19:24Z
 python_exe:      C:\Trading\Python\python.exe
 python_script:   C:\Trading\Python\primeviewfx_combined_cascade_research_summary_v1_2.py
 data_dir:        C:\Trading\Data
@@ -1185,7 +1442,7 @@ RUN COMBINED SUMMARY
 command: C:\Trading\Python\python.exe C:\Trading\Python\primeviewfx_combined_cascade_research_summary_v1_2.py --data-dir C:\Trading\Data --static-site-dir C:\Trading\Publish\PrimeViewFX_Static_Site --latest-dir C:\Trading\Publish\PrimeViewFX_Latest
 PrimeViewFX Combined Cascade Research Summary v1.2
 ========================================================
-created_utc:    2026-07-29T07:35:35Z
+created_utc:    2026-07-29T14:19:25Z
 overall_status: PASSED
 layer_count:    4
 
@@ -1279,13 +1536,13 @@ SUMMARY VALIDATION
 [PASS] combined_research_summary_parseable - C:\Trading\Data\primeviewfx_combined_cascade_research_summary_v1_2.json
 [PASS] combined_research_summary_status_passed - overall_status=PASSED; layer_count=4; status_counts={"ROBUST":2,"PROMISING":2,"REVIEW":0}
 [PASS] combined_layers_csv_exists - C:\Trading\Data\primeviewfx_combined_cascade_research_layers_v1_2.csv
-[FAIL] combined_research_static_page_exists - C:\Trading\Publish\PrimeViewFX_Static_Site\cascade-research-summary.html
-[FAIL] combined_research_latest_page_exists - C:\Trading\Publish\PrimeViewFX_Latest\cascade-research-summary.html
+[PASS] combined_research_static_page_exists - C:\Trading\Publish\PrimeViewFX_Static_Site\cascade-research-summary-ff36f349b8cbb7d7.html
+[PASS] combined_research_latest_page_exists - C:\Trading\Publish\PrimeViewFX_Latest\cascade-research-summary-ff36f349b8cbb7d7.html
 
 FINAL v1.8.9 STATUS
 -------------------
 overall_status: FAILED
-blocking_count: 5
+blocking_count: 3
 warning_count: 0
 v1_8_8_exit_code: 1
 combined_cascade_research_summary_exit_code: 0
@@ -1302,7 +1559,7 @@ summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-29T08:35:36.6534782+01:00
+Finished: 2026-07-29T15:19:26.2936279+01:00
 ExitCode: 1
 [FAIL] daily_publish_v1_8_9_exit_code - exit_code=1
 
@@ -1311,7 +1568,7 @@ Script: C:\Trading\Python\PrimeViewFX_research_tools_nav_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_research_tools_nav_step_v1.ps1"
 PrimeViewFX Research Tools Navigation Step v1
 ==============================================
-created_utc:      2026-07-29T07:35:39Z
+created_utc:      2026-07-29T14:19:29Z
 python_exe:       C:\Trading\Python\python.exe
 python_script:    C:\Trading\Python\primeviewfx_research_tools_nav_injector_v1.py
 static_site_dir:  C:\Trading\Publish\PrimeViewFX_Static_Site
@@ -1325,12 +1582,80 @@ PREFLIGHT
 [PASS] python_exe_exists - C:\Trading\Python\python.exe
 [PASS] research_tools_nav_injector_script_exists - C:\Trading\Python\primeviewfx_research_tools_nav_injector_v1.py
 [PASS] required_target_exists - C:\Trading\Publish\PrimeViewFX_Static_Site\members-research-a8502a7b66e839df.html
-[FAIL] required_target_exists - C:\Trading\Publish\PrimeViewFX_Static_Site\members-weekly-goldturns-5ca15a7d08b31d56.html
+[PASS] required_target_exists - C:\Trading\Publish\PrimeViewFX_Static_Site\members-weekly-goldturns-5ca15a7d08b31d56.html
 [PASS] required_target_exists - C:\Trading\Publish\PrimeViewFX_Static_Site\weighted-level-scanner-add58c89ce531e69.html
 [PASS] required_target_exists - C:\Trading\Publish\PrimeViewFX_Static_Site\bearish-cascade-0171dd2ecccd13fa.html
 [PASS] required_target_exists - C:\Trading\Publish\PrimeViewFX_Static_Site\bullish-cascade-1ddfa177ade539c0.html
 [PASS] required_target_exists - C:\Trading\Publish\PrimeViewFX_Static_Site\cascade-research-summary-ff36f349b8cbb7d7.html
 [PASS] required_target_exists - C:\Trading\Publish\PrimeViewFX_Static_Site\members\primeviewfx_members_integrated_map_v1-8d9ae95fd8353fae.html
+
+RUN RESEARCH TOOLS NAV INJECTOR
+-------------------------------
+command: C:\Trading\Python\python.exe C:\Trading\Python\primeviewfx_research_tools_nav_injector_v1.py --site-dir C:\Trading\Publish\PrimeViewFX_Static_Site --latest-dir C:\Trading\Publish\PrimeViewFX_Latest --local-dir C:\Trading\Data\ResearchToolsNav
+PrimeViewFX Research Tools Navigation Injector v1
+====================================================
+created_utc:    2026-07-29T14:19:29Z
+overall_status: PASSED
+blocking_count: 0
+warning_count:  0
+tool_count:     8
+injected_count: 13
+
+TOOLS
+-----
+members_research: AVAILABLE
+  page: C:\Trading\Publish\PrimeViewFX_Static_Site\members-research-a8502a7b66e839df.html
+  data: None
+live_chart: AVAILABLE
+  page: C:\Trading\Publish\PrimeViewFX_Static_Site\members-weekly-goldturns-5ca15a7d08b31d56.html
+  data: None
+weighted_level_scanner: AVAILABLE
+  page: C:\Trading\Publish\PrimeViewFX_Static_Site\weighted-level-scanner-add58c89ce531e69.html
+  data: C:\Trading\Publish\PrimeViewFX_Static_Site\data\weighted_level_dashboard_card_v1_3.json
+bearish_cascade: AVAILABLE
+  page: C:\Trading\Publish\PrimeViewFX_Static_Site\bearish-cascade-0171dd2ecccd13fa.html
+  data: C:\Trading\Publish\PrimeViewFX_Static_Site\data\bearish_cascade_dashboard_card_v1.json
+bullish_cascade: AVAILABLE
+  page: C:\Trading\Publish\PrimeViewFX_Static_Site\bullish-cascade-1ddfa177ade539c0.html
+  data: C:\Trading\Publish\PrimeViewFX_Static_Site\data\bullish_cascade_dashboard_card_v1.json
+combined_cascade_research: AVAILABLE
+  page: C:\Trading\Publish\PrimeViewFX_Static_Site\cascade-research-summary-ff36f349b8cbb7d7.html
+  data: C:\Trading\Publish\PrimeViewFX_Static_Site\data\primeviewfx_combined_cascade_research_summary_v1_2.json
+integrated_map: AVAILABLE
+  page: C:\Trading\Publish\PrimeViewFX_Static_Site\members\primeviewfx_members_integrated_map_v1-8d9ae95fd8353fae.html
+  data: C:\Trading\Publish\PrimeViewFX_Static_Site\data\primeviewfx_members_integrated_map_v1.json
+indicators: AVAILABLE
+  page: C:\Trading\Publish\PrimeViewFX_Static_Site\members-indicators.html
+  data: None
+
+TARGETS
+-------
+[UNCHANGED_ALREADY_CURRENT] C:\Trading\Publish\PrimeViewFX_Static_Site\members-research-a8502a7b66e839df.html
+[INJECTED] C:\Trading\Publish\PrimeViewFX_Static_Site\members-weekly-goldturns-5ca15a7d08b31d56.html
+[INJECTED] C:\Trading\Publish\PrimeViewFX_Static_Site\weighted-level-scanner-add58c89ce531e69.html
+[INJECTED] C:\Trading\Publish\PrimeViewFX_Static_Site\bearish-cascade-0171dd2ecccd13fa.html
+[INJECTED] C:\Trading\Publish\PrimeViewFX_Static_Site\bullish-cascade-1ddfa177ade539c0.html
+[INJECTED] C:\Trading\Publish\PrimeViewFX_Static_Site\cascade-research-summary-ff36f349b8cbb7d7.html
+[INJECTED] C:\Trading\Publish\PrimeViewFX_Static_Site\members\primeviewfx_members_integrated_map_v1-8d9ae95fd8353fae.html
+[UNCHANGED_ALREADY_CURRENT] C:\Trading\Publish\PrimeViewFX_Latest\members-research-a8502a7b66e839df.html
+[MISSING] C:\Trading\Publish\PrimeViewFX_Latest\members-weekly-goldturns-5ca15a7d08b31d56.html
+[INJECTED] C:\Trading\Publish\PrimeViewFX_Latest\weighted-level-scanner-add58c89ce531e69.html
+[INJECTED] C:\Trading\Publish\PrimeViewFX_Latest\bearish-cascade-0171dd2ecccd13fa.html
+[INJECTED] C:\Trading\Publish\PrimeViewFX_Latest\bullish-cascade-1ddfa177ade539c0.html
+[INJECTED] C:\Trading\Publish\PrimeViewFX_Latest\cascade-research-summary-ff36f349b8cbb7d7.html
+[INJECTED] C:\Trading\Publish\PrimeViewFX_Latest\members\primeviewfx_members_integrated_map_v1-8d9ae95fd8353fae.html
+
+OUTPUTS
+-------
+local_summary_json: C:\Trading\Data\ResearchToolsNav\primeviewfx_research_tools_nav_injector_v1_summary.json
+local_summary_txt: C:\Trading\Data\ResearchToolsNav\PrimeViewFX_research_tools_nav_injector_v1.txt
+local_nav_html: C:\Trading\Data\ResearchToolsNav\primeviewfx_research_tools_nav_v1.html
+site_data_json: C:\Trading\Publish\PrimeViewFX_Static_Site\data\primeviewfx_research_tools_nav_v1.json
+site_data_html: C:\Trading\Publish\PrimeViewFX_Static_Site\data\primeviewfx_research_tools_nav_v1.html
+latest_data_json: C:\Trading\Publish\PrimeViewFX_Latest\data\primeviewfx_research_tools_nav_v1.json
+latest_data_html: C:\Trading\Publish\PrimeViewFX_Latest\data\primeviewfx_research_tools_nav_v1.html
+
+Research only. Not a trading signal.
 
 VALIDATION
 ----------
@@ -1340,21 +1665,21 @@ VALIDATION
 [PASS] output_exists: primeviewfx_research_tools_nav_v1.json - C:\Trading\Publish\PrimeViewFX_Static_Site\data\primeviewfx_research_tools_nav_v1.json
 [PASS] output_exists: primeviewfx_research_tools_nav_v1.html - C:\Trading\Publish\PrimeViewFX_Static_Site\data\primeviewfx_research_tools_nav_v1.html
 [PASS] research_tools_marker_present - C:\Trading\Publish\PrimeViewFX_Static_Site\members-research-a8502a7b66e839df.html
-[FAIL] research_tools_marker_present - C:\Trading\Publish\PrimeViewFX_Static_Site\members-weekly-goldturns-5ca15a7d08b31d56.html
-[FAIL] research_tools_marker_present - C:\Trading\Publish\PrimeViewFX_Static_Site\weighted-level-scanner-add58c89ce531e69.html
+[PASS] research_tools_marker_present - C:\Trading\Publish\PrimeViewFX_Static_Site\members-weekly-goldturns-5ca15a7d08b31d56.html
+[PASS] research_tools_marker_present - C:\Trading\Publish\PrimeViewFX_Static_Site\weighted-level-scanner-add58c89ce531e69.html
 [PASS] research_tools_marker_present - C:\Trading\Publish\PrimeViewFX_Static_Site\bearish-cascade-0171dd2ecccd13fa.html
-[FAIL] research_tools_marker_present - C:\Trading\Publish\PrimeViewFX_Static_Site\bullish-cascade-1ddfa177ade539c0.html
-[FAIL] research_tools_marker_present - C:\Trading\Publish\PrimeViewFX_Static_Site\cascade-research-summary-ff36f349b8cbb7d7.html
-[FAIL] research_tools_marker_present - C:\Trading\Publish\PrimeViewFX_Static_Site\members\primeviewfx_members_integrated_map_v1-8d9ae95fd8353fae.html
+[PASS] research_tools_marker_present - C:\Trading\Publish\PrimeViewFX_Static_Site\bullish-cascade-1ddfa177ade539c0.html
+[PASS] research_tools_marker_present - C:\Trading\Publish\PrimeViewFX_Static_Site\cascade-research-summary-ff36f349b8cbb7d7.html
+[PASS] research_tools_marker_present - C:\Trading\Publish\PrimeViewFX_Static_Site\members\primeviewfx_members_integrated_map_v1-8d9ae95fd8353fae.html
 [PASS] injector_summary_parseable - C:\Trading\Data\ResearchToolsNav\primeviewfx_research_tools_nav_injector_v1_summary.json
 [PASS] injector_summary_status_passed - overall_status=PASSED; injected_count=13; warning_count=0
 
 CHECK SUMMARY
 -------------
-overall_status:          FAILED
-blocking_count:          6
+overall_status:          PASSED
+blocking_count:          0
 warning_count:           0
-process_exit_code:       
+process_exit_code:       0
 tool_count:              8
 tools_available_count:   8
 injected_count:          13
@@ -1366,23 +1691,23 @@ step_log:          C:\Trading\Data\ResearchToolsNav\PrimeViewFX_research_tools_n
 step_summary_json: C:\Trading\Data\ResearchToolsNav\primeviewfx_research_tools_nav_step_v1_summary.json
 
 Research only. Not a trading signal.
-ExitCode: 1
-[FAIL] research_tools_nav_step_exit_code - exit_code=1
+ExitCode: 0
+[PASS] research_tools_nav_step_exit_code - exit_code=0
 
 SUMMARY VALIDATION
 ------------------
 [PASS] v1_8_9_summary_parseable - C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_with_provider_v1_8_9_summary.json
-[FAIL] v1_8_9_summary_status_passed - overall_status=FAILED; blocking_count=5; warning_count=0
+[FAIL] v1_8_9_summary_status_passed - overall_status=FAILED; blocking_count=3; warning_count=0
 [PASS] research_tools_nav_summary_parseable - C:\Trading\Data\ResearchToolsNav\primeviewfx_research_tools_nav_step_v1_summary.json
-[FAIL] research_tools_nav_summary_status_passed - overall_status=FAILED; tools=8; available=8; injected_count=13; warning_count=0
+[PASS] research_tools_nav_summary_status_passed - overall_status=PASSED; tools=8; available=8; injected_count=13; warning_count=0
 
 FINAL v1.9.1 STATUS
 -------------------
 overall_status: FAILED
-blocking_count: 4
+blocking_count: 2
 warning_count: 0
 v1_8_9_exit_code: 1
-research_tools_nav_exit_code: 1
+research_tools_nav_exit_code: 0
 forecast_date: 2026-07-20
 row_count: 16
 primary_reaction_zone: 3,961.29, 3,977.92, 3,994.39
@@ -1400,7 +1725,7 @@ summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-29T08:35:40.9413771+01:00
+Finished: 2026-07-29T15:19:30.3805331+01:00
 ExitCode: 1
 [FAIL] daily_publish_v1_9_1_exit_code - exit_code=1
 
@@ -1409,7 +1734,7 @@ Script: C:\Trading\Python\PrimeViewFX_production_health_auditor_step_v1_4.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_production_health_auditor_step_v1_4.ps1"
 PrimeViewFX Production Health Auditor Step v1.4
 ==============================================
-created_utc:      2026-07-29T07:35:43Z
+created_utc:      2026-07-29T14:19:32Z
 python_exe:       C:\Trading\Python\python.exe
 python_script:    C:\Trading\Python\primeviewfx_production_health_auditor_v1_4.py
 data_dir:         C:\Trading\Data
@@ -1437,21 +1762,21 @@ RUN PRODUCTION HEALTH AUDITOR
 command: C:\Trading\Python\python.exe C:\Trading\Python\primeviewfx_production_health_auditor_v1_4.py --data-dir C:\Trading\Data --static-site-dir C:\Trading\Publish\PrimeViewFX_Static_Site --latest-dir C:\Trading\Publish\PrimeViewFX_Latest --local-dir C:\Trading\Data\ProductionHealth
 PrimeViewFX Production Health Auditor v1.4
 ========================================
-created_utc:            2026-07-29T07:35:43Z
+created_utc:            2026-07-29T14:19:32Z
 overall_status:         FAILED
 manifest_forecast_date: 2026-07-20
 finding_count:          201
-blocking_count:         8
-warning_count:          12
-pass_count:             167
+blocking_count:         2
+warning_count:          11
+pass_count:             174
 info_count:             14
 
 STATUS COUNTS
 -------------
-PASS: 167
+PASS: 174
 INFO: 14
-WARNING: 12
-FAIL: 8
+WARNING: 11
+FAIL: 2
 
 OUTPUTS
 -------
@@ -1477,7 +1802,7 @@ VALIDATION
 [PASS] output_exists: primeviewfx_production_health_auditor_v1_4.html - C:\Trading\Publish\PrimeViewFX_Static_Site\data\primeviewfx_production_health_auditor_v1_4.html
 [PASS] output_exists: production-health.html - C:\Trading\Publish\PrimeViewFX_Static_Site\production-health.html
 [PASS] auditor_summary_parseable - C:\Trading\Data\ProductionHealth\primeviewfx_production_health_auditor_v1_4_summary.json
-[FAIL] auditor_summary_status_passed - overall_status=FAILED; blocking_count=8; warning_count=12
+[FAIL] auditor_summary_status_passed - overall_status=FAILED; blocking_count=2; warning_count=11
 
 CHECK SUMMARY
 -------------
@@ -1488,9 +1813,9 @@ process_exit_code:       1
 auditor_overall_status:  FAILED
 manifest_forecast_date:  2026-07-20
 finding_count:           201
-auditor_blocking_count:  8
-auditor_warning_count:   12
-auditor_pass_count:      167
+auditor_blocking_count:  2
+auditor_warning_count:   11
+auditor_pass_count:      174
 auditor_info_count:      14
 
 OUTPUTS
@@ -1505,9 +1830,9 @@ ExitCode: 1
 SUMMARY VALIDATION
 ------------------
 [PASS] v1_9_1_summary_parseable - C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_with_provider_v1_9_1_summary.json
-[FAIL] v1_9_1_summary_status_passed - overall_status=FAILED; blocking_count=4; warning_count=0
+[FAIL] v1_9_1_summary_status_passed - overall_status=FAILED; blocking_count=2; warning_count=0
 [PASS] production_health_step_summary_parseable - C:\Trading\Data\ProductionHealth\primeviewfx_production_health_auditor_step_v1_4_summary.json
-[FAIL] production_health_summary_status_passed - step_status=FAILED; step_blocking=2; step_warning=0; auditor_status=FAILED; auditor_blocking=8; auditor_warning=12; finding_count=201
+[FAIL] production_health_summary_status_passed - step_status=FAILED; step_blocking=2; step_warning=0; auditor_status=FAILED; auditor_blocking=2; auditor_warning=11; finding_count=201
 
 DEPLOY
 ------
@@ -1536,12 +1861,12 @@ research_tools_marker_count: 13
 production_health_status: FAILED
 production_health_manifest_forecast_date: 2026-07-20
 production_health_finding_count: 201
-production_health_blocking_count: 8
-production_health_warning_count: 12
-production_health_pass_count: 167
+production_health_blocking_count: 2
+production_health_warning_count: 11
+production_health_pass_count: 174
 production_health_info_count: 14
 summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_with_provider_v1_9_2_summary.json
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-29T08:35:44.6033510+01:00
+Finished: 2026-07-29T15:19:33.7114065+01:00

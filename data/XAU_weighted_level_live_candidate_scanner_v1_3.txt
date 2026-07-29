@@ -5,12 +5,12 @@ SUMMARY
 -------
 selected_level_date: 2026-07-20
 scan_date: 2026-07-20
-latest_datetime: 2026-07-29 10:00:00
-latest_close: 4046.53
-latest_ema5: 4037.278487637132
-latest_channel_state: ema_proxy_up
-latest_state_alignment_up: with_state
-latest_state_alignment_down: counter_state
+latest_datetime: 2026-07-29 17:00:00
+latest_close: 4001.66
+latest_ema5: 4015.2375459918712
+latest_channel_state: ema_proxy_down
+latest_state_alignment_up: counter_state
+latest_state_alignment_down: with_state
 promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
 

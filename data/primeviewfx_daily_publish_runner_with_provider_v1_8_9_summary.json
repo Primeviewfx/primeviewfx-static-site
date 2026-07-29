@@ -1,9 +1,9 @@
 ﻿{
     "version":  "v1.8.9",
-    "created_utc":  "2026-07-29T07:35:36Z",
-    "finished_local":  "2026-07-29T08:35:36.6534782+01:00",
+    "created_utc":  "2026-07-29T14:19:26Z",
+    "finished_local":  "2026-07-29T15:19:26.2936279+01:00",
     "overall_status":  "FAILED",
-    "blocking_count":  5,
+    "blocking_count":  3,
     "warning_count":  0,
     "v1_8_8_exit_code":  1,
     "combined_cascade_research_summary_exit_code":  0,
@@ -96,20 +96,20 @@
                    },
                    {
                        "name":  "combined_research_static_page_exists",
-                       "status":  "FAIL",
-                       "detail":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\cascade-research-summary.html",
-                       "blocking":  true,
+                       "status":  "PASS",
+                       "detail":  "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\cascade-research-summary-ff36f349b8cbb7d7.html",
+                       "blocking":  false,
                        "warning":  false
                    },
                    {
                        "name":  "combined_research_latest_page_exists",
-                       "status":  "FAIL",
-                       "detail":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\cascade-research-summary.html",
-                       "blocking":  true,
+                       "status":  "PASS",
+                       "detail":  "C:\\Trading\\Publish\\PrimeViewFX_Latest\\cascade-research-summary-ff36f349b8cbb7d7.html",
+                       "blocking":  false,
                        "warning":  false
                    }
                ],
-    "log_path":  "C:\\Trading\\Logs\\primeviewfx_daily_publish_with_provider_v1_8_9_20260729_083243.log",
+    "log_path":  "C:\\Trading\\Logs\\primeviewfx_daily_publish_with_provider_v1_8_9_20260729_151559.log",
     "report_path":  "C:\\Trading\\Data\\PrimeViewFXDaily\\PrimeViewFX_daily_publish_runner_with_provider_v1_8_9.txt",
     "summary_json":  "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_8_9_summary.json",
     "research_only":  true,

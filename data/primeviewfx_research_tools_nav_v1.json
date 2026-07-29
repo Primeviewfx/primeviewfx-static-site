@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "created_utc": "2026-07-29T13:19:16Z",
+  "created_utc": "2026-07-29T14:19:29Z",
   "overall_status": "PASSED",
   "blocking_count": 0,
   "warning_count": 0,
@@ -190,9 +190,9 @@
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\bearish-cascade-0171dd2ecccd13fa.html",
-      "status": "UNCHANGED_ALREADY_CURRENT",
-      "changed": false,
-      "mode": "REPLACED",
+      "status": "INJECTED",
+      "changed": true,
+      "mode": "INSERTED_BEFORE_BODY>",
       "marker_present": true,
       "write_verified": true
     },
@@ -246,9 +246,9 @@
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\bearish-cascade-0171dd2ecccd13fa.html",
-      "status": "UNCHANGED_ALREADY_CURRENT",
-      "changed": false,
-      "mode": "REPLACED",
+      "status": "INJECTED",
+      "changed": true,
+      "mode": "INSERTED_BEFORE_BODY>",
       "marker_present": true,
       "write_verified": true
     },
