@@ -1,6 +1,6 @@
 ﻿PrimeViewFX Daily Publish with Provider v1.8.4
 ============================================================
-Started: 2026-07-29T06:35:08.5326688+01:00
+Started: 2026-07-29T08:32:47.3564124+01:00
 Daily wrapper: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1
 Bearish cascade step: C:\Trading\Python\PrimeViewFX_bearish_cascade_publish_step_v1.ps1
 Bearish cascade dashboard step: C:\Trading\Python\PrimeViewFX_bearish_cascade_dashboard_card_step_v1.ps1
@@ -20,13 +20,13 @@ PREFLIGHT
 Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1"
 PrimeViewFX Daily Publish with Provider v1.8.1
-Started: 2026-07-29T06:35:09.7866677+01:00
+Started: 2026-07-29T08:32:48.4979178+01:00
 Python: C:\Trading\Python\python.exe
 Runner: C:\Trading\Python\primeviewfx_daily_publish_runner_with_provider_v1_8_1.py
 
 PrimeViewFX Daily Publish Runner with Provider v1.8.1
 ===================================================
-Started UTC: 2026-07-29T05:35:09Z
+Started UTC: 2026-07-29T07:32:48Z
 Script dir:  C:\Trading\Python
 Data dir:    C:\Trading\Data
 Publish:     C:\Trading\Publish
@@ -119,8 +119,8 @@ RESULT: PASSED returncode=0
 PRIMEVIEWFX DAILY PUBLISH WITH PROVIDER LAYER V1.5
 ==================================================
 
-run_time: 2026-07-29T06:37:32
-log_path: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260729_063509.log
+run_time: 2026-07-29T08:35:06
+log_path: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260729_083248.log
 
 SUMMARY
 -------
@@ -166,7 +166,7 @@ v1.5 refreshes live confidence from explicit forecast-date sources only.
 v1.5 keeps auditor v1.1 as the final required step.
 Research only. Not a trading signal.
 
-Log saved: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260729_063509.log
+Log saved: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260729_083248.log
 Latest report: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_latest.txt
 
 
@@ -202,9 +202,9 @@ promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
 selected_level_date: 2026-07-20
 scan_date: 2026-07-20
-latest_close: 4031.93
-latest_ema5: 4028.005763850213
-latest_channel_state: ema_proxy_neutral
+latest_close: 4046.53
+latest_ema5: 4037.278487637132
+latest_channel_state: ema_proxy_up
 
 PROMOTED | PROMOTED_UP_LV3_TO_LV2_15_30
   status: NO_CANDIDATE_MAP
@@ -291,7 +291,7 @@ Dashboard summary
 -----------------
 promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
-latest_channel_state: ema_proxy_neutral
+latest_channel_state: ema_proxy_up
 
 Research only. Not a trading signal.
 
@@ -390,7 +390,7 @@ Dashboard summary
 -----------------
 promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
-latest_channel_state: ema_proxy_neutral
+latest_channel_state: ema_proxy_up
 
 Research only. Not a trading signal.
 
@@ -561,7 +561,7 @@ auditor_blocking_count: 0
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-29T06:37:41.4023411+01:00
+Finished: 2026-07-29T08:35:14.9982103+01:00
 ExitCode: 1
 ExitCode: 1
 [FAIL] daily_publish_v1_8_1_exit_code - exit_code=1
@@ -587,4 +587,4 @@ summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-29T06:37:43.0622123+01:00
+Finished: 2026-07-29T08:35:16.6084274+01:00

@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "created_utc": "2026-07-25T11:28:20Z",
+  "created_utc": "2026-07-29T13:19:16Z",
   "overall_status": "PASSED",
   "blocking_count": 0,
   "warning_count": 0,
@@ -174,17 +174,17 @@
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-weekly-goldturns-5ca15a7d08b31d56.html",
-      "status": "UNCHANGED_ALREADY_CURRENT",
-      "changed": false,
-      "mode": "REPLACED",
+      "status": "INJECTED",
+      "changed": true,
+      "mode": "INSERTED_BEFORE_MAIN>",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\weighted-level-scanner-add58c89ce531e69.html",
-      "status": "UNCHANGED_ALREADY_CURRENT",
-      "changed": false,
-      "mode": "REPLACED",
+      "status": "INJECTED",
+      "changed": true,
+      "mode": "INSERTED_BEFORE_BODY>",
       "marker_present": true,
       "write_verified": true
     },
@@ -198,25 +198,25 @@
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\bullish-cascade-1ddfa177ade539c0.html",
-      "status": "UNCHANGED_ALREADY_CURRENT",
-      "changed": false,
-      "mode": "REPLACED",
+      "status": "INJECTED",
+      "changed": true,
+      "mode": "INSERTED_BEFORE_BODY>",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\cascade-research-summary-ff36f349b8cbb7d7.html",
-      "status": "UNCHANGED_ALREADY_CURRENT",
-      "changed": false,
-      "mode": "REPLACED",
+      "status": "INJECTED",
+      "changed": true,
+      "mode": "INSERTED_BEFORE_BODY>",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members\\primeviewfx_members_integrated_map_v1-8d9ae95fd8353fae.html",
-      "status": "UNCHANGED_ALREADY_CURRENT",
-      "changed": false,
-      "mode": "REPLACED",
+      "status": "INJECTED",
+      "changed": true,
+      "mode": "INSERTED_BEFORE_MAIN>",
       "marker_present": true,
       "write_verified": true
     },
@@ -238,9 +238,9 @@
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\weighted-level-scanner-add58c89ce531e69.html",
-      "status": "UNCHANGED_ALREADY_CURRENT",
-      "changed": false,
-      "mode": "REPLACED",
+      "status": "INJECTED",
+      "changed": true,
+      "mode": "INSERTED_BEFORE_BODY>",
       "marker_present": true,
       "write_verified": true
     },
@@ -254,25 +254,25 @@
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\bullish-cascade-1ddfa177ade539c0.html",
-      "status": "UNCHANGED_ALREADY_CURRENT",
-      "changed": false,
-      "mode": "REPLACED",
+      "status": "INJECTED",
+      "changed": true,
+      "mode": "INSERTED_BEFORE_BODY>",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\cascade-research-summary-ff36f349b8cbb7d7.html",
-      "status": "UNCHANGED_ALREADY_CURRENT",
-      "changed": false,
-      "mode": "REPLACED",
+      "status": "INJECTED",
+      "changed": true,
+      "mode": "INSERTED_BEFORE_BODY>",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members\\primeviewfx_members_integrated_map_v1-8d9ae95fd8353fae.html",
-      "status": "UNCHANGED_ALREADY_CURRENT",
-      "changed": false,
-      "mode": "REPLACED",
+      "status": "INJECTED",
+      "changed": true,
+      "mode": "INSERTED_BEFORE_MAIN>",
       "marker_present": true,
       "write_verified": true
     }

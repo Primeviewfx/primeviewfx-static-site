@@ -69,11 +69,11 @@
       <div class="grid">
         <div><span>Promoted Candidate</span><strong>NO_CANDIDATE_MAP</strong></div>
         <div><span>Watchlist</span><strong>WAITING_FOR_TRIGGER</strong></div>
-        <div><span>Latest Close</span><strong>4,031.93</strong></div>
-        <div><span>EMA5</span><strong>4,028.01</strong></div>
-        <div><span>State</span><strong>ema_proxy_neutral</strong></div>
-        <div><span>Up Alignment</span><strong>neutral_state</strong></div>
-        <div><span>Down Alignment</span><strong>neutral_state</strong></div>
+        <div><span>Latest Close</span><strong>4,046.53</strong></div>
+        <div><span>EMA5</span><strong>4,037.28</strong></div>
+        <div><span>State</span><strong>ema_proxy_up</strong></div>
+        <div><span>Up Alignment</span><strong>with_state</strong></div>
+        <div><span>Down Alignment</span><strong>counter_state</strong></div>
         <div><span>Level Date</span><strong>2026-07-20</strong></div>
       </div>
     </section>
@@ -223,10 +223,266 @@
     </section>
 
     <div class="footer">
-      Created UTC: 2026-07-29T05:37:40Z<br>
-      Latest bar: 2026-07-29 08:00:00<br>
+      Created UTC: 2026-07-29T07:35:14Z<br>
+      Latest bar: 2026-07-29 10:00:00<br>
       Research only. Not a trading signal.
     </div>
   </div>
+<!-- PRIMEVIEWFX_RESEARCH_TOOLS_NAV_V1_START -->
+<section id="primeviewfx-research-tools-nav-v1" class="primeviewfx-research-tools-nav-v1" aria-label="PrimeViewFX research tools">
+  <style>
+    .primeviewfx-research-tools-nav-v1 {
+      margin: 24px 0;
+      padding: 22px;
+      border: 1px solid rgba(148, 163, 184, 0.22);
+      border-radius: 18px;
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(30, 41, 59, 0.92));
+      color: #e5e7eb;
+      box-shadow: 0 16px 45px rgba(0, 0, 0, 0.22);
+    }
+    .primeviewfx-research-tools-nav-v1 * { box-sizing: border-box; }
+    .primeviewfx-research-tools-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+      margin-bottom: 16px;
+    }
+    .primeviewfx-research-tools-kicker {
+      display: inline-block;
+      margin-bottom: 6px;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #93c5fd;
+      font-weight: 700;
+    }
+    .primeviewfx-research-tools-nav-v1 h2 {
+      margin: 0;
+      font-size: clamp(20px, 2vw, 28px);
+      line-height: 1.15;
+      color: #f8fafc;
+    }
+    .primeviewfx-research-tools-nav-v1 p {
+      margin: 8px 0 0;
+      color: #cbd5e1;
+      line-height: 1.5;
+    }
+    .primeviewfx-research-tools-disclaimer {
+      display: inline-flex;
+      align-items: center;
+      white-space: nowrap;
+      border: 1px solid rgba(251, 191, 36, 0.32);
+      background: rgba(251, 191, 36, 0.10);
+      color: #fde68a;
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .primeviewfx-research-tools-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .primeviewfx-research-tool-card {
+      border: 1px solid rgba(148, 163, 184, 0.20);
+      border-radius: 14px;
+      padding: 14px;
+      background: rgba(15, 23, 42, 0.72);
+      min-height: 178px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .primeviewfx-research-tool-card--missing { opacity: 0.68; }
+    .primeviewfx-research-tool-card-top,
+    .primeviewfx-research-tool-meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .primeviewfx-research-tool-badge,
+    .primeviewfx-research-tool-status,
+    .primeviewfx-research-tool-meta span {
+      font-size: 11px;
+      border-radius: 999px;
+      padding: 5px 8px;
+      background: rgba(59, 130, 246, 0.12);
+      color: #bfdbfe;
+      border: 1px solid rgba(96, 165, 250, 0.25);
+    }
+    .primeviewfx-research-tool-status {
+      background: rgba(34, 197, 94, 0.12);
+      color: #bbf7d0;
+      border-color: rgba(34, 197, 94, 0.25);
+    }
+    .primeviewfx-research-tool-card h3 {
+      margin: 0;
+      color: #f8fafc;
+      font-size: 16px;
+      line-height: 1.25;
+    }
+    .primeviewfx-research-tool-card p {
+      margin: 0;
+      font-size: 13px;
+      color: #cbd5e1;
+      flex: 1;
+    }
+    .primeviewfx-research-tool-meta span {
+      background: rgba(148, 163, 184, 0.10);
+      color: #cbd5e1;
+      border-color: rgba(148, 163, 184, 0.20);
+    }
+    .primeviewfx-research-tool-link {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      text-decoration: none;
+      border-radius: 10px;
+      padding: 9px 12px;
+      color: #0f172a;
+      background: #93c5fd;
+      font-weight: 800;
+      transition: transform 0.12s ease, filter 0.12s ease;
+    }
+    .primeviewfx-research-tool-link:hover { transform: translateY(-1px); filter: brightness(1.05); }
+    .primeviewfx-research-tool-link--disabled { background: rgba(148, 163, 184, 0.24); color: #cbd5e1; }
+    @media (max-width: 1050px) {
+      .primeviewfx-research-tools-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 640px) {
+      .primeviewfx-research-tools-header { display: block; }
+      .primeviewfx-research-tools-disclaimer { margin-top: 12px; white-space: normal; }
+      .primeviewfx-research-tools-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+  <div class="primeviewfx-research-tools-header">
+    <div>
+      <span class="primeviewfx-research-tools-kicker">PrimeViewFX research tools</span>
+      <h2>Research dashboard shortcuts</h2>
+      <p>Open the live weighted scanner, bearish cascade, bullish cascade, and combined evidence summary from one panel.</p>
+    </div>
+    <span class="primeviewfx-research-tools-disclaimer">Research only. Not a trading signal.</span>
+  </div>
+  <div class="primeviewfx-research-tools-grid">
+
+        <article class="primeviewfx-research-tool-card">
+          <div class="primeviewfx-research-tool-card-top">
+            <span class="primeviewfx-research-tool-badge">Dashboard</span>
+            <span class="primeviewfx-research-tool-status">Available</span>
+          </div>
+          <h3>Members Research</h3>
+          <p>Full daily XAUUSD structure dashboard and live research watchlist.</p>
+          <div class="primeviewfx-research-tool-meta">
+            <span>Daily</span>
+            <span>—</span>
+          </div>
+          <a class="primeviewfx-research-tool-link" href="/member-area">Open</a>
+        </article>
+
+        <article class="primeviewfx-research-tool-card">
+          <div class="primeviewfx-research-tool-card-top">
+            <span class="primeviewfx-research-tool-badge">Live chart</span>
+            <span class="primeviewfx-research-tool-status">Available</span>
+          </div>
+          <h3>Live Weighted-Levels Chart</h3>
+          <p>Adjustable live chart: weighted ladder levels, goldturns, DXY/Silver confluence.</p>
+          <div class="primeviewfx-research-tool-meta">
+            <span>Continuous</span>
+            <span>—</span>
+          </div>
+          <a class="primeviewfx-research-tool-link" href="/member-area/chart">Open</a>
+        </article>
+
+        <article class="primeviewfx-research-tool-card">
+          <div class="primeviewfx-research-tool-card-top">
+            <span class="primeviewfx-research-tool-badge">Live watchlist</span>
+            <span class="primeviewfx-research-tool-status">Available</span>
+          </div>
+          <h3>Weighted Level Scanner</h3>
+          <p>EMA5 cross-lock watchlist and weighted level candidate map.</p>
+          <div class="primeviewfx-research-tool-meta">
+            <span>Operational</span>
+            <span>Data OK</span>
+          </div>
+          <a class="primeviewfx-research-tool-link" href="/member-area/scanner">Open</a>
+        </article>
+
+        <article class="primeviewfx-research-tool-card">
+          <div class="primeviewfx-research-tool-card-top">
+            <span class="primeviewfx-research-tool-badge">Research layer</span>
+            <span class="primeviewfx-research-tool-status">Available</span>
+          </div>
+          <h3>Bearish Cascade</h3>
+          <p>Bearish intraday reaction zones ranked high-to-low.</p>
+          <div class="primeviewfx-research-tool-meta">
+            <span>Robust / primary zones</span>
+            <span>Data OK</span>
+          </div>
+          <a class="primeviewfx-research-tool-link" href="/member-area/bearish-cascade">Open</a>
+        </article>
+
+        <article class="primeviewfx-research-tool-card">
+          <div class="primeviewfx-research-tool-card-top">
+            <span class="primeviewfx-research-tool-badge">Research layer</span>
+            <span class="primeviewfx-research-tool-status">Available</span>
+          </div>
+          <h3>Bullish Cascade</h3>
+          <p>Bullish intraday reaction zones ranked low-to-high.</p>
+          <div class="primeviewfx-research-tool-meta">
+            <span>Promising / sample-limited</span>
+            <span>Data OK</span>
+          </div>
+          <a class="primeviewfx-research-tool-link" href="/member-area/bullish-cascade">Open</a>
+        </article>
+
+        <article class="primeviewfx-research-tool-card">
+          <div class="primeviewfx-research-tool-card-top">
+            <span class="primeviewfx-research-tool-badge">Evidence summary</span>
+            <span class="primeviewfx-research-tool-status">Available</span>
+          </div>
+          <h3>Combined Cascade Research Summary</h3>
+          <p>Side-by-side confidence flags for bearish and bullish cascade layers.</p>
+          <div class="primeviewfx-research-tool-meta">
+            <span>ROBUST:2 / PROMISING:2</span>
+            <span>Data OK</span>
+          </div>
+          <a class="primeviewfx-research-tool-link" href="/member-area/cascade-summary">Open</a>
+        </article>
+
+        <article class="primeviewfx-research-tool-card">
+          <div class="primeviewfx-research-tool-card-top">
+            <span class="primeviewfx-research-tool-badge">Priority zones</span>
+            <span class="primeviewfx-research-tool-status">Available</span>
+          </div>
+          <h3>Integrated Carry + Structure Map</h3>
+          <p>Carry ladder + H4/D1 structural overlap priority zones.</p>
+          <div class="primeviewfx-research-tool-meta">
+            <span>Daily</span>
+            <span>Data OK</span>
+          </div>
+          <a class="primeviewfx-research-tool-link" href="/member-area/map">Open</a>
+        </article>
+
+        <article class="primeviewfx-research-tool-card">
+          <div class="primeviewfx-research-tool-card-top">
+            <span class="primeviewfx-research-tool-badge">Indicators</span>
+            <span class="primeviewfx-research-tool-status">Available</span>
+          </div>
+          <h3>MT5 / TradingView Indicators</h3>
+          <p>Directional Box indicator access - download links are emailed to active subscribers.</p>
+          <div class="primeviewfx-research-tool-meta">
+            <span>Available</span>
+            <span>—</span>
+          </div>
+          <a class="primeviewfx-research-tool-link" href="/members-indicators.html">Open</a>
+        </article>
+  </div>
+</section>
+<!-- PRIMEVIEWFX_RESEARCH_TOOLS_NAV_V1_END -->
 </body>
 </html>
