@@ -1,6 +1,6 @@
 ﻿PrimeViewFX Daily Publish with Provider v1.8.9
 ============================================================
-Started: 2026-07-28T06:35:04.1950512+01:00
+Started: 2026-07-29T06:35:04.2019007+01:00
 Wrapper v1.8.8: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_8.ps1
 Combined cascade research summary step: C:\Trading\Python\PrimeViewFX_combined_cascade_research_summary_step_v1_2.ps1
 SkipDailyPublish: False
@@ -17,7 +17,7 @@ Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_8.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_8.ps1"
 PrimeViewFX Daily Publish with Provider v1.8.8
 ============================================================
-Started: 2026-07-28T06:35:05.7432634+01:00
+Started: 2026-07-29T06:35:05.7679673+01:00
 Wrapper v1.8.7: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_7.ps1
 Bullish cascade publish step: C:\Trading\Python\PrimeViewFX_bullish_cascade_publish_step_v1.ps1
 Bullish cascade dashboard step: C:\Trading\Python\PrimeViewFX_bullish_cascade_dashboard_card_step_v1.ps1
@@ -42,7 +42,7 @@ Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_7.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_7.ps1"
 PrimeViewFX Daily Publish with Provider v1.8.7
 ============================================================
-Started: 2026-07-28T06:35:07.4128578+01:00
+Started: 2026-07-29T06:35:07.1623266+01:00
 Wrapper v1.8.4: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_4.ps1
 Bearish cascade site link step: C:\Trading\Python\PrimeViewFX_bearish_cascade_site_link_step_v1.ps1
 SkipDailyPublish: False
@@ -59,7 +59,7 @@ Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_4.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_4.ps1"
 PrimeViewFX Daily Publish with Provider v1.8.4
 ============================================================
-Started: 2026-07-28T06:35:09.1769889+01:00
+Started: 2026-07-29T06:35:08.5326688+01:00
 Daily wrapper: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1
 Bearish cascade step: C:\Trading\Python\PrimeViewFX_bearish_cascade_publish_step_v1.ps1
 Bearish cascade dashboard step: C:\Trading\Python\PrimeViewFX_bearish_cascade_dashboard_card_step_v1.ps1
@@ -79,13 +79,13 @@ PREFLIGHT
 Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1"
 PrimeViewFX Daily Publish with Provider v1.8.1
-Started: 2026-07-28T06:35:10.3090325+01:00
+Started: 2026-07-29T06:35:09.7866677+01:00
 Python: C:\Trading\Python\python.exe
 Runner: C:\Trading\Python\primeviewfx_daily_publish_runner_with_provider_v1_8_1.py
 
 PrimeViewFX Daily Publish Runner with Provider v1.8.1
 ===================================================
-Started UTC: 2026-07-28T05:35:10Z
+Started UTC: 2026-07-29T05:35:09Z
 Script dir:  C:\Trading\Python
 Data dir:    C:\Trading\Data
 Publish:     C:\Trading\Publish
@@ -178,8 +178,8 @@ RESULT: PASSED returncode=0
 PRIMEVIEWFX DAILY PUBLISH WITH PROVIDER LAYER V1.5
 ==================================================
 
-run_time: 2026-07-28T06:37:29
-log_path: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260728_063510.log
+run_time: 2026-07-29T06:37:32
+log_path: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260729_063509.log
 
 SUMMARY
 -------
@@ -225,7 +225,7 @@ v1.5 refreshes live confidence from explicit forecast-date sources only.
 v1.5 keeps auditor v1.1 as the final required step.
 Research only. Not a trading signal.
 
-Log saved: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260728_063510.log
+Log saved: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260729_063509.log
 Latest report: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_latest.txt
 
 
@@ -261,9 +261,9 @@ promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
 selected_level_date: 2026-07-20
 scan_date: 2026-07-20
-latest_close: 4036.28
-latest_ema5: 4045.1705632093067
-latest_channel_state: ema_proxy_down
+latest_close: 4031.93
+latest_ema5: 4028.005763850213
+latest_channel_state: ema_proxy_neutral
 
 PROMOTED | PROMOTED_UP_LV3_TO_LV2_15_30
   status: NO_CANDIDATE_MAP
@@ -350,7 +350,7 @@ Dashboard summary
 -----------------
 promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
-latest_channel_state: ema_proxy_down
+latest_channel_state: ema_proxy_neutral
 
 Research only. Not a trading signal.
 
@@ -449,7 +449,7 @@ Dashboard summary
 -----------------
 promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
-latest_channel_state: ema_proxy_down
+latest_channel_state: ema_proxy_neutral
 
 Research only. Not a trading signal.
 
@@ -620,7 +620,7 @@ auditor_blocking_count: 0
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-28T06:37:38.0710233+01:00
+Finished: 2026-07-29T06:37:41.4023411+01:00
 ExitCode: 1
 ExitCode: 1
 [FAIL] daily_publish_v1_8_1_exit_code - exit_code=1
@@ -646,7 +646,7 @@ summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-28T06:37:39.5146018+01:00
+Finished: 2026-07-29T06:37:43.0622123+01:00
 ExitCode: 1
 [FAIL] daily_publish_v1_8_4_exit_code - exit_code=1
 
@@ -655,7 +655,7 @@ Script: C:\Trading\Python\PrimeViewFX_bearish_cascade_site_link_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bearish_cascade_site_link_step_v1.ps1"
 PrimeViewFX Bearish Cascade Site Link Step v1
 ==============================================
-created_utc:        2026-07-28T05:37:41Z
+created_utc:        2026-07-29T05:37:45Z
 python_exe:         C:\Trading\Python\python.exe
 python_script:      C:\Trading\Python\primeviewfx_bearish_cascade_site_link_injector_v1.py
 static_site_dir:    C:\Trading\Publish\PrimeViewFX_Static_Site
@@ -750,7 +750,7 @@ summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-28T06:37:43.9440294+01:00
+Finished: 2026-07-29T06:37:47.7918924+01:00
 ExitCode: 1
 [FAIL] daily_publish_v1_8_7_exit_code - exit_code=1
 
@@ -759,7 +759,7 @@ Script: C:\Trading\Python\PrimeViewFX_bullish_cascade_publish_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bullish_cascade_publish_step_v1.ps1"
 PrimeViewFX Bullish Cascade Publish Step v1
 ============================================================
-created_utc:              2026-07-28T05:37:46Z
+created_utc:              2026-07-29T05:37:50Z
 python_exe:               py
 python_script:            C:\Trading\Python\xau_bullish_reaction_cascade_level_tagger_v1.py
 data_dir:                 C:\Trading\Data
@@ -934,7 +934,7 @@ Script: C:\Trading\Python\PrimeViewFX_bullish_cascade_dashboard_card_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bullish_cascade_dashboard_card_step_v1.ps1"
 PrimeViewFX Bullish Cascade Dashboard Card Step v1
 ===================================================
-created_utc:        2026-07-28T05:37:49Z
+created_utc:        2026-07-29T05:37:53Z
 python_exe:         C:\Trading\Python\python.exe
 python_script:      C:\Trading\Python\primeviewfx_bullish_cascade_dashboard_card_v1.py
 data_dir:           C:\Trading\Data
@@ -1016,7 +1016,7 @@ Script: C:\Trading\Python\PrimeViewFX_bullish_cascade_site_link_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bullish_cascade_site_link_step_v1.ps1"
 PrimeViewFX Bullish Cascade Site Link Step v1
 ==============================================
-created_utc:        2026-07-28T05:37:52Z
+created_utc:        2026-07-29T05:37:56Z
 python_exe:         C:\Trading\Python\python.exe
 python_script:      C:\Trading\Python\primeviewfx_bullish_cascade_site_link_injector_v1.py
 static_site_dir:    C:\Trading\Publish\PrimeViewFX_Static_Site
@@ -1117,7 +1117,7 @@ summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-28T06:37:53.8890968+01:00
+Finished: 2026-07-29T06:37:57.0545159+01:00
 ExitCode: 1
 [FAIL] daily_publish_v1_8_8_exit_code - exit_code=1
 
@@ -1126,7 +1126,7 @@ Script: C:\Trading\Python\PrimeViewFX_combined_cascade_research_summary_step_v1_
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_combined_cascade_research_summary_step_v1_2.ps1"
 PrimeViewFX Combined Cascade Research Summary Step v1.2
 ======================================================
-created_utc:     2026-07-28T05:37:57Z
+created_utc:     2026-07-29T05:38:00Z
 python_exe:      C:\Trading\Python\python.exe
 python_script:   C:\Trading\Python\primeviewfx_combined_cascade_research_summary_v1_2.py
 data_dir:        C:\Trading\Data
@@ -1149,7 +1149,7 @@ RUN COMBINED SUMMARY
 command: C:\Trading\Python\python.exe C:\Trading\Python\primeviewfx_combined_cascade_research_summary_v1_2.py --data-dir C:\Trading\Data --static-site-dir C:\Trading\Publish\PrimeViewFX_Static_Site --latest-dir C:\Trading\Publish\PrimeViewFX_Latest
 PrimeViewFX Combined Cascade Research Summary v1.2
 ========================================================
-created_utc:    2026-07-28T05:37:58Z
+created_utc:    2026-07-29T05:38:01Z
 overall_status: PASSED
 layer_count:    4
 
@@ -1266,4 +1266,4 @@ summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-28T06:37:59.4845242+01:00
+Finished: 2026-07-29T06:38:02.6514629+01:00

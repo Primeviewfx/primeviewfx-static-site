@@ -1,6 +1,6 @@
 {
-  "run_id": "20260728_211219",
-  "generated_at": "2026-07-28T21:12:29",
+  "run_id": "20260729_063733",
+  "generated_at": "2026-07-29T06:37:40",
   "status": "ready",
   "source_dir": "C:\\Trading\\Publish\\PrimeViewFX_Latest",
   "site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
@@ -26,8 +26,8 @@
   "files": [
     {
       "path": ".gitignore",
-      "size_bytes": 221,
-      "sha256": "fccee4d5ec34d150f8f19d0b49eae1c01c19c038a2f6eeeebb2fb12950493c5b"
+      "size_bytes": 365,
+      "sha256": "79670e55a81f4246a3a9803a0594735d4eed4326ec41d31503519760b425090a"
     },
     {
       "path": ".nojekyll",
@@ -4347,7 +4347,7 @@
     {
       "path": "data/primeviewfx_members_integrated_map_v1.json",
       "size_bytes": 10249,
-      "sha256": "8425a50601b83d03e3cd6da0f8c7d4b4d526e8707228eb3c54022f440ca1213f"
+      "sha256": "ea32ed71289f1e7b95187179a78895e7f0d760e6935b335f47c88f10ca875196"
     },
     {
       "path": "data/primeviewfx_production_health_auditor_v1_1.html",
@@ -4441,13 +4441,13 @@
     },
     {
       "path": "data/weighted_level_dashboard_card_v1_3.html",
-      "size_bytes": 11732,
-      "sha256": "1ed468bc1a5ada4fee9000a7dc2d3deb95cea03f58ee86800c3b99613a1de433"
+      "size_bytes": 11738,
+      "sha256": "a099060fa41bf97e41339ca8d594410aef78c4982284ebcce7205d1209174cf6"
     },
     {
       "path": "data/weighted_level_dashboard_card_v1_3.json",
-      "size_bytes": 11867,
-      "sha256": "bfba59bea41ab017c02791a2d65b3919b236099f58cf4e5b820b577cfea1f220"
+      "size_bytes": 11893,
+      "sha256": "d31059eb4d6c96d214c0161ce6d9039cdbd8c3dae9e6024d4a16e59681ad3a61"
     },
     {
       "path": "data/xau_bearish_reaction_cascade_level_tagger_summary_v1.json",
@@ -4581,8 +4581,8 @@
     },
     {
       "path": "data/XAU_weighted_level_live_candidate_scanner_v1_3.txt",
-      "size_bytes": 3772,
-      "sha256": "ece735016f18d4d4de4ee8e89a9477818e374280a66b5deff6e237eee2d392e2"
+      "size_bytes": 3777,
+      "sha256": "379758e1c510323a633ad9aab67219498bfe0a1d829f05edf00a92bf227284e0"
     },
     {
       "path": "data/xau_weighted_level_live_candidate_setups_v1_1.csv",
@@ -4596,8 +4596,8 @@
     },
     {
       "path": "data/xau_weighted_level_live_candidate_setups_v1_3.csv",
-      "size_bytes": 4666,
-      "sha256": "a7b475248e32060dca4b02e5910040a4915524f88d3a765499057a63695dc143"
+      "size_bytes": 4694,
+      "sha256": "ce9fbe8a9ee5a445ca910c5c73efeb308f0fd53b2438090e67b37fd77c028807"
     },
     {
       "path": "data/xau_weighted_level_live_candidate_v1.csv",
@@ -4621,8 +4621,8 @@
     },
     {
       "path": "data/xau_weighted_level_live_candidate_v1_3.json",
-      "size_bytes": 11202,
-      "sha256": "1cca8aa02220dab87e421ab83a196b3cf0614af833289b421e6d6d2bf1d465c7"
+      "size_bytes": 11235,
+      "sha256": "d956a6a746d6a3273ee826d6f7e24ee47f3328f588f73d573784c25730190efd"
     },
     {
       "path": "data/xau_weighted_level_live_current_map_v1_1.csv",
@@ -4867,7 +4867,7 @@
     {
       "path": "README.md",
       "size_bytes": 804,
-      "sha256": "be31a90f6fefefb2027b90ead0601bfbd559d1368f355ffe3c3989aa12c1370d"
+      "sha256": "1579aaa0bbb0db56bb34ab4042f939c80ef7b4f066ed9b08f73b3c173b554c57"
     },
     {
       "path": "README.txt",
@@ -5006,8 +5006,8 @@
     },
     {
       "path": "weighted-level-scanner-add58c89ce531e69.html",
-      "size_bytes": 11732,
-      "sha256": "1ed468bc1a5ada4fee9000a7dc2d3deb95cea03f58ee86800c3b99613a1de433"
+      "size_bytes": 11738,
+      "sha256": "a099060fa41bf97e41339ca8d594410aef78c4982284ebcce7205d1209174cf6"
     }
   ],
   "research_warning": "Research only. Not a trading signal."
