@@ -1,15 +1,15 @@
 ﻿{
     "version":  "1.8.4",
-    "created_utc":  "2026-07-29T14:19:03.7726680Z",
-    "overall_status":  "FAILED",
-    "blocking_count":  2,
+    "created_utc":  "2026-07-29T15:57:25.0881849Z",
+    "overall_status":  "PASSED",
+    "blocking_count":  0,
     "warning_count":  0,
     "daily_wrapper":  "C:\\Trading\\Python\\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1",
     "daily_exit_code":  0,
     "bearish_cascade_step":  "C:\\Trading\\Python\\PrimeViewFX_bearish_cascade_publish_step_v1.ps1",
     "bearish_cascade_exit_code":  0,
     "bearish_cascade_dashboard_step":  "C:\\Trading\\Python\\PrimeViewFX_bearish_cascade_dashboard_card_step_v1.ps1",
-    "bearish_cascade_dashboard_exit_code":  1,
+    "bearish_cascade_dashboard_exit_code":  0,
     "bearish_cascade_non_blocking":  false,
     "bearish_cascade_dashboard_non_blocking":  false,
     "skip_daily_publish":  false,
@@ -45,9 +45,9 @@
                        "detail":  "exit_code=0"
                    },
                    {
-                       "status":  "FAIL",
+                       "status":  "PASS",
                        "name":  "bearish_cascade_dashboard_card_step_exit_code",
-                       "detail":  "exit_code=1"
+                       "detail":  "exit_code=0"
                    },
                    {
                        "status":  "PASS",
@@ -75,9 +75,9 @@
                        "detail":  "C:\\Trading\\Data\\BearishCascade\\primeviewfx_bearish_cascade_dashboard_card_step_v1_summary.json"
                    },
                    {
-                       "status":  "FAIL",
+                       "status":  "PASS",
                        "name":  "dashboard_summary_status_passed",
-                       "detail":  "overall_status=FAILED; dashboard_status=PASSED; row_count=16; blocking_count=2"
+                       "detail":  "overall_status=PASSED; dashboard_status=PASSED; row_count=16; warning_count=0"
                    }
                ],
     "research_only":  true,

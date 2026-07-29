@@ -1,14 +1,13 @@
 {
   "version": "v1.4",
-  "created_utc": "2026-07-29T14:19:32Z",
-  "overall_status": "FAILED",
+  "created_utc": "2026-07-29T15:57:55Z",
+  "overall_status": "PASSED_WITH_WARNINGS",
   "manifest_forecast_date": "2026-07-20",
   "finding_count": 201,
   "status_counts": {
-    "PASS": 174,
+    "PASS": 178,
     "INFO": 14,
-    "WARNING": 11,
-    "FAIL": 2
+    "WARNING": 9
   },
   "component_counts": {
     "root": {
@@ -53,15 +52,13 @@
       "WARNING": 5
     },
     "wrapper_summaries": {
-      "PASS": 5,
-      "FAIL": 2,
-      "WARNING": 2
+      "PASS": 9
     }
   },
-  "blocking_count": 2,
-  "warning_count": 11,
-  "fail_count": 2,
-  "pass_count": 174,
+  "blocking_count": 0,
+  "warning_count": 9,
+  "fail_count": 0,
+  "pass_count": 178,
   "info_count": 14,
   "data_dir": "C:\\Trading\\Data",
   "static_site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
@@ -2065,25 +2062,25 @@
     {
       "component": "wrapper_summaries",
       "name": "v1_8_9_summary_status_passed",
-      "status": "FAIL",
-      "detail": "status missing or not accepted",
+      "status": "PASS",
+      "detail": "status accepted",
       "path": "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_8_9_summary.json",
       "expected": [
         "PASSED",
         "PASSED_WITH_WARNINGS"
       ],
-      "actual": "FAILED",
-      "blocking": true
+      "actual": "PASSED",
+      "blocking": false
     },
     {
       "component": "wrapper_summaries",
       "name": "v1_8_9_summary_blocking_count_zero",
-      "status": "FAIL",
-      "detail": "count above 0",
+      "status": "PASS",
+      "detail": "count=0",
       "path": "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_8_9_summary.json",
       "expected": 0,
-      "actual": 3,
-      "blocking": true
+      "actual": 0,
+      "blocking": false
     },
     {
       "component": "wrapper_summaries",
@@ -2108,24 +2105,24 @@
     {
       "component": "wrapper_summaries",
       "name": "v1_9_1_summary_status_passed",
-      "status": "WARNING",
-      "detail": "status missing or not accepted",
+      "status": "PASS",
+      "detail": "status accepted",
       "path": "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_9_1_summary.json",
       "expected": [
         "PASSED",
         "PASSED_WITH_WARNINGS"
       ],
-      "actual": "FAILED",
+      "actual": "PASSED",
       "blocking": false
     },
     {
       "component": "wrapper_summaries",
       "name": "v1_9_1_summary_blocking_count_zero",
-      "status": "WARNING",
-      "detail": "count above 0",
+      "status": "PASS",
+      "detail": "count=0",
       "path": "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_9_1_summary.json",
       "expected": 0,
-      "actual": 2,
+      "actual": 0,
       "blocking": false
     }
   ],

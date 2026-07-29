@@ -1,11 +1,11 @@
 ﻿{
     "version":  "v1.8.9",
-    "created_utc":  "2026-07-29T14:19:26Z",
-    "finished_local":  "2026-07-29T15:19:26.2936279+01:00",
-    "overall_status":  "FAILED",
-    "blocking_count":  3,
+    "created_utc":  "2026-07-29T15:57:48Z",
+    "finished_local":  "2026-07-29T16:57:48.3439486+01:00",
+    "overall_status":  "PASSED",
+    "blocking_count":  0,
     "warning_count":  0,
-    "v1_8_8_exit_code":  1,
+    "v1_8_8_exit_code":  0,
     "combined_cascade_research_summary_exit_code":  0,
     "forecast_date":  "2026-07-20",
     "row_count":  "16",
@@ -33,9 +33,9 @@
                    },
                    {
                        "name":  "daily_publish_v1_8_8_exit_code",
-                       "status":  "FAIL",
-                       "detail":  "exit_code=1",
-                       "blocking":  true,
+                       "status":  "PASS",
+                       "detail":  "exit_code=0",
+                       "blocking":  false,
                        "warning":  false
                    },
                    {
@@ -54,9 +54,9 @@
                    },
                    {
                        "name":  "v1_8_8_summary_status_passed",
-                       "status":  "FAIL",
-                       "detail":  "overall_status=FAILED; blocking_count=4; warning_count=0",
-                       "blocking":  true,
+                       "status":  "PASS",
+                       "detail":  "overall_status=PASSED; blocking_count=0; warning_count=0",
+                       "blocking":  false,
                        "warning":  false
                    },
                    {
@@ -68,9 +68,9 @@
                    },
                    {
                        "name":  "combined_step_summary_status_passed",
-                       "status":  "FAIL",
-                       "detail":  "overall_status=PASSED_WITH_WARNINGS; blocking_count=0; warning_count=2",
-                       "blocking":  true,
+                       "status":  "PASS",
+                       "detail":  "overall_status=PASSED_WITH_WARNINGS; layer_count=4; warning_count=2",
+                       "blocking":  false,
                        "warning":  false
                    },
                    {
@@ -109,7 +109,7 @@
                        "warning":  false
                    }
                ],
-    "log_path":  "C:\\Trading\\Logs\\primeviewfx_daily_publish_with_provider_v1_8_9_20260729_151559.log",
+    "log_path":  "C:\\Trading\\Logs\\primeviewfx_daily_publish_with_provider_v1_8_9_20260729_165341.log",
     "report_path":  "C:\\Trading\\Data\\PrimeViewFXDaily\\PrimeViewFX_daily_publish_runner_with_provider_v1_8_9.txt",
     "summary_json":  "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_8_9_summary.json",
     "research_only":  true,
