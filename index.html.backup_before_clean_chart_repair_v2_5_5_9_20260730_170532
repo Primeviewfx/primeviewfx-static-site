@@ -1,0 +1,226 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PrimeViewFX Static Publish</title>
+<style>
+  :root {
+    --bg: #05070b;
+    --card: rgba(255,255,255,0.055);
+    --line: rgba(255,255,255,0.13);
+    --text: #f6f7fb;
+    --muted: rgba(246,247,251,0.68);
+    --gold: #f2c14e;
+    --blue: #79a9ff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 32px 18px;
+  }
+  .hero {
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    padding: 24px;
+    background: linear-gradient(135deg, rgba(242,193,78,0.14), rgba(121,169,255,0.08));
+  }
+  .eyebrow {
+    color: var(--gold);
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  h1 {
+    margin: 0 0 10px;
+    font-size: clamp(28px, 4vw, 48px);
+    line-height: 1;
+  }
+  .sub {
+    color: var(--muted);
+    line-height: 1.55;
+    max-width: 760px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0,1fr));
+    gap: 12px;
+    margin: 18px 0;
+  }
+  .card {
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    background: var(--card);
+    padding: 15px;
+  }
+  .label {
+    color: var(--muted);
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  .value {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  a {
+    color: var(--text);
+    text-decoration: none;
+  }
+  .warning {
+    color: var(--muted);
+    margin-top: 18px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  @media (max-width: 760px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<!-- PRIMEVIEWFX_BULLISH_CASCADE_LINK_V1_START -->
+<section id="primeviewfx-bullish-cascade-link" style="margin:18px 0;padding:18px;border:1px solid rgba(255,255,255,.14);border-radius:18px;background:linear-gradient(180deg,rgba(34,197,94,.12),rgba(255,255,255,.035));color:inherit;font-family:inherit;">
+  <div style="display:flex;justify-content:space-between;gap:14px;align-items:flex-start;flex-wrap:wrap;">
+    <div style="min-width:240px;flex:1;">
+      <div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#86efac;">PrimeViewFX Research Layer</div>
+      <h2 style="margin:6px 0 8px;font-size:clamp(20px,3vw,30px);line-height:1.1;">Bullish Intraday Cascade</h2>
+      <p style="margin:0;color:rgba(226,232,240,.86);">Live role map for published intraday levels: continuation-risk checkpoints, transition watch, primary reaction zone and deep extension context.</p>
+    </div>
+    <a href="/member-area/bullish-cascade" target="_blank" rel="noopener" style="display:inline-block;border:1px solid #86efac;border-radius:999px;padding:10px 14px;text-decoration:none;color:#dcfce7;font-weight:900;background:rgba(34,197,94,.16);">Open cascade dashboard</a>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:14px;">
+    <div style="border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:12px;background:rgba(0,0,0,.14);"><div style="font-size:12px;color:rgba(226,232,240,.68);">Forecast Date</div><strong>2026-07-20</strong></div>
+    <div style="border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:12px;background:rgba(0,0,0,.14);"><div style="font-size:12px;color:rgba(226,232,240,.68);">Date Contract</div><strong>PASSED</strong></div>
+    <div style="border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:12px;background:rgba(0,0,0,.14);"><div style="font-size:12px;color:rgba(226,232,240,.68);">Tagged Levels</div><strong>16</strong></div>
+    <div style="border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:12px;background:rgba(0,0,0,.14);"><div style="font-size:12px;color:rgba(226,232,240,.68);">Primary Reaction Zone</div><strong>3,961.29, 3,977.92, 3,994.39</strong></div>
+  </div>
+  <p style="margin:12px 0 0;color:rgba(226,232,240,.72);font-size:13px;">Lower levels: 3,833.66, 3,861.98, 3,895.08, 3,927.15, 3,952.02. Transition: 3,956.65. Deep extension levels are context-dependent, not automatic reversal calls.</p>
+  <p style="margin:8px 0 0;color:rgba(226,232,240,.62);font-size:12px;">Research only. Not a trading signal.</p>
+</section>
+<!-- PRIMEVIEWFX_BULLISH_CASCADE_LINK_V1_END -->
+
+<!-- PRIMEVIEWFX_BEARISH_CASCADE_LINK_V1_START -->
+<section id="primeviewfx-bearish-cascade-link" style="margin:18px 0;padding:18px;border:1px solid rgba(255,255,255,.14);border-radius:18px;background:linear-gradient(180deg,rgba(248,113,113,.12),rgba(255,255,255,.035));color:inherit;font-family:inherit;">
+  <div style="display:flex;justify-content:space-between;gap:14px;align-items:flex-start;flex-wrap:wrap;">
+    <div style="min-width:240px;flex:1;">
+      <div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#fca5a5;">PrimeViewFX Research Layer</div>
+      <h2 style="margin:6px 0 8px;font-size:clamp(20px,3vw,30px);line-height:1.1;">Bearish Intraday Cascade</h2>
+      <p style="margin:0;color:rgba(226,232,240,.86);">Live role map for published intraday levels: continuation-risk checkpoints, transition watch, primary reaction zone and deep extension context.</p>
+    </div>
+    <a href="/member-area/bearish-cascade" target="_blank" rel="noopener" style="display:inline-block;border:1px solid #fca5a5;border-radius:999px;padding:10px 14px;text-decoration:none;color:#fee2e2;font-weight:900;background:rgba(248,113,113,.16);">Open cascade dashboard</a>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:14px;">
+    <div style="border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:12px;background:rgba(0,0,0,.14);"><div style="font-size:12px;color:rgba(226,232,240,.68);">Forecast Date</div><strong>2026-07-20</strong></div>
+    <div style="border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:12px;background:rgba(0,0,0,.14);"><div style="font-size:12px;color:rgba(226,232,240,.68);">Date Contract</div><strong>PASSED</strong></div>
+    <div style="border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:12px;background:rgba(0,0,0,.14);"><div style="font-size:12px;color:rgba(226,232,240,.68);">Tagged Levels</div><strong>16</strong></div>
+    <div style="border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:12px;background:rgba(0,0,0,.14);"><div style="font-size:12px;color:rgba(226,232,240,.68);">Primary Reaction Zone</div><strong>3,999.11, 3,994.39, 3,977.92</strong></div>
+  </div>
+  <p style="margin:12px 0 0;color:rgba(226,232,240,.72);font-size:13px;">Upper levels: 4,133.32, 4,107.42, 4,081.52, 4,056.63, 4,028.61. Transition: 4,003.82. Deep extension levels are context-dependent, not automatic reversal calls.</p>
+  <p style="margin:8px 0 0;color:rgba(226,232,240,.62);font-size:12px;">Research only. Not a trading signal.</p>
+</section>
+<!-- PRIMEVIEWFX_BEARISH_CASCADE_LINK_V1_END -->
+
+<!-- PRIMEVIEWFX_CLEAN_MAIN_HORIZONTAL_CHART_V2_5_4_9_START -->
+<main class="pvfx-clean-main-horizontal">
+  <style id="primeviewfx-clean-main-horizontal-chart-style-v2-5-4-9">
+    .pvfx-clean-main-horizontal{width:100%!important;max-width:none!important;margin:0!important;padding:0!important;box-sizing:border-box!important}
+    .pvfx-clean-main-row{
+  width:min(2010px,calc(100vw - 24px))!important;
+  max-width:none!important;
+  margin:28px auto 36px auto!important;
+  display:grid!important;
+  grid-template-columns:minmax(720px,.86fr) minmax(1480px,1.18
+fr)!important;
+  gap:16px!important;
+  align-items:start!important;
+  box-sizing:border-box!important
+}
+    .pvfx-clean-dashboard-col{min-width:0!important;width:100%!important;max-width:100%!important}
+    .pvfx-clean-dashboard-col>*:first-child{margin-top:0!important}
+    .pvfx-clean-chart-col{min-width:0!important;width:100%!important;max-width:100%!important;position:sticky!important;top:18px!important}
+    .pvfx-clean-chart-card{
+  width:100%!important;
+  max-width:none!important;
+  box-sizing:border-box!important;
+  padding:8px!important;border:1px solid rgba(148,163,184,.26)!important;border-radius:24px!important;background:radial-gradient(circle at 12% 0%,rgba(59,130,246,.15),transparent 34%),linear-gradient(180deg,rgba(15,29,47,.98),rgba(7,21,34,.96))!important;box-shadow:0 22px 54px rgba(0,0,0,.30)!important;overflow:hidden!important}
+    .pvfx-clean-chart-head{display:flex!important;justify-content:space-between!important;align-items:flex-start!important;gap:12px!important;margin-bottom:8px!important}!important;margin-bottom:12px!important}
+    .pvfx-clean-chart-kicker{margin:0 0 5px!important;color:#f7c948!important;font-size:.76rem!important;font-weight:800!important;letter-spacing:.09em!important;text-transform:uppercase!important}
+    .pvfx-clean-chart-title{margin:0!important;color:#e7eef8!important;font-size:clamp(1.05rem,1.2vw,1.42rem)!important;line-height:1.16!important;font-weight:820!important}
+    .pvfx-clean-chart-copy{margin:6px 0 0!important;color:#9fb2c9!important;font-size:.84rem!important;line-height:1.38!important}
+    .pvfx-clean-chart-badge{flex:0 0 auto!important;border:1px solid rgba(125,183,255,.30)!important;border-radius:999px!important;padding:7px 10px!important;color:#bcd6f7!important;background:rgba(125,183,255,.09)!important;font-size:.72rem!important;font-weight:750!important;white-space:nowrap!important}
+    .pvfx-clean-chart-frame{overflow:hidden!important;border:1px solid rgba(148,163,184,.22)!important;border-radius:18px!important;background:#071522!important}
+    .pvfx-clean-chart-frame img{display:block!important;width:100%!important;max-width:100%!important;height:auto!important;background:#071522!important}
+    .pvfx-clean-chart-foot{display:flex!important;flex-wrap:wrap!important;justify-content:space-between!important;gap:10px!important;margin:9px 2px 0!important;color:#8fa3bb!important;font-size:.72rem!important;line-height:1.35!important}
+    .pvfx-clean-chart-foot strong{color:#bcd6f7!important}
+    .pvfx-qa-compliance-note{width:min(1900px,calc(100vw - 28px));margin:0 auto 34px auto;padding:14px 18px;border:1px solid rgba(148,163,184,.24);border-radius:16px;background:rgba(15,23,42,.55);color:#94a3b8;font-size:13px;line-height:1.55;box-sizing:border-box}
+        .pvfx-level-key{margin:10px 0 0!important;padding:10px 12px!important;border:1px solid rgba(148,163,184,.20)!important;border-radius:14px!important;background:rgba(15,23,42,.52)!important;box-sizing:border-box!important}
+    .pvfx-level-key-title{margin:0 0 7px!important;color:#f7c948!important;font-size:.72rem!important;font-weight:850!important;letter-spacing:.09em!important;text-transform:uppercase!important}
+    .pvfx-level-key-grid{display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:8px!important;color:#9fb2c9!important;font-size:.72rem!important;line-height:1.25!important}
+    .pvfx-level-key-grid b{display:block!important;margin-bottom:2px!important;font-size:.72rem!important;letter-spacing:.04em!important}
+    .pvfx-key-core{color:#5eead4!important}.pvfx-key-sec{color:#94a3b8!important}.pvfx-key-rej{color:#f87171!important}.pvfx-key-current{color:#e5e7eb!important}.pvfx-key-gap{color:#cbd5e1!important}
+    @media(max-width:1250px){.pvfx-clean-main-row{grid-template-columns:1fr!important;width:min(1180px,calc(100vw - 28px))!important}.pvfx-clean-chart-col{position:relative!important;top:auto!important}}
+    @media(max-width:700px){.pvfx-clean-main-row{width:calc(100vw - 20px)!important;margin-top:22px!important;gap:20px!important}.pvfx-clean-chart-card{padding:13px!important;border-radius:18px!important}.pvfx-clean-chart-head{display:block!important}.pvfx-clean-chart-badge{display:inline-block!important;margin-top:10px!important}}
+  </style>
+  <section class="pvfx-clean-main-row" aria-label="PrimeViewFX dashboard and members visual chart">
+    <div class="pvfx-clean-dashboard-col">
+<section class="hero">
+    <div class="eyebrow">PrimeViewFX</div>
+    <h1>New research is in progress</h1>
+    <p class="sub">PrimeViewFX is being rebuilt around a validated research framework - the refreshed site is coming soon.</p>
+  </section>
+
+  <p class="warning">Research only. Not a trading signal.</p>
+    </div>
+    <aside class="pvfx-clean-chart-col" aria-label="PrimeViewFX members static chart">
+      <section id="primeviewfx-members-static-chart" class="pvfx-clean-chart-card">
+        <div class="pvfx-clean-chart-head">
+          <div>
+            <p class="pvfx-clean-chart-kicker">Members visual map</p>
+            <h2 class="pvfx-clean-chart-title">Auto static XAUUSD structure chart</h2>
+            <p class="pvfx-clean-chart-copy">Latest generated H1 research visual showing EMA5, weekly channel context, Prime Zones and website-safe structure levels.</p>
+          </div>
+          <div class="pvfx-clean-chart-badge">Auto-generated chart</div>
+        </div>
+        <div class="pvfx-clean-chart-frame">
+          <img src="./data/charts/primeviewfx_members_static_chart_latest.png" alt="PrimeViewFX auto static XAUUSD structure chart">
+        </div>
+        <!-- PRIMEVIEWFX_LEVEL_KEY_V2_5_5_10_START -->
+        <div class="pvfx-level-key" aria-label="PrimeViewFX level key">
+          <div class="pvfx-level-key-title">How to read the ladder</div>
+          <div class="pvfx-level-key-grid">
+            <span><b class="pvfx-key-core">CORE</b>Primary structure level</span>
+            <span><b class="pvfx-key-sec">SEC</b>Secondary context level</span>
+            <span><b class="pvfx-key-rej">REJ</b>Rejection / extension watch</span>
+            <span><b class="pvfx-key-current">CURRENT</b>Current market price</span>
+            <span><b class="pvfx-key-gap">gap</b>Distance from current price</span>
+          </div>
+        </div>
+        <!-- PRIMEVIEWFX_LEVEL_KEY_V2_5_5_10_END -->
+        <div class="pvfx-clean-chart-foot">
+          <span><strong>Research visual only.</strong> No buy/sell instructions. Not financial advice.</span>
+          <span>Image: data/charts/primeviewfx_members_static_chart_latest.png</span>
+        </div>
+      </section>
+    </aside>
+  </section>
+  <!-- PRIMEVIEWFX_SOFT_NUMBER_TYPOGRAPHY_V2_4_5_4 -->
+  <section class="pvfx-qa-compliance-note">
+    <strong style="color:#e5e7eb;">Research-only dashboard.</strong>
+    No buy/sell instructions. No signal wording. Sell the map, not the trade.
+    PrimeViewFX is educational market-structure research, not financial advice.
+    See <a href="risk-methodology-limitations.html" style="color:#93c5fd;">risk, methodology and limitations</a>.
+  </section>
+</main>
+<!-- PRIMEVIEWFX_CLEAN_MAIN_HORIZONTAL_CHART_V2_5_4_9_END -->
+</body>
+</html>
+
