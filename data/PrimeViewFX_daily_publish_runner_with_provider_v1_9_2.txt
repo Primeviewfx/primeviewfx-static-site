@@ -1,6 +1,6 @@
 ﻿PrimeViewFX Daily Publish with Provider v1.9.2
 ============================================================
-Started: 2026-07-29T15:35:28.1546000+01:00
+Started: 2026-07-29T16:53:38.9390971+01:00
 Wrapper v1.9.1: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_9_1.ps1
 Production Health step: C:\Trading\Python\PrimeViewFX_production_health_auditor_step_v1_4.ps1
 SkipDailyPublish: False
@@ -19,7 +19,7 @@ Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_9_1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_9_1.ps1"
 PrimeViewFX Daily Publish with Provider v1.9.1
 ============================================================
-Started: 2026-07-29T15:35:29.3039800+01:00
+Started: 2026-07-29T16:53:40.3150342+01:00
 Wrapper v1.8.9: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_9.ps1
 Research Tools nav step: C:\Trading\Python\PrimeViewFX_research_tools_nav_step_v1.ps1
 SkipDailyPublish: False
@@ -36,7 +36,7 @@ Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_9.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_9.ps1"
 PrimeViewFX Daily Publish with Provider v1.8.9
 ============================================================
-Started: 2026-07-29T15:35:30.5164165+01:00
+Started: 2026-07-29T16:53:41.6939147+01:00
 Wrapper v1.8.8: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_8.ps1
 Combined cascade research summary step: C:\Trading\Python\PrimeViewFX_combined_cascade_research_summary_step_v1_2.ps1
 SkipDailyPublish: False
@@ -53,7 +53,7 @@ Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_8.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_8.ps1"
 PrimeViewFX Daily Publish with Provider v1.8.8
 ============================================================
-Started: 2026-07-29T15:35:31.9129798+01:00
+Started: 2026-07-29T16:53:43.2779110+01:00
 Wrapper v1.8.7: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_7.ps1
 Bullish cascade publish step: C:\Trading\Python\PrimeViewFX_bullish_cascade_publish_step_v1.ps1
 Bullish cascade dashboard step: C:\Trading\Python\PrimeViewFX_bullish_cascade_dashboard_card_step_v1.ps1
@@ -78,7 +78,7 @@ Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_7.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_7.ps1"
 PrimeViewFX Daily Publish with Provider v1.8.7
 ============================================================
-Started: 2026-07-29T15:35:33.3113554+01:00
+Started: 2026-07-29T16:53:44.9058733+01:00
 Wrapper v1.8.4: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_4.ps1
 Bearish cascade site link step: C:\Trading\Python\PrimeViewFX_bearish_cascade_site_link_step_v1.ps1
 SkipDailyPublish: False
@@ -95,7 +95,7 @@ Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_4.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_4.ps1"
 PrimeViewFX Daily Publish with Provider v1.8.4
 ============================================================
-Started: 2026-07-29T15:35:34.7084722+01:00
+Started: 2026-07-29T16:53:46.4539954+01:00
 Daily wrapper: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1
 Bearish cascade step: C:\Trading\Python\PrimeViewFX_bearish_cascade_publish_step_v1.ps1
 Bearish cascade dashboard step: C:\Trading\Python\PrimeViewFX_bearish_cascade_dashboard_card_step_v1.ps1
@@ -115,13 +115,13 @@ PREFLIGHT
 Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1"
 PrimeViewFX Daily Publish with Provider v1.8.1
-Started: 2026-07-29T15:35:35.8811017+01:00
+Started: 2026-07-29T16:53:47.8281127+01:00
 Python: C:\Trading\Python\python.exe
 Runner: C:\Trading\Python\primeviewfx_daily_publish_runner_with_provider_v1_8_1.py
 
 PrimeViewFX Daily Publish Runner with Provider v1.8.1
 ===================================================
-Started UTC: 2026-07-29T14:35:35Z
+Started UTC: 2026-07-29T15:53:47Z
 Script dir:  C:\Trading\Python
 Data dir:    C:\Trading\Data
 Publish:     C:\Trading\Publish
@@ -214,8 +214,8 @@ RESULT: PASSED returncode=0
 PRIMEVIEWFX DAILY PUBLISH WITH PROVIDER LAYER V1.5
 ==================================================
 
-run_time: 2026-07-29T15:38:46
-log_path: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260729_153536.log
+run_time: 2026-07-29T16:57:08
+log_path: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260729_165347.log
 
 SUMMARY
 -------
@@ -261,7 +261,7 @@ v1.5 refreshes live confidence from explicit forecast-date sources only.
 v1.5 keeps auditor v1.1 as the final required step.
 Research only. Not a trading signal.
 
-Log saved: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260729_153536.log
+Log saved: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260729_165347.log
 Latest report: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_latest.txt
 
 
@@ -297,8 +297,8 @@ promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
 selected_level_date: 2026-07-20
 scan_date: 2026-07-20
-latest_close: 4006.57
-latest_ema5: 4016.8742126585375
+latest_close: 4012.16
+latest_ema5: 4014.9139195501366
 latest_channel_state: ema_proxy_down
 
 PROMOTED | PROMOTED_UP_LV3_TO_LV2_15_30
@@ -656,7 +656,7 @@ auditor_blocking_count: 0
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-29T15:39:15.1068910+01:00
+Finished: 2026-07-29T16:57:18.1509677+01:00
 ExitCode: 0
 ExitCode: 0
 [PASS] daily_publish_v1_8_1_exit_code - exit_code=0
@@ -666,7 +666,7 @@ Script: C:\Trading\Python\PrimeViewFX_bearish_cascade_publish_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bearish_cascade_publish_step_v1.ps1"
 PrimeViewFX Bearish Cascade Publish Step v1
 ============================================================
-created_utc:              2026-07-29T14:39:17Z
+created_utc:              2026-07-29T15:57:20Z
 python_exe:               py
 python_script:            C:\Trading\Python\xau_bearish_reaction_cascade_level_tagger_v1_3.py
 data_dir:                 C:\Trading\Data
@@ -841,7 +841,7 @@ Script: C:\Trading\Python\PrimeViewFX_bearish_cascade_dashboard_card_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bearish_cascade_dashboard_card_step_v1.ps1"
 PrimeViewFX Bearish Cascade Dashboard Card Step v1
 ===================================================
-created_utc:        2026-07-29T14:39:21Z
+created_utc:        2026-07-29T15:57:23Z
 python_exe:         C:\Trading\Python\python.exe
 python_script:      C:\Trading\Python\primeviewfx_bearish_cascade_dashboard_card_v1.py
 data_dir:           C:\Trading\Data
@@ -939,7 +939,7 @@ summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-29T15:39:22.4503450+01:00
+Finished: 2026-07-29T16:57:25.1446919+01:00
 ExitCode: 0
 [PASS] daily_publish_v1_8_4_exit_code - exit_code=0
 
@@ -948,7 +948,7 @@ Script: C:\Trading\Python\PrimeViewFX_bearish_cascade_site_link_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bearish_cascade_site_link_step_v1.ps1"
 PrimeViewFX Bearish Cascade Site Link Step v1
 ==============================================
-created_utc:        2026-07-29T14:39:26Z
+created_utc:        2026-07-29T15:57:28Z
 python_exe:         C:\Trading\Python\python.exe
 python_script:      C:\Trading\Python\primeviewfx_bearish_cascade_site_link_injector_v1.py
 static_site_dir:    C:\Trading\Publish\PrimeViewFX_Static_Site
@@ -1043,7 +1043,7 @@ summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-29T15:39:27.9753160+01:00
+Finished: 2026-07-29T16:57:30.7922846+01:00
 ExitCode: 0
 [PASS] daily_publish_v1_8_7_exit_code - exit_code=0
 
@@ -1052,7 +1052,7 @@ Script: C:\Trading\Python\PrimeViewFX_bullish_cascade_publish_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bullish_cascade_publish_step_v1.ps1"
 PrimeViewFX Bullish Cascade Publish Step v1
 ============================================================
-created_utc:              2026-07-29T14:39:31Z
+created_utc:              2026-07-29T15:57:34Z
 python_exe:               py
 python_script:            C:\Trading\Python\xau_bullish_reaction_cascade_level_tagger_v1.py
 data_dir:                 C:\Trading\Data
@@ -1227,7 +1227,7 @@ Script: C:\Trading\Python\PrimeViewFX_bullish_cascade_dashboard_card_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bullish_cascade_dashboard_card_step_v1.ps1"
 PrimeViewFX Bullish Cascade Dashboard Card Step v1
 ===================================================
-created_utc:        2026-07-29T14:39:35Z
+created_utc:        2026-07-29T15:57:37Z
 python_exe:         C:\Trading\Python\python.exe
 python_script:      C:\Trading\Python\primeviewfx_bullish_cascade_dashboard_card_v1.py
 data_dir:           C:\Trading\Data
@@ -1309,7 +1309,7 @@ Script: C:\Trading\Python\PrimeViewFX_bullish_cascade_site_link_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bullish_cascade_site_link_step_v1.ps1"
 PrimeViewFX Bullish Cascade Site Link Step v1
 ==============================================
-created_utc:        2026-07-29T14:39:37Z
+created_utc:        2026-07-29T15:57:40Z
 python_exe:         C:\Trading\Python\python.exe
 python_script:      C:\Trading\Python\primeviewfx_bullish_cascade_site_link_injector_v1.py
 static_site_dir:    C:\Trading\Publish\PrimeViewFX_Static_Site
@@ -1410,7 +1410,7 @@ summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-29T15:39:39.4211469+01:00
+Finished: 2026-07-29T16:57:41.9507867+01:00
 ExitCode: 0
 [PASS] daily_publish_v1_8_8_exit_code - exit_code=0
 
@@ -1419,7 +1419,7 @@ Script: C:\Trading\Python\PrimeViewFX_combined_cascade_research_summary_step_v1_
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_combined_cascade_research_summary_step_v1_2.ps1"
 PrimeViewFX Combined Cascade Research Summary Step v1.2
 ======================================================
-created_utc:     2026-07-29T14:39:53Z
+created_utc:     2026-07-29T15:57:46Z
 python_exe:      C:\Trading\Python\python.exe
 python_script:   C:\Trading\Python\primeviewfx_combined_cascade_research_summary_v1_2.py
 data_dir:        C:\Trading\Data
@@ -1442,7 +1442,7 @@ RUN COMBINED SUMMARY
 command: C:\Trading\Python\python.exe C:\Trading\Python\primeviewfx_combined_cascade_research_summary_v1_2.py --data-dir C:\Trading\Data --static-site-dir C:\Trading\Publish\PrimeViewFX_Static_Site --latest-dir C:\Trading\Publish\PrimeViewFX_Latest
 PrimeViewFX Combined Cascade Research Summary v1.2
 ========================================================
-created_utc:    2026-07-29T14:39:54Z
+created_utc:    2026-07-29T15:57:47Z
 overall_status: PASSED
 layer_count:    4
 
@@ -1532,7 +1532,7 @@ SUMMARY VALIDATION
 [PASS] v1_8_8_summary_parseable - C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_with_provider_v1_8_8_summary.json
 [PASS] v1_8_8_summary_status_passed - overall_status=PASSED; blocking_count=0; warning_count=0
 [PASS] combined_step_summary_parseable - C:\Trading\Data\primeviewfx_combined_cascade_research_summary_step_v1_2_summary.json
-[FAIL] combined_step_summary_status_passed - overall_status=PASSED_WITH_WARNINGS; blocking_count=0; warning_count=2
+[PASS] combined_step_summary_status_passed - overall_status=PASSED_WITH_WARNINGS; layer_count=4; warning_count=2
 [PASS] combined_research_summary_parseable - C:\Trading\Data\primeviewfx_combined_cascade_research_summary_v1_2.json
 [PASS] combined_research_summary_status_passed - overall_status=PASSED; layer_count=4; status_counts={"ROBUST":2,"PROMISING":2,"REVIEW":0}
 [PASS] combined_layers_csv_exists - C:\Trading\Data\primeviewfx_combined_cascade_research_layers_v1_2.csv
@@ -1541,8 +1541,8 @@ SUMMARY VALIDATION
 
 FINAL v1.8.9 STATUS
 -------------------
-overall_status: FAILED
-blocking_count: 1
+overall_status: PASSED
+blocking_count: 0
 warning_count: 0
 v1_8_8_exit_code: 0
 combined_cascade_research_summary_exit_code: 0
@@ -1559,16 +1559,16 @@ summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-29T15:39:56.0713634+01:00
-ExitCode: 1
-[FAIL] daily_publish_v1_8_9_exit_code - exit_code=1
+Finished: 2026-07-29T16:57:48.3439486+01:00
+ExitCode: 0
+[PASS] daily_publish_v1_8_9_exit_code - exit_code=0
 
 --- research_tools_nav_step_v1 ---
 Script: C:\Trading\Python\PrimeViewFX_research_tools_nav_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_research_tools_nav_step_v1.ps1"
 PrimeViewFX Research Tools Navigation Step v1
 ==============================================
-created_utc:      2026-07-29T14:39:58Z
+created_utc:      2026-07-29T15:57:51Z
 python_exe:       C:\Trading\Python\python.exe
 python_script:    C:\Trading\Python\primeviewfx_research_tools_nav_injector_v1.py
 static_site_dir:  C:\Trading\Publish\PrimeViewFX_Static_Site
@@ -1594,7 +1594,7 @@ RUN RESEARCH TOOLS NAV INJECTOR
 command: C:\Trading\Python\python.exe C:\Trading\Python\primeviewfx_research_tools_nav_injector_v1.py --site-dir C:\Trading\Publish\PrimeViewFX_Static_Site --latest-dir C:\Trading\Publish\PrimeViewFX_Latest --local-dir C:\Trading\Data\ResearchToolsNav
 PrimeViewFX Research Tools Navigation Injector v1
 ====================================================
-created_utc:    2026-07-29T14:39:59Z
+created_utc:    2026-07-29T15:57:51Z
 overall_status: PASSED
 blocking_count: 0
 warning_count:  0
@@ -1631,7 +1631,7 @@ indicators: AVAILABLE
 TARGETS
 -------
 [UNCHANGED_ALREADY_CURRENT] C:\Trading\Publish\PrimeViewFX_Static_Site\members-research-a8502a7b66e839df.html
-[UNCHANGED_ALREADY_CURRENT] C:\Trading\Publish\PrimeViewFX_Static_Site\members-weekly-goldturns-5ca15a7d08b31d56.html
+[INJECTED] C:\Trading\Publish\PrimeViewFX_Static_Site\members-weekly-goldturns-5ca15a7d08b31d56.html
 [INJECTED] C:\Trading\Publish\PrimeViewFX_Static_Site\weighted-level-scanner-add58c89ce531e69.html
 [INJECTED] C:\Trading\Publish\PrimeViewFX_Static_Site\bearish-cascade-0171dd2ecccd13fa.html
 [INJECTED] C:\Trading\Publish\PrimeViewFX_Static_Site\bullish-cascade-1ddfa177ade539c0.html
@@ -1697,16 +1697,16 @@ ExitCode: 0
 SUMMARY VALIDATION
 ------------------
 [PASS] v1_8_9_summary_parseable - C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_with_provider_v1_8_9_summary.json
-[FAIL] v1_8_9_summary_status_passed - overall_status=FAILED; blocking_count=1; warning_count=0
+[PASS] v1_8_9_summary_status_passed - overall_status=PASSED; blocking_count=0; warning_count=0
 [PASS] research_tools_nav_summary_parseable - C:\Trading\Data\ResearchToolsNav\primeviewfx_research_tools_nav_step_v1_summary.json
 [PASS] research_tools_nav_summary_status_passed - overall_status=PASSED; tools=8; available=8; injected_count=13; warning_count=0
 
 FINAL v1.9.1 STATUS
 -------------------
-overall_status: FAILED
-blocking_count: 2
+overall_status: PASSED
+blocking_count: 0
 warning_count: 0
-v1_8_9_exit_code: 1
+v1_8_9_exit_code: 0
 research_tools_nav_exit_code: 0
 forecast_date: 2026-07-20
 row_count: 16
@@ -1725,16 +1725,16 @@ summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-29T15:40:00.2303231+01:00
-ExitCode: 1
-[FAIL] daily_publish_v1_9_1_exit_code - exit_code=1
+Finished: 2026-07-29T16:57:52.4073256+01:00
+ExitCode: 0
+[PASS] daily_publish_v1_9_1_exit_code - exit_code=0
 
 --- production_health_auditor_step_v1_4 ---
 Script: C:\Trading\Python\PrimeViewFX_production_health_auditor_step_v1_4.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_production_health_auditor_step_v1_4.ps1"
 PrimeViewFX Production Health Auditor Step v1.4
 ==============================================
-created_utc:      2026-07-29T14:40:02Z
+created_utc:      2026-07-29T15:57:55Z
 python_exe:       C:\Trading\Python\python.exe
 python_script:    C:\Trading\Python\primeviewfx_production_health_auditor_v1_4.py
 data_dir:         C:\Trading\Data
@@ -1762,21 +1762,20 @@ RUN PRODUCTION HEALTH AUDITOR
 command: C:\Trading\Python\python.exe C:\Trading\Python\primeviewfx_production_health_auditor_v1_4.py --data-dir C:\Trading\Data --static-site-dir C:\Trading\Publish\PrimeViewFX_Static_Site --latest-dir C:\Trading\Publish\PrimeViewFX_Latest --local-dir C:\Trading\Data\ProductionHealth
 PrimeViewFX Production Health Auditor v1.4
 ========================================
-created_utc:            2026-07-29T14:40:02Z
-overall_status:         FAILED
+created_utc:            2026-07-29T15:57:55Z
+overall_status:         PASSED_WITH_WARNINGS
 manifest_forecast_date: 2026-07-20
 finding_count:          201
-blocking_count:         2
-warning_count:          11
-pass_count:             174
+blocking_count:         0
+warning_count:          9
+pass_count:             178
 info_count:             14
 
 STATUS COUNTS
 -------------
-PASS: 174
+PASS: 178
 INFO: 14
-WARNING: 11
-FAIL: 2
+WARNING: 9
 
 OUTPUTS
 -------
@@ -1802,20 +1801,20 @@ VALIDATION
 [PASS] output_exists: primeviewfx_production_health_auditor_v1_4.html - C:\Trading\Publish\PrimeViewFX_Static_Site\data\primeviewfx_production_health_auditor_v1_4.html
 [PASS] output_exists: production-health.html - C:\Trading\Publish\PrimeViewFX_Static_Site\production-health.html
 [PASS] auditor_summary_parseable - C:\Trading\Data\ProductionHealth\primeviewfx_production_health_auditor_v1_4_summary.json
-[FAIL] auditor_summary_status_passed - overall_status=FAILED; blocking_count=2; warning_count=11
+[PASS] auditor_summary_status_passed - overall_status=PASSED_WITH_WARNINGS; blocking_count=0; warning_count=9
 
 CHECK SUMMARY
 -------------
-overall_status:          FAILED
-blocking_count:          2
+overall_status:          PASSED
+blocking_count:          0
 warning_count:           0
-process_exit_code:       1
-auditor_overall_status:  FAILED
+process_exit_code:       0
+auditor_overall_status:  PASSED_WITH_WARNINGS
 manifest_forecast_date:  2026-07-20
 finding_count:           201
-auditor_blocking_count:  2
-auditor_warning_count:   11
-auditor_pass_count:      174
+auditor_blocking_count:  0
+auditor_warning_count:   9
+auditor_pass_count:      178
 auditor_info_count:      14
 
 OUTPUTS
@@ -1824,27 +1823,60 @@ step_log:          C:\Trading\Data\ProductionHealth\PrimeViewFX_production_healt
 step_summary_json: C:\Trading\Data\ProductionHealth\primeviewfx_production_health_auditor_step_v1_4_summary.json
 
 Research only. Not a trading signal.
-ExitCode: 1
-[FAIL] production_health_auditor_exit_code - exit_code=1
+ExitCode: 0
+[PASS] production_health_auditor_exit_code - exit_code=0
 
 SUMMARY VALIDATION
 ------------------
 [PASS] v1_9_1_summary_parseable - C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_with_provider_v1_9_1_summary.json
-[FAIL] v1_9_1_summary_status_passed - overall_status=FAILED; blocking_count=2; warning_count=0
+[PASS] v1_9_1_summary_status_passed - overall_status=PASSED; blocking_count=0; warning_count=0
 [PASS] production_health_step_summary_parseable - C:\Trading\Data\ProductionHealth\primeviewfx_production_health_auditor_step_v1_4_summary.json
-[FAIL] production_health_summary_status_passed - step_status=FAILED; step_blocking=2; step_warning=0; auditor_status=FAILED; auditor_blocking=2; auditor_warning=11; finding_count=201
+[PASS] production_health_summary_status_passed - step_status=PASSED; step_blocking=0; auditor_status=PASSED_WITH_WARNINGS; auditor_blocking=0; auditor_warning=9; finding_count=201
 
 DEPLOY
 ------
-[WARNING] static_site_git_publish_skipped - Skipped - 4 blocking failure(s) upstream, not deploying.
+
+--- static_site_git_publish ---
+Script: C:\Trading\Python\PrimeViewFX_static_site_git_publish_v1.ps1
+Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_static_site_git_publish_v1.ps1"
+[main 50136d3] Automated daily publish 20260729_165759
+ 35 files changed, 462 insertions(+), 465 deletions(-)
+SUCCESS: static site committed and pushed.
+STDERR:
+warning: in the working copy of 'bearish-cascade-0171dd2ecccd13fa.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'bullish-cascade-1ddfa177ade539c0.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'cascade-research-summary-ff36f349b8cbb7d7.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/primeviewfx_production_health_auditor_v1_1.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/primeviewfx_production_health_auditor_v1_1_summary.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/primeviewfx_production_health_auditor_v1_2.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/primeviewfx_production_health_auditor_v1_2_summary.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/primeviewfx_production_health_auditor_v1_3.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/primeviewfx_production_health_auditor_v1_3_summary.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/primeviewfx_production_health_auditor_v1_4.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/primeviewfx_production_health_auditor_v1_4_summary.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/primeviewfx_research_tools_nav_v1.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/primeviewfx_research_tools_nav_v1.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'filtered_reproduced_ladder/filtered_reproduced_ladder_partial_v1_8.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'filtered_reproduced_ladder/filtered_reproduced_ladder_partial_v1_8_1.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'filtered_reproduced_ladder/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'members-weekly-goldturns-5ca15a7d08b31d56.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'members/primeviewfx_members_integrated_map_v1-8d9ae95fd8353fae.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'production-health.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'survival_reproduced_ladder/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'survival_reproduced_ladder/survival_reproduced_ladder_dashboard_card_v2_1_1.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'weighted-level-scanner-add58c89ce531e69.html', LF will be replaced by CRLF the next time Git touches it
+To https://github.com/Primeviewfx/primeviewfx-static-site.git
+   64ef1bb..50136d3  main -> main
+ExitCode: 0
+[PASS] static_site_git_publish_exit_code - exit_code=0
 
 FINAL v1.9.2 STATUS
 -------------------
-overall_status: FAILED
-blocking_count: 4
-warning_count: 1
-v1_9_1_exit_code: 1
-production_health_auditor_exit_code: 1
+overall_status: PASSED
+blocking_count: 0
+warning_count: 0
+v1_9_1_exit_code: 0
+production_health_auditor_exit_code: 0
 forecast_date: 2026-07-20
 row_count: 16
 primary_reaction_zone: 3,961.29, 3,977.92, 3,994.39
@@ -1858,15 +1890,15 @@ research_tools_tool_count: 8
 research_tools_available_count: 8
 research_tools_injected_count: 13
 research_tools_marker_count: 13
-production_health_status: FAILED
+production_health_status: PASSED_WITH_WARNINGS
 production_health_manifest_forecast_date: 2026-07-20
 production_health_finding_count: 201
-production_health_blocking_count: 2
-production_health_warning_count: 11
-production_health_pass_count: 174
+production_health_blocking_count: 0
+production_health_warning_count: 9
+production_health_pass_count: 178
 production_health_info_count: 14
 summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_with_provider_v1_9_2_summary.json
 
 Research only. Not a trading signal.
 
-Finished: 2026-07-29T15:40:03.8170038+01:00
+Finished: 2026-07-29T16:58:02.8708041+01:00
