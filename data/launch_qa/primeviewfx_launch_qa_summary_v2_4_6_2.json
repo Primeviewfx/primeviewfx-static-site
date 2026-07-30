@@ -1,0 +1,25 @@
+{
+  "version": "v2.4.6.2",
+  "created_utc": "2026-07-30T06:05:35.010715+00:00",
+  "static_site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
+  "launch_status": "NOT_READY_BLOCKED",
+  "reasons": [
+    "3 risky promotional wording hit(s)."
+  ],
+  "check_counts": {
+    "pass": 24,
+    "warn": 8,
+    "fail": 0
+  },
+  "wording_counts": {
+    "risky_promo": 3,
+    "review_context": 0,
+    "safe_disclaimer": 51
+  },
+  "outputs": {
+    "checks_csv": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\launch_qa\\primeviewfx_launch_qa_checks_v2_4_6_2.csv",
+    "wording_scan_csv": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\launch_qa\\primeviewfx_launch_qa_wording_scan_v2_4_6_2.csv",
+    "report_txt": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\launch_qa\\primeviewfx_launch_qa_report_v2_4_6_2.txt",
+    "summary_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\launch_qa\\primeviewfx_launch_qa_summary_v2_4_6_2.json"
+  }
+}
