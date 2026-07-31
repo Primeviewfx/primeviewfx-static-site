@@ -4,8 +4,8 @@ PRIMEVIEWFX DAILY PUBLISH RUNNER WITH PROVIDER V1.8
 SUMMARY
 -------
 status: PASSED
-started_utc: 2026-07-30T05:35:09Z
-ended_utc: 2026-07-30T05:37:39Z
+started_utc: 2026-07-31T05:35:10Z
+ended_utc: 2026-07-31T05:37:37Z
 script_dir: C:\Trading\Python
 data_dir: C:\Trading\Data
 publish_root: C:\Trading\Publish
@@ -19,9 +19,9 @@ promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
 selected_level_date: 2026-07-20
 scan_date: 2026-07-20
-latest_datetime: 2026-07-30 08:00:00
-latest_close: 4045.61
-latest_ema5: 4055.5860384704283
+latest_datetime: 2026-07-31 08:00:00
+latest_close: 4080.35
+latest_ema5: 4082.2328288644076
 latest_channel_state: ema_proxy_down
 latest_state_alignment_up: counter_state
 latest_state_alignment_down: with_state
@@ -30,7 +30,7 @@ WEIGHTED LEVEL DASHBOARD CARD
 -----------------------------
 dashboard_json_found: True
 dashboard_html_found: True
-created_utc: 2026-07-30T05:37:38Z
+created_utc: 2026-07-31T05:37:36Z
 promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
 current_map_count: 8

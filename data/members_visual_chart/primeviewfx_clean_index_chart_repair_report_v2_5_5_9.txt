@@ -1,8 +1,0 @@
-﻿PrimeViewFX Clean Index Chart Repair v2.5.5.9
-=============================================
-created: 2026-07-30T07:05:35.0749094+01:00
-index: C:\Trading\Publish\PrimeViewFX_Static_Site\index.html
-members-dashboard: C:\Trading\Publish\PrimeViewFX_Static_Site\members-dashboard.html
-chart: C:\Trading\Publish\PrimeViewFX_Static_Site\data\charts\primeviewfx_members_static_chart_latest.png
-
-Done. Open index.html and press Ctrl+F5.
