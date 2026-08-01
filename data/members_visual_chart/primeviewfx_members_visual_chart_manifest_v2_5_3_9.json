@@ -1,11 +1,11 @@
 {
   "version": "v2.5.3.9",
-  "created_utc": "2026-08-01T14:05:30.827591+00:00",
+  "created_utc": "2026-08-01T20:05:35.822596+00:00",
   "data_dir": "C:\\Trading\\Data",
   "static_site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
   "outputs": {
     "latest_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.png",
-    "archive_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\archive\\primeviewfx_members_static_chart_20260801_140530.png",
+    "archive_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\archive\\primeviewfx_members_static_chart_20260801_200535.png",
     "metadata_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
     "manifest_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\members_visual_chart\\primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
     "report_txt": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\members_visual_chart\\primeviewfx_members_visual_chart_report_v2_5_3_9.txt",
@@ -62,7 +62,7 @@
     "found": true,
     "method": "weekly_freeze_from_prior_ema5_turns",
     "week_start": "2026-07-27",
-    "created_utc": "2026-07-31T06:05:29.488837+00:00",
+    "created_utc": "2026-08-01T18:05:31.818569+00:00",
     "refresh_rule": "Generated once per new week; hourly chart reads latest weekly file.",
     "levels": [
       {

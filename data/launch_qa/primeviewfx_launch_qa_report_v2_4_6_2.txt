@@ -1,7 +1,7 @@
 PrimeViewFX Launch QA + Compliance Scanner v2.4.6.2
 ==================================================
 
-created_utc: 2026-07-31T06:05:35.090874+00:00
+created_utc: 2026-08-01T18:05:37.710331+00:00
 static_site_dir: C:\Trading\Publish\PrimeViewFX_Static_Site
 launch_status: NOT_READY_BLOCKED
 
@@ -19,7 +19,7 @@ Wording scan summary
 --------------------
 RISKY_PROMO: 3
 REVIEW_CONTEXT: 0
-SAFE_DISCLAIMER: 51
+SAFE_DISCLAIMER: 47
 
 Failed / warning checks
 -----------------------
@@ -27,10 +27,10 @@ Failed / warning checks
 [WARN] file_exists::founder-beta-pricing.html - founder-beta-pricing.html missing
 [WARN] file_exists::bullish-cascade.html - bullish-cascade.html missing
 [WARN] file_exists::bearish-cascade.html - bearish-cascade.html missing
-[WARN] freshness::data/primeviewfx_website_trigger_gate_public_v2_4_3.json - data/primeviewfx_website_trigger_gate_public_v2_4_3.json age 611.18h; max 72.0h
-[WARN] freshness::data/primeviewfx_website_trigger_gate_live_v2_4_3.csv - data/primeviewfx_website_trigger_gate_live_v2_4_3.csv age 611.18h; max 72.0h
-[WARN] freshness::data/primeviewfx_website_trigger_gate_summary_v2_4_3.csv - data/primeviewfx_website_trigger_gate_summary_v2_4_3.csv age 611.18h; max 72.0h
-[WARN] freshness::data/primeviewfx_weekly_play_ema5_channel_latest_state_v2_4.csv - data/primeviewfx_weekly_play_ema5_channel_latest_state_v2_4.csv age 615.062h; max 72.0h
+[WARN] freshness::data/primeviewfx_website_trigger_gate_public_v2_4_3.json - data/primeviewfx_website_trigger_gate_public_v2_4_3.json age 647.181h; max 72.0h
+[WARN] freshness::data/primeviewfx_website_trigger_gate_live_v2_4_3.csv - data/primeviewfx_website_trigger_gate_live_v2_4_3.csv age 647.181h; max 72.0h
+[WARN] freshness::data/primeviewfx_website_trigger_gate_summary_v2_4_3.csv - data/primeviewfx_website_trigger_gate_summary_v2_4_3.csv age 647.181h; max 72.0h
+[WARN] freshness::data/primeviewfx_weekly_play_ema5_channel_latest_state_v2_4.csv - data/primeviewfx_weekly_play_ema5_channel_latest_state_v2_4.csv age 651.062h; max 72.0h
 
 Risky / review wording
 ----------------------

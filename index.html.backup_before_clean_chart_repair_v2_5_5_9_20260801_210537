@@ -87,48 +87,6 @@
 </style>
 </head>
 <body>
-<!-- PRIMEVIEWFX_BULLISH_CASCADE_LINK_V1_START -->
-<section id="primeviewfx-bullish-cascade-link" style="margin:18px 0;padding:18px;border:1px solid rgba(255,255,255,.14);border-radius:18px;background:linear-gradient(180deg,rgba(34,197,94,.12),rgba(255,255,255,.035));color:inherit;font-family:inherit;">
-  <div style="display:flex;justify-content:space-between;gap:14px;align-items:flex-start;flex-wrap:wrap;">
-    <div style="min-width:240px;flex:1;">
-      <div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#86efac;">PrimeViewFX Research Layer</div>
-      <h2 style="margin:6px 0 8px;font-size:clamp(20px,3vw,30px);line-height:1.1;">Bullish Intraday Cascade</h2>
-      <p style="margin:0;color:rgba(226,232,240,.86);">Live role map for published intraday levels: continuation-risk checkpoints, transition watch, primary reaction zone and deep extension context.</p>
-    </div>
-    <a href="/member-area/bullish-cascade" target="_blank" rel="noopener" style="display:inline-block;border:1px solid #86efac;border-radius:999px;padding:10px 14px;text-decoration:none;color:#dcfce7;font-weight:900;background:rgba(34,197,94,.16);">Open cascade dashboard</a>
-  </div>
-  <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:14px;">
-    <div style="border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:12px;background:rgba(0,0,0,.14);"><div style="font-size:12px;color:rgba(226,232,240,.68);">Forecast Date</div><strong>2026-07-20</strong></div>
-    <div style="border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:12px;background:rgba(0,0,0,.14);"><div style="font-size:12px;color:rgba(226,232,240,.68);">Date Contract</div><strong>PASSED</strong></div>
-    <div style="border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:12px;background:rgba(0,0,0,.14);"><div style="font-size:12px;color:rgba(226,232,240,.68);">Tagged Levels</div><strong>16</strong></div>
-    <div style="border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:12px;background:rgba(0,0,0,.14);"><div style="font-size:12px;color:rgba(226,232,240,.68);">Primary Reaction Zone</div><strong>3,961.29, 3,977.92, 3,994.39</strong></div>
-  </div>
-  <p style="margin:12px 0 0;color:rgba(226,232,240,.72);font-size:13px;">Lower levels: 3,833.66, 3,861.98, 3,895.08, 3,927.15, 3,952.02. Transition: 3,956.65. Deep extension levels are context-dependent, not automatic reversal calls.</p>
-  <p style="margin:8px 0 0;color:rgba(226,232,240,.62);font-size:12px;">Research only. Not a trading signal.</p>
-</section>
-<!-- PRIMEVIEWFX_BULLISH_CASCADE_LINK_V1_END -->
-
-<!-- PRIMEVIEWFX_BEARISH_CASCADE_LINK_V1_START -->
-<section id="primeviewfx-bearish-cascade-link" style="margin:18px 0;padding:18px;border:1px solid rgba(255,255,255,.14);border-radius:18px;background:linear-gradient(180deg,rgba(248,113,113,.12),rgba(255,255,255,.035));color:inherit;font-family:inherit;">
-  <div style="display:flex;justify-content:space-between;gap:14px;align-items:flex-start;flex-wrap:wrap;">
-    <div style="min-width:240px;flex:1;">
-      <div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#fca5a5;">PrimeViewFX Research Layer</div>
-      <h2 style="margin:6px 0 8px;font-size:clamp(20px,3vw,30px);line-height:1.1;">Bearish Intraday Cascade</h2>
-      <p style="margin:0;color:rgba(226,232,240,.86);">Live role map for published intraday levels: continuation-risk checkpoints, transition watch, primary reaction zone and deep extension context.</p>
-    </div>
-    <a href="/member-area/bearish-cascade" target="_blank" rel="noopener" style="display:inline-block;border:1px solid #fca5a5;border-radius:999px;padding:10px 14px;text-decoration:none;color:#fee2e2;font-weight:900;background:rgba(248,113,113,.16);">Open cascade dashboard</a>
-  </div>
-  <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:14px;">
-    <div style="border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:12px;background:rgba(0,0,0,.14);"><div style="font-size:12px;color:rgba(226,232,240,.68);">Forecast Date</div><strong>2026-07-20</strong></div>
-    <div style="border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:12px;background:rgba(0,0,0,.14);"><div style="font-size:12px;color:rgba(226,232,240,.68);">Date Contract</div><strong>PASSED</strong></div>
-    <div style="border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:12px;background:rgba(0,0,0,.14);"><div style="font-size:12px;color:rgba(226,232,240,.68);">Tagged Levels</div><strong>16</strong></div>
-    <div style="border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:12px;background:rgba(0,0,0,.14);"><div style="font-size:12px;color:rgba(226,232,240,.68);">Primary Reaction Zone</div><strong>3,999.11, 3,994.39, 3,977.92</strong></div>
-  </div>
-  <p style="margin:12px 0 0;color:rgba(226,232,240,.72);font-size:13px;">Upper levels: 4,133.32, 4,107.42, 4,081.52, 4,056.63, 4,028.61. Transition: 4,003.82. Deep extension levels are context-dependent, not automatic reversal calls.</p>
-  <p style="margin:8px 0 0;color:rgba(226,232,240,.62);font-size:12px;">Research only. Not a trading signal.</p>
-</section>
-<!-- PRIMEVIEWFX_BEARISH_CASCADE_LINK_V1_END -->
-
 <!-- PRIMEVIEWFX_CLEAN_MAIN_HORIZONTAL_CHART_V2_5_4_9_START -->
 <main class="pvfx-clean-main-horizontal">
   <style id="primeviewfx-clean-main-horizontal-chart-style-v2-5-4-9">

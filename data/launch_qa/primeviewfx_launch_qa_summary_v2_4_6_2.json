@@ -1,6 +1,6 @@
 {
   "version": "v2.4.6.2",
-  "created_utc": "2026-07-31T06:05:35.091207+00:00",
+  "created_utc": "2026-08-01T18:05:37.710661+00:00",
   "static_site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
   "launch_status": "NOT_READY_BLOCKED",
   "reasons": [
@@ -14,7 +14,7 @@
   "wording_counts": {
     "risky_promo": 3,
     "review_context": 0,
-    "safe_disclaimer": 51
+    "safe_disclaimer": 47
   },
   "outputs": {
     "checks_csv": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\launch_qa\\primeviewfx_launch_qa_checks_v2_4_6_2.csv",
