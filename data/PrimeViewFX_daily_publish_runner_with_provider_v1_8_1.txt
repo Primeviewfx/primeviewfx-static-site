@@ -4,8 +4,8 @@ PRIMEVIEWFX DAILY PUBLISH RUNNER WITH PROVIDER V1.8
 SUMMARY
 -------
 status: PASSED
-started_utc: 2026-07-31T05:35:10Z
-ended_utc: 2026-07-31T05:37:37Z
+started_utc: 2026-08-02T05:35:10Z
+ended_utc: 2026-08-02T05:37:39Z
 script_dir: C:\Trading\Python
 data_dir: C:\Trading\Data
 publish_root: C:\Trading\Publish
@@ -15,13 +15,13 @@ warning_count: 0
 WEIGHTED LEVEL SCANNER
 ----------------------
 scanner_json_found: True
-promoted_candidate_status: NO_CANDIDATE_MAP
+promoted_candidate_status: WAITING_FOR_TRIGGER
 watchlist_status: WAITING_FOR_TRIGGER
-selected_level_date: 2026-07-20
-scan_date: 2026-07-20
-latest_datetime: 2026-07-31 08:00:00
-latest_close: 4080.35
-latest_ema5: 4082.2328288644076
+selected_level_date: 2026-07-31
+scan_date: 2026-07-31
+latest_datetime: 2026-07-31 23:00:00
+latest_close: 4043.65
+latest_ema5: 4047.5399433429257
 latest_channel_state: ema_proxy_down
 latest_state_alignment_up: counter_state
 latest_state_alignment_down: with_state
@@ -30,8 +30,8 @@ WEIGHTED LEVEL DASHBOARD CARD
 -----------------------------
 dashboard_json_found: True
 dashboard_html_found: True
-created_utc: 2026-07-31T05:37:36Z
-promoted_candidate_status: NO_CANDIDATE_MAP
+created_utc: 2026-08-02T05:37:38Z
+promoted_candidate_status: WAITING_FOR_TRIGGER
 watchlist_status: WAITING_FOR_TRIGGER
 current_map_count: 8
 site_html: C:\Trading\Publish\PrimeViewFX_Static_Site\weighted-level-scanner-add58c89ce531e69.html

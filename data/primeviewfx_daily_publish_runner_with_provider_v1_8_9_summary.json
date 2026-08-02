@@ -1,15 +1,15 @@
 ﻿{
     "version":  "v1.8.9",
-    "created_utc":  "2026-07-31T05:38:05Z",
-    "finished_local":  "2026-07-31T06:38:05.2201424+01:00",
+    "created_utc":  "2026-08-02T05:38:07Z",
+    "finished_local":  "2026-08-02T06:38:07.2045193+01:00",
     "overall_status":  "PASSED",
     "blocking_count":  0,
     "warning_count":  0,
     "v1_8_8_exit_code":  0,
     "combined_cascade_research_summary_exit_code":  0,
-    "forecast_date":  "2026-07-20",
+    "forecast_date":  "2026-07-31",
     "row_count":  "16",
-    "primary_reaction_zone":  "3,961.29, 3,977.92, 3,994.39",
+    "primary_reaction_zone":  "4,069.35, 4,085.07, 4,100.64",
     "injected_count":  "2",
     "research_layer_count":  "4",
     "research_status_counts":  "{\"ROBUST\":2,\"PROMISING\":2,\"REVIEW\":0}",
@@ -109,7 +109,7 @@
                        "warning":  false
                    }
                ],
-    "log_path":  "C:\\Trading\\Logs\\primeviewfx_daily_publish_with_provider_v1_8_9_20260731_063504.log",
+    "log_path":  "C:\\Trading\\Logs\\primeviewfx_daily_publish_with_provider_v1_8_9_20260802_063504.log",
     "report_path":  "C:\\Trading\\Data\\PrimeViewFXDaily\\PrimeViewFX_daily_publish_runner_with_provider_v1_8_9.txt",
     "summary_json":  "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_8_9_summary.json",
     "research_only":  true,

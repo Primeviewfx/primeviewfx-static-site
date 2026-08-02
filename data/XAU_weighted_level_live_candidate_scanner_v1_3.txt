@@ -3,25 +3,25 @@ XAU WEIGHTED LEVEL LIVE CANDIDATE SCANNER V1.3
 
 SUMMARY
 -------
-selected_level_date: 2026-07-20
-scan_date: 2026-07-20
-latest_datetime: 2026-07-31 08:00:00
-latest_close: 4080.35
-latest_ema5: 4082.2328288644076
+selected_level_date: 2026-07-31
+scan_date: 2026-07-31
+latest_datetime: 2026-07-31 23:00:00
+latest_close: 4043.65
+latest_ema5: 4047.5399433429257
 latest_channel_state: ema_proxy_down
 latest_state_alignment_up: counter_state
 latest_state_alignment_down: with_state
-promoted_candidate_status: NO_CANDIDATE_MAP
+promoted_candidate_status: WAITING_FOR_TRIGGER
 watchlist_status: WAITING_FOR_TRIGGER
 
 PROMOTED CANDIDATE
 ------------------
 setup_id: PROMOTED_UP_LV3_TO_LV2_15_30
-status: NO_CANDIDATE_MAP
-detail: LV3->LV2 distance bucket is 30_50, not required bucket 15_30.
-trigger: LV3 @ 3994.390324
-target: LV2 @ 4027.494005
-distance: 33.10368100000005 (30_50)
+status: WAITING_FOR_TRIGGER
+detail: Map condition exists; waiting for EMA5 cross-lock upward through LV3.
+trigger: LV3 @ 4085.270472
+target: LV2 @ 4114.862907
+distance: 29.59243499999957 (15_30)
 trigger_found: False
 trigger_datetime: 
 first_outcome: 
@@ -29,51 +29,51 @@ first_outcome:
 WATCHLIST
 ---------
 setup_id: WATCHLIST_DOWN_LV5_TO_LV6_15_30
-status: NO_CANDIDATE_MAP
-detail: LV5->LV6 distance bucket is 30_50, not required bucket 15_30.
-trigger: LV5 @ 3928.182964
-target: LV6 @ 3895.079284
-distance: 33.10368000000017 (30_50)
+status: WAITING_FOR_TRIGGER
+detail: Map condition exists; waiting for EMA5 cross-lock downward through LV5.
+trigger: LV5 @ 4026.0856
+target: LV6 @ 3996.493166
+distance: 29.592433999999685 (15_30)
 trigger_found: False
 trigger_datetime: 
 first_outcome: 
 
 setup_id: WATCHLIST_UP_LV4_TO_LV3_30_50
-status: TARGET_AREA_ALREADY_REACHED
-detail: Price is already at/near LV3, but no recent LV4 cross-lock was found.
-trigger: LV4 @ 3961.286644
-target: LV3 @ 3994.390324
-distance: 33.10368000000017 (30_50)
+status: NO_CANDIDATE_MAP
+detail: LV4->LV3 distance bucket is 15_30, not required bucket 30_50.
+trigger: LV4 @ 4055.678036
+target: LV3 @ 4085.270472
+distance: 29.59243600000036 (15_30)
 trigger_found: False
 trigger_datetime: 
 first_outcome: 
 
 setup_id: WATCHLIST_UP_LV5_TO_LV4_15_30
-status: NO_CANDIDATE_MAP
-detail: LV5->LV4 distance bucket is 30_50, not required bucket 15_30.
-trigger: LV5 @ 3928.182964
-target: LV4 @ 3961.286644
-distance: 33.10367999999971 (30_50)
+status: ABOVE_TRIGGER_NO_RECENT_CROSS
+detail: Price/EMA5 are above LV5, but no recent EMA5 cross-lock through LV5 was found.
+trigger: LV5 @ 4026.0856
+target: LV4 @ 4055.678036
+distance: 29.592435999999907 (15_30)
 trigger_found: False
 trigger_datetime: 
 first_outcome: 
 
 setup_id: WATCHLIST_DOWN_LV6_TO_LV7_15_30
-status: NO_CANDIDATE_MAP
-detail: LV6->LV7 distance bucket is 30_50, not required bucket 15_30.
-trigger: LV6 @ 3895.079284
-target: LV7 @ 3861.975603
-distance: 33.10368100000005 (30_50)
+status: WAITING_FOR_TRIGGER
+detail: Map condition exists; waiting for EMA5 cross-lock downward through LV6.
+trigger: LV6 @ 3996.493166
+target: LV7 @ 3966.90073
+distance: 29.59243600000036 (15_30)
 trigger_found: False
 trigger_datetime: 
 first_outcome: 
 
 setup_id: WATCHLIST_DOWN_LV6_TO_LV7_30_50
-status: WAITING_FOR_TRIGGER
-detail: Map condition exists; waiting for EMA5 cross-lock downward through LV6.
-trigger: LV6 @ 3895.079284
-target: LV7 @ 3861.975603
-distance: 33.10368100000005 (30_50)
+status: NO_CANDIDATE_MAP
+detail: LV6->LV7 distance bucket is 15_30, not required bucket 30_50.
+trigger: LV6 @ 3996.493166
+target: LV7 @ 3966.90073
+distance: 29.59243600000036 (15_30)
 trigger_found: False
 trigger_datetime: 
 first_outcome: 
@@ -81,14 +81,14 @@ first_outcome:
 CURRENT MAP
 -----------
 rank_bucket  level_price       level_role level_label next_higher_rank next_lower_rank
-        LV1  4057.635181         H4_local     Caution                              LV2
-        LV2  4027.494005 H4_D1_confluence     Caution              LV1             LV3
-        LV3  3994.390324 H4_D1_confluence     Caution              LV2             LV4
-        LV4  3961.286644 H4_D1_confluence     Caution              LV3             LV5
-        LV5  3928.182964 H4_D1_confluence     Caution              LV4             LV6
-        LV6  3895.079284 H4_D1_confluence     Caution              LV5             LV7
-        LV7  3861.975603 H4_D1_confluence     Caution              LV6             LV8
-        LV8  3833.663671     D1_container     Caution              LV7             LV9
+        LV1  4143.127989     D1_container     Caution                              LV2
+        LV2  4114.862907 H4_D1_confluence     Caution              LV1             LV3
+        LV3  4085.270472 H4_D1_confluence     Caution              LV2             LV4
+        LV4  4055.678036 H4_D1_confluence     Caution              LV3             LV5
+        LV5  4026.085600 H4_D1_confluence     Caution              LV4             LV6
+        LV6  3996.493166 H4_D1_confluence     Caution              LV5             LV7
+        LV7  3966.900730 H4_D1_confluence     Caution              LV6             LV8
+        LV8  3936.679911         H4_local     Caution              LV7             LV9
 
 RULES
 -----
