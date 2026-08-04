@@ -1,6 +1,6 @@
 {
-  "run_id": "20260803_063739",
-  "generated_at": "2026-08-03T06:37:46",
+  "run_id": "20260804_063739",
+  "generated_at": "2026-08-04T06:37:47",
   "status": "ready",
   "source_dir": "C:\\Trading\\Publish\\PrimeViewFX_Latest",
   "site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
@@ -57,37 +57,37 @@
     {
       "path": "bearish-cascade-0171dd2ecccd13fa.html",
       "size_bytes": 20672,
-      "sha256": "ee5589b7d886af985d33362c8ccbe41798ef3928cf3843ed76ae104ea58a30e9"
+      "sha256": "3399d1ec133ca087bbd2f001294bfa1b8a149273b7f078ebc2e9b0bbbde32fea"
     },
     {
       "path": "bullish-cascade-1ddfa177ade539c0.html",
       "size_bytes": 20737,
-      "sha256": "43a6556fc06b05df9f18683cb2ebc3ba75df57a11314ad80b5c7c285154684c2"
+      "sha256": "a9c3495b5507c0e404403209c904a459884c1717f833494c9f4ee2f9a5357c35"
     },
     {
       "path": "cascade-research-summary-ff36f349b8cbb7d7.html",
       "size_bytes": 16306,
-      "sha256": "7b2ca6e3eccd0eb9b5ac481d4b0c6352ed0d03d9f19bfef5400c1c679c7e93d0"
+      "sha256": "1707043b10fa6a6de32e8eec0cbd686848adc0a496c9661d77be91d7c591fbe5"
     },
     {
       "path": "data/bearish_cascade_dashboard_card_v1.html",
       "size_bytes": 10606,
-      "sha256": "0200025d1935fe23c829e7b6ace5d4b554446184b304b51d5c05d3838763479b"
+      "sha256": "e2944f049f24f95fdc3b01de5e554462a8fb7d96670dcdbb210238bfd2a4a43d"
     },
     {
       "path": "data/bearish_cascade_dashboard_card_v1.json",
       "size_bytes": 92098,
-      "sha256": "3b3a02b471f116f259eaca3a30ff34722d2ccb68e0cbf957fdb5c80db76271b2"
+      "sha256": "034c702563dc544ac97c296926846c0dbbccfac255c27c490d595a218b942243"
     },
     {
       "path": "data/bullish_cascade_dashboard_card_v1.html",
       "size_bytes": 10671,
-      "sha256": "209b3a106df0c7548f8eea9b3788d155ef58f62601895a8e75b6f8499ef35933"
+      "sha256": "a5e522cf0fc3df42c1f2a391b845947ea52c0b464991812a17e489fe4405769e"
     },
     {
       "path": "data/bullish_cascade_dashboard_card_v1.json",
       "size_bytes": 75781,
-      "sha256": "6ddd803896bee6093377a3eab040467e868a009229c27cb30a06caee3bc8849f"
+      "sha256": "5dd80c8707eee0ec01354c4005657828272ae4f46d600d93d6ea22bf4a46a322"
     },
     {
       "path": "data/primeviewfx_combined_cascade_research_layers_v1.csv",
@@ -137,17 +137,17 @@
     {
       "path": "data/primeviewfx_combined_cascade_research_summary_v1_2.html",
       "size_bytes": 6344,
-      "sha256": "14661bba2ebd92d600474b58e795e933e86e260f88e095efb928cb9408431a62"
+      "sha256": "b45449dd80042fb46800fa95fd12371a348ae05557c3115b9610a4d511203212"
     },
     {
       "path": "data/primeviewfx_combined_cascade_research_summary_v1_2.json",
       "size_bytes": 1483,
-      "sha256": "6dbd8f4998fb92221383991c2120cd6c09873a53651af8abc820cb1c6b726a1d"
+      "sha256": "87a9bc340d2bb3c4067707235ea4e84cdc22740a2347450d37a9b3f0e1cfd880"
     },
     {
       "path": "data/PrimeViewFX_combined_cascade_research_summary_v1_2.txt",
       "size_bytes": 2530,
-      "sha256": "56b864bd8a3781cf96fb5baf3a43e1bd1d9826a70c17f2f0310058b28cc48773"
+      "sha256": "01b32f3b9fd327872803c46302fd10f50edcd692dadb1b4cc5f10ae7838f496c"
     },
     {
       "path": "data/PrimeViewFX_daily_publish_runner_with_provider_v1_6.txt",
@@ -196,13 +196,13 @@
     },
     {
       "path": "data/PrimeViewFX_daily_publish_runner_with_provider_v1_8_1.txt",
-      "size_bytes": 2804,
-      "sha256": "1338b3bc37ce253c58c26b5a47ce33ab3e5cd71ac94438a31e1134f889c53ed7"
+      "size_bytes": 2810,
+      "sha256": "a9eeb5b478155da0acc8732e47fc951f411f841bea449c74b26179f260bfcb65"
     },
     {
       "path": "data/primeviewfx_daily_publish_runner_with_provider_v1_8_1_summary.json",
-      "size_bytes": 32568,
-      "sha256": "3d21ccac91909b68a2e03793888d74cca567a3115594c3e5f05f2e2dfb43ade9"
+      "size_bytes": 32586,
+      "sha256": "5842f1f6f10751eda2ed80fa8c70dd8dcf793f513a320c51c2a36a5e8d98dd3f"
     },
     {
       "path": "data/PrimeViewFX_daily_publish_runner_with_provider_v1_8_2.txt",
@@ -226,13 +226,13 @@
     },
     {
       "path": "data/PrimeViewFX_daily_publish_runner_with_provider_v1_8_4.txt",
-      "size_bytes": 49172,
-      "sha256": "f12e0719d01d4a80d39ee1cd887a6e6c6c3f42ba8ed76cae7cdcaf0bccc8246b"
+      "size_bytes": 49181,
+      "sha256": "9b0116480f5d1ebc78b2781952d6588bc45c99fe25bb8b856e32d876192eac87"
     },
     {
       "path": "data/primeviewfx_daily_publish_runner_with_provider_v1_8_4_summary.json",
       "size_bytes": 4353,
-      "sha256": "431d8bd574c8cc3c25c455720b82234cdf8e42f4b02790de78b451526d359f03"
+      "sha256": "5746c960c135ac9224fe12ff5f11d6a6cd36574bb69969103036889d691e06d3"
     },
     {
       "path": "data/PrimeViewFX_daily_publish_runner_with_provider_v1_8_5.txt",
@@ -246,13 +246,13 @@
     },
     {
       "path": "data/PrimeViewFX_daily_publish_runner_with_provider_v1_8_9.txt",
-      "size_bytes": 91325,
-      "sha256": "8d1bce9feb8abb25ca1b6ad51b77cc8837f0a5ef069b2d46cf82e7d580702e95"
+      "size_bytes": 91334,
+      "sha256": "265ef3c0cd9225dfd4025a4e75ed6485bb3e1074a0667243046f2c971c5d90f9"
     },
     {
       "path": "data/primeviewfx_daily_publish_runner_with_provider_v1_8_9_summary.json",
       "size_bytes": 5741,
-      "sha256": "b90bd2112542db285be5f1a6e12434948341110639e55c64f1cb0d03701ed962"
+      "sha256": "0c888a2f91405aa35d7b18ec8b00b1f618cb1d985a2144685505310c160eab0f"
     },
     {
       "path": "data/primeviewfx_daily_publish_runner_with_provider_v1_8_summary.json",
@@ -271,23 +271,23 @@
     },
     {
       "path": "data/PrimeViewFX_daily_publish_runner_with_provider_v1_9_1.txt",
-      "size_bytes": 102197,
-      "sha256": "43c0808db6585aed1934783fb6665ecacc014db0438e58e693e2564c11d86938"
+      "size_bytes": 102206,
+      "sha256": "c278a19325048a4e4a76d60db8652f97281766e6313200146cd08dd6500c3ef7"
     },
     {
       "path": "data/primeviewfx_daily_publish_runner_with_provider_v1_9_1_summary.json",
       "size_bytes": 3551,
-      "sha256": "ae93a352312b9de1fc880444a1f4b9d16d146cb6a6e92cbb779fa74273b55e3a"
+      "sha256": "98df5fe5f5bf8c3cb1a13f04bdc07e5d4143efc4161437e36f7717f68fe4036e"
     },
     {
       "path": "data/PrimeViewFX_daily_publish_runner_with_provider_v1_9_2.txt",
-      "size_bytes": 115950,
-      "sha256": "8c3435d435cee9ad6e5059e8ab19eb853b40fefc0ec3ca64e42d47274bd82fad"
+      "size_bytes": 113987,
+      "sha256": "91df935cfc143c4a229a33b92a42bed48bec60dd134de2e4f22bda3402d6bee8"
     },
     {
       "path": "data/primeviewfx_daily_publish_runner_with_provider_v1_9_2_summary.json",
       "size_bytes": 4237,
-      "sha256": "c9d3130cbcf05fbba57a4be1579f28105742a42ef48099eadb7f2f7f1907a15b"
+      "sha256": "963642fcd1ae274bf6deee40864c7552a11230bc821203e8fafd98ecf6b76112"
     },
     {
       "path": "data/primeviewfx_green_red_box_alignment_anchor_family_summary_v1_3.csv",
@@ -4347,7 +4347,7 @@
     {
       "path": "data/primeviewfx_members_integrated_map_v1.json",
       "size_bytes": 10528,
-      "sha256": "bb7e6a7ec06f5effee4cc43bc9e4506cd58e9a2605a263b427fe3f7d266d8586"
+      "sha256": "ae9094bcd5f163455b412aac85efeca2b386c793e89eb227b5effe9b4c307cca"
     },
     {
       "path": "data/primeviewfx_production_health_auditor_v1_1.html",
@@ -4382,12 +4382,12 @@
     {
       "path": "data/primeviewfx_production_health_auditor_v1_4.html",
       "size_bytes": 4648,
-      "sha256": "a29826c8d32f9fb89b7521dfc05fd63c3f5485b6103148394fe6a6c83a21ccdc"
+      "sha256": "1c01f2e9e0b748083f8c83143e207f5c7fd1e868abb131244a720a404d2658a5"
     },
     {
       "path": "data/primeviewfx_production_health_auditor_v1_4_summary.json",
       "size_bytes": 77004,
-      "sha256": "51258bad6a6eb978acb19ce4be5b1b9c59762fb630effe7c2bfb7ca78f039d43"
+      "sha256": "c56c4f74c51bcccedf8b7af3d3f2e6afa6c4aa67bf07b1b9a00e5b12294496fd"
     },
     {
       "path": "data/primeviewfx_research_tools_nav_v1.html",
@@ -4397,7 +4397,7 @@
     {
       "path": "data/primeviewfx_research_tools_nav_v1.json",
       "size_bytes": 12943,
-      "sha256": "3d30a4633fdb1bc53149805bce2ac1ad474ba56b0801d640bba07055e1d73172"
+      "sha256": "bbbf3af51055babbc071458ea43f69c918843330ca3e3c9596d0f58de7ba7f95"
     },
     {
       "path": "data/primeviewfx_website_trigger_gate_live_v2_4_3.csv",
@@ -4441,13 +4441,13 @@
     },
     {
       "path": "data/weighted_level_dashboard_card_v1_3.html",
-      "size_bytes": 11773,
-      "sha256": "1a89f469279c39a56d930d49f2208b135978be4ae2f1a08a9fd123c172f000af"
+      "size_bytes": 11765,
+      "sha256": "06cb32e6c4b863d29c250f488f8dda0d82a6ec2eac328300a2adfd40dcf53a5e"
     },
     {
       "path": "data/weighted_level_dashboard_card_v1_3.json",
-      "size_bytes": 12068,
-      "sha256": "37112bd3b5eea36ed3a3baf08888a939a1ac3d9d68fed65292034aa2fe4c859f"
+      "size_bytes": 12021,
+      "sha256": "1df3437bb7650a5f6431261a81c24f81eefa3200061090729c2fa50cb245afb7"
     },
     {
       "path": "data/xau_bearish_reaction_cascade_level_tagger_summary_v1.json",
@@ -4581,8 +4581,8 @@
     },
     {
       "path": "data/XAU_weighted_level_live_candidate_scanner_v1_3.txt",
-      "size_bytes": 3812,
-      "sha256": "ebe39cef490d447b2cf3069e30cb5d0514aa90b587edf250fdb63952198e28e5"
+      "size_bytes": 3804,
+      "sha256": "85f7c56e0a1c6099744a3d09e04e3a818a7adbd9a39db163404c961bf754de67"
     },
     {
       "path": "data/xau_weighted_level_live_candidate_setups_v1_1.csv",
@@ -4596,8 +4596,8 @@
     },
     {
       "path": "data/xau_weighted_level_live_candidate_setups_v1_3.csv",
-      "size_bytes": 4854,
-      "sha256": "7dea2b367db6d169605637f7cd7c7ad73f06adc35d2090511d29dbe32f12e072"
+      "size_bytes": 4802,
+      "sha256": "fae9220b52930ff777657e3b1d6791d4e4ecbfdd60cd3691cc63b2ebb0c56dbe"
     },
     {
       "path": "data/xau_weighted_level_live_candidate_v1.csv",
@@ -4621,8 +4621,8 @@
     },
     {
       "path": "data/xau_weighted_level_live_candidate_v1_3.json",
-      "size_bytes": 11787,
-      "sha256": "22238f6e1a13365541c30fa05b5344af8e2f0ad2a128d57f449775852ec68ed0"
+      "size_bytes": 11727,
+      "sha256": "42dd82c21ec36f34ed9f8bb66f8b5891a9443f662ebc16e487b9c777fb177c4e"
     },
     {
       "path": "data/xau_weighted_level_live_current_map_v1_1.csv",
@@ -4847,17 +4847,17 @@
     {
       "path": "members-static-chart-preview-4597f9ea54ee5855.html",
       "size_bytes": 991,
-      "sha256": "cbc2c112acde215737ce7667ac7bff4f2693b74bbe01d15dec100084c0fc0cff"
+      "sha256": "7c94c673a0e534649baa729d9e86b73ed701195a8c17934a1b3d0e9ba94aa5d8"
     },
     {
       "path": "members-weekly-goldturns-5ca15a7d08b31d56.html",
       "size_bytes": 2857,
-      "sha256": "5554059905e814ba16d269045fc1e6a7f341550c0ae6f37f4ac6102e387efada"
+      "sha256": "a3f1b3113ce1fa3f42586be38efdf8f2c915f196e390dad2db5aec1d533319cd"
     },
     {
       "path": "production-health.html",
       "size_bytes": 4648,
-      "sha256": "a29826c8d32f9fb89b7521dfc05fd63c3f5485b6103148394fe6a6c83a21ccdc"
+      "sha256": "1c01f2e9e0b748083f8c83143e207f5c7fd1e868abb131244a720a404d2658a5"
     },
     {
       "path": "public/primeviewfx_daily_site_summary.csv",
@@ -4877,7 +4877,7 @@
     {
       "path": "README.md",
       "size_bytes": 804,
-      "sha256": "c7138704dfa09a60fce2a728af3b8ad60352ac37428ed4a421998ac0f68726c9"
+      "sha256": "933d16669f533f5aacf40166dc810a3f4de0fcd1a6d54a5f41cb82afc30e7257"
     },
     {
       "path": "README.txt",
@@ -5016,8 +5016,8 @@
     },
     {
       "path": "weighted-level-scanner-add58c89ce531e69.html",
-      "size_bytes": 11773,
-      "sha256": "1a89f469279c39a56d930d49f2208b135978be4ae2f1a08a9fd123c172f000af"
+      "size_bytes": 11765,
+      "sha256": "06cb32e6c4b863d29c250f488f8dda0d82a6ec2eac328300a2adfd40dcf53a5e"
     }
   ],
   "research_warning": "Research only. Not a trading signal."

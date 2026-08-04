@@ -1,6 +1,6 @@
 ﻿PrimeViewFX Daily Publish with Provider v1.8.4
 ============================================================
-Started: 2026-08-03T06:35:09.4862426+01:00
+Started: 2026-08-04T06:35:08.9235355+01:00
 Daily wrapper: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1
 Bearish cascade step: C:\Trading\Python\PrimeViewFX_bearish_cascade_publish_step_v1.ps1
 Bearish cascade dashboard step: C:\Trading\Python\PrimeViewFX_bearish_cascade_dashboard_card_step_v1.ps1
@@ -20,13 +20,13 @@ PREFLIGHT
 Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1"
 PrimeViewFX Daily Publish with Provider v1.8.1
-Started: 2026-08-03T06:35:10.6979591+01:00
+Started: 2026-08-04T06:35:10.1690403+01:00
 Python: C:\Trading\Python\python.exe
 Runner: C:\Trading\Python\primeviewfx_daily_publish_runner_with_provider_v1_8_1.py
 
 PrimeViewFX Daily Publish Runner with Provider v1.8.1
 ===================================================
-Started UTC: 2026-08-03T05:35:10Z
+Started UTC: 2026-08-04T05:35:10Z
 Script dir:  C:\Trading\Python
 Data dir:    C:\Trading\Data
 Publish:     C:\Trading\Publish
@@ -119,8 +119,8 @@ RESULT: PASSED returncode=0
 PRIMEVIEWFX DAILY PUBLISH WITH PROVIDER LAYER V1.5
 ==================================================
 
-run_time: 2026-08-03T06:37:38
-log_path: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260803_063510.log
+run_time: 2026-08-04T06:37:38
+log_path: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260804_063510.log
 
 SUMMARY
 -------
@@ -166,7 +166,7 @@ v1.5 refreshes live confidence from explicit forecast-date sources only.
 v1.5 keeps auditor v1.1 as the final required step.
 Research only. Not a trading signal.
 
-Log saved: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260803_063510.log
+Log saved: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260804_063510.log
 Latest report: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_latest.txt
 
 
@@ -202,9 +202,9 @@ promoted_candidate_status: WAITING_FOR_TRIGGER
 watchlist_status: WAITING_FOR_TRIGGER
 selected_level_date: 2026-07-31
 scan_date: 2026-07-31
-latest_close: 4056.72
-latest_ema5: 4060.4607415783858
-latest_channel_state: ema_proxy_neutral
+latest_close: 4061.92
+latest_ema5: 4058.9069509717024
+latest_channel_state: ema_proxy_up
 
 PROMOTED | PROMOTED_UP_LV3_TO_LV2_15_30
   status: WAITING_FOR_TRIGGER
@@ -291,7 +291,7 @@ Dashboard summary
 -----------------
 promoted_candidate_status: WAITING_FOR_TRIGGER
 watchlist_status: WAITING_FOR_TRIGGER
-latest_channel_state: ema_proxy_neutral
+latest_channel_state: ema_proxy_up
 
 Research only. Not a trading signal.
 
@@ -390,7 +390,7 @@ Dashboard summary
 -----------------
 promoted_candidate_status: WAITING_FOR_TRIGGER
 watchlist_status: WAITING_FOR_TRIGGER
-latest_channel_state: ema_proxy_neutral
+latest_channel_state: ema_proxy_up
 
 Research only. Not a trading signal.
 
@@ -561,7 +561,7 @@ auditor_blocking_count: 0
 
 Research only. Not a trading signal.
 
-Finished: 2026-08-03T06:37:47.9648150+01:00
+Finished: 2026-08-04T06:37:48.2083180+01:00
 ExitCode: 0
 ExitCode: 0
 [PASS] daily_publish_v1_8_1_exit_code - exit_code=0
@@ -571,7 +571,7 @@ Script: C:\Trading\Python\PrimeViewFX_bearish_cascade_publish_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bearish_cascade_publish_step_v1.ps1"
 PrimeViewFX Bearish Cascade Publish Step v1
 ============================================================
-created_utc:              2026-08-03T05:37:50Z
+created_utc:              2026-08-04T05:37:50Z
 python_exe:               py
 python_script:            C:\Trading\Python\xau_bearish_reaction_cascade_level_tagger_v1_3.py
 data_dir:                 C:\Trading\Data
@@ -746,7 +746,7 @@ Script: C:\Trading\Python\PrimeViewFX_bearish_cascade_dashboard_card_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bearish_cascade_dashboard_card_step_v1.ps1"
 PrimeViewFX Bearish Cascade Dashboard Card Step v1
 ===================================================
-created_utc:        2026-08-03T05:37:54Z
+created_utc:        2026-08-04T05:37:54Z
 python_exe:         C:\Trading\Python\python.exe
 python_script:      C:\Trading\Python\primeviewfx_bearish_cascade_dashboard_card_v1.py
 data_dir:           C:\Trading\Data
@@ -844,4 +844,4 @@ summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_
 
 Research only. Not a trading signal.
 
-Finished: 2026-08-03T06:37:55.4940718+01:00
+Finished: 2026-08-04T06:37:55.7281397+01:00
