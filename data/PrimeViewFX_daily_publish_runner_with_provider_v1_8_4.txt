@@ -1,6 +1,6 @@
 ﻿PrimeViewFX Daily Publish with Provider v1.8.4
 ============================================================
-Started: 2026-08-04T06:35:08.9235355+01:00
+Started: 2026-08-23T06:35:08.4041817+01:00
 Daily wrapper: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1
 Bearish cascade step: C:\Trading\Python\PrimeViewFX_bearish_cascade_publish_step_v1.ps1
 Bearish cascade dashboard step: C:\Trading\Python\PrimeViewFX_bearish_cascade_dashboard_card_step_v1.ps1
@@ -20,13 +20,13 @@ PREFLIGHT
 Script: C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\run_primeviewfx_daily_publish_with_provider_v1_8_1.ps1"
 PrimeViewFX Daily Publish with Provider v1.8.1
-Started: 2026-08-04T06:35:10.1690403+01:00
+Started: 2026-08-23T06:35:09.4847412+01:00
 Python: C:\Trading\Python\python.exe
 Runner: C:\Trading\Python\primeviewfx_daily_publish_runner_with_provider_v1_8_1.py
 
 PrimeViewFX Daily Publish Runner with Provider v1.8.1
 ===================================================
-Started UTC: 2026-08-04T05:35:10Z
+Started UTC: 2026-08-23T05:35:09Z
 Script dir:  C:\Trading\Python
 Data dir:    C:\Trading\Data
 Publish:     C:\Trading\Publish
@@ -44,37 +44,37 @@ FINDINGS
   detail:   PrimeViewFX_Latest manifest not present.
   path:     C:\Trading\Publish\PrimeViewFX_Latest\publish_manifest.json
 [PASS] base_runner_matches_manifest::PrimeViewFX_daily_publish_runner_v1.txt
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\PrimeViewFX_daily_publish_runner_v1.txt
 [PASS] base_runner_matches_manifest::primeviewfx_daily_publish_runner_v1_latest.json
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\primeviewfx_daily_publish_runner_v1_latest.json
 [PASS] exact_frozen_map_exists
-  expected: 2026-07-31
-  actual:   xau_two_layer_frozen_map_2026-07-31_bd3ca812b3a9.csv
+  expected: 2026-08-24
+  actual:   xau_two_layer_frozen_map_2026-08-24_96735320c2f2.csv
   detail:   Found 1 exact frozen map(s).
-  path:     C:\Trading\Data\FrozenMaps\xau_two_layer_frozen_map_2026-07-31_bd3ca812b3a9.csv
+  path:     C:\Trading\Data\FrozenMaps\xau_two_layer_frozen_map_2026-08-24_96735320c2f2.csv
 [PASS] live_confidence_matches_manifest
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\xau_live_map_confidence_enriched_v1.csv
 [PASS] members_map_matches_manifest::primeviewfx_members_integrated_map_v1.json
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Publish\PrimeViewFX_Static_Site\data\primeviewfx_members_integrated_map_v1.json
 [PASS] members_map_matches_manifest::primeviewfx_members_integrated_map_v1.json
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Publish\PrimeViewFX_Latest\data\primeviewfx_members_integrated_map_v1.json
 [PASS] provider_date_safe_forecast_matches_manifest
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\ProviderMessageState\xau_provider_live_map_date_safe_summary_v1_2.json
 [PASS] provider_source_map_matches_manifest
-  expected: 2026-07-31
-  actual:   C:\Trading\Data\FrozenMaps\xau_two_layer_frozen_map_2026-07-31_bd3ca812b3a9.csv
+  expected: 2026-08-24
+  actual:   C:\Trading\Data\FrozenMaps\xau_two_layer_frozen_map_2026-08-24_96735320c2f2.csv
   path:     C:\Trading\Data\ProviderMessageState\xau_provider_live_map_date_safe_summary_v1_2.json
 [PASS] provider_v1_1_returncode
   expected: 0
@@ -82,24 +82,24 @@ FINDINGS
   path:     C:\Trading\Data\ProviderMessageState\xau_provider_live_map_date_safe_summary_v1_2.json
 [PASS] static_manifest_forecast_date
   expected: 
-  actual:   2026-07-31
+  actual:   2026-08-24
   detail:   Primary published contract date detected.
   path:     C:\Trading\Publish\PrimeViewFX_Static_Site\publish_manifest.json
 [PASS] static_publisher_matches_manifest::PrimeViewFX_static_site_publisher_v1.txt
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\PrimeViewFX_static_site_publisher_v1.txt
 [PASS] static_publisher_matches_manifest::primeviewfx_static_site_publisher_v1_latest.json
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\primeviewfx_static_site_publisher_v1_latest.json
 [PASS] xau_provider_live_map_summary_v1_2.json_date_matches_manifest
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\ProviderMessageState\xau_provider_live_map_summary_v1_2.json
 [PASS] xau_provider_live_map_summary_v1_2.json_date_matches_manifest
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Publish\PrimeViewFX_Static_Site\data\xau_provider_live_map_summary_v1_2.json
 
 INTERPRETATION
@@ -119,8 +119,8 @@ RESULT: PASSED returncode=0
 PRIMEVIEWFX DAILY PUBLISH WITH PROVIDER LAYER V1.5
 ==================================================
 
-run_time: 2026-08-04T06:37:38
-log_path: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260804_063510.log
+run_time: 2026-08-23T06:37:30
+log_path: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260823_063509.log
 
 SUMMARY
 -------
@@ -166,7 +166,7 @@ v1.5 refreshes live confidence from explicit forecast-date sources only.
 v1.5 keeps auditor v1.1 as the final required step.
 Research only. Not a trading signal.
 
-Log saved: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260804_063510.log
+Log saved: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_20260823_063509.log
 Latest report: C:\Trading\Logs\primeviewfx_daily_publish_with_provider_latest.txt
 
 
@@ -198,69 +198,69 @@ Copied to publish folders:
 
 Live candidate summary
 ----------------------
-promoted_candidate_status: WAITING_FOR_TRIGGER
+promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
-selected_level_date: 2026-07-31
-scan_date: 2026-07-31
-latest_close: 4061.92
-latest_ema5: 4058.9069509717024
+selected_level_date: 2026-08-24
+scan_date: 2026-08-24
+latest_close: 4603.23
+latest_ema5: 4611.71401720358
 latest_channel_state: ema_proxy_up
 
 PROMOTED | PROMOTED_UP_LV3_TO_LV2_15_30
-  status: WAITING_FOR_TRIGGER
-  detail: Map condition exists; waiting for EMA5 cross-lock upward through LV3.
-  trigger: LV3 @ 4085.270472
-  target:  LV2 @ 4114.862907
-  distance: 29.59243499999957 (15_30)
+  status: NO_CANDIDATE_MAP
+  detail: LV3->LV2 distance bucket is 30_50, not required bucket 15_30.
+  trigger: LV3 @ 4840.778524
+  target:  LV2 @ 4882.954769
+  distance: 42.17624499999965 (30_50)
 
 WATCHLIST | WATCHLIST_DOWN_LV5_TO_LV6_15_30
-  status: WAITING_FOR_TRIGGER
-  detail: Map condition exists; waiting for EMA5 cross-lock downward through LV5.
-  trigger: LV5 @ 4026.0856
-  target:  LV6 @ 3996.493166
-  distance: 29.592433999999685 (15_30)
+  status: TARGET_AREA_ALREADY_REACHED
+  detail: Price is already at/near LV6, but no recent LV5 cross-lock was found.
+  trigger: LV5 @ 4777.526008
+  target:  LV6 @ 4752.141293
+  distance: 25.384715000000142 (15_30)
 
 WATCHLIST | WATCHLIST_UP_LV4_TO_LV3_30_50
-  status: NO_CANDIDATE_MAP
-  detail: LV4->LV3 distance bucket is 15_30, not required bucket 30_50.
-  trigger: LV4 @ 4055.678036
-  target:  LV3 @ 4085.270472
-  distance: 29.59243600000036 (15_30)
+  status: WAITING_FOR_TRIGGER
+  detail: Map condition exists; waiting for EMA5 cross-lock upward through LV4.
+  trigger: LV4 @ 4795.745785
+  target:  LV3 @ 4840.778524
+  distance: 45.03273900000022 (30_50)
 
 RETIRED | WATCHLIST_DOWN_LV7_TO_LV8_30_50
-  status: WAITING_FOR_TRIGGER
-  detail: Map condition exists; waiting for EMA5 cross-lock downward through LV7.
-  trigger: LV7 @ 3966.90073
-  target:  LV8 @ 3936.679911
-  distance: 30.220818999999665 (30_50)
+  status: TARGET_AREA_ALREADY_REACHED
+  detail: Price is already at/near LV8, but no recent LV7 cross-lock was found.
+  trigger: LV7 @ 4710.691023
+  target:  LV8 @ 4664.932308
+  distance: 45.75871499999994 (30_50)
 
 WATCHLIST | WATCHLIST_UP_LV5_TO_LV4_15_30
-  status: ABOVE_TRIGGER_NO_RECENT_CROSS
-  detail: Price/EMA5 are above LV5, but no recent EMA5 cross-lock through LV5 was found.
-  trigger: LV5 @ 4026.0856
-  target:  LV4 @ 4055.678036
-  distance: 29.592435999999907 (15_30)
+  status: WAITING_FOR_TRIGGER
+  detail: Map condition exists; waiting for EMA5 cross-lock upward through LV5.
+  trigger: LV5 @ 4777.526008
+  target:  LV4 @ 4795.745785
+  distance: 18.21977700000025 (15_30)
 
 RETIRED | WATCHLIST_UP_LV6_TO_LV5_30_50
   status: NO_CANDIDATE_MAP
   detail: LV6->LV5 distance bucket is 15_30, not required bucket 30_50.
-  trigger: LV6 @ 3996.493166
-  target:  LV5 @ 4026.0856
-  distance: 29.592433999999685 (15_30)
+  trigger: LV6 @ 4752.141293
+  target:  LV5 @ 4777.526008
+  distance: 25.384715000000142 (15_30)
 
 WATCHLIST | WATCHLIST_DOWN_LV6_TO_LV7_15_30
-  status: WAITING_FOR_TRIGGER
-  detail: Map condition exists; waiting for EMA5 cross-lock downward through LV6.
-  trigger: LV6 @ 3996.493166
-  target:  LV7 @ 3966.90073
-  distance: 29.59243600000036 (15_30)
+  status: NO_CANDIDATE_MAP
+  detail: LV6->LV7 distance bucket is 30_50, not required bucket 15_30.
+  trigger: LV6 @ 4752.141293
+  target:  LV7 @ 4710.691023
+  distance: 41.450269999999364 (30_50)
 
 WATCHLIST | WATCHLIST_DOWN_LV6_TO_LV7_30_50
-  status: NO_CANDIDATE_MAP
-  detail: LV6->LV7 distance bucket is 15_30, not required bucket 30_50.
-  trigger: LV6 @ 3996.493166
-  target:  LV7 @ 3966.90073
-  distance: 29.59243600000036 (15_30)
+  status: TARGET_AREA_ALREADY_REACHED
+  detail: Price is already at/near LV7, but no recent LV6 cross-lock was found.
+  trigger: LV6 @ 4752.141293
+  target:  LV7 @ 4710.691023
+  distance: 41.450269999999364 (30_50)
 
 Research only. Not a trading signal.
 
@@ -289,7 +289,7 @@ Copied to latest folder:
 
 Dashboard summary
 -----------------
-promoted_candidate_status: WAITING_FOR_TRIGGER
+promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
 latest_channel_state: ema_proxy_up
 
@@ -301,27 +301,28 @@ C:\Trading\Python\python.exe C:\Trading\Python\primeviewfx_members_integrated_ma
 
 PrimeViewFX Members Integrated Map Export v1
 ============================================
-Forecast date: 2026-07-31
-Carry confidence: high_confidence
+Forecast date: 2026-08-24
+Carry confidence: good_confidence
 Structural source: frozen_exact_forecast_date
-Zones exported: 12
-A-priority zones: 6
+Zones exported: 13
+A-priority zones: 4
 B-priority zones: 4
 
 Top zones:
- member_rank zone_price_display priority_bucket                    category                    confidence_note                                                                                       member_action
-           1            4115.57          A_plus    Carry + H4/D1 confluence                       Hard overlap High-interest structural reaction zone around 4115.57. Wait for live confirmation; do not pre-empt.
-           2            4085.13          A_plus    Carry + H4/D1 confluence                       Hard overlap High-interest structural reaction zone around 4085.13. Wait for live confirmation; do not pre-empt.
-           3            4054.69          A_plus    Carry + H4/D1 confluence                       Hard overlap High-interest structural reaction zone around 4054.69. Wait for live confirmation; do not pre-empt.
-           4            4107.75               A Carry near H4/D1 confluence                       Soft overlap High-interest structural reaction zone around 4107.75. Wait for live confirmation; do not pre-empt.
-           5            4062.51               A Carry near H4/D1 confluence                       Soft overlap High-interest structural reaction zone around 4062.51. Wait for live confirmation; do not pre-empt.
-           6            4145.35               A        Carry + D1 container                       Hard overlap   Important container level around 4145.35. Expansion/continuation depends on acceptance beyond it.
-           7            4137.53               B     Carry near D1 container                       Soft overlap                         Secondary watch zone around 4137.53. Useful as context or extension target.
-           8            4026.09               B       H4/D1 confluence only Structural Only No Carry Within 15                         Secondary watch zone around 4026.09. Useful as context or extension target.
-           9            3996.49               B       H4/D1 confluence only Structural Only No Carry Within 15                         Secondary watch zone around 3996.49. Useful as context or extension target.
-          10            3966.90               B       H4/D1 confluence only Structural Only No Carry Within 15                         Secondary watch zone around 3966.90. Useful as context or extension target.
-          11            4163.22               C                  Carry only         No carry/structure overlap                     Reference zone around 4163.22. Lower confidence unless live behaviour confirms.
-          12            3936.68               C               H4 local only Structural Only No Carry Within 15                     Reference zone around 3936.68. Lower confidence unless live behaviour confirms.
+ member_rank zone_price_display priority_bucket                 category                    confidence_note                                                                                       member_action
+           1            4707.66               A Carry + H4/D1 confluence                       Good overlap High-interest structural reaction zone around 4707.66. Wait for live confirmation; do not pre-empt.
+           2            4662.09               A         Carry + H4 local                       Good overlap      High-interest local reaction zone around 4662.09. Watch for rejection, acceptance, or reclaim.
+           3            4587.34               A     Carry + D1 container                       Good overlap   Important container level around 4587.34. Expansion/continuation depends on acceptance beyond it.
+           4            4520.97               A     Carry + D1 container                       Hard overlap   Important container level around 4520.97. Expansion/continuation depends on acceptance beyond it.
+           5            4642.37               B  Carry near D1 container                       Soft overlap                         Secondary watch zone around 4642.37. Useful as context or extension target.
+           6            4576.00               B  Carry near D1 container                       Soft overlap                         Secondary watch zone around 4576.00. Useful as context or extension target.
+           7            4840.78               B    H4/D1 confluence only Structural Only No Carry Within 15                         Secondary watch zone around 4840.78. Useful as context or extension target.
+           8            4613.89               B               Carry only         No carry/structure overlap                         Secondary watch zone around 4613.89. Useful as context or extension target.
+           9            4926.56               C            H4 local only Structural Only No Carry Within 15                     Reference zone around 4926.56. Lower confidence unless live behaviour confirms.
+          10            4882.95               C            H4 local only Structural Only No Carry Within 15                     Reference zone around 4882.95. Lower confidence unless live behaviour confirms.
+          11            4795.75               C            H4 local only Structural Only No Carry Within 15                     Reference zone around 4795.75. Lower confidence unless live behaviour confirms.
+          12            4752.14               C            H4 local only Structural Only No Carry Within 15                     Reference zone around 4752.14. Lower confidence unless live behaviour confirms.
+          13            4681.94               C               Carry only         No carry/structure overlap                     Reference zone around 4681.94. Lower confidence unless live behaviour confirms.
 
 Saved:
   C:\Trading\Data\primeviewfx_members_integrated_map_v1.csv
@@ -344,7 +345,7 @@ C:\Trading\Python\python.exe C:\Trading\Python\primeviewfx_static_site_publisher
 PrimeViewFX Static Site Publisher v1.4
 ====================================
 Status: ready
-Forecast date: 2026-07-31
+Forecast date: 2026-08-24
 Source folder: C:\Trading\Publish\PrimeViewFX_Latest
 Site folder: C:\Trading\Publish\PrimeViewFX_Static_Site
 Required missing: 0
@@ -388,7 +389,7 @@ Copied to latest folder:
 
 Dashboard summary
 -----------------
-promoted_candidate_status: WAITING_FOR_TRIGGER
+promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
 latest_channel_state: ema_proxy_up
 
@@ -397,12 +398,12 @@ Research only. Not a trading signal.
 
 --- date_contract_auditor_v1_1 ---
 C:\Trading\Python\python.exe C:\Trading\Python\primeviewfx_date_contract_auditor_v1_1.py
-: 2026-07-31
-  actual:   2026-07-31
+: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\ProviderMessageState\xau_provider_live_map_date_safe_summary_v1_2.json
 [PASS] provider_source_map_matches_manifest
-  expected: 2026-07-31
-  actual:   C:\Trading\Data\FrozenMaps\xau_two_layer_frozen_map_2026-07-31_bd3ca812b3a9.csv
+  expected: 2026-08-24
+  actual:   C:\Trading\Data\FrozenMaps\xau_two_layer_frozen_map_2026-08-24_96735320c2f2.csv
   path:     C:\Trading\Data\ProviderMessageState\xau_provider_live_map_date_safe_summary_v1_2.json
 [PASS] provider_v1_1_returncode
   expected: 0
@@ -410,24 +411,24 @@ C:\Trading\Python\python.exe C:\Trading\Python\primeviewfx_date_contract_auditor
   path:     C:\Trading\Data\ProviderMessageState\xau_provider_live_map_date_safe_summary_v1_2.json
 [PASS] static_manifest_forecast_date
   expected: 
-  actual:   2026-07-31
+  actual:   2026-08-24
   detail:   Primary published contract date detected.
   path:     C:\Trading\Publish\PrimeViewFX_Static_Site\publish_manifest.json
 [PASS] static_publisher_matches_manifest::PrimeViewFX_static_site_publisher_v1.txt
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\PrimeViewFX_static_site_publisher_v1.txt
 [PASS] static_publisher_matches_manifest::primeviewfx_static_site_publisher_v1_latest.json
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\primeviewfx_static_site_publisher_v1_latest.json
 [PASS] xau_provider_live_map_summary_v1_2.json_date_matches_manifest
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\ProviderMessageState\xau_provider_live_map_summary_v1_2.json
 [PASS] xau_provider_live_map_summary_v1_2.json_date_matches_manifest
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Publish\PrimeViewFX_Static_Site\data\xau_provider_live_map_summary_v1_2.json
 
 INTERPRETATION
@@ -450,7 +451,7 @@ PRIMEVIEWFX DATE CONTRACT AUDITOR V1.1
 SUMMARY
 -------
 overall_status: PASSED
-manifest_forecast_date: 2026-07-31
+manifest_forecast_date: 2026-08-24
 finding_count: 15
 blocking_count: 0
 review_count: 0
@@ -467,37 +468,37 @@ FINDINGS
   detail:   PrimeViewFX_Latest manifest not present.
   path:     C:\Trading\Publish\PrimeViewFX_Latest\publish_manifest.json
 [PASS] base_runner_matches_manifest::PrimeViewFX_daily_publish_runner_v1.txt
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\PrimeViewFX_daily_publish_runner_v1.txt
 [PASS] base_runner_matches_manifest::primeviewfx_daily_publish_runner_v1_latest.json
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\primeviewfx_daily_publish_runner_v1_latest.json
 [PASS] exact_frozen_map_exists
-  expected: 2026-07-31
-  actual:   xau_two_layer_frozen_map_2026-07-31_bd3ca812b3a9.csv
+  expected: 2026-08-24
+  actual:   xau_two_layer_frozen_map_2026-08-24_96735320c2f2.csv
   detail:   Found 1 exact frozen map(s).
-  path:     C:\Trading\Data\FrozenMaps\xau_two_layer_frozen_map_2026-07-31_bd3ca812b3a9.csv
+  path:     C:\Trading\Data\FrozenMaps\xau_two_layer_frozen_map_2026-08-24_96735320c2f2.csv
 [PASS] live_confidence_matches_manifest
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\xau_live_map_confidence_enriched_v1.csv
 [PASS] members_map_matches_manifest::primeviewfx_members_integrated_map_v1.json
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Publish\PrimeViewFX_Static_Site\data\primeviewfx_members_integrated_map_v1.json
 [PASS] members_map_matches_manifest::primeviewfx_members_integrated_map_v1.json
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Publish\PrimeViewFX_Latest\data\primeviewfx_members_integrated_map_v1.json
 [PASS] provider_date_safe_forecast_matches_manifest
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\ProviderMessageState\xau_provider_live_map_date_safe_summary_v1_2.json
 [PASS] provider_source_map_matches_manifest
-  expected: 2026-07-31
-  actual:   C:\Trading\Data\FrozenMaps\xau_two_layer_frozen_map_2026-07-31_bd3ca812b3a9.csv
+  expected: 2026-08-24
+  actual:   C:\Trading\Data\FrozenMaps\xau_two_layer_frozen_map_2026-08-24_96735320c2f2.csv
   path:     C:\Trading\Data\ProviderMessageState\xau_provider_live_map_date_safe_summary_v1_2.json
 [PASS] provider_v1_1_returncode
   expected: 0
@@ -505,24 +506,24 @@ FINDINGS
   path:     C:\Trading\Data\ProviderMessageState\xau_provider_live_map_date_safe_summary_v1_2.json
 [PASS] static_manifest_forecast_date
   expected: 
-  actual:   2026-07-31
+  actual:   2026-08-24
   detail:   Primary published contract date detected.
   path:     C:\Trading\Publish\PrimeViewFX_Static_Site\publish_manifest.json
 [PASS] static_publisher_matches_manifest::PrimeViewFX_static_site_publisher_v1.txt
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\PrimeViewFX_static_site_publisher_v1.txt
 [PASS] static_publisher_matches_manifest::primeviewfx_static_site_publisher_v1_latest.json
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\primeviewfx_static_site_publisher_v1_latest.json
 [PASS] xau_provider_live_map_summary_v1_2.json_date_matches_manifest
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Data\ProviderMessageState\xau_provider_live_map_summary_v1_2.json
 [PASS] xau_provider_live_map_summary_v1_2.json_date_matches_manifest
-  expected: 2026-07-31
-  actual:   2026-07-31
+  expected: 2026-08-24
+  actual:   2026-08-24
   path:     C:\Trading\Publish\PrimeViewFX_Static_Site\data\xau_provider_live_map_summary_v1_2.json
 
 INTERPRETATION
@@ -553,7 +554,7 @@ Final v1.8.1 status
 status: PASSED
 blocking_count: 0
 warning_count: 0
-promoted_candidate_status: WAITING_FOR_TRIGGER
+promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: WAITING_FOR_TRIGGER
 dashboard_html_found: True
 auditor_overall_status: PASSED
@@ -561,7 +562,7 @@ auditor_blocking_count: 0
 
 Research only. Not a trading signal.
 
-Finished: 2026-08-04T06:37:48.2083180+01:00
+Finished: 2026-08-23T06:37:38.1246208+01:00
 ExitCode: 0
 ExitCode: 0
 [PASS] daily_publish_v1_8_1_exit_code - exit_code=0
@@ -571,7 +572,7 @@ Script: C:\Trading\Python\PrimeViewFX_bearish_cascade_publish_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bearish_cascade_publish_step_v1.ps1"
 PrimeViewFX Bearish Cascade Publish Step v1
 ============================================================
-created_utc:              2026-08-04T05:37:50Z
+created_utc:              2026-08-23T05:37:40Z
 python_exe:               py
 python_script:            C:\Trading\Python\xau_bearish_reaction_cascade_level_tagger_v1_3.py
 data_dir:                 C:\Trading\Data
@@ -583,10 +584,10 @@ non_blocking:             False
 
 MANIFEST CONTRACT
 -----------------
-contract_forecast_date:   2026-07-31
+contract_forecast_date:   2026-08-24
 contract_source:          C:\Trading\Publish\PrimeViewFX_Static_Site\publish_manifest.json
 
-[PASS] manifest_forecast_date_present - forecast_date=2026-07-31; source=C:\Trading\Publish\PrimeViewFX_Static_Site\publish_manifest.json
+[PASS] manifest_forecast_date_present - forecast_date=2026-08-24; source=C:\Trading\Publish\PrimeViewFX_Static_Site\publish_manifest.json
 [PASS] python_tagger_script_exists - C:\Trading\Python\xau_bearish_reaction_cascade_level_tagger_v1_3.py
 
 RUN TAGGER
@@ -600,7 +601,7 @@ touch_stats_csv:        C:\Trading\Data\xau_intraday_reaction_cascade_by_touch_s
 out_dir:                C:\Trading\Data
 static_site_dir:        C:\Trading\Publish\PrimeViewFX_Static_Site
 latest_dir:             C:\Trading\Publish\PrimeViewFX_Latest
-contract_forecast_date: 2026-07-31
+contract_forecast_date: 2026-08-24
 contract_source:        static_publish_manifest: C:\Trading\Publish\PrimeViewFX_Static_Site\publish_manifest.json
 early_max_rank:         5
 transition_rank:        6
@@ -623,9 +624,9 @@ Saved:
 DATE CONTRACT
 -------------
 status:                 PASSED
-contract_forecast_date: 2026-07-31
+contract_forecast_date: 2026-08-24
 source:                 static_publish_manifest: C:\Trading\Publish\PrimeViewFX_Static_Site\publish_manifest.json
-latest_available_date:  2026-07-31
+latest_available_date:  2026-08-24
 publish_copy_allowed:   True
 detail:                 Contract forecast_date exists in tagged published levels; latest member export is date-safe.
 
@@ -634,7 +635,7 @@ LIVE LEVEL RESOLVER
 status:                 FOUND
 source_file:            C:\Trading\Publish\PrimeViewFX_Static_Site\data\primeviewfx_members_integrated_map_v1.json
 source_status:          OK
-level_count:            16
+level_count:            23
 attempt_count:          1
 
 LIVE LEVEL CLUSTERING
@@ -643,9 +644,9 @@ status:                 OK
 cluster_enabled:        True
 cluster_tolerance:      2.5
 raw_level_count:        25
-clustered_level_count:  16
-reduction:              9
-multi-source_clusters:  4
+clustered_level_count:  23
+reduction:              2
+multi-source_clusters:  2
 
 Copied date-safe latest files to publish folders:
   C:\Trading\Publish\PrimeViewFX_Latest\data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.csv
@@ -657,43 +658,57 @@ Copied date-safe latest files to publish folders:
 
 LIVE CONTRACT TAG SUMMARY
 -------------------------
- published_level  published_rank_high_to_low           bearish_cascade_role expected_reaction_strength continuation_risk  reaction_priority_score  cluster_source_count              cluster_source_levels
-         4163.22                           1        early_continuation_risk              Low to medium              High                       35                   1.0                            4163.22
-         4147.57                           2        early_continuation_risk              Low to medium              High                       35                   3.0          4147.58; 4147.57; 4145.35
-         4143.13                           3        early_continuation_risk              Low to medium              High                       35                   1.0                            4143.13
-         4137.53                           4        early_continuation_risk              Low to medium              High                       35                   1.0                            4137.53
-         4131.93                           5        early_continuation_risk              Low to medium              High                       35                   1.0                            4131.93
-         4115.57                           6      transition_reaction_watch                     Medium            Medium                       55                   3.0          4116.28; 4115.57; 4114.86
-         4107.75                           7  primary_bearish_reaction_zone                       High             Lower                       75                   1.0                            4107.75
-         4100.64                           8  primary_bearish_reaction_zone                       High             Lower                       75                   1.0                            4100.64
-         4085.07                           9  primary_bearish_reaction_zone                       High             Lower                       75                   4.0 4085.27; 4085.13; 4085.00; 4084.99
-         4069.35                          10 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                            4069.35
-         4062.51                          11 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                            4062.51
-         4054.69                          12 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   3.0          4055.68; 4054.69; 4053.70
-         4026.09                          13 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                            4026.09
-         3996.49                          14 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                            3996.49
-         3966.90                          15 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                            3966.90
-         3936.68                          16 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                            3936.68
+ published_level  published_rank_high_to_low           bearish_cascade_role expected_reaction_strength continuation_risk  reaction_priority_score  cluster_source_count cluster_source_levels
+         4926.56                           1        early_continuation_risk              Low to medium              High                       35                   1.0               4926.56
+         4882.95                           2        early_continuation_risk              Low to medium              High                       35                   1.0               4882.95
+         4840.78                           3        early_continuation_risk              Low to medium              High                       35                   1.0               4840.78
+         4795.75                           4        early_continuation_risk              Low to medium              High                       35                   1.0               4795.75
+         4752.14                           5        early_continuation_risk              Low to medium              High                       35                   1.0               4752.14
+         4710.69                           6      transition_reaction_watch                     Medium            Medium                       55                   1.0               4710.69
+         4707.66                           7  primary_bearish_reaction_zone                       High             Lower                       75                   1.0               4707.66
+         4704.62                           8  primary_bearish_reaction_zone                       High             Lower                       75                   1.0               4704.62
+         4681.94                           9  primary_bearish_reaction_zone                       High             Lower                       75                   1.0               4681.94
+         4664.93                          10 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4664.93
+         4662.09                          11 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4662.09
+         4659.26                          12 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4659.26
+         4648.16                          13 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4648.16
+         4642.37                          14 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4642.37
+         4636.57                          15 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4636.57
+         4613.89                          16 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   2.0      4613.89; 4613.88
+         4591.20                          17 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4591.20
+         4587.34                          18 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4587.34
+         4583.48                          19 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4583.48
+         4576.00                          20 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4576.00
+         4568.52                          21 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4568.52
+         4522.06                          22 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   2.0      4523.15; 4520.97
+         4518.80                          23 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4518.80
 
 LATEST AVAILABLE HISTORICAL TAG SUMMARY
 ---------------------------------------
- published_level  published_rank_high_to_low           bearish_cascade_role expected_reaction_strength continuation_risk  reaction_priority_score  cluster_source_count              cluster_source_levels
-         4163.22                           1        early_continuation_risk              Low to medium              High                       35                   1.0                            4163.22
-         4147.57                           2        early_continuation_risk              Low to medium              High                       35                   3.0          4147.58; 4147.57; 4145.35
-         4143.13                           3        early_continuation_risk              Low to medium              High                       35                   1.0                            4143.13
-         4137.53                           4        early_continuation_risk              Low to medium              High                       35                   1.0                            4137.53
-         4131.93                           5        early_continuation_risk              Low to medium              High                       35                   1.0                            4131.93
-         4115.57                           6      transition_reaction_watch                     Medium            Medium                       55                   3.0          4116.28; 4115.57; 4114.86
-         4107.75                           7  primary_bearish_reaction_zone                       High             Lower                       75                   1.0                            4107.75
-         4100.64                           8  primary_bearish_reaction_zone                       High             Lower                       75                   1.0                            4100.64
-         4085.07                           9  primary_bearish_reaction_zone                       High             Lower                       75                   4.0 4085.27; 4085.13; 4085.00; 4084.99
-         4069.35                          10 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                            4069.35
-         4062.51                          11 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                            4062.51
-         4054.69                          12 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   3.0          4055.68; 4054.69; 4053.70
-         4026.09                          13 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                            4026.09
-         3996.49                          14 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                            3996.49
-         3966.90                          15 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                            3966.90
-         3936.68                          16 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0                            3936.68
+ published_level  published_rank_high_to_low           bearish_cascade_role expected_reaction_strength continuation_risk  reaction_priority_score  cluster_source_count cluster_source_levels
+         4926.56                           1        early_continuation_risk              Low to medium              High                       35                   1.0               4926.56
+         4882.95                           2        early_continuation_risk              Low to medium              High                       35                   1.0               4882.95
+         4840.78                           3        early_continuation_risk              Low to medium              High                       35                   1.0               4840.78
+         4795.75                           4        early_continuation_risk              Low to medium              High                       35                   1.0               4795.75
+         4752.14                           5        early_continuation_risk              Low to medium              High                       35                   1.0               4752.14
+         4710.69                           6      transition_reaction_watch                     Medium            Medium                       55                   1.0               4710.69
+         4707.66                           7  primary_bearish_reaction_zone                       High             Lower                       75                   1.0               4707.66
+         4704.62                           8  primary_bearish_reaction_zone                       High             Lower                       75                   1.0               4704.62
+         4681.94                           9  primary_bearish_reaction_zone                       High             Lower                       75                   1.0               4681.94
+         4664.93                          10 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4664.93
+         4662.09                          11 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4662.09
+         4659.26                          12 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4659.26
+         4648.16                          13 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4648.16
+         4642.37                          14 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4642.37
+         4636.57                          15 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4636.57
+         4613.89                          16 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   2.0      4613.89; 4613.88
+         4591.20                          17 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4591.20
+         4587.34                          18 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4587.34
+         4583.48                          19 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4583.48
+         4576.00                          20 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4576.00
+         4568.52                          21 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4568.52
+         4522.06                          22 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   2.0      4523.15; 4520.97
+         4518.80                          23 deep_exhaustion_extension_zone          High but extended Context-dependent                       65                   1.0               4518.80
 
 Research only. Not a trading signal.
 [PASS] tagger_process_exit_code - exit_code=0
@@ -708,13 +723,13 @@ VALIDATION
 [PASS] publish_copy_allowed_true - tagger summary reports publish_copy_allowed=True
 [PASS] live_level_clustering_ok - tagger summary reports LIVE LEVEL CLUSTERING OK and enabled
 [PASS] live_level_source_resolved - tagger summary reports live publish package source
-[PASS] live_contract_rows_positive - live_contract_level_rows=16
-[PASS] clustered_count_not_greater_than_raw - raw=25; clustered=16
-[PASS] cluster_reduction_detected - raw=25; clustered=16; reduction=9
+[PASS] live_contract_rows_positive - live_contract_level_rows=23
+[PASS] clustered_count_not_greater_than_raw - raw=25; clustered=23
+[PASS] cluster_reduction_detected - raw=25; clustered=23; reduction=2
 [PASS] tagger_json_summary_parseable - C:\Trading\Data\xau_bearish_reaction_cascade_level_tagger_summary_v1_3.json
 [PASS] local_latest_json_parseable - C:\Trading\Data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json
-[PASS] local_latest_csv_has_rows - row_count=16
-[PASS] local_latest_csv_matches_contract_date - csv_dates=2026-07-31; contract=2026-07-31
+[PASS] local_latest_csv_has_rows - row_count=23
+[PASS] local_latest_csv_matches_contract_date - csv_dates=2026-08-24; contract=2026-08-24
 [PASS] publish_file_exists: xau_bearish_reaction_cascade_level_tags_latest_v1_3.csv @ data - C:\Trading\Publish\PrimeViewFX_Latest\data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.csv
 [PASS] publish_file_exists: xau_bearish_reaction_cascade_level_tags_latest_v1_3.json @ data - C:\Trading\Publish\PrimeViewFX_Latest\data\xau_bearish_reaction_cascade_level_tags_latest_v1_3.json
 [PASS] publish_file_exists: xau_bearish_reaction_cascade_level_tagger_summary_v1_3.json @ data - C:\Trading\Publish\PrimeViewFX_Latest\data\xau_bearish_reaction_cascade_level_tagger_summary_v1_3.json
@@ -746,7 +761,7 @@ Script: C:\Trading\Python\PrimeViewFX_bearish_cascade_dashboard_card_step_v1.ps1
 Command: powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Trading\Python\PrimeViewFX_bearish_cascade_dashboard_card_step_v1.ps1"
 PrimeViewFX Bearish Cascade Dashboard Card Step v1
 ===================================================
-created_utc:        2026-08-04T05:37:54Z
+created_utc:        2026-08-23T05:37:43Z
 python_exe:         C:\Trading\Python\python.exe
 python_script:      C:\Trading\Python\primeviewfx_bearish_cascade_dashboard_card_v1.py
 data_dir:           C:\Trading\Data
@@ -783,10 +798,10 @@ Copied to latest folder:
 Dashboard summary
 -----------------
 dashboard_status: PASSED
-forecast_date: 2026-07-31
+forecast_date: 2026-08-24
 date_contract_status: PASSED
-row_count: 16
-primary_reaction_zone: 4,107.75, 4,100.64, 4,085.07
+row_count: 23
+primary_reaction_zone: 4,707.66, 4,704.62, 4,681.94
 
 Research only. Not a trading signal.
 [PASS] dashboard_card_process_exit_code - exit_code=0
@@ -802,7 +817,7 @@ VALIDATION
 [PASS] output_exists: bearish_cascade_dashboard_card_v1.json - C:\Trading\Data\BearishCascade\bearish_cascade_dashboard_card_v1.json
 [PASS] output_exists: PrimeViewFX_bearish_cascade_dashboard_card_v1.txt - C:\Trading\Data\BearishCascade\PrimeViewFX_bearish_cascade_dashboard_card_v1.txt
 [PASS] dashboard_json_parseable - C:\Trading\Data\BearishCascade\bearish_cascade_dashboard_card_v1.json
-[PASS] dashboard_json_has_rows - row_count=16
+[PASS] dashboard_json_has_rows - row_count=23
 [PASS] dashboard_status_passed - dashboard_status=PASSED
 
 CHECK SUMMARY
@@ -810,8 +825,8 @@ CHECK SUMMARY
 overall_status:          PASSED
 blocking_count:          0
 warning_count:           0
-forecast_date:           2026-07-31
-row_count:               16
+forecast_date:           2026-08-24
+row_count:               23
 dashboard_status:        PASSED
 
 Research only. Not a trading signal.
@@ -830,7 +845,7 @@ SUMMARY VALIDATION
 [PASS] cascade_summary_parseable - C:\Trading\Data\primeviewfx_bearish_cascade_publish_step_v1_summary.json
 [PASS] cascade_summary_status_passed - overall_status=PASSED; blocking_failure_count=0; warning_count=0
 [PASS] dashboard_summary_parseable - C:\Trading\Data\BearishCascade\primeviewfx_bearish_cascade_dashboard_card_step_v1_summary.json
-[PASS] dashboard_summary_status_passed - overall_status=PASSED; dashboard_status=PASSED; row_count=16; warning_count=0
+[PASS] dashboard_summary_status_passed - overall_status=PASSED; dashboard_status=PASSED; row_count=23; warning_count=0
 
 FINAL v1.8.4 STATUS
 -------------------
@@ -844,4 +859,4 @@ summary_json: C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_
 
 Research only. Not a trading signal.
 
-Finished: 2026-08-04T06:37:55.7281397+01:00
+Finished: 2026-08-23T06:37:44.5841718+01:00

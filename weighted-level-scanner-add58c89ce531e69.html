@@ -61,20 +61,20 @@
         <h1>Weighted Level Scanner</h1>
         <p class="muted">EMA5 cross-lock state-machine candidate dashboard.</p>
       </div>
-      <div><span class="badge watch">WAITING_FOR_TRIGGER</span></div>
+      <div><span class="badge watch">NO_CANDIDATE_MAP</span></div>
     </div>
 
     <section class="panel">
       <h2>Live Status</h2>
       <div class="grid">
-        <div><span>Promoted Candidate</span><strong>WAITING_FOR_TRIGGER</strong></div>
+        <div><span>Promoted Candidate</span><strong>NO_CANDIDATE_MAP</strong></div>
         <div><span>Watchlist</span><strong>WAITING_FOR_TRIGGER</strong></div>
-        <div><span>Latest Close</span><strong>4,061.92</strong></div>
-        <div><span>EMA5</span><strong>4,058.91</strong></div>
+        <div><span>Latest Close</span><strong>4,603.23</strong></div>
+        <div><span>EMA5</span><strong>4,611.71</strong></div>
         <div><span>State</span><strong>ema_proxy_up</strong></div>
         <div><span>Up Alignment</span><strong>with_state</strong></div>
         <div><span>Down Alignment</span><strong>counter_state</strong></div>
-        <div><span>Level Date</span><strong>2026-07-31</strong></div>
+        <div><span>Level Date</span><strong>2026-08-24</strong></div>
       </div>
     </section>
 
@@ -87,15 +87,15 @@
           <div class="eyebrow">PROMOTED</div>
           <h3>PROMOTED_UP_LV3_TO_LV2_15_30</h3>
         </div>
-        <span class="badge watch">WAITING_FOR_TRIGGER</span>
+        <span class="badge watch">NO_CANDIDATE_MAP</span>
       </div>
       <div class="grid small">
         <div><span>Direction</span><strong>UP</strong></div>
-        <div><span>Trigger</span><strong>LV3 @ 4,085.27</strong></div>
-        <div><span>Target</span><strong>LV2 @ 4,114.86</strong></div>
-        <div><span>Distance</span><strong>29.59 / 15_30</strong></div>
+        <div><span>Trigger</span><strong>LV3 @ 4,840.78</strong></div>
+        <div><span>Target</span><strong>LV2 @ 4,882.95</strong></div>
+        <div><span>Distance</span><strong>42.18 / 30_50</strong></div>
       </div>
-      <p class="muted">Map condition exists; waiting for EMA5 cross-lock upward through LV3.</p>
+      <p class="muted">LV3-&gt;LV2 distance bucket is 30_50, not required bucket 15_30.</p>
       <p class="basis">Canonical DMY v1.3 promoted candidate: UP LV3 -&gt; LV2, next-distance 15-30, with_state.</p>
     </div>
     
@@ -110,15 +110,15 @@
           <div class="eyebrow">WATCHLIST</div>
           <h3>WATCHLIST_DOWN_LV5_TO_LV6_15_30</h3>
         </div>
-        <span class="badge watch">WAITING_FOR_TRIGGER</span>
+        <span class="badge watch">TARGET_AREA_ALREADY_REACHED</span>
       </div>
       <div class="grid small">
         <div><span>Direction</span><strong>DOWN</strong></div>
-        <div><span>Trigger</span><strong>LV5 @ 4,026.09</strong></div>
-        <div><span>Target</span><strong>LV6 @ 3,996.49</strong></div>
-        <div><span>Distance</span><strong>29.59 / 15_30</strong></div>
+        <div><span>Trigger</span><strong>LV5 @ 4,777.53</strong></div>
+        <div><span>Target</span><strong>LV6 @ 4,752.14</strong></div>
+        <div><span>Distance</span><strong>25.38 / 15_30</strong></div>
       </div>
-      <p class="muted">Map condition exists; waiting for EMA5 cross-lock downward through LV5.</p>
+      <p class="muted">Price is already at/near LV6, but no recent LV5 cross-lock was found.</p>
       <p class="basis">Canonical DMY v1.3 watchlist: DOWN LV5 -&gt; LV6, next-distance 15-30, with_state. Watchlist because MFE edge failed despite target/invalidation edges.</p>
     </div>
     
@@ -128,15 +128,15 @@
           <div class="eyebrow">WATCHLIST</div>
           <h3>WATCHLIST_UP_LV4_TO_LV3_30_50</h3>
         </div>
-        <span class="badge watch">NO_CANDIDATE_MAP</span>
+        <span class="badge watch">WAITING_FOR_TRIGGER</span>
       </div>
       <div class="grid small">
         <div><span>Direction</span><strong>UP</strong></div>
-        <div><span>Trigger</span><strong>LV4 @ 4,055.68</strong></div>
-        <div><span>Target</span><strong>LV3 @ 4,085.27</strong></div>
-        <div><span>Distance</span><strong>29.59 / 15_30</strong></div>
+        <div><span>Trigger</span><strong>LV4 @ 4,795.75</strong></div>
+        <div><span>Target</span><strong>LV3 @ 4,840.78</strong></div>
+        <div><span>Distance</span><strong>45.03 / 30_50</strong></div>
       </div>
-      <p class="muted">LV4-&gt;LV3 distance bucket is 15_30, not required bucket 30_50.</p>
+      <p class="muted">Map condition exists; waiting for EMA5 cross-lock upward through LV4.</p>
       <p class="basis">Canonical DMY v1.3 watchlist: UP LV4 -&gt; LV3, next-distance 30-50, with_state. Watchlist only; target and MFE promotion checks did not pass.</p>
     </div>
     
@@ -146,15 +146,15 @@
           <div class="eyebrow">WATCHLIST</div>
           <h3>WATCHLIST_UP_LV5_TO_LV4_15_30</h3>
         </div>
-        <span class="badge watch">ABOVE_TRIGGER_NO_RECENT_CROSS</span>
+        <span class="badge watch">WAITING_FOR_TRIGGER</span>
       </div>
       <div class="grid small">
         <div><span>Direction</span><strong>UP</strong></div>
-        <div><span>Trigger</span><strong>LV5 @ 4,026.09</strong></div>
-        <div><span>Target</span><strong>LV4 @ 4,055.68</strong></div>
-        <div><span>Distance</span><strong>29.59 / 15_30</strong></div>
+        <div><span>Trigger</span><strong>LV5 @ 4,777.53</strong></div>
+        <div><span>Target</span><strong>LV4 @ 4,795.75</strong></div>
+        <div><span>Distance</span><strong>18.22 / 15_30</strong></div>
       </div>
-      <p class="muted">Price/EMA5 are above LV5, but no recent EMA5 cross-lock through LV5 was found.</p>
+      <p class="muted">Map condition exists; waiting for EMA5 cross-lock upward through LV5.</p>
       <p class="basis">Canonical DMY v1.3 watchlist: UP LV5 -&gt; LV4, next-distance 15-30, with_state. Watchlist only; target and invalidation promotion checks did not pass.</p>
     </div>
     
@@ -164,15 +164,15 @@
           <div class="eyebrow">WATCHLIST</div>
           <h3>WATCHLIST_DOWN_LV6_TO_LV7_15_30</h3>
         </div>
-        <span class="badge watch">WAITING_FOR_TRIGGER</span>
+        <span class="badge watch">NO_CANDIDATE_MAP</span>
       </div>
       <div class="grid small">
         <div><span>Direction</span><strong>DOWN</strong></div>
-        <div><span>Trigger</span><strong>LV6 @ 3,996.49</strong></div>
-        <div><span>Target</span><strong>LV7 @ 3,966.90</strong></div>
-        <div><span>Distance</span><strong>29.59 / 15_30</strong></div>
+        <div><span>Trigger</span><strong>LV6 @ 4,752.14</strong></div>
+        <div><span>Target</span><strong>LV7 @ 4,710.69</strong></div>
+        <div><span>Distance</span><strong>41.45 / 30_50</strong></div>
       </div>
-      <p class="muted">Map condition exists; waiting for EMA5 cross-lock downward through LV6.</p>
+      <p class="muted">LV6-&gt;LV7 distance bucket is 30_50, not required bucket 15_30.</p>
       <p class="basis">Added 2026-07-14 from the same fresh audit re-run - not in the original canonical DMY evidence set. DOWN LV6 -&gt; LV7, next-distance 15-30, with_state.</p>
     </div>
     
@@ -182,15 +182,15 @@
           <div class="eyebrow">WATCHLIST</div>
           <h3>WATCHLIST_DOWN_LV6_TO_LV7_30_50</h3>
         </div>
-        <span class="badge watch">NO_CANDIDATE_MAP</span>
+        <span class="badge watch">TARGET_AREA_ALREADY_REACHED</span>
       </div>
       <div class="grid small">
         <div><span>Direction</span><strong>DOWN</strong></div>
-        <div><span>Trigger</span><strong>LV6 @ 3,996.49</strong></div>
-        <div><span>Target</span><strong>LV7 @ 3,966.90</strong></div>
-        <div><span>Distance</span><strong>29.59 / 15_30</strong></div>
+        <div><span>Trigger</span><strong>LV6 @ 4,752.14</strong></div>
+        <div><span>Target</span><strong>LV7 @ 4,710.69</strong></div>
+        <div><span>Distance</span><strong>41.45 / 30_50</strong></div>
       </div>
-      <p class="muted">LV6-&gt;LV7 distance bucket is 15_30, not required bucket 30_50.</p>
+      <p class="muted">Price is already at/near LV7, but no recent LV6 cross-lock was found.</p>
       <p class="basis">Added 2026-07-14 from the same fresh audit re-run - not in the original canonical DMY evidence set. DOWN LV6 -&gt; LV7, next-distance 30-50, with_state. Weakest of the 3 newly-added setups (fails target-edge and invalidation-edge both) - kept for transparency, not a strong lead.</p>
     </div>
     
@@ -211,7 +211,7 @@
             <th>Lower</th>
           </tr>
         </thead>
-        <tbody><tr><td>LV1</td><td class='num'>4,143.13</td><td>D1_container</td><td>Caution</td><td></td><td>LV2</td></tr><tr><td>LV2</td><td class='num'>4,114.86</td><td>H4_D1_confluence</td><td>Caution</td><td>LV1</td><td>LV3</td></tr><tr><td>LV3</td><td class='num'>4,085.27</td><td>H4_D1_confluence</td><td>Caution</td><td>LV2</td><td>LV4</td></tr><tr><td>LV4</td><td class='num'>4,055.68</td><td>H4_D1_confluence</td><td>Caution</td><td>LV3</td><td>LV5</td></tr><tr><td>LV5</td><td class='num'>4,026.09</td><td>H4_D1_confluence</td><td>Caution</td><td>LV4</td><td>LV6</td></tr><tr><td>LV6</td><td class='num'>3,996.49</td><td>H4_D1_confluence</td><td>Caution</td><td>LV5</td><td>LV7</td></tr><tr><td>LV7</td><td class='num'>3,966.90</td><td>H4_D1_confluence</td><td>Caution</td><td>LV6</td><td>LV8</td></tr><tr><td>LV8</td><td class='num'>3,936.68</td><td>H4_local</td><td>Caution</td><td>LV7</td><td>LV9</td></tr></tbody>
+        <tbody><tr><td>LV1</td><td class='num'>4,926.56</td><td>H4_local</td><td>Low</td><td></td><td>LV2</td></tr><tr><td>LV2</td><td class='num'>4,882.95</td><td>H4_local</td><td>Low</td><td>LV1</td><td>LV3</td></tr><tr><td>LV3</td><td class='num'>4,840.78</td><td>H4_D1_confluence</td><td>Low</td><td>LV2</td><td>LV4</td></tr><tr><td>LV4</td><td class='num'>4,795.75</td><td>H4_local</td><td>Low</td><td>LV3</td><td>LV5</td></tr><tr><td>LV5</td><td class='num'>4,777.53</td><td>D1_container</td><td>Low</td><td>LV4</td><td>LV6</td></tr><tr><td>LV6</td><td class='num'>4,752.14</td><td>H4_local</td><td>Low</td><td>LV5</td><td>LV7</td></tr><tr><td>LV7</td><td class='num'>4,710.69</td><td>H4_D1_confluence</td><td>Low</td><td>LV6</td><td>LV8</td></tr><tr><td>LV8</td><td class='num'>4,664.93</td><td>H4_local</td><td>Low</td><td>LV7</td><td>LV9</td></tr><tr><td>LV9</td><td class='num'>4,648.16</td><td>D1_container</td><td>Low</td><td>LV8</td><td>LV10</td></tr><tr><td>LV10</td><td class='num'>4,583.48</td><td>D1_container</td><td>Low</td><td>LV9</td><td>LV11</td></tr><tr><td>LV11</td><td class='num'>4,518.80</td><td>D1_container</td><td>Low</td><td>LV10</td><td>LV12</td></tr><tr><td>LV12</td><td class='num'>4,454.12</td><td>D1_container</td><td>Low</td><td>LV11</td><td>LV13</td></tr></tbody>
       </table>
     </div>
     
@@ -223,8 +223,8 @@
     </section>
 
     <div class="footer">
-      Created UTC: 2026-08-04T05:37:47Z<br>
-      Latest bar: 2026-08-04 08:00:00<br>
+      Created UTC: 2026-08-23T05:37:37Z<br>
+      Latest bar: 2026-08-21 23:00:00<br>
       Research only. Not a trading signal.
     </div>
   </div>
