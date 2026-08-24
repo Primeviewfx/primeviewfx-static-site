@@ -1,6 +1,6 @@
 ﻿{
     "version":  "1.8.4",
-    "created_utc":  "2026-08-23T05:37:44.5412721Z",
+    "created_utc":  "2026-08-24T05:37:43.4531872Z",
     "overall_status":  "PASSED",
     "blocking_count":  0,
     "warning_count":  0,
@@ -77,7 +77,7 @@
                    {
                        "status":  "PASS",
                        "name":  "dashboard_summary_status_passed",
-                       "detail":  "overall_status=PASSED; dashboard_status=PASSED; row_count=23; warning_count=0"
+                       "detail":  "overall_status=PASSED; dashboard_status=PASSED; row_count=16; warning_count=0"
                    }
                ],
     "research_only":  true,

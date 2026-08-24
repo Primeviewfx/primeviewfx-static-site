@@ -1,15 +1,15 @@
 ﻿{
-    "created_at":  "2026-08-12T06:37:13.5656485+01:00",
-    "started_at":  "2026-08-12T06:35:02.0429820+01:00",
-    "finished_at":  "2026-08-12T06:37:13.5626447+01:00",
-    "overall_status":  "FAILED",
-    "blocking_count":  4,
-    "warning_count":  1,
-    "v1_9_1_exit_code":  1,
-    "production_health_auditor_exit_code":  1,
-    "forecast_date":  "2026-08-04",
-    "row_count":  "9",
-    "primary_reaction_zone":  "4,079.23, 4,094.48, 4,109.73",
+    "created_at":  "2026-08-23T06:38:18.0413003+01:00",
+    "started_at":  "2026-08-23T06:35:01.4719517+01:00",
+    "finished_at":  "2026-08-23T06:38:18.0365105+01:00",
+    "overall_status":  "PASSED",
+    "blocking_count":  0,
+    "warning_count":  0,
+    "v1_9_1_exit_code":  0,
+    "production_health_auditor_exit_code":  0,
+    "forecast_date":  "2026-08-24",
+    "row_count":  "23",
+    "primary_reaction_zone":  "4,591.20, 4,613.89, 4,636.57",
     "cascade_injected_count":  "2",
     "research_layer_count":  "4",
     "research_status_counts":  "{\"ROBUST\":2,\"PROMISING\":2,\"REVIEW\":0}",
@@ -20,12 +20,12 @@
     "research_tools_available_count":  8,
     "research_tools_injected_count":  13,
     "research_tools_marker_count":  13,
-    "production_health_status":  "FAILED",
-    "production_health_manifest_forecast_date":  "2026-08-04",
+    "production_health_status":  "PASSED_WITH_WARNINGS",
+    "production_health_manifest_forecast_date":  "2026-08-24",
     "production_health_finding_count":  201,
-    "production_health_blocking_count":  8,
-    "production_health_warning_count":  19,
-    "production_health_pass_count":  160,
+    "production_health_blocking_count":  0,
+    "production_health_warning_count":  9,
+    "production_health_pass_count":  178,
     "production_health_info_count":  14,
     "v1_9_1_summary_json":  "C:\\Trading\\Data\\PrimeViewFXDaily\\primeviewfx_daily_publish_runner_with_provider_v1_9_1_summary.json",
     "production_health_step_summary_json":  "C:\\Trading\\Data\\ProductionHealth\\primeviewfx_production_health_auditor_step_v1_4_summary.json",
@@ -44,15 +44,15 @@
                    },
                    {
                        "name":  "daily_publish_v1_9_1_exit_code",
-                       "status":  "FAIL",
-                       "detail":  "exit_code=1",
-                       "blocking":  true
+                       "status":  "PASS",
+                       "detail":  "exit_code=0",
+                       "blocking":  false
                    },
                    {
                        "name":  "production_health_auditor_exit_code",
-                       "status":  "FAIL",
-                       "detail":  "exit_code=1",
-                       "blocking":  true
+                       "status":  "PASS",
+                       "detail":  "exit_code=0",
+                       "blocking":  false
                    },
                    {
                        "name":  "v1_9_1_summary_parseable",
@@ -62,9 +62,9 @@
                    },
                    {
                        "name":  "v1_9_1_summary_status_passed",
-                       "status":  "FAIL",
-                       "detail":  "overall_status=FAILED; blocking_count=2; warning_count=0",
-                       "blocking":  true
+                       "status":  "PASS",
+                       "detail":  "overall_status=PASSED; blocking_count=0; warning_count=0",
+                       "blocking":  false
                    },
                    {
                        "name":  "production_health_step_summary_parseable",
@@ -74,14 +74,14 @@
                    },
                    {
                        "name":  "production_health_summary_status_passed",
-                       "status":  "FAIL",
-                       "detail":  "step_status=FAILED; step_blocking=2; step_warning=0; auditor_status=FAILED; auditor_blocking=8; auditor_warning=19; finding_count=201",
-                       "blocking":  true
+                       "status":  "PASS",
+                       "detail":  "step_status=PASSED; step_blocking=0; auditor_status=PASSED_WITH_WARNINGS; auditor_blocking=0; auditor_warning=9; finding_count=201",
+                       "blocking":  false
                    },
                    {
-                       "name":  "static_site_git_publish_skipped",
-                       "status":  "WARNING",
-                       "detail":  "Skipped - 4 blocking failure(s) upstream, not deploying.",
+                       "name":  "static_site_git_publish_exit_code",
+                       "status":  "PASS",
+                       "detail":  "exit_code=0",
                        "blocking":  false
                    }
                ]
