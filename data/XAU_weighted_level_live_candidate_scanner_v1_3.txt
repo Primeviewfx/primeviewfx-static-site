@@ -5,12 +5,12 @@ SUMMARY
 -------
 selected_level_date: 2026-08-25
 scan_date: 2026-08-25
-latest_datetime: 2026-08-24 08:00:00
-latest_close: 4636.29
-latest_ema5: 4635.614317696101
-latest_channel_state: ema_proxy_up
-latest_state_alignment_up: with_state
-latest_state_alignment_down: counter_state
+latest_datetime: 2026-08-25 08:00:00
+latest_close: 4645.14
+latest_ema5: 4641.789632010907
+latest_channel_state: ema_proxy_neutral
+latest_state_alignment_up: neutral_state
+latest_state_alignment_down: neutral_state
 promoted_candidate_status: NO_CANDIDATE_MAP
 watchlist_status: TARGET_AREA_ALREADY_REACHED
 

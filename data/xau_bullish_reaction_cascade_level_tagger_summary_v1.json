@@ -21,22 +21,22 @@
     "live_level_resolver_status": "FOUND",
     "live_level_source_file": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_members_integrated_map_v1.json",
     "live_level_source_status": "OK",
-    "live_level_count": 16,
+    "live_level_count": 17,
     "contract_forecast_date": "2026-08-25",
     "attempt_count": 1,
-    "raw_live_level_count": 19,
-    "clustered_live_level_count": 16,
-    "cluster_count_reduction": 3
+    "raw_live_level_count": 21,
+    "clustered_live_level_count": 17,
+    "cluster_count_reduction": 4
   },
   "live_level_clustering": {
     "cluster_enabled": true,
     "cluster_tolerance": 2.5,
     "cluster_representative": "median",
-    "raw_level_count": 19,
-    "clustered_level_count": 16,
-    "cluster_count_reduction": 3,
+    "raw_level_count": 21,
+    "clustered_level_count": 17,
+    "cluster_count_reduction": 4,
     "max_cluster_source_count": 3,
-    "clusters_with_multiple_sources": 2,
+    "clusters_with_multiple_sources": 3,
     "status": "OK"
   },
   "live_level_resolver_attempts": [
@@ -46,9 +46,9 @@
       "json_loaded": true,
       "root_forecast_date": "2026-08-25",
       "contract_date": "2026-08-25",
-      "raw_extracted_rows": 58,
-      "usable_rows": 58,
-      "matched_contract_rows": 19,
+      "raw_extracted_rows": 60,
+      "usable_rows": 60,
+      "matched_contract_rows": 21,
       "status": "OK"
     }
   ],
@@ -62,12 +62,12 @@
     "bottom_third_pct": 0.67,
     "lower_half_pct": 0.5
   },
-  "tagged_level_rows": 2405,
+  "tagged_level_rows": 2406,
   "tagged_dates": 255,
   "date_min": "2025-08-28",
   "date_max": "2026-08-25",
-  "live_contract_level_rows": 16,
-  "latest_available_level_rows": 16,
+  "live_contract_level_rows": 17,
+  "latest_available_level_rows": 17,
   "role_summary": [
     {
       "bullish_cascade_role": "early_continuation_risk",
@@ -111,27 +111,27 @@
     },
     {
       "bullish_cascade_role": "deep_exhaustion_extension_zone",
-      "row_count": 186,
+      "row_count": 187,
       "unique_dates": 121,
       "median_rank": 10.0,
-      "median_level": 4630.02,
+      "median_level": 4631.52,
       "median_priority_score": 65.0
     }
   ],
   "date_summary_live_contract": [
     {
       "forecast_date": "2026-08-25",
-      "level_count": 16,
+      "level_count": 17,
       "high_level": 4923.69,
       "low_level": 4584.96,
-      "median_level": 4720.969999999999,
+      "median_level": 4719.11,
       "max_priority_score": 75,
       "first_transition_reaction_watch_level": 4676.65,
-      "first_primary_reaction_zone_level": 4722.83,
+      "first_primary_reaction_zone_level": 4719.11,
       "first_deep_extension_zone_level": 4923.69,
       "compressed_ladder_lower_reaction_watch": 0,
       "compressed_ladder_transition_watch": 0,
-      "deep_exhaustion_extension_zone": 7,
+      "deep_exhaustion_extension_zone": 8,
       "early_continuation_risk": 5,
       "primary_bullish_reaction_zone": 3,
       "transition_reaction_watch": 1
@@ -140,17 +140,17 @@
   "date_summary_latest_available": [
     {
       "forecast_date": "2026-08-25",
-      "level_count": 16,
+      "level_count": 17,
       "high_level": 4923.69,
       "low_level": 4584.96,
-      "median_level": 4720.969999999999,
+      "median_level": 4719.11,
       "max_priority_score": 75,
       "first_transition_reaction_watch_level": 4676.65,
-      "first_primary_reaction_zone_level": 4722.83,
+      "first_primary_reaction_zone_level": 4719.11,
       "first_deep_extension_zone_level": 4923.69,
       "compressed_ladder_lower_reaction_watch": 0,
       "compressed_ladder_transition_watch": 0,
-      "deep_exhaustion_extension_zone": 7,
+      "deep_exhaustion_extension_zone": 8,
       "early_continuation_risk": 5,
       "primary_bullish_reaction_zone": 3,
       "transition_reaction_watch": 1
