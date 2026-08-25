@@ -1,5 +1,0 @@
-level_name,live_cluster_prediction_count,live_top1_pct_within_3,live_top1_pct_within_5,live_top1_median_abs_error,live_top1_median_width
-L4,190.0,6.842105,12.631579,18.001891,0.0
-L5,190.0,8.421053,16.315789,18.36,0.0
-L6,190.0,8.947368,10.0,21.530625,0.0
-L7,189.0,11.111111,12.169312,25.16,0.0

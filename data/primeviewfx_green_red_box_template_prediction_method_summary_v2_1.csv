@@ -1,6 +1,0 @@
-prediction_method,date_count,template_exact_match_pct,template_family_match_pct,median_l4_l7_reconstruction_error,mean_l4_l7_reconstruction_error,avg_l4_l7_reconstruction_within_3,avg_l4_l7_reconstruction_within_5
-REGIME_RANGE_ONLY,8.0,0.0,0.0,28.201458,39.834502,9.375,9.375
-REGIME_RANGE_CLOSE_ROWS,160.0,0.0,0.625,22.17032,32.247675,9.014675,12.893082
-REGIME_RANGE_CLOSE,20.0,0.0,0.0,26.117188,49.998234,4.583333,7.083333
-REGIME_CLOSE_ONLY,2.0,0.0,0.0,42.053128,41.52672,0.0,0.0
-HISTORICAL_GLOBAL,1.0,0.0,0.0,27.674792,27.822396,0.0,0.0

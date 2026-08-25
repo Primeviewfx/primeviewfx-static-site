@@ -1,2 +1,0 @@
-live_state_available,live_state_source,raw_state_file,raw_state_files_checked,latest_close,latest_ema5,latest_channel_state,latest_channel_norm
-True,AUTO_JSON,C:\Trading\Data\PrimeViewFXDaily\primeviewfx_daily_publish_runner_with_provider_v1_8_1_summary.json,7,4055.18,4057.2566271731957,ema_proxy_up,UP

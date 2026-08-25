@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "created_utc": "2026-08-25T15:20:58Z",
+  "created_utc": "2026-08-25T15:50:54Z",
   "overall_status": "PASSED",
   "blocking_count": 0,
   "warning_count": 0,
@@ -242,96 +242,96 @@
   "targets": [
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-research-a8502a7b66e839df.html",
-      "status": "INJECTED",
-      "changed": true,
+      "status": "UNCHANGED_ALREADY_CURRENT",
+      "changed": false,
       "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-weekly-goldturns-5ca15a7d08b31d56.html",
-      "status": "INJECTED",
-      "changed": true,
-      "mode": "INSERTED_BEFORE_MAIN>",
+      "status": "UNCHANGED_ALREADY_CURRENT",
+      "changed": false,
+      "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\weighted-level-scanner-add58c89ce531e69.html",
-      "status": "INJECTED",
-      "changed": true,
+      "status": "UNCHANGED_ALREADY_CURRENT",
+      "changed": false,
       "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\bearish-cascade-0171dd2ecccd13fa.html",
-      "status": "INJECTED",
-      "changed": true,
+      "status": "UNCHANGED_ALREADY_CURRENT",
+      "changed": false,
       "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\bullish-cascade-1ddfa177ade539c0.html",
-      "status": "INJECTED",
-      "changed": true,
+      "status": "UNCHANGED_ALREADY_CURRENT",
+      "changed": false,
       "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\cascade-research-summary-ff36f349b8cbb7d7.html",
-      "status": "INJECTED",
-      "changed": true,
+      "status": "UNCHANGED_ALREADY_CURRENT",
+      "changed": false,
       "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members\\primeviewfx_members_integrated_map_v1-8d9ae95fd8353fae.html",
-      "status": "INJECTED",
-      "changed": true,
+      "status": "UNCHANGED_ALREADY_CURRENT",
+      "changed": false,
       "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-overview-7d9b11c44f3cde21.html",
-      "status": "INJECTED",
-      "changed": true,
-      "mode": "INSERTED_BEFORE_BODY>",
+      "status": "UNCHANGED_ALREADY_CURRENT",
+      "changed": false,
+      "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-market-structure-5ce258c419052da1.html",
-      "status": "INJECTED",
-      "changed": true,
-      "mode": "INSERTED_BEFORE_BODY>",
+      "status": "UNCHANGED_ALREADY_CURRENT",
+      "changed": false,
+      "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-context-ff240cee9670dd32.html",
-      "status": "INJECTED",
-      "changed": true,
-      "mode": "INSERTED_BEFORE_BODY>",
+      "status": "UNCHANGED_ALREADY_CURRENT",
+      "changed": false,
+      "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-system-status-0c1af4ca8d3a36b5.html",
-      "status": "INJECTED",
-      "changed": true,
-      "mode": "INSERTED_BEFORE_BODY>",
+      "status": "UNCHANGED_ALREADY_CURRENT",
+      "changed": false,
+      "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members-research-a8502a7b66e839df.html",
-      "status": "INJECTED",
-      "changed": true,
+      "status": "UNCHANGED_ALREADY_CURRENT",
+      "changed": false,
       "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
@@ -346,40 +346,40 @@
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\weighted-level-scanner-add58c89ce531e69.html",
-      "status": "INJECTED",
-      "changed": true,
+      "status": "UNCHANGED_ALREADY_CURRENT",
+      "changed": false,
       "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\bearish-cascade-0171dd2ecccd13fa.html",
-      "status": "INJECTED",
-      "changed": true,
+      "status": "UNCHANGED_ALREADY_CURRENT",
+      "changed": false,
       "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\bullish-cascade-1ddfa177ade539c0.html",
-      "status": "INJECTED",
-      "changed": true,
+      "status": "UNCHANGED_ALREADY_CURRENT",
+      "changed": false,
       "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\cascade-research-summary-ff36f349b8cbb7d7.html",
-      "status": "INJECTED",
-      "changed": true,
+      "status": "UNCHANGED_ALREADY_CURRENT",
+      "changed": false,
       "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members\\primeviewfx_members_integrated_map_v1-8d9ae95fd8353fae.html",
-      "status": "INJECTED",
-      "changed": true,
+      "status": "UNCHANGED_ALREADY_CURRENT",
+      "changed": false,
       "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true

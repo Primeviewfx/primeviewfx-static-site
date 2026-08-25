@@ -1,6 +1,0 @@
-candidate_method,level_prediction_count,date_count,top1_anchor_hit_rate,top3_anchor_hit_rate,top5_anchor_hit_rate,top1_median_abs_error,top1_pct_within_3,top1_pct_within_5
-REGIME_RANGE_CLOSE_ROWS,635.0,159.0,10.393701,18.897638,24.566929,22.1975,10.393701,15.590551
-REGIME_RANGE_ONLY,32.0,8.0,15.625,18.75,18.75,25.196675,12.5,12.5
-REGIME_RANGE_CLOSE,80.0,20.0,3.75,7.5,11.25,32.83548,5.0,6.25
-REGIME_CLOSE_ONLY,8.0,2.0,0.0,0.0,0.0,45.38375,0.0,0.0
-HISTORICAL_GLOBAL,4.0,1.0,0.0,0.0,0.0,27.674792,0.0,0.0

@@ -1,5 +1,0 @@
-level_name,state_cluster_prediction_count,state_top1_pct_within_3,state_top1_pct_within_5,state_top1_median_abs_error,state_top1_median_width
-L4,190.0,6.842105,11.578947,23.792933,0.0
-L5,190.0,8.421053,15.263158,19.742292,0.0
-L6,190.0,6.842105,8.421053,20.2475,0.0
-L7,189.0,10.582011,11.111111,27.19625,0.0

@@ -1,5 +1,0 @@
-level_name,cluster_prediction_count,top1_cluster_pct_within_3,top1_cluster_pct_within_5,top1_cluster_median_abs_error,top1_cluster_median_width
-L4,190.0,4.736842,12.631579,28.210834,0.0
-L5,190.0,12.105263,18.421053,20.196675,0.0
-L6,190.0,7.894737,11.578947,19.7271,0.0
-L7,189.0,14.285714,14.814815,30.34,0.0

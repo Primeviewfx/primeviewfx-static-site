@@ -1,5 +1,0 @@
-level_name,row_count,expanded_oracle_pct_within_3,expanded_oracle_pct_within_5,original_oracle_pct_within_5,expanded_oracle_median_abs_error,original_oracle_median_abs_error,recovered_within_5_pct
-L4,190.0,6.842105,14.210526,29.473684,16.780732,10.27812,1.578947
-L5,190.0,7.894737,14.210526,31.052632,17.271042,9.47125,3.157895
-L6,190.0,8.947368,11.052632,30.0,18.216875,10.41988,2.105263
-L7,189.0,8.465608,11.640212,28.042328,20.4,12.34625,0.529101
