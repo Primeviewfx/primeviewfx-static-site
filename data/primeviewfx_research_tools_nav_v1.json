@@ -1,14 +1,14 @@
 {
   "version": "v1",
-  "created_utc": "2026-08-25T05:38:09Z",
+  "created_utc": "2026-08-25T15:20:58Z",
   "overall_status": "PASSED",
   "blocking_count": 0,
   "warning_count": 0,
   "site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
   "latest_dir": "C:\\Trading\\Publish\\PrimeViewFX_Latest",
   "local_dir": "C:\\Trading\\Data\\ResearchToolsNav",
-  "tool_count": 8,
-  "tools_available_count": 8,
+  "tool_count": 12,
+  "tools_available_count": 12,
   "tools": [
     {
       "key": "members_research",
@@ -161,13 +161,89 @@
       "latest_data_path": null,
       "latest_data_exists": null,
       "status": "AVAILABLE"
+    },
+    {
+      "key": "member_ui_overview",
+      "title": "Overview",
+      "href": "/member-area/overview",
+      "page_filename": "members-overview-7d9b11c44f3cde21.html",
+      "data_file": "",
+      "description": "Structural map entry point - where price sits, what's currently active.",
+      "badge": "Overview",
+      "confidence": "Active",
+      "site_page_path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-overview-7d9b11c44f3cde21.html",
+      "site_page_exists": true,
+      "site_data_path": null,
+      "site_data_exists": true,
+      "latest_page_path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members-overview-7d9b11c44f3cde21.html",
+      "latest_page_exists": false,
+      "latest_data_path": null,
+      "latest_data_exists": null,
+      "status": "AVAILABLE"
+    },
+    {
+      "key": "member_ui_market_structure",
+      "title": "Market Structure",
+      "href": "/member-area/market-structure",
+      "page_filename": "members-market-structure-5ce258c419052da1.html",
+      "data_file": "",
+      "description": "Where the important structural levels currently sit.",
+      "badge": "Structure",
+      "confidence": "Active",
+      "site_page_path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-market-structure-5ce258c419052da1.html",
+      "site_page_exists": true,
+      "site_data_path": null,
+      "site_data_exists": true,
+      "latest_page_path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members-market-structure-5ce258c419052da1.html",
+      "latest_page_exists": false,
+      "latest_data_path": null,
+      "latest_data_exists": null,
+      "status": "AVAILABLE"
+    },
+    {
+      "key": "member_ui_context",
+      "title": "Context",
+      "href": "/member-area/context",
+      "page_filename": "members-context-ff240cee9670dd32.html",
+      "data_file": "",
+      "description": "Broader market context around the structure levels.",
+      "badge": "Context",
+      "confidence": "Not yet available",
+      "site_page_path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-context-ff240cee9670dd32.html",
+      "site_page_exists": true,
+      "site_data_path": null,
+      "site_data_exists": true,
+      "latest_page_path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members-context-ff240cee9670dd32.html",
+      "latest_page_exists": false,
+      "latest_data_path": null,
+      "latest_data_exists": null,
+      "status": "AVAILABLE"
+    },
+    {
+      "key": "member_ui_system_status",
+      "title": "System Status",
+      "href": "/member-area/system-status",
+      "page_filename": "members-system-status-0c1af4ca8d3a36b5.html",
+      "data_file": "",
+      "description": "Whether PrimeViewFX's data is currently flowing normally.",
+      "badge": "Status",
+      "confidence": "Active",
+      "site_page_path": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-system-status-0c1af4ca8d3a36b5.html",
+      "site_page_exists": true,
+      "site_data_path": null,
+      "site_data_exists": true,
+      "latest_page_path": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members-system-status-0c1af4ca8d3a36b5.html",
+      "latest_page_exists": false,
+      "latest_data_path": null,
+      "latest_data_exists": null,
+      "status": "AVAILABLE"
     }
   ],
   "targets": [
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-research-a8502a7b66e839df.html",
-      "status": "UNCHANGED_ALREADY_CURRENT",
-      "changed": false,
+      "status": "INJECTED",
+      "changed": true,
       "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
@@ -184,7 +260,7 @@
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\weighted-level-scanner-add58c89ce531e69.html",
       "status": "INJECTED",
       "changed": true,
-      "mode": "INSERTED_BEFORE_BODY>",
+      "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
@@ -192,7 +268,7 @@
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\bearish-cascade-0171dd2ecccd13fa.html",
       "status": "INJECTED",
       "changed": true,
-      "mode": "INSERTED_BEFORE_BODY>",
+      "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
@@ -200,7 +276,7 @@
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\bullish-cascade-1ddfa177ade539c0.html",
       "status": "INJECTED",
       "changed": true,
-      "mode": "INSERTED_BEFORE_BODY>",
+      "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
@@ -208,7 +284,7 @@
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\cascade-research-summary-ff36f349b8cbb7d7.html",
       "status": "INJECTED",
       "changed": true,
-      "mode": "INSERTED_BEFORE_BODY>",
+      "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
@@ -216,14 +292,46 @@
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members\\primeviewfx_members_integrated_map_v1-8d9ae95fd8353fae.html",
       "status": "INJECTED",
       "changed": true,
-      "mode": "INSERTED_BEFORE_MAIN>",
+      "mode": "REPLACED",
+      "marker_present": true,
+      "write_verified": true
+    },
+    {
+      "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-overview-7d9b11c44f3cde21.html",
+      "status": "INJECTED",
+      "changed": true,
+      "mode": "INSERTED_BEFORE_BODY>",
+      "marker_present": true,
+      "write_verified": true
+    },
+    {
+      "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-market-structure-5ce258c419052da1.html",
+      "status": "INJECTED",
+      "changed": true,
+      "mode": "INSERTED_BEFORE_BODY>",
+      "marker_present": true,
+      "write_verified": true
+    },
+    {
+      "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-context-ff240cee9670dd32.html",
+      "status": "INJECTED",
+      "changed": true,
+      "mode": "INSERTED_BEFORE_BODY>",
+      "marker_present": true,
+      "write_verified": true
+    },
+    {
+      "target": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-system-status-0c1af4ca8d3a36b5.html",
+      "status": "INJECTED",
+      "changed": true,
+      "mode": "INSERTED_BEFORE_BODY>",
       "marker_present": true,
       "write_verified": true
     },
     {
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members-research-a8502a7b66e839df.html",
-      "status": "UNCHANGED_ALREADY_CURRENT",
-      "changed": false,
+      "status": "INJECTED",
+      "changed": true,
       "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
@@ -240,7 +348,7 @@
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\weighted-level-scanner-add58c89ce531e69.html",
       "status": "INJECTED",
       "changed": true,
-      "mode": "INSERTED_BEFORE_BODY>",
+      "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
@@ -248,7 +356,7 @@
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\bearish-cascade-0171dd2ecccd13fa.html",
       "status": "INJECTED",
       "changed": true,
-      "mode": "INSERTED_BEFORE_BODY>",
+      "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
@@ -256,7 +364,7 @@
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\bullish-cascade-1ddfa177ade539c0.html",
       "status": "INJECTED",
       "changed": true,
-      "mode": "INSERTED_BEFORE_BODY>",
+      "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
@@ -264,7 +372,7 @@
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\cascade-research-summary-ff36f349b8cbb7d7.html",
       "status": "INJECTED",
       "changed": true,
-      "mode": "INSERTED_BEFORE_BODY>",
+      "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
     },
@@ -272,13 +380,45 @@
       "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members\\primeviewfx_members_integrated_map_v1-8d9ae95fd8353fae.html",
       "status": "INJECTED",
       "changed": true,
-      "mode": "INSERTED_BEFORE_MAIN>",
+      "mode": "REPLACED",
       "marker_present": true,
       "write_verified": true
+    },
+    {
+      "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members-overview-7d9b11c44f3cde21.html",
+      "status": "MISSING",
+      "changed": false,
+      "mode": null,
+      "marker_present": false,
+      "write_verified": false
+    },
+    {
+      "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members-market-structure-5ce258c419052da1.html",
+      "status": "MISSING",
+      "changed": false,
+      "mode": null,
+      "marker_present": false,
+      "write_verified": false
+    },
+    {
+      "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members-context-ff240cee9670dd32.html",
+      "status": "MISSING",
+      "changed": false,
+      "mode": null,
+      "marker_present": false,
+      "write_verified": false
+    },
+    {
+      "target": "C:\\Trading\\Publish\\PrimeViewFX_Latest\\members-system-status-0c1af4ca8d3a36b5.html",
+      "status": "MISSING",
+      "changed": false,
+      "mode": null,
+      "marker_present": false,
+      "write_verified": false
     }
   ],
-  "injected_count": 13,
-  "marker_count": 13,
+  "injected_count": 17,
+  "marker_count": 17,
   "warnings": [],
   "blocking_failures": [],
   "outputs": {
