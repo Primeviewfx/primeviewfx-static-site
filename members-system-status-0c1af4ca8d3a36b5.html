@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PrimeViewFX — System Status</title>
+<style>
+  :root {
+    --bg: #05070b;
+    --card: rgba(255,255,255,0.055);
+    --line: rgba(255,255,255,0.13);
+    --text: #f6f7fb;
+    --muted: rgba(246,247,251,0.68);
+    --gold: #f2c14e;
+    --blue: #79a9ff;
+    --green: #6ee7a8;
+    --amber: #f2c14e;
+    --red: #f87171;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 32px 20px 64px; }
+  .nav { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 28px; font-size: 13px; }
+  .nav a { color: var(--muted); text-decoration: none; padding: 6px 0; border-bottom: 2px solid transparent; }
+  .nav a.current { color: var(--text); border-bottom-color: var(--gold); }
+  h1 { font-size: 26px; margin: 0 0 6px; }
+  .sub { color: var(--muted); font-size: 14px; margin: 0 0 28px; }
+  .card {
+    border: 1px solid var(--line); border-radius: 16px; padding: 20px;
+    background: var(--card); margin-bottom: 16px;
+  }
+  .row { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .label { font-size: 15px; color: var(--text); }
+  .sublabel { font-size: 12.5px; color: var(--muted); margin-top: 3px; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase;
+    padding: 5px 11px; border-radius: 999px; border: 1px solid;
+  }
+  .badge .dot { width: 7px; height: 7px; border-radius: 50%; }
+  .badge.active { color: var(--green); border-color: rgba(110,231,168,.4); background: rgba(110,231,168,.08); }
+  .badge.active .dot { background: var(--green); }
+  .badge.limited { color: var(--amber); border-color: rgba(242,193,78,.4); background: rgba(242,193,78,.08); }
+  .badge.limited .dot { background: var(--amber); }
+  .badge.unavailable { color: var(--red); border-color: rgba(248,113,113,.4); background: rgba(248,113,113,.08); }
+  .badge.unavailable .dot { background: var(--red); }
+  .section-title { font-size: 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 28px 0 10px; }
+  .foot { margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; }
+  .updated { color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav">
+    <a href="/member-area/overview">Overview</a>
+    <a href="/member-area/market-structure">Market Structure</a>
+    <a href="/member-area/context">Context</a>
+    <a href="/member-area/system-status" class="current">System Status</a>
+  </nav>
+
+  <h1>System Status</h1>
+  <p class="sub">Whether PrimeViewFX's data is currently flowing normally — not a performance report.</p>
+
+  <div class="card">
+    <div class="row">
+      <div>
+        <div class="label">Overall</div>
+        <div class="sublabel">Updated <span class="updated">25 Aug 2026, 05:38 UTC</span></div>
+      </div>
+      <span class="badge active"><span class="dot"></span>Active</span>
+    </div>
+  </div>
+
+  <div class="section-title">Component groups</div>
+
+  <div class="card">
+    <div class="row">
+      <div>
+        <div class="label">Market structure data</div>
+        <div class="sublabel">Weighted-level cascade feed — levels, roles, dashboards</div>
+      </div>
+      <span class="badge limited"><span class="dot"></span>Limited</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="row">
+      <div>
+        <div class="label">Site infrastructure</div>
+        <div class="sublabel">Publishing, member routing, navigation</div>
+      </div>
+      <span class="badge limited"><span class="dot"></span>Limited</span>
+    </div>
+  </div>
+
+  <div class="section-title">Not yet available</div>
+
+  <div class="card">
+    <div class="row">
+      <div>
+        <div class="label">Prime Zones · Daily Ladder · Weekly Route Map</div>
+        <div class="sublabel">Still in internal validation — see Market Structure for status</div>
+      </div>
+      <span class="badge unavailable"><span class="dot"></span>Unavailable</span>
+    </div>
+  </div>
+
+  <div class="foot">
+    <strong>What the badges mean:</strong> <em>Active</em> — data flowing normally. <em>Limited</em> —
+    running with minor non-blocking issues, nothing members rely on is affected. <em>Unavailable</em> —
+    not currently producing member-visible output. This page reports whether systems are running, not
+    how accurate any forecast is. Research only. Not financial advice.
+  </div>
+</div>
+</body>
+</html>

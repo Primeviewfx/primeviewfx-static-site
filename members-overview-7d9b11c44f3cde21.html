@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PrimeViewFX — Overview</title>
+<style>
+  :root {
+    --bg: #05070b; --card: rgba(255,255,255,0.055); --line: rgba(255,255,255,0.13);
+    --text: #f6f7fb; --muted: rgba(246,247,251,0.68); --gold: #f2c14e;
+    --green: #6ee7a8; --amber: #f2c14e; --red: #f87171;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Arial, sans-serif; line-height: 1.5; }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 32px 20px 64px; }
+  .nav { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 28px; font-size: 13px; }
+  .nav a { color: var(--muted); text-decoration: none; padding: 6px 0; border-bottom: 2px solid transparent; }
+  .nav a.current { color: var(--text); border-bottom-color: var(--gold); }
+  h1 { font-size: 28px; margin: 0 0 6px; }
+  .sub { color: var(--muted); font-size: 14.5px; margin: 0 0 30px; max-width: 620px; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .tile {
+    display: block; text-decoration: none; color: inherit;
+    border: 1px solid var(--line); border-radius: 16px; padding: 20px; background: var(--card);
+    transition: border-color .15s ease;
+  }
+  .tile:hover { border-color: rgba(242,193,78,.5); }
+  .tile-title { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+  .tile-desc { font-size: 12.5px; color: var(--muted); margin-bottom: 14px; min-height: 34px; }
+  .badge { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: 4px 9px; border-radius: 999px; border: 1px solid; }
+  .badge .dot { width: 6px; height: 6px; border-radius: 50%; }
+  .badge.active { color: var(--green); border-color: rgba(110,231,168,.4); background: rgba(110,231,168,.08); }
+  .badge.active .dot { background: var(--green); }
+  .badge.unavailable { color: var(--red); border-color: rgba(248,113,113,.4); background: rgba(248,113,113,.08); }
+  .badge.unavailable .dot { background: var(--red); }
+  .section-title { font-size: 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 8px 0 4px; }
+  .foot { margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; }
+  @media (max-width: 700px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav">
+    <a href="/member-area/overview" class="current">Overview</a>
+    <a href="/member-area/market-structure">Market Structure</a>
+    <a href="/member-area/context">Context</a>
+    <a href="/member-area/system-status">System Status</a>
+  </nav>
+
+  <h1>PrimeViewFX</h1>
+  <p class="sub">A structural map of where price is, what it's currently interacting with, and how much
+    confidence to place in that map right now — not a signal, not a call.</p>
+
+  <div class="section-title">Sections</div>
+  <div class="grid">
+    <a class="tile" href="/member-area/market-structure">
+      <div class="tile-title">Market Structure</div>
+      <div class="tile-desc">Where the important structural levels sit today.</div>
+      <span class="badge active"><span class="dot"></span>Active</span>
+    </a>
+    <a class="tile" href="/member-area/context">
+      <div class="tile-title">Context</div>
+      <div class="tile-desc">Broader conditions around the structure.</div>
+      <span class="badge unavailable"><span class="dot"></span>Unavailable</span>
+    </a>
+    <a class="tile" href="/member-area/system-status">
+      <div class="tile-title">System Status</div>
+      <div class="tile-desc">Whether the data behind this page is current.</div>
+      <span class="badge active"><span class="dot"></span>Active</span>
+    </a>
+  </div>
+
+  <div class="foot">
+    Research only. Not financial advice. No buy/sell instructions — PrimeViewFX shows structure, not
+    signals.
+  </div>
+</div>
+</body>
+</html>

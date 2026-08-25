@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PrimeViewFX — Context</title>
+<style>
+  :root {
+    --bg: #05070b; --card: rgba(255,255,255,0.055); --line: rgba(255,255,255,0.13);
+    --text: #f6f7fb; --muted: rgba(246,247,251,0.68); --gold: #f2c14e;
+    --red: #f87171;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Arial, sans-serif; line-height: 1.5; }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 32px 20px 64px; }
+  .nav { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 28px; font-size: 13px; }
+  .nav a { color: var(--muted); text-decoration: none; padding: 6px 0; border-bottom: 2px solid transparent; }
+  .nav a.current { color: var(--text); border-bottom-color: var(--gold); }
+  h1 { font-size: 26px; margin: 0 0 6px; }
+  .sub { color: var(--muted); font-size: 14px; margin: 0 0 28px; }
+  .card { border: 1px solid var(--line); border-radius: 16px; padding: 20px; background: var(--card); margin-bottom: 16px; }
+  .row { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
+  .label { font-size: 15px; color: var(--text); }
+  .sublabel { font-size: 12.5px; color: var(--muted); margin-top: 5px; max-width: 560px; }
+  .badge { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: 5px 11px; border-radius: 999px; border: 1px solid; white-space: nowrap; }
+  .badge .dot { width: 7px; height: 7px; border-radius: 50%; }
+  .badge.unavailable { color: var(--red); border-color: rgba(248,113,113,.4); background: rgba(248,113,113,.08); }
+  .badge.unavailable .dot { background: var(--red); }
+  .foot { margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav">
+    <a href="/member-area/overview">Overview</a>
+    <a href="/member-area/market-structure">Market Structure</a>
+    <a href="/member-area/context" class="current">Context</a>
+    <a href="/member-area/system-status">System Status</a>
+  </nav>
+
+  <h1>Context</h1>
+  <p class="sub">Broader market context around the structure levels — how much confidence to place in the map right now.</p>
+
+  <div class="card">
+    <div class="row">
+      <div>
+        <div class="label">Structural conditions</div>
+        <div class="sublabel">A read-only summary of which structural conditions are currently active — still in internal validation, not yet a live member product.</div>
+      </div>
+      <span class="badge unavailable"><span class="dot"></span>Unavailable</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="row">
+      <div>
+        <div class="label">Execution context</div>
+        <div class="sublabel">Order-flow and session-level context research — early-stage, not yet a member product.</div>
+      </div>
+      <span class="badge unavailable"><span class="dot"></span>Unavailable</span>
+    </div>
+  </div>
+
+  <div class="foot">
+    This section is intentionally empty today. Context modules go live here only once they've cleared
+    internal validation and are genuinely running in production. Research only. Not financial advice.
+  </div>
+</div>
+</body>
+</html>
