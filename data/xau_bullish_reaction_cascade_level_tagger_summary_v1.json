@@ -1,14 +1,14 @@
 {
   "version": "v1",
-  "published_levels_csv": "C:\\Trading\\Data\\published_levels.csv",
-  "rank_stats_csv": "C:\\Trading\\Data\\xau_bullish_intraday_reaction_cascade_by_published_rank_v1.csv",
-  "touch_stats_csv": "C:\\Trading\\Data\\xau_intraday_reaction_cascade_by_touch_sequence_v1_2.csv",
-  "out_dir": "C:\\Trading\\Data",
-  "static_site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
-  "latest_dir": "C:\\Trading\\Publish\\PrimeViewFX_Latest",
+  "published_levels_csv": "published_levels.csv",
+  "rank_stats_csv": "xau_bullish_intraday_reaction_cascade_by_published_rank_v1.csv",
+  "touch_stats_csv": "xau_intraday_reaction_cascade_by_touch_sequence_v1_2.csv",
+  "out_dir": "Data",
+  "static_site_dir": "PrimeViewFX_Static_Site",
+  "latest_dir": "PrimeViewFX_Latest",
   "date_contract": {
     "contract_forecast_date": "2026-08-25",
-    "contract_forecast_date_source": "static_publish_manifest: C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\publish_manifest.json",
+    "contract_forecast_date_source": "static_publish_manifest: publish_manifest.json",
     "latest_available_tag_date": "2026-08-25",
     "available_date_min": "2025-08-28",
     "available_date_max": "2026-08-25",
@@ -19,7 +19,7 @@
   },
   "live_level_resolver": {
     "live_level_resolver_status": "FOUND",
-    "live_level_source_file": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_members_integrated_map_v1.json",
+    "live_level_source_file": "primeviewfx_members_integrated_map_v1.json",
     "live_level_source_status": "OK",
     "live_level_count": 17,
     "contract_forecast_date": "2026-08-25",
@@ -41,7 +41,7 @@
   },
   "live_level_resolver_attempts": [
     {
-      "source_file": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\primeviewfx_members_integrated_map_v1.json",
+      "source_file": "primeviewfx_members_integrated_map_v1.json",
       "exists": true,
       "json_loaded": true,
       "root_forecast_date": "2026-08-25",

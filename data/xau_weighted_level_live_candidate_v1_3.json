@@ -2,7 +2,7 @@
   "version": "v1.3",
   "scanner": "xau_weighted_level_live_candidate_scanner_v1_3.py",
   "date_policy": "strict_iso_yyyy_mm_dd_only_no_dayfirst_no_monthfirst_guessing",
-  "historical_evidence_file": "C:\\Trading\\Data\\xau_published_levels_cleaned_ranked_canonical_dmy_v1.csv",
+  "historical_evidence_file": "xau_published_levels_cleaned_ranked_canonical_dmy_v1.csv",
   "historical_evidence_note": "Setup list taken from canonical DMY v1.3 output; runtime scanner uses current live map only.",
   "selected_level_date": "2026-08-25",
   "scan_date": "2026-08-25",
@@ -239,10 +239,10 @@
       "latest_state_alignment": "with_state"
     }
   ],
-  "output_dir": "C:\\Trading\\Data\\WeightedLevelLiveScanner",
+  "output_dir": "WeightedLevelLiveScanner",
   "research_only": true,
-  "ohlc_file": "C:\\Trading\\Data\\XAUUSD_H1.csv",
-  "levels_file": "C:\\Trading\\Data\\xau_live_map_confidence_enriched_v1.csv",
+  "ohlc_file": "XAUUSD_H1.csv",
+  "levels_file": "xau_live_map_confidence_enriched_v1.csv",
   "tolerance": 5.0,
   "lock_bars": 1,
   "lookback_bars": 72
