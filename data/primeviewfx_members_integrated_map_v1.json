@@ -1,12 +1,12 @@
 {
   "summary": {
-    "run_time": "2026-08-25T06:37:33",
+    "run_time": "2026-08-29T17:52:30",
     "forecast_date": "2026-08-25",
     "status": "members_integrated_map_ready",
     "carry_confidence": "good_confidence",
     "width_confidence": "good_confidence",
     "structural_source_status": "frozen_exact_forecast_date",
-    "structural_source_file": "C:\\Trading\\Data\\FrozenMaps\\xau_two_layer_frozen_map_2026-08-25_17aaae7d69c1.csv",
+    "structural_source_file": "xau_two_layer_frozen_map_2026-08-25_17aaae7d69c1.csv",
     "source_published_date": "2026-08-24",
     "prior_close_used": 4651.65,
     "carry_anchor": 4653.560000000001,

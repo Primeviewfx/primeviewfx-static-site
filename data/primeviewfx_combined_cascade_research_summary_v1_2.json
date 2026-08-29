@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-08-25T05:38:05Z",
+  "created_utc": "2026-08-29T16:52:26Z",
   "script_version": "v1.2",
   "overall_status": "PASSED",
   "layer_count": 4,
@@ -16,18 +16,18 @@
   },
   "source_files": {
     "bearish": {
-      "rank_path": "C:\\Trading\\Data\\xau_intraday_reaction_cascade_by_published_rank_v1_2.csv",
-      "touch_path": "C:\\Trading\\Data\\xau_intraday_reaction_cascade_by_touch_sequence_v1_2.csv",
+      "rank_path": "xau_intraday_reaction_cascade_by_published_rank_v1_2.csv",
+      "touch_path": "xau_intraday_reaction_cascade_by_touch_sequence_v1_2.csv",
       "role_path": "",
       "day_path": ""
     },
     "bullish": {
-      "role_path": "C:\\Trading\\Data\\xau_bullish_intraday_reaction_cascade_by_role_v1.csv",
-      "touch_path": "C:\\Trading\\Data\\xau_bullish_intraday_reaction_cascade_by_touch_sequence_v1.csv",
-      "rank_path": "C:\\Trading\\Data\\xau_bullish_intraday_reaction_cascade_by_published_rank_v1.csv",
-      "hist_summary_path": "C:\\Trading\\Data\\xau_bullish_intraday_reaction_cascade_tester_summary_v1.json",
-      "sensitivity_primary_path": "C:\\Trading\\Data\\xau_bullish_intraday_reaction_cascade_primary_zone_sensitivity_v1.csv",
-      "sensitivity_summary_path": "C:\\Trading\\Data\\xau_bullish_intraday_reaction_cascade_sensitivity_summary_v1.json"
+      "role_path": "xau_bullish_intraday_reaction_cascade_by_role_v1.csv",
+      "touch_path": "xau_bullish_intraday_reaction_cascade_by_touch_sequence_v1.csv",
+      "rank_path": "xau_bullish_intraday_reaction_cascade_by_published_rank_v1.csv",
+      "hist_summary_path": "xau_bullish_intraday_reaction_cascade_tester_summary_v1.json",
+      "sensitivity_primary_path": "xau_bullish_intraday_reaction_cascade_primary_zone_sensitivity_v1.csv",
+      "sensitivity_summary_path": "xau_bullish_intraday_reaction_cascade_sensitivity_summary_v1.json"
     }
   },
   "disclaimer": "Research only. Not a trading signal."
