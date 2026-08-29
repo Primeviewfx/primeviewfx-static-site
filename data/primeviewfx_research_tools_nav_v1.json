@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "created_utc": "2026-08-29T16:48:03Z",
-  "overall_status": "FAILED",
+  "created_utc": "2026-08-29T18:11:39Z",
+  "overall_status": "PASSED",
   "tool_count": 12,
-  "tools_available_count": 10,
+  "tools_available_count": 12,
   "tools": [
     {
       "key": "members_research",
@@ -93,7 +93,7 @@
       "description": "Where the important structural levels currently sit.",
       "badge": "Structure",
       "confidence": "Active",
-      "status": "MISSING_PAGE"
+      "status": "AVAILABLE"
     },
     {
       "key": "member_ui_context",
@@ -102,7 +102,7 @@
       "description": "Broader market context around the structure levels.",
       "badge": "Context",
       "confidence": "Not yet available",
-      "status": "MISSING_PAGE"
+      "status": "AVAILABLE"
     },
     {
       "key": "member_ui_system_status",

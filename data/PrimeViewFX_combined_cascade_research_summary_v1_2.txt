@@ -1,0 +1,54 @@
+PrimeViewFX Combined Cascade Research Summary v1.2
+========================================================
+created_utc:        2026-08-29T18:11:34Z
+overall_status:     PASSED
+layer_count:        4
+
+RESEARCH FLAGS
+--------------
+bearish_deeper_touch_sequence: ROBUST
+  focus:     Do later bearish touches become more reactive than first touch?
+  median:    38.803
+  strong:    89.67%
+  weak/fail: 10.33%
+  label:     Bearish cascade: later/deeper touches are the stronger research layer
+  rationale: Later touches materially outperform first touch with strong follow-through and low failure.
+
+bearish_primary_reaction_zone: ROBUST
+  focus:     Do bearish ranks 7-9 act as a main reaction-watch zone?
+  median:    43.893
+  strong:    90.15%
+  weak/fail: 9.85%
+  label:     Primary bearish reaction zone
+  rationale: Meets strength, failure, stability, and sample-size thresholds.
+
+bullish_primary_reaction_zone: PROMISING
+  focus:     Do bullish ranks 7-9 act as a main upside reaction-watch zone?
+  median:    69.915
+  strong:    78.57%
+  weak/fail: 0.00%
+  label:     Primary bullish reaction zone — promising, sample-limited research layer
+  rationale: Strength/failure profile is good and stable, but sample size is still limited.
+
+bullish_touch_sequence_cascade: PROMISING
+  focus:     Does bullish behaviour show the same weak-early-touch cascade pattern?
+  median:    48.073
+  strong:    80.95%
+  weak/fail: 9.52%
+  label:     Bullish touch-sequence cascade — promising, sample-limited research layer
+  rationale: Later touches improve versus first touch, but evidence is not yet broad enough for robust status.
+
+SOURCE FILES
+------------
+bearish_rank_stats:       C:\Trading\Data\xau_intraday_reaction_cascade_by_published_rank_v1_2.csv
+bearish_touch_stats:      C:\Trading\Data\xau_intraday_reaction_cascade_by_touch_sequence_v1_2.csv
+bullish_role_stats:       C:\Trading\Data\xau_bullish_intraday_reaction_cascade_by_role_v1.csv
+bullish_touch_stats:      C:\Trading\Data\xau_bullish_intraday_reaction_cascade_by_touch_sequence_v1.csv
+bullish_sensitivity:      C:\Trading\Data\xau_bullish_intraday_reaction_cascade_primary_zone_sensitivity_v1.csv
+
+INTERPRETATION
+--------------
+- ROBUST: evidence currently strong enough for a core research-layer label.
+- PROMISING: evidence is directionally clean but sample-size or stability limits remain.
+- REVIEW: visible for research, but not yet promoted as a strong historical edge.
+- Research only. Not a trading signal.
