@@ -8,25 +8,44 @@
   :root {
     --bg: #05070b; --card: rgba(255,255,255,0.055); --line: rgba(255,255,255,0.13);
     --text: #f6f7fb; --muted: rgba(246,247,251,0.68); --gold: #f2c14e;
-    --red: #f87171;
+    --green: #6ee7a8; --red: #f87171;
+    --shadow: 0 10px 26px rgba(0,0,0,.32), inset 0 1px 0 rgba(255,255,255,.05);
+    --shadow-lg: 0 20px 50px rgba(0,0,0,.42), inset 0 1px 0 rgba(255,255,255,.06);
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Arial, sans-serif; line-height: 1.5; }
+  body { margin: 0; background: radial-gradient(circle at 18% -10%, rgba(121,169,255,.05), transparent 40%), var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Arial, sans-serif; line-height: 1.5; }
   .wrap { max-width: 900px; margin: 0 auto; padding: 32px 20px 64px; }
   .nav { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 28px; font-size: 13px; }
   .nav a { color: var(--muted); text-decoration: none; padding: 6px 0; border-bottom: 2px solid transparent; }
   .nav a.current { color: var(--text); border-bottom-color: var(--gold); }
   h1 { font-size: 26px; margin: 0 0 6px; }
-  .sub { color: var(--muted); font-size: 14px; margin: 0 0 28px; }
-  .card { border: 1px solid var(--line); border-radius: 16px; padding: 20px; background: var(--card); margin-bottom: 16px; }
-  .row { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
-  .label { font-size: 15px; color: var(--text); }
-  .sublabel { font-size: 12.5px; color: var(--muted); margin-top: 5px; max-width: 560px; }
+  .sub { color: var(--muted); font-size: 14px; margin: 0 0 6px; }
+  .intro { color: var(--muted); font-size: 15px; line-height: 1.65; max-width: 720px; margin: 26px 0 0; }
+  .intro strong { color: var(--text); }
+  .divider { border: none; border-top: 1px solid var(--line); margin: 34px 0; }
+  .compare { display: grid; grid-template-columns: 1fr; gap: 0; border: 1px solid var(--line); border-radius: 18px; overflow: hidden; box-shadow: var(--shadow-lg); }
+  .compare-col { padding: 26px 28px; }
+  .compare-col + .compare-col { border-top: 1px solid var(--line); }
+  .compare-col.is-live { background: linear-gradient(135deg, rgba(110,231,168,.07), rgba(110,231,168,.02)); }
+  .compare-col.is-unavailable { background: linear-gradient(135deg, rgba(255,255,255,.03), rgba(255,255,255,.01)); }
+  .compare-title { font-size: 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 0 0 8px; }
+  .compare-question { font-size: 17px; font-weight: 700; margin: 0 0 14px; }
   .badge { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: 5px 11px; border-radius: 999px; border: 1px solid; white-space: nowrap; }
   .badge .dot { width: 7px; height: 7px; border-radius: 50%; }
+  .badge.active { color: var(--green); border-color: rgba(110,231,168,.4); background: rgba(110,231,168,.08); }
+  .badge.active .dot { background: var(--green); box-shadow: 0 0 8px rgba(110,231,168,.7); }
   .badge.unavailable { color: var(--red); border-color: rgba(248,113,113,.4); background: rgba(248,113,113,.08); }
   .badge.unavailable .dot { background: var(--red); }
+  .compare-desc { font-size: 13px; color: var(--muted); margin-top: 12px; max-width: 440px; }
   .foot { margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; }
+
+  @media (min-width: 1200px) {
+    .wrap { max-width: 1360px; }
+    .intro { max-width: 760px; }
+    .compare { grid-template-columns: 1fr 1fr; }
+    .compare-col + .compare-col { border-top: none; border-left: 1px solid var(--line); }
+    .compare-col { padding: 34px 40px; }
+  }
 </style>
 </head>
 <body>
@@ -39,25 +58,28 @@
   </nav>
 
   <h1>Context</h1>
-  <p class="sub">Broader market context around the structure levels — how much confidence to place in the map right now.</p>
+  <p class="sub">Broader market context around the structure levels.</p>
 
-  <div class="card">
-    <div class="row">
-      <div>
-        <div class="label">Structural conditions</div>
-        <div class="sublabel">A read-only summary of which structural conditions are currently active — still in internal validation, not yet a live member product.</div>
-      </div>
-      <span class="badge unavailable"><span class="dot"></span>Unavailable</span>
+  <p class="intro">Execution context adds information about the market environment
+    around PrimeViewFX structural levels. <strong>No live Context component is currently
+    available.</strong> PrimeViewFX does not display research-stage information as
+    member content — this section stays empty until something here has genuinely
+    cleared internal validation, not on a fixed schedule.</p>
+
+  <hr class="divider">
+
+  <div class="compare">
+    <div class="compare-col is-live">
+      <div class="compare-title">Structure</div>
+      <div class="compare-question">Where is price?</div>
+      <span class="badge active"><span class="dot"></span>Live today</span>
+      <p class="compare-desc">Structural levels, roles and zones — see Market Structure.</p>
     </div>
-  </div>
-
-  <div class="card">
-    <div class="row">
-      <div>
-        <div class="label">Execution context</div>
-        <div class="sublabel">Order-flow and session-level context research — early-stage, not yet a member product.</div>
-      </div>
-      <span class="badge unavailable"><span class="dot"></span>Unavailable</span>
+    <div class="compare-col is-unavailable">
+      <div class="compare-title">Context</div>
+      <div class="compare-question">What is happening around it?</div>
+      <span class="badge unavailable"><span class="dot"></span>Not currently available</span>
+      <p class="compare-desc">Nothing to show here yet — this is intentional, not a bug.</p>
     </div>
   </div>
 
@@ -66,6 +88,5 @@
     internal validation and are genuinely running in production. Research only. Not financial advice.
   </div>
 </div>
-
 </body>
 </html>

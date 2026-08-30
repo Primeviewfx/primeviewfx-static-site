@@ -9,9 +9,12 @@
     --bg: #05070b; --card: rgba(255,255,255,0.055); --line: rgba(255,255,255,0.13);
     --text: #f6f7fb; --muted: rgba(246,247,251,0.68); --gold: #f2c14e;
     --green: #6ee7a8; --amber: #f2c14e; --red: #f87171;
+    --shadow: 0 10px 26px rgba(0,0,0,.32), inset 0 1px 0 rgba(255,255,255,.05);
+    --shadow-lg: 0 20px 50px rgba(0,0,0,.42), inset 0 1px 0 rgba(255,255,255,.06);
+    --surface: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Arial, sans-serif; line-height: 1.5; }
+  body { margin: 0; background: radial-gradient(circle at 18% -10%, rgba(121,169,255,.05), transparent 40%), var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Arial, sans-serif; line-height: 1.5; }
   .wrap { max-width: 900px; margin: 0 auto; padding: 32px 20px 64px; }
   .nav { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 28px; font-size: 13px; }
   .nav a { color: var(--muted); text-decoration: none; padding: 6px 0; border-bottom: 2px solid transparent; }
@@ -22,16 +25,16 @@
   .headmeta { text-align: right; }
   .updated { color: var(--muted); font-size: 13px; display: block; }
   .sub { color: var(--muted); font-size: 14.5px; margin: 18px 0 24px; max-width: 620px; }
-  .card { border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; background: var(--card); margin-bottom: 16px; }
+  .card { border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; background: var(--surface), var(--card); box-shadow: var(--shadow); margin-bottom: 16px; }
   .row { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
   .label { font-size: 15px; color: var(--text); }
   .sublabel { font-size: 12.5px; color: var(--muted); margin-top: 3px; }
   .badge { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: 5px 11px; border-radius: 999px; border: 1px solid; white-space: nowrap; }
   .badge .dot { width: 7px; height: 7px; border-radius: 50%; }
   .badge.active { color: var(--green); border-color: rgba(110,231,168,.4); background: rgba(110,231,168,.08); }
-  .badge.active .dot { background: var(--green); }
+  .badge.active .dot { background: var(--green); box-shadow: 0 0 8px rgba(110,231,168,.7); }
   .badge.limited { color: var(--amber); border-color: rgba(242,193,78,.4); background: rgba(242,193,78,.08); }
-  .badge.limited .dot { background: var(--amber); }
+  .badge.limited .dot { background: var(--amber); box-shadow: 0 0 8px rgba(242,193,78,.6); }
   .badge.unavailable { color: var(--red); border-color: rgba(248,113,113,.4); background: rgba(248,113,113,.08); }
   .badge.unavailable .dot { background: var(--red); }
   .section-title { font-size: 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 30px 0 12px; }
@@ -40,10 +43,10 @@
 
   /* --- v1.1 desktop enrichment --- */
   .hero { display: grid; grid-template-columns: 1fr; gap: 18px; }
-  .hero-chart { border: 1px solid var(--line); border-radius: 18px; overflow: hidden; background: #071018; position: relative; }
+  .hero-chart { border: 1px solid var(--line); border-radius: 18px; overflow: hidden; background: radial-gradient(circle at 12% 0%, rgba(59,130,246,.14), transparent 34%), linear-gradient(180deg, rgba(15,29,47,.98), rgba(7,21,34,.96)); box-shadow: var(--shadow-lg); position: relative; }
   .hero-chart img { display: block; width: 100%; height: auto; }
   .hero-chart-tag { position: absolute; top: 12px; left: 14px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: #bcd6f7; background: rgba(7,16,24,.72); border: 1px solid rgba(125,169,255,.3); border-radius: 999px; padding: 5px 10px; }
-  .rail { border: 1px solid var(--line); border-radius: 18px; padding: 20px; background: var(--card); display: flex; flex-direction: column; }
+  .rail { border: 1px solid var(--line); border-radius: 18px; padding: 20px; background: var(--surface), var(--card); box-shadow: var(--shadow-lg); display: flex; flex-direction: column; }
   .rail-title { font-size: 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 0 0 14px; }
   .rail-stat { display: flex; justify-content: space-between; align-items: center; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 13.5px; gap: 10px; }
   .rail-stat:last-of-type { border-bottom: none; }
@@ -51,12 +54,13 @@
   .rail-stat span:last-child { font-weight: 700; }
 
   .glance { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 16px; }
-  .glance-item { border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; background: var(--card); }
+  .glance-item { border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; background: var(--surface), var(--card); box-shadow: var(--shadow); transition: transform .15s ease, box-shadow .15s ease; }
+  .glance-item:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
   .glance-label { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
   .glance-value { font-size: 24px; font-weight: 800; margin: 6px 0 4px; }
   .glance-state { font-size: 12px; color: var(--green); font-weight: 700; }
 
-  .dest-list { display: flex; flex-direction: column; gap: 0; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  .dest-list { display: flex; flex-direction: column; gap: 0; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; box-shadow: var(--shadow); }
   .dest-item { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 13px 18px; text-decoration: none; color: inherit; background: rgba(255,255,255,0.015); transition: background .12s ease; }
   .dest-item + .dest-item { border-top: 1px solid var(--line); }
   .dest-item:hover { background: rgba(255,255,255,0.04); }
@@ -101,7 +105,7 @@
   <div class="hero">
     <div class="hero-chart">
       <span class="hero-chart-tag">Auto-generated structure chart</span>
-      <img src="./data/charts/primeviewfx_members_static_chart_latest.png" alt="PrimeViewFX auto-generated XAUUSD structure chart — EMA5, weighted ladder levels and Prime Zones context">
+      <img src="/data/charts/primeviewfx_members_static_chart_latest.png" alt="PrimeViewFX auto-generated XAUUSD structure chart — EMA5, weighted ladder levels and Prime Zones context">
     </div>
     <div class="rail">
       <div class="rail-title">Current state</div>
