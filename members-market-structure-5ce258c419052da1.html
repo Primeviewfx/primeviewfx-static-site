@@ -43,9 +43,11 @@
 
   /* --- v1.1 desktop enrichment --- */
   .hero { display: grid; grid-template-columns: 1fr; gap: 18px; margin-bottom: 8px; }
-  .hero-chart { border: 1px solid var(--line); border-radius: 18px; overflow: hidden; background: radial-gradient(circle at 12% 0%, rgba(59,130,246,.14), transparent 34%), linear-gradient(180deg, rgba(15,29,47,.98), rgba(7,21,34,.96)); box-shadow: var(--shadow-lg); position: relative; }
+  .hero-chart { display: block; border: 1px solid var(--line); border-radius: 18px; overflow: hidden; background: radial-gradient(circle at 12% 0%, rgba(59,130,246,.14), transparent 34%), linear-gradient(180deg, rgba(15,29,47,.98), rgba(7,21,34,.96)); box-shadow: var(--shadow-lg); position: relative; }
   .hero-chart img { display: block; width: 100%; height: auto; }
   .hero-chart-tag { position: absolute; top: 12px; left: 14px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: #bcd6f7; background: rgba(7,16,24,.72); border: 1px solid rgba(125,169,255,.3); border-radius: 999px; padding: 5px 10px; }
+  .hero-chart-expand { position: absolute; bottom: 12px; right: 14px; font-size: 11px; letter-spacing: .04em; color: #f6f7fb; background: rgba(7,16,24,.72); border: 1px solid rgba(255,255,255,.18); border-radius: 999px; padding: 5px 11px; opacity: .85; transition: opacity .12s ease, background .12s ease; }
+  .hero-chart:hover .hero-chart-expand { opacity: 1; background: rgba(7,16,24,.9); }
   .rail { border: 1px solid var(--line); border-radius: 18px; padding: 20px; background: var(--surface), var(--card); box-shadow: var(--shadow-lg); display: flex; flex-direction: column; }
   .rail-title { font-size: 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 0 0 14px; }
   .rail-stat { display: flex; justify-content: space-between; align-items: baseline; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 13.5px; gap: 10px; }
@@ -91,10 +93,11 @@
   <p class="sub">Where the important structural levels currently sit. Research context, not trade signals.</p>
 
   <div class="hero">
-    <div class="hero-chart">
+    <a class="hero-chart" href="/data/charts/primeviewfx_members_static_chart_latest.png" target="_blank" rel="noopener">
       <span class="hero-chart-tag">Auto-generated structure chart</span>
       <img src="/data/charts/primeviewfx_members_static_chart_latest.png" alt="PrimeViewFX auto-generated XAUUSD structure chart — EMA5, weighted ladder levels and Prime Zones context">
-    </div>
+      <span class="hero-chart-expand">⤢ Full view</span>
+    </a>
     <div class="rail">
       <div class="rail-title">Structure now</div>
       <div class="rail-stat"><span>Nearest level above</span><span>$4,584.29 (130 pts)</span></div>
