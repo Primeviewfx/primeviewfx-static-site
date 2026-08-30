@@ -79,3 +79,6 @@ export async function serveGatedAsset(context, assetPath, gateResult) {
 // new build, not a retried/cached one.
 // second touch (2026-07-19) - after re-setting ADMIN_TOKEN fresh to rule
 // out a stray-whitespace paste issue in the original value.
+// third touch (2026-08-30) - operator set a new ADMIN_TOKEN via the
+// dashboard for the Member UI v1 visual acceptance pass; still bounced
+// to founder-beta?locked=1 until this deploy, same root cause as before.
