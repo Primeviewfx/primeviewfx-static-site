@@ -16,10 +16,12 @@
   .nav { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 28px; font-size: 13px; }
   .nav a { color: var(--muted); text-decoration: none; padding: 6px 0; border-bottom: 2px solid transparent; }
   .nav a.current { color: var(--text); border-bottom-color: var(--gold); }
-  .headrow { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 6px; }
-  h1 { font-size: 28px; margin: 0; }
-  .updated { color: var(--muted); font-size: 13px; }
-  .sub { color: var(--muted); font-size: 14.5px; margin: 0 0 24px; max-width: 620px; }
+  .headrow { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 4px; }
+  .titles h1 { font-size: 28px; margin: 0; }
+  .kicker { color: var(--muted); font-size: 13px; letter-spacing: .04em; margin-top: 3px; }
+  .headmeta { text-align: right; }
+  .updated { color: var(--muted); font-size: 13px; display: block; }
+  .sub { color: var(--muted); font-size: 14.5px; margin: 18px 0 24px; max-width: 620px; }
   .card { border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; background: var(--card); margin-bottom: 16px; }
   .row { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
   .label { font-size: 15px; color: var(--text); }
@@ -32,14 +34,46 @@
   .badge.limited .dot { background: var(--amber); }
   .badge.unavailable { color: var(--red); border-color: rgba(248,113,113,.4); background: rgba(248,113,113,.08); }
   .badge.unavailable .dot { background: var(--red); }
-  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 4px; }
-  .tile { display: block; text-decoration: none; color: inherit; border: 1px solid var(--line); border-radius: 16px; padding: 20px; background: var(--card); transition: border-color .15s ease; }
-  .tile:hover { border-color: rgba(242,193,78,.5); }
-  .tile-title { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
-  .tile-desc { font-size: 12.5px; color: var(--muted); margin-bottom: 14px; min-height: 34px; }
-  .section-title { font-size: 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 26px 0 10px; }
+  .section-title { font-size: 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 30px 0 12px; }
+  .divider { border: none; border-top: 1px solid var(--line); margin: 30px 0 0; }
   .foot { margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; }
-  @media (max-width: 700px) { .grid { grid-template-columns: 1fr; } }
+
+  /* --- v1.1 desktop enrichment --- */
+  .hero { display: grid; grid-template-columns: 1fr; gap: 18px; }
+  .hero-chart { border: 1px solid var(--line); border-radius: 18px; overflow: hidden; background: #071018; position: relative; }
+  .hero-chart img { display: block; width: 100%; height: auto; }
+  .hero-chart-tag { position: absolute; top: 12px; left: 14px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: #bcd6f7; background: rgba(7,16,24,.72); border: 1px solid rgba(125,169,255,.3); border-radius: 999px; padding: 5px 10px; }
+  .rail { border: 1px solid var(--line); border-radius: 18px; padding: 20px; background: var(--card); display: flex; flex-direction: column; }
+  .rail-title { font-size: 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 0 0 14px; }
+  .rail-stat { display: flex; justify-content: space-between; align-items: center; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 13.5px; gap: 10px; }
+  .rail-stat:last-of-type { border-bottom: none; }
+  .rail-stat span:first-child { color: var(--muted); }
+  .rail-stat span:last-child { font-weight: 700; }
+
+  .glance { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 16px; }
+  .glance-item { border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; background: var(--card); }
+  .glance-label { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+  .glance-value { font-size: 24px; font-weight: 800; margin: 6px 0 4px; }
+  .glance-state { font-size: 12px; color: var(--green); font-weight: 700; }
+
+  .dest-list { display: flex; flex-direction: column; gap: 0; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  .dest-item { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 13px 18px; text-decoration: none; color: inherit; background: rgba(255,255,255,0.015); transition: background .12s ease; }
+  .dest-item + .dest-item { border-top: 1px solid var(--line); }
+  .dest-item:hover { background: rgba(255,255,255,0.04); }
+  .dest-name { font-size: 14px; font-weight: 700; }
+  .dest-desc { font-size: 12px; color: var(--muted); margin-top: 1px; }
+
+  @media (min-width: 1200px) {
+    .wrap { max-width: 1360px; }
+    .hero { grid-template-columns: minmax(0, 1.9fr) minmax(300px, 1fr); align-items: stretch; }
+    .dest-list { flex-direction: row; }
+    .dest-item { flex: 1; flex-direction: column; align-items: flex-start; }
+    .dest-item + .dest-item { border-top: none; border-left: 1px solid var(--line); }
+  }
+  @media (max-width: 700px) {
+    .glance { grid-template-columns: 1fr; }
+    .headmeta { text-align: left; }
+  }
 </style>
 </head>
 <body>
@@ -52,47 +86,64 @@
   </nav>
 
   <div class="headrow">
-    <h1>XAUUSD</h1>
-    <span class="updated">Updated 30 Aug 2026, 05:37 UTC</span>
+    <div class="titles">
+      <h1>XAUUSD Market Overview</h1>
+      <div class="kicker">Structural market intelligence</div>
+    </div>
+    <div class="headmeta">
+      <span class="updated">Updated 30 Aug 2026, 05:37 UTC</span>
+      <span class="badge limited"><span class="dot"></span>Limited</span>
+    </div>
   </div>
   <p class="sub">A structural map of where price is, what it's currently interacting with, and how much
     confidence to place in that map right now — not a signal, not a call.</p>
 
-  <div class="card">
-    <div class="row">
-      <div>
-        <div class="label">System operational state</div>
-        <div class="sublabel">2026-08-25 structure, tagged and current</div>
-      </div>
-      <span class="badge limited"><span class="dot"></span>Limited</span>
+  <div class="hero">
+    <div class="hero-chart">
+      <span class="hero-chart-tag">Auto-generated structure chart</span>
+      <img src="./data/charts/primeviewfx_members_static_chart_latest.png" alt="PrimeViewFX auto-generated XAUUSD structure chart — EMA5, weighted ladder levels and Prime Zones context">
+    </div>
+    <div class="rail">
+      <div class="rail-title">Current state</div>
+      <div class="rail-stat"><span>Weighted levels</span><span>17 mapped</span></div>
+      <div class="rail-stat"><span>Bullish zones</span><span>3</span></div>
+      <div class="rail-stat"><span>Bearish zones</span><span>3</span></div>
+      <div class="rail-stat"><span>System condition</span><span class="badge limited"><span class="dot"></span>Limited</span></div>
     </div>
   </div>
 
-  <div class="card">
-    <div class="row">
-      <div>
-        <div class="label">Weighted-Level Cascade</div>
-        <div class="sublabel">The one engine currently live for members — full detail under Market Structure below</div>
-      </div>
-      <span class="badge active"><span class="dot"></span>Active</span>
+  <div class="section-title">Structure at a glance</div>
+  <div class="glance">
+    <div class="glance-item">
+      <div class="glance-label">Weighted levels</div>
+      <div class="glance-value">17 mapped</div>
+      <div class="glance-state">Active</div>
+    </div>
+    <div class="glance-item">
+      <div class="glance-label">Bullish structure</div>
+      <div class="glance-value">3 zones</div>
+      <div class="glance-state">Active</div>
+    </div>
+    <div class="glance-item">
+      <div class="glance-label">Bearish structure</div>
+      <div class="glance-value">3 zones</div>
+      <div class="glance-state">Active</div>
     </div>
   </div>
 
+  <hr class="divider">
   <div class="section-title">Sections</div>
-  <div class="grid">
-    <a class="tile" href="/member-area/market-structure">
-      <div class="tile-title">Market Structure</div>
-      <div class="tile-desc">Where the important structural levels sit today.</div>
+  <div class="dest-list">
+    <a class="dest-item" href="/member-area/market-structure">
+      <span><span class="dest-name">Market Structure</span><span class="dest-desc"> — where the important structural levels sit today</span></span>
       <span class="badge active"><span class="dot"></span>Active</span>
     </a>
-    <a class="tile" href="/member-area/context">
-      <div class="tile-title">Context</div>
-      <div class="tile-desc">Broader conditions around the structure.</div>
+    <a class="dest-item" href="/member-area/context">
+      <span><span class="dest-name">Context</span><span class="dest-desc"> — broader conditions around the structure</span></span>
       <span class="badge unavailable"><span class="dot"></span>Unavailable</span>
     </a>
-    <a class="tile" href="/member-area/system-status">
-      <div class="tile-title">System Status</div>
-      <div class="tile-desc">Whether the data behind this page is current.</div>
+    <a class="dest-item" href="/member-area/system-status">
+      <span><span class="dest-name">System Status</span><span class="dest-desc"> — whether the data behind this page is current</span></span>
       <span class="badge limited"><span class="dot"></span>Limited</span>
     </a>
   </div>

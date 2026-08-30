@@ -16,8 +16,10 @@
   .nav { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 28px; font-size: 13px; }
   .nav a { color: var(--muted); text-decoration: none; padding: 6px 0; border-bottom: 2px solid transparent; }
   .nav a.current { color: var(--text); border-bottom-color: var(--gold); }
-  h1 { font-size: 26px; margin: 0 0 6px; }
-  .sub { color: var(--muted); font-size: 14px; margin: 0 0 28px; }
+  .headrow { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 6px; }
+  h1 { font-size: 26px; margin: 0; }
+  .updated { color: var(--muted); font-size: 13px; }
+  .sub { color: var(--muted); font-size: 14px; margin: 6px 0 30px; }
   .card { border: 1px solid var(--line); border-radius: 16px; padding: 20px; background: var(--card); margin-bottom: 16px; }
   .row { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
   .label { font-size: 15px; color: var(--text); }
@@ -30,9 +32,23 @@
   .badge.limited .dot { background: var(--amber); }
   .badge.unavailable { color: var(--red); border-color: rgba(248,113,113,.4); background: rgba(248,113,113,.08); }
   .badge.unavailable .dot { background: var(--red); }
-  .section-title { font-size: 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 28px 0 10px; }
+  .section-title { font-size: 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 30px 0 12px; }
   .foot { margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; }
-  .updated { color: var(--muted); font-size: 13px; }
+
+  /* --- v1.1 desktop enrichment: status row, not a card stack --- */
+  .status-row { display: grid; grid-template-columns: 1fr; gap: 14px; }
+  .status-col { border: 1px solid var(--line); border-radius: 16px; padding: 20px 22px; background: var(--card); }
+  .status-col .label { font-weight: 700; }
+  .status-col .badge { margin-top: 12px; }
+
+  @media (min-width: 1200px) {
+    .wrap { max-width: 1360px; }
+    .status-row { grid-template-columns: repeat(3, 1fr); }
+    .status-col { display: flex; flex-direction: column; align-items: flex-start; }
+  }
+  @media (min-width: 640px) and (max-width: 1199px) {
+    .status-row { grid-template-columns: repeat(2, 1fr); }
+  }
 </style>
 </head>
 <body>
@@ -44,37 +60,26 @@
     <a href="/member-area/system-status" class="current">System Status</a>
   </nav>
 
-  <h1>System Status</h1>
+  <div class="headrow">
+    <h1>System Status</h1>
+    <span class="updated">Updated 30 Aug 2026, 05:37 UTC</span>
+  </div>
   <p class="sub">Whether PrimeViewFX's data is currently flowing normally — not a performance report.</p>
 
-  <div class="card">
-    <div class="row">
-      <div>
-        <div class="label">Overall</div>
-        <div class="sublabel">Updated <span class="updated">30 Aug 2026, 05:37 UTC</span></div>
-      </div>
+  <div class="status-row">
+    <div class="status-col">
+      <div class="label">Overall</div>
+      <div class="sublabel">Across all member-visible systems</div>
       <span class="badge limited"><span class="dot"></span>Limited</span>
     </div>
-  </div>
-
-  <div class="section-title">Component groups</div>
-
-  <div class="card">
-    <div class="row">
-      <div>
-        <div class="label">Market structure data</div>
-        <div class="sublabel">Weighted-level cascade feed — levels, roles, dashboards</div>
-      </div>
+    <div class="status-col">
+      <div class="label">Market structure data</div>
+      <div class="sublabel">Weighted-level cascade feed — levels, roles, dashboards</div>
       <span class="badge limited"><span class="dot"></span>Limited</span>
     </div>
-  </div>
-
-  <div class="card">
-    <div class="row">
-      <div>
-        <div class="label">Market data feed</div>
-        <div class="sublabel">Underlying price and published-level data pipeline</div>
-      </div>
+    <div class="status-col">
+      <div class="label">Market data feed</div>
+      <div class="sublabel">Underlying price and published-level data pipeline</div>
       <span class="badge limited"><span class="dot"></span>Limited</span>
     </div>
   </div>
