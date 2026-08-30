@@ -48,10 +48,10 @@
   .hero-chart-tag { position: absolute; top: 12px; left: 14px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: #bcd6f7; background: rgba(7,16,24,.72); border: 1px solid rgba(125,169,255,.3); border-radius: 999px; padding: 5px 10px; }
   .rail { border: 1px solid var(--line); border-radius: 18px; padding: 20px; background: var(--surface), var(--card); box-shadow: var(--shadow-lg); display: flex; flex-direction: column; }
   .rail-title { font-size: 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 0 0 14px; }
-  .rail-stat { display: flex; justify-content: space-between; align-items: baseline; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 13.5px; }
+  .rail-stat { display: flex; justify-content: space-between; align-items: baseline; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 13.5px; gap: 10px; }
   .rail-stat:last-of-type { border-bottom: none; }
   .rail-stat span:first-child { color: var(--muted); }
-  .rail-stat span:last-child { font-weight: 700; }
+  .rail-stat span:last-child { font-weight: 700; text-align: right; }
   .rail .cta { margin-top: 16px; text-align: center; }
 
   .glance { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 22px; }
@@ -97,10 +97,10 @@
     </div>
     <div class="rail">
       <div class="rail-title">Structure now</div>
-      <div class="rail-stat"><span>Forecast date</span><span>25 Aug 2026</span></div>
-      <div class="rail-stat"><span>Levels mapped</span><span>17</span></div>
-      <div class="rail-stat"><span>Bullish zones</span><span>3</span></div>
-      <div class="rail-stat"><span>Bearish zones</span><span>3</span></div>
+      <div class="rail-stat"><span>Nearest level above</span><span>$4,584.29 (130 pts)</span></div>
+      <div class="rail-stat"><span>Nearest level below</span><span>None mapped below price</span></div>
+      <div class="rail-stat"><span>Structure basis date</span><span>25 Aug 2026</span></div>
+      <div class="rail-stat"><span>Map last refreshed</span><span>30 Aug 2026, 16:05 UTC</span></div>
       <a class="cta" href="#bullish-bearish-structure">View details ↓</a>
     </div>
   </div>
@@ -147,8 +147,11 @@
   </div>
 
   <div class="foot">
-    Each module goes live here only once it has cleared internal validation and is genuinely running in
-    production — not on a fixed schedule. Research only. Not financial advice.
+    "Structure basis date" is the published ladder this map is built from — it updates when a new
+    structural read is published, not on a fixed daily schedule. "Map last refreshed" is when this
+    chart and its live price were last recomputed. Each module in "Additional structural components"
+    goes live only once it has cleared internal validation and is genuinely running in production.
+    Research only. Not financial advice.
   </div>
 </div>
 </body>

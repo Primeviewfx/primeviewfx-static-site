@@ -42,6 +42,7 @@
   .status-col { border: 1px solid var(--line); border-radius: 16px; padding: 20px 22px; background: var(--surface), var(--card); box-shadow: var(--shadow); }
   .status-col .label { font-weight: 700; }
   .status-col .badge { margin-top: 12px; }
+  .status-reason { font-size: 12px; color: var(--muted); margin-top: 8px; }
 
   @media (min-width: 1200px) {
     .wrap { max-width: 1360px; }
@@ -64,7 +65,7 @@
 
   <div class="headrow">
     <h1>System Status</h1>
-    <span class="updated">Updated 30 Aug 2026, 12:26 UTC</span>
+    <span class="updated">Updated 30 Aug 2026, 16:00 UTC</span>
   </div>
   <p class="sub">Whether PrimeViewFX's data is currently flowing normally — not a performance report.</p>
 
@@ -72,17 +73,20 @@
     <div class="status-col">
       <div class="label">Overall</div>
       <div class="sublabel">Across all member-visible systems</div>
-      <span class="badge limited"><span class="dot"></span>Limited</span>
+      <span class="badge unavailable"><span class="dot"></span>Unavailable</span>
+      <div class="status-reason">One or more member-visible systems are not currently producing output.</div>
     </div>
     <div class="status-col">
       <div class="label">Market structure data</div>
       <div class="sublabel">Weighted-level cascade feed — levels, roles, dashboards</div>
-      <span class="badge limited"><span class="dot"></span>Limited</span>
+      <span class="badge active"><span class="dot"></span>Active</span>
+      
     </div>
     <div class="status-col">
       <div class="label">Market data feed</div>
       <div class="sublabel">Underlying price and published-level data pipeline</div>
-      <span class="badge limited"><span class="dot"></span>Limited</span>
+      <span class="badge unavailable"><span class="dot"></span>Unavailable</span>
+      <div class="status-reason">The price / published-level data pipeline is not currently producing output.</div>
     </div>
   </div>
 

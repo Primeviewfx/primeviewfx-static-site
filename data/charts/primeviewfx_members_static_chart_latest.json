@@ -1,22 +1,22 @@
 {
   "version": "v2.5.3.9",
-  "created_utc": "2026-08-30T15:35:34.053237+00:00",
-  "data_dir": "C:\\Trading\\Data",
-  "static_site_dir": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site",
+  "created_utc": "2026-08-30T16:05:31.791022+00:00",
+  "data_dir": "Data",
+  "static_site_dir": "PrimeViewFX_Static_Site",
   "outputs": {
-    "latest_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.png",
-    "archive_png": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\archive\\primeviewfx_members_static_chart_20260830_153534.png",
-    "metadata_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
-    "manifest_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\members_visual_chart\\primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
-    "report_txt": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\members_visual_chart\\primeviewfx_members_visual_chart_report_v2_5_3_9.txt",
-    "live_data_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_chart_data_latest.json",
-    "preview_html": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-static-chart-preview-4597f9ea54ee5855.html",
-    "weekly_goldturns_json": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\goldturns\\primeviewfx_weekly_goldturns_latest.json",
-    "weekly_goldturns_csv": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\goldturns\\primeviewfx_weekly_goldturns_latest.csv",
-    "weekly_goldturns_html": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\members-weekly-goldturns-5ca15a7d08b31d56.html"
+    "latest_png": "primeviewfx_members_static_chart_latest.png",
+    "archive_png": "primeviewfx_members_static_chart_20260830_160531.png",
+    "metadata_json": "primeviewfx_members_static_chart_latest.json",
+    "manifest_json": "primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
+    "report_txt": "primeviewfx_members_visual_chart_report_v2_5_3_9.txt",
+    "live_data_json": "primeviewfx_members_chart_data_latest.json",
+    "preview_html": "members-static-chart-preview-4597f9ea54ee5855.html",
+    "weekly_goldturns_json": "primeviewfx_weekly_goldturns_latest.json",
+    "weekly_goldturns_csv": "primeviewfx_weekly_goldturns_latest.csv",
+    "weekly_goldturns_html": "members-weekly-goldturns-5ca15a7d08b31d56.html"
   },
   "status": "PASS",
-  "ohlc_csv": "C:\\Trading\\Data\\XAUUSD_H1_features.csv",
+  "ohlc_csv": "XAUUSD_H1_features.csv",
   "ohlc_info": {
     "time_col": "time",
     "price_cols": {
@@ -27,10 +27,10 @@
     },
     "ema_col": "ema5"
   },
-  "gate_csv": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\WebsiteLaunch\\primeviewfx_website_trigger_gate_live_v2_4_3.csv",
+  "gate_csv": "primeviewfx_website_trigger_gate_live_v2_4_3.csv",
   "levels_info": {
     "found": true,
-    "path": "C:\\Trading\\Data\\GreenRedBoxAlignment\\PersistenceTracker\\WebsiteLaunch\\primeviewfx_website_trigger_gate_live_v2_4_3.csv",
+    "path": "primeviewfx_website_trigger_gate_live_v2_4_3.csv",
     "level_col": "forecast_rung",
     "label_cols": [
       "survival_probability_v2_1",
@@ -53,10 +53,10 @@
     "latest_ema5": 4474.029068427964
   },
   "state_sources": {
-    "weekly_play_state": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
-    "weekly_bias": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
-    "ath_state": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json",
-    "channel_zone": "C:\\Trading\\Publish\\PrimeViewFX_Static_Site\\data\\charts\\primeviewfx_members_static_chart_latest.json"
+    "weekly_play_state": "primeviewfx_members_static_chart_latest.json",
+    "weekly_bias": "primeviewfx_members_static_chart_latest.json",
+    "ath_state": "primeviewfx_members_static_chart_latest.json",
+    "channel_zone": "primeviewfx_members_static_chart_latest.json"
   },
   "weekly_goldturns": {
     "found": true,
