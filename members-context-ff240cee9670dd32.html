@@ -23,6 +23,7 @@
   .intro { color: var(--muted); font-size: 15px; line-height: 1.65; max-width: 720px; margin: 26px 0 0; }
   .intro strong { color: var(--text); }
   .divider { border: none; border-top: 1px solid var(--line); margin: 34px 0; }
+  .disclaimer { color: var(--muted); font-size: 12.5px; margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--line); }
   .compare { display: grid; grid-template-columns: 1fr; gap: 0; border: 1px solid var(--line); border-radius: 18px; overflow: hidden; box-shadow: var(--shadow-lg); }
   .compare-col { padding: 26px 28px; }
   .compare-col + .compare-col { border-top: 1px solid var(--line); }
@@ -37,14 +38,14 @@
   .badge.unavailable { color: var(--red); border-color: rgba(248,113,113,.4); background: rgba(248,113,113,.08); }
   .badge.unavailable .dot { background: var(--red); }
   .compare-desc { font-size: 13px; color: var(--muted); margin-top: 12px; max-width: 440px; }
-  .foot { margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; }
 
   @media (min-width: 1200px) {
-    .wrap { max-width: 1360px; }
-    .intro { max-width: 760px; }
+    .wrap { max-width: 1360px; padding-top: 48px; }
+    .intro { max-width: 760px; margin-top: 40px; font-size: 16px; }
+    .divider { margin: 48px 0; }
     .compare { grid-template-columns: 1fr 1fr; }
     .compare-col + .compare-col { border-top: none; border-left: 1px solid var(--line); }
-    .compare-col { padding: 34px 40px; }
+    .compare-col { padding: 44px 48px; }
   }
 </style>
 </head>
@@ -83,10 +84,7 @@
     </div>
   </div>
 
-  <div class="foot">
-    This section is intentionally empty today. Context modules go live here only once they've cleared
-    internal validation and are genuinely running in production. Research only. Not financial advice.
-  </div>
+  <div class="disclaimer">Research only. Not financial advice.</div>
 </div>
 </body>
 </html>
