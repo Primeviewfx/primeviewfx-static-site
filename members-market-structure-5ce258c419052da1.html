@@ -16,10 +16,8 @@
   .nav { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 28px; font-size: 13px; }
   .nav a { color: var(--muted); text-decoration: none; padding: 6px 0; border-bottom: 2px solid transparent; }
   .nav a.current { color: var(--text); border-bottom-color: var(--gold); }
-  .headrow { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 6px; }
-  h1 { font-size: 26px; margin: 0; }
-  .tag { color: var(--muted); font-size: 13px; letter-spacing: .04em; }
-  .sub { color: var(--muted); font-size: 14px; margin: 6px 0 28px; }
+  h1 { font-size: 26px; margin: 0 0 6px; }
+  .sub { color: var(--muted); font-size: 14px; margin: 0 0 28px; }
   .card { border: 1px solid var(--line); border-radius: 16px; padding: 20px; background: var(--card); margin-bottom: 16px; }
   .row { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
   .label { font-size: 17px; color: var(--text); font-weight: 700; }
@@ -30,45 +28,13 @@
   .badge.active .dot { background: var(--green); }
   .badge.unavailable { color: var(--red); border-color: rgba(248,113,113,.4); background: rgba(248,113,113,.08); }
   .badge.unavailable .dot { background: var(--red); }
-  .cta { display: inline-block; margin-top: 14px; border: 1px solid var(--gold); border-radius: 999px; padding: 8px 14px; text-decoration: none; color: #2a2000; font-weight: 800; background: var(--gold); font-size: 13px; transition: filter .12s ease; }
-  .cta:hover { filter: brightness(1.06); }
-  .cta.secondary { border-color: var(--line); background: transparent; color: var(--text); font-weight: 700; }
-  .cta.secondary:hover { border-color: rgba(242,193,78,.5); }
-  .section-title { font-size: 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 34px 0 12px; }
-  .divider { border: none; border-top: 1px solid var(--line); margin: 34px 0 0; }
+  .detail { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .stat { font-size: 12px; color: var(--muted); }
+  .stat strong { display: block; font-size: 15px; color: var(--text); margin-top: 2px; }
+  .cta { display: inline-block; margin-top: 14px; border: 1px solid var(--gold); border-radius: 999px; padding: 8px 14px; text-decoration: none; color: #2a2000; font-weight: 800; background: var(--gold); font-size: 13px; }
+  .section-title { font-size: 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 28px 0 10px; }
   .foot { margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; }
-
-  /* --- v1.1 desktop enrichment --- */
-  .hero { display: grid; grid-template-columns: 1fr; gap: 18px; margin-bottom: 8px; }
-  .hero-chart { border: 1px solid var(--line); border-radius: 18px; overflow: hidden; background: #071018; position: relative; }
-  .hero-chart img { display: block; width: 100%; height: auto; }
-  .hero-chart-tag { position: absolute; top: 12px; left: 14px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: #bcd6f7; background: rgba(7,16,24,.72); border: 1px solid rgba(125,169,255,.3); border-radius: 999px; padding: 5px 10px; }
-  .rail { border: 1px solid var(--line); border-radius: 18px; padding: 20px; background: var(--card); display: flex; flex-direction: column; }
-  .rail-title { font-size: 12px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 0 0 14px; }
-  .rail-stat { display: flex; justify-content: space-between; align-items: baseline; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 13.5px; }
-  .rail-stat:last-of-type { border-bottom: none; }
-  .rail-stat span:first-child { color: var(--muted); }
-  .rail-stat span:last-child { font-weight: 700; }
-  .rail .cta { margin-top: 16px; text-align: center; }
-
-  .glance { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 22px; }
-  .glance-item { border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; background: var(--card); }
-  .glance-label { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
-  .glance-value { font-size: 26px; font-weight: 800; margin: 8px 0 10px; }
-  .glance-desc { font-size: 12.5px; color: var(--muted); margin-bottom: 12px; }
-
-  .components { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 4px; }
-  .component-item { border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; background: rgba(255,255,255,0.03); }
-  .component-item .label { font-size: 14.5px; }
-  .component-item .badge { margin-top: 10px; }
-
-  @media (min-width: 1200px) {
-    .wrap { max-width: 1360px; }
-    .hero { grid-template-columns: minmax(0, 1.9fr) minmax(300px, 1fr); align-items: stretch; }
-  }
-  @media (max-width: 900px) {
-    .glance, .components { grid-template-columns: 1fr; }
-  }
+  @media (max-width: 560px) { .detail { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
@@ -80,64 +46,54 @@
     <a href="/member-area/system-status">System Status</a>
   </nav>
 
-  <div class="headrow">
-    <h1>Market Structure</h1>
-    <span class="tag">XAUUSD · Live</span>
-  </div>
+  <h1>Market Structure</h1>
   <p class="sub">Where the important structural levels currently sit. Research context, not trade signals.</p>
 
-  <div class="hero">
-    <div class="hero-chart">
-      <span class="hero-chart-tag">Auto-generated structure chart</span>
-      <img src="./data/charts/primeviewfx_members_static_chart_latest.png" alt="PrimeViewFX auto-generated XAUUSD structure chart — EMA5, weighted ladder levels and Prime Zones context">
+  <div class="card">
+    <div class="row">
+      <div>
+        <div class="label">Weighted-Level Cascade</div>
+        <div class="sublabel">Role-tagged intraday reaction levels, built from the day's published ladder. Updated daily.</div>
+      </div>
+      <span class="badge active"><span class="dot"></span>Active</span>
     </div>
-    <div class="rail">
-      <div class="rail-title">Structure now</div>
-      <div class="rail-stat"><span>Forecast date</span><span>25 Aug 2026</span></div>
-      <div class="rail-stat"><span>Levels mapped</span><span>17</span></div>
-      <div class="rail-stat"><span>Bullish zones</span><span>3</span></div>
-      <div class="rail-stat"><span>Bearish zones</span><span>3</span></div>
-      <a class="cta" href="#bullish-bearish-structure">View details ↓</a>
+    <div class="detail">
+      <div class="stat">Forecast date<strong>25 Aug 2026</strong></div>
+      <div class="stat">Levels tagged<strong>17</strong></div>
+      <div class="stat">Primary zones<strong>3 bullish · 3 bearish</strong></div>
+    </div>
+    <a class="cta" href="/member-area/bullish-cascade">Open bullish cascade →</a>
+    <a class="cta" href="/member-area/bearish-cascade" style="margin-left:8px;">Open bearish cascade →</a>
+  </div>
+
+  <div class="section-title">Not yet available</div>
+
+  <div class="card">
+    <div class="row">
+      <div>
+        <div class="label" style="font-size:15px;">Prime Zones</div>
+        <div class="sublabel">Structural zone research — still in internal validation, not yet a live member product.</div>
+      </div>
+      <span class="badge unavailable"><span class="dot"></span>Unavailable</span>
     </div>
   </div>
 
-  <div id="bullish-bearish-structure" class="section-title">Bullish &amp; bearish structure</div>
-  <div class="glance">
-    <div class="glance-item">
-      <div class="glance-label">Weighted-Level Cascade</div>
-      <div class="glance-value">17</div>
-      <div class="glance-desc">Role-tagged intraday reaction levels, built from the day's published ladder. Updated daily.</div>
-    </div>
-    <div class="glance-item">
-      <div class="glance-label">Bullish structure</div>
-      <div class="glance-value">3 zones</div>
-      <div class="glance-desc">Bullish intraday reaction zones ranked low-to-high from today's ladder.</div>
-      <a class="cta secondary" href="/member-area/bullish-cascade">Open detailed view →</a>
-    </div>
-    <div class="glance-item">
-      <div class="glance-label">Bearish structure</div>
-      <div class="glance-value">3 zones</div>
-      <div class="glance-desc">Bearish intraday reaction zones ranked high-to-low from today's ladder.</div>
-      <a class="cta secondary" href="/member-area/bearish-cascade">Open detailed view →</a>
+  <div class="card">
+    <div class="row">
+      <div>
+        <div class="label" style="font-size:15px;">Daily Ladder</div>
+        <div class="sublabel">Next-day level forecast — currently running in internal shadow testing, not yet member-visible.</div>
+      </div>
+      <span class="badge unavailable"><span class="dot"></span>Unavailable</span>
     </div>
   </div>
 
-  <hr class="divider">
-  <div class="section-title">Additional structural components</div>
-  <div class="components">
-    <div class="component-item">
-      <div class="label">Prime Zones</div>
-      <div class="sublabel">Structural zone research — still in internal validation, not yet a live member product.</div>
-      <span class="badge unavailable"><span class="dot"></span>Unavailable</span>
-    </div>
-    <div class="component-item">
-      <div class="label">Daily Ladder</div>
-      <div class="sublabel">Next-day level forecast — currently running in internal shadow testing, not yet member-visible.</div>
-      <span class="badge unavailable"><span class="dot"></span>Unavailable</span>
-    </div>
-    <div class="component-item">
-      <div class="label">Weekly Route Map</div>
-      <div class="sublabel">Weekly structural route levels — currently running in internal shadow testing, not yet member-visible.</div>
+  <div class="card">
+    <div class="row">
+      <div>
+        <div class="label" style="font-size:15px;">Weekly Route Map</div>
+        <div class="sublabel">Weekly structural route levels — currently running in internal shadow testing, not yet member-visible.</div>
+      </div>
       <span class="badge unavailable"><span class="dot"></span>Unavailable</span>
     </div>
   </div>
@@ -147,5 +103,6 @@
     production — not on a fixed schedule. Research only. Not financial advice.
   </div>
 </div>
+
 </body>
 </html>
