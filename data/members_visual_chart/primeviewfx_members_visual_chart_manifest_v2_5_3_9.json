@@ -1,11 +1,11 @@
 {
   "version": "v2.5.3.9",
-  "created_utc": "2026-08-31T05:05:34.295774+00:00",
+  "created_utc": "2026-08-31T09:05:38.278060+00:00",
   "data_dir": "Data",
   "static_site_dir": "PrimeViewFX_Static_Site",
   "outputs": {
     "latest_png": "primeviewfx_members_static_chart_latest.png",
-    "archive_png": "primeviewfx_members_static_chart_20260831_050534.png",
+    "archive_png": "primeviewfx_members_static_chart_20260831_090538.png",
     "metadata_json": "primeviewfx_members_static_chart_latest.json",
     "manifest_json": "primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
     "report_txt": "primeviewfx_members_visual_chart_report_v2_5_3_9.txt",
@@ -49,8 +49,8 @@
     "weekly_bias": "BULLISH",
     "ath_state": "NOT_AT_ALL_TIME_HIGH",
     "channel_zone": "UPPER_HALF",
-    "latest_close": 4423.78,
-    "latest_ema5": 4429.941631080257
+    "latest_close": 4440.61,
+    "latest_ema5": 4438.935095851244
   },
   "state_sources": {
     "weekly_play_state": "primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
@@ -121,8 +121,8 @@
       }
     ]
   },
-  "latest_close": 4423.78,
-  "latest_ema5": 4429.941631080257,
+  "latest_close": 4440.61,
+  "latest_ema5": 4438.935095851244,
   "bars_rendered": 84,
   "level_count": 15
 }

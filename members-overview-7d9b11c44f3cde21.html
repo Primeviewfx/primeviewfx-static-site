@@ -56,12 +56,13 @@
   .rail-stat span:last-child { font-weight: 700; text-align: right; }
   .overall-reason { color: var(--muted); font-size: 12.5px; margin-top: 6px; max-width: 260px; }
 
-  .glance { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 16px; }
+  /* Mobile-first: 1 column below 601px, 2 at tablet, 3 at desktop (1200px+ below) */
+  .glance { display: grid; grid-template-columns: 1fr; gap: 14px; margin-top: 16px; }
   .glance-item { border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; background: var(--surface), var(--card); box-shadow: var(--shadow); transition: transform .15s ease, box-shadow .15s ease; }
   .glance-item:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
   .glance-label { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
   .glance-value { font-size: 24px; font-weight: 800; margin: 6px 0 4px; }
-  .glance-link { display: inline-block; margin-top: 6px; font-size: 12.5px; font-weight: 700; color: var(--gold); text-decoration: none; }
+  .glance-link { display: inline-block; margin: 4px -6px -6px; padding: 6px; font-size: 12.5px; font-weight: 700; color: var(--gold); text-decoration: none; }
   .glance-link:hover { text-decoration: underline; }
 
   .dest-list { display: flex; flex-direction: column; gap: 0; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; box-shadow: var(--shadow); }
@@ -71,16 +72,21 @@
   .dest-name { font-size: 14px; font-weight: 700; }
   .dest-desc { font-size: 12px; color: var(--muted); margin-top: 1px; }
 
+  @media (max-width: 600px) {
+    .headmeta { text-align: left; }
+    .rail-stat { flex-direction: column; align-items: flex-start; gap: 2px; }
+    .rail-stat span:last-child { text-align: left; }
+  }
+  @media (min-width: 601px) and (max-width: 1199px) {
+    .glance { grid-template-columns: repeat(2, 1fr); }
+  }
   @media (min-width: 1200px) {
     .wrap { max-width: 1360px; }
     .hero { grid-template-columns: minmax(0, 1.9fr) minmax(300px, 1fr); align-items: stretch; }
+    .glance { grid-template-columns: repeat(3, 1fr); }
     .dest-list { flex-direction: row; }
     .dest-item { flex: 1; flex-direction: column; align-items: flex-start; }
     .dest-item + .dest-item { border-top: none; border-left: 1px solid var(--line); }
-  }
-  @media (max-width: 700px) {
-    .glance { grid-template-columns: 1fr; }
-    .headmeta { text-align: left; }
   }
 </style>
 </head>
@@ -115,11 +121,11 @@
     </a>
     <div class="rail">
       <div class="rail-title">Current state</div>
-      <div class="rail-stat"><span>Current price</span><span>$4,423.78</span></div>
-      <div class="rail-stat"><span>Nearest level above</span><span>$4,584.29 (161 pts)</span></div>
+      <div class="rail-stat"><span>Current price</span><span>$4,440.61</span></div>
+      <div class="rail-stat"><span>Nearest level above</span><span>$4,584.29 (144 pts)</span></div>
       <div class="rail-stat"><span>Nearest level below</span><span>None mapped below price</span></div>
-      <div class="rail-stat"><span>EMA5 (H1)</span><span>$4,429.94 (price below)</span></div>
-      <div class="rail-stat"><span>Latest structural update</span><span>31 Aug 2026, 05:05 UTC</span></div>
+      <div class="rail-stat"><span>EMA5 (H1)</span><span>$4,438.94 (price above)</span></div>
+      <div class="rail-stat"><span>Latest structural update</span><span>31 Aug 2026, 09:05 UTC</span></div>
     </div>
   </div>
 
