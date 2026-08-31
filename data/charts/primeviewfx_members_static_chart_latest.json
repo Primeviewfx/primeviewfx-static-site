@@ -1,11 +1,11 @@
 {
   "version": "v2.5.3.9",
-  "created_utc": "2026-08-30T21:05:35.686148+00:00",
+  "created_utc": "2026-08-31T05:05:34.295774+00:00",
   "data_dir": "Data",
   "static_site_dir": "PrimeViewFX_Static_Site",
   "outputs": {
     "latest_png": "primeviewfx_members_static_chart_latest.png",
-    "archive_png": "primeviewfx_members_static_chart_20260830_210535.png",
+    "archive_png": "primeviewfx_members_static_chart_20260831_050534.png",
     "metadata_json": "primeviewfx_members_static_chart_latest.json",
     "manifest_json": "primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
     "report_txt": "primeviewfx_members_visual_chart_report_v2_5_3_9.txt",
@@ -49,8 +49,8 @@
     "weekly_bias": "BULLISH",
     "ath_state": "NOT_AT_ALL_TIME_HIGH",
     "channel_zone": "UPPER_HALF",
-    "latest_close": 4454.28,
-    "latest_ema5": 4474.029068427964
+    "latest_close": 4423.78,
+    "latest_ema5": 4429.941631080257
   },
   "state_sources": {
     "weekly_play_state": "primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
@@ -61,8 +61,8 @@
   "weekly_goldturns": {
     "found": true,
     "method": "weekly_freeze_from_prior_ema5_turns",
-    "week_start": "2026-08-24",
-    "created_utc": "2026-08-30T13:05:28.353295+00:00",
+    "week_start": "2026-08-31",
+    "created_utc": "2026-08-30T22:05:31.572119+00:00",
     "refresh_rule": "Generated once per new week; hourly chart reads latest weekly file.",
     "levels": [
       {
@@ -90,12 +90,6 @@
         "source": "EMA5_slope_reversal"
       },
       {
-        "time": "2026-08-06 16:00",
-        "level": 4263.7915065704165,
-        "turn_type": "support_turn",
-        "source": "EMA5_slope_reversal"
-      },
-      {
         "time": "2026-08-10 11:00",
         "level": 4347.377760641342,
         "turn_type": "resistance_turn",
@@ -114,15 +108,21 @@
         "source": "EMA5_slope_reversal"
       },
       {
-        "time": "2026-08-21 15:00",
-        "level": 4581.334440908922,
-        "turn_type": "resistance_turn",
+        "time": "2026-08-27 17:00",
+        "level": 4587.633036000746,
+        "turn_type": "support_turn",
+        "source": "EMA5_slope_reversal"
+      },
+      {
+        "time": "2026-08-26 04:00",
+        "level": 4653.6087227801945,
+        "turn_type": "support_turn",
         "source": "EMA5_slope_reversal"
       }
     ]
   },
-  "latest_close": 4454.28,
-  "latest_ema5": 4474.029068427964,
+  "latest_close": 4423.78,
+  "latest_ema5": 4429.941631080257,
   "bars_rendered": 84,
   "level_count": 15
 }

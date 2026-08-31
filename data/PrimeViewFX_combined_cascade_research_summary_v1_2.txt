@@ -1,6 +1,6 @@
 PrimeViewFX Combined Cascade Research Summary v1.2
 ========================================================
-created_utc:        2026-08-30T21:25:47Z
+created_utc:        2026-08-31T05:37:46Z
 overall_status:     PASSED
 layer_count:        4
 
