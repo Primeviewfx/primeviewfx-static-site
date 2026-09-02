@@ -1,6 +1,6 @@
 {
-  "forecast_date": "2026-08-25",
-  "zone_count": 11,
+  "forecast_date": "2026-08-31",
+  "zone_count": 7,
   "provider_events_considered": 0,
   "provider_match_tolerance": 10.0,
   "provider_tagged_zone_count": 0,
