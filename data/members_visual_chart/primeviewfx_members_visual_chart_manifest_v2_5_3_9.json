@@ -1,11 +1,11 @@
 {
   "version": "v2.5.3.9",
-  "created_utc": "2026-09-04T05:05:31.320086+00:00",
+  "created_utc": "2026-09-06T05:05:33.364775+00:00",
   "data_dir": "Data",
   "static_site_dir": "PrimeViewFX_Static_Site",
   "outputs": {
     "latest_png": "primeviewfx_members_static_chart_latest.png",
-    "archive_png": "primeviewfx_members_static_chart_20260904_050531.png",
+    "archive_png": "primeviewfx_members_static_chart_20260906_050533.png",
     "metadata_json": "primeviewfx_members_static_chart_latest.json",
     "manifest_json": "primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
     "report_txt": "primeviewfx_members_visual_chart_report_v2_5_3_9.txt",
@@ -49,14 +49,14 @@
     "weekly_bias": "BULLISH",
     "ath_state": "NOT_AT_ALL_TIME_HIGH",
     "channel_zone": "UPPER_HALF",
-    "latest_close": 4469.88,
-    "latest_ema5": 4473.064988856562
+    "latest_close": 4431.23,
+    "latest_ema5": 4430.196992233499
   },
   "state_sources": {
-    "weekly_play_state": "primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
-    "weekly_bias": "primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
-    "ath_state": "primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
-    "channel_zone": "primeviewfx_members_visual_chart_manifest_v2_5_3_9.json"
+    "weekly_play_state": "primeviewfx_members_static_chart_latest.json",
+    "weekly_bias": "primeviewfx_members_static_chart_latest.json",
+    "ath_state": "primeviewfx_members_static_chart_latest.json",
+    "channel_zone": "primeviewfx_members_static_chart_latest.json"
   },
   "weekly_goldturns": {
     "found": true,
@@ -121,8 +121,8 @@
       }
     ]
   },
-  "latest_close": 4469.88,
-  "latest_ema5": 4473.064988856562,
+  "latest_close": 4431.23,
+  "latest_ema5": 4430.196992233499,
   "bars_rendered": 84,
   "level_count": 15
 }
