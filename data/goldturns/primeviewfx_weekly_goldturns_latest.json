@@ -1,8 +1,8 @@
 {
   "found": true,
   "method": "weekly_freeze_from_prior_ema5_turns",
-  "week_start": "2026-08-31",
-  "created_utc": "2026-08-30T22:05:31.572119+00:00",
+  "week_start": "2026-09-07",
+  "created_utc": "2026-09-06T22:05:30.701402+00:00",
   "refresh_rule": "Generated once per new week; hourly chart reads latest weekly file.",
   "levels": [
     {
@@ -30,15 +30,15 @@
       "source": "EMA5_slope_reversal"
     },
     {
-      "time": "2026-08-10 11:00",
-      "level": 4347.377760641342,
+      "time": "2026-09-01 19:00",
+      "level": 4363.575293227541,
       "turn_type": "resistance_turn",
       "source": "EMA5_slope_reversal"
     },
     {
-      "time": "2026-08-17 20:00",
-      "level": 4415.4405771358415,
-      "turn_type": "resistance_turn",
+      "time": "2026-09-04 18:00",
+      "level": 4433.652472273127,
+      "turn_type": "support_turn",
       "source": "EMA5_slope_reversal"
     },
     {
