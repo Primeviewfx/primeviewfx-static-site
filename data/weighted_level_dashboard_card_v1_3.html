@@ -68,9 +68,9 @@
       <h2>Live Status</h2>
       <div class="grid">
         <div><span>Promoted Candidate</span><strong>NO_CANDIDATE_MAP</strong></div>
-        <div><span>Watchlist</span><strong>INVALIDATED</strong></div>
-        <div><span>Latest Close</span><strong>4,422.56</strong></div>
-        <div><span>EMA5</span><strong>4,428.28</strong></div>
+        <div><span>Watchlist</span><strong>WAITING_FOR_TRIGGER</strong></div>
+        <div><span>Latest Close</span><strong>4,427.54</strong></div>
+        <div><span>EMA5</span><strong>4,415.19</strong></div>
         <div><span>State</span><strong>ema_proxy_up</strong></div>
         <div><span>Up Alignment</span><strong>with_state</strong></div>
         <div><span>Down Alignment</span><strong>counter_state</strong></div>
@@ -128,7 +128,7 @@
           <div class="eyebrow">WATCHLIST</div>
           <h3>WATCHLIST_UP_LV4_TO_LV3_30_50</h3>
         </div>
-        <span class="badge bad">INVALIDATED</span>
+        <span class="badge watch">WAITING_FOR_TRIGGER</span>
       </div>
       <div class="grid small">
         <div><span>Direction</span><strong>UP</strong></div>
@@ -136,7 +136,7 @@
         <div><span>Target</span><strong>LV3 @ 4,506.73</strong></div>
         <div><span>Distance</span><strong>36.85 / 30_50</strong></div>
       </div>
-      <p class="muted">WATCHLIST setup closed back through LV4 before target.</p>
+      <p class="muted">Map condition exists; waiting for EMA5 cross-lock upward through LV4.</p>
       <p class="basis">Canonical DMY v1.3 watchlist: UP LV4 -&gt; LV3, next-distance 30-50, with_state. Watchlist only; target and MFE promotion checks did not pass.</p>
     </div>
     
@@ -164,7 +164,7 @@
           <div class="eyebrow">WATCHLIST</div>
           <h3>WATCHLIST_DOWN_LV6_TO_LV7_15_30</h3>
         </div>
-        <span class="badge bad">INVALIDATED</span>
+        <span class="badge bad">TRIGGER_FOUND_NOT_WITH_STATE</span>
       </div>
       <div class="grid small">
         <div><span>Direction</span><strong>DOWN</strong></div>
@@ -172,7 +172,7 @@
         <div><span>Target</span><strong>LV7 @ 4,367.35</strong></div>
         <div><span>Distance</span><strong>28.83 / 15_30</strong></div>
       </div>
-      <p class="muted">WATCHLIST setup closed back through LV6 before target.</p>
+      <p class="muted">EMA5 crossed LV6, but state alignment was counter_state, not with_state.</p>
       <p class="basis">Added 2026-07-14 from the same fresh audit re-run - not in the original canonical DMY evidence set. DOWN LV6 -&gt; LV7, next-distance 15-30, with_state.</p>
     </div>
     
@@ -223,8 +223,8 @@
     </section>
 
     <div class="footer">
-      Created UTC: 2026-09-08T05:37:36Z<br>
-      Latest bar: 2026-09-08 08:00:00<br>
+      Created UTC: 2026-09-10T05:37:26Z<br>
+      Latest bar: 2026-09-10 08:00:00<br>
       Research only. Not a trading signal.
     </div>
   </div>
