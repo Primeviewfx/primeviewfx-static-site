@@ -1,6 +1,6 @@
 {
   "summary": {
-    "run_time": "2026-09-11T06:38:08",
+    "run_time": "2026-09-13T06:37:25",
     "forecast_date": "2026-09-14",
     "status": "members_integrated_map_ready",
     "carry_confidence": "caution_confidence",
@@ -8,7 +8,7 @@
     "structural_source_status": "frozen_exact_forecast_date",
     "structural_source_file": "xau_two_layer_frozen_map_2026-09-14_7c9339111c2b.csv",
     "source_published_date": "2026-09-11",
-    "prior_close_used": 4338.54,
+    "prior_close_used": 4348.0,
     "carry_anchor": 4353.045000000002,
     "carry_step": 32.76500000000033,
     "carry_invalidation_level": 4189.22,

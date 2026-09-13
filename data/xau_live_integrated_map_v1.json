@@ -1,6 +1,6 @@
 {
   "summary": {
-    "run_time": "2026-09-11T06:36:26",
+    "run_time": "2026-09-13T06:36:24",
     "forecast_date": "2026-09-14",
     "carry_rows": 9,
     "structural_rows": 8,
@@ -10,7 +10,7 @@
     "combined_confidence": "caution_confidence",
     "width_confidence": "good_confidence",
     "source_published_date": "2026-09-11",
-    "prior_close_used": 4338.54,
+    "prior_close_used": 4348.0,
     "carry_anchor": 4353.045000000002,
     "carry_step": 32.76500000000033,
     "carry_invalidation_level": 4189.22,
