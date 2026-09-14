@@ -1,10 +1,10 @@
 time,level,turn_type,source
-2026-07-20 05:00,4010.071607785337,support_turn,EMA5_slope_reversal
+2026-07-20 03:00,4005.041117517008,support_turn,EMA5_slope_reversal
 2026-08-03 03:00,4059.238131360867,resistance_turn,EMA5_slope_reversal
-2026-07-09 13:00,4100.024701149452,resistance_turn,EMA5_slope_reversal
 2026-07-22 20:00,4144.054626282504,resistance_turn,EMA5_slope_reversal
-2026-09-01 19:00,4363.575293227541,resistance_turn,EMA5_slope_reversal
-2026-09-04 18:00,4433.652472273127,support_turn,EMA5_slope_reversal
+2026-09-11 03:00,4326.879259098081,support_turn,EMA5_slope_reversal
+2026-09-11 17:00,4370.873782962229,resistance_turn,EMA5_slope_reversal
+2026-09-10 10:00,4416.869286983772,resistance_turn,EMA5_slope_reversal
 2026-08-20 16:00,4480.119057280104,support_turn,EMA5_slope_reversal
 2026-08-27 17:00,4587.633036000746,support_turn,EMA5_slope_reversal
 2026-08-26 04:00,4653.6087227801945,support_turn,EMA5_slope_reversal

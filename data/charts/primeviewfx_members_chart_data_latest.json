@@ -1,65 +1,9 @@
 {
   "version": "v2.5.3.9",
-  "generated_utc": "2026-09-13T05:05:37.589984+00:00",
-  "latest_close": 4348.0,
-  "latest_ema5": 4352.774076967879,
+  "generated_utc": "2026-09-14T05:05:39.464596+00:00",
+  "latest_close": 4331.22,
+  "latest_ema5": 4333.502320332843,
   "candles": [
-    {
-      "time": 1788858000,
-      "open": 4419.45,
-      "high": 4420.19,
-      "low": 4397.92,
-      "close": 4403.79
-    },
-    {
-      "time": 1788861600,
-      "open": 4403.8,
-      "high": 4409.48,
-      "low": 4389.86,
-      "close": 4392.42
-    },
-    {
-      "time": 1788865200,
-      "open": 4392.44,
-      "high": 4398.58,
-      "low": 4387.89,
-      "close": 4394.13
-    },
-    {
-      "time": 1788868800,
-      "open": 4394.15,
-      "high": 4405.71,
-      "low": 4390.68,
-      "close": 4403.05
-    },
-    {
-      "time": 1788872400,
-      "open": 4403.06,
-      "high": 4407.0,
-      "low": 4393.78,
-      "close": 4395.41
-    },
-    {
-      "time": 1788876000,
-      "open": 4395.39,
-      "high": 4407.89,
-      "low": 4391.15,
-      "close": 4406.49
-    },
-    {
-      "time": 1788879600,
-      "open": 4406.42,
-      "high": 4411.82,
-      "low": 4385.3,
-      "close": 4411.61
-    },
-    {
-      "time": 1788883200,
-      "open": 4411.62,
-      "high": 4413.24,
-      "low": 4390.4,
-      "close": 4395.7
-    },
     {
       "time": 1788886800,
       "open": 4395.71,
@@ -591,41 +535,65 @@
       "high": 4351.52,
       "low": 4345.39,
       "close": 4348.0
+    },
+    {
+      "time": 1789347600,
+      "open": 4331.66,
+      "high": 4341.75,
+      "low": 4328.32,
+      "close": 4337.9
+    },
+    {
+      "time": 1789351200,
+      "open": 4337.86,
+      "high": 4342.5,
+      "low": 4331.89,
+      "close": 4332.79
+    },
+    {
+      "time": 1789354800,
+      "open": 4332.8,
+      "high": 4347.53,
+      "low": 4329.88,
+      "close": 4338.55
+    },
+    {
+      "time": 1789358400,
+      "open": 4338.58,
+      "high": 4355.24,
+      "low": 4326.28,
+      "close": 4353.44
+    },
+    {
+      "time": 1789362000,
+      "open": 4353.39,
+      "high": 4355.45,
+      "low": 4330.11,
+      "close": 4330.87
+    },
+    {
+      "time": 1789365600,
+      "open": 4330.86,
+      "high": 4336.37,
+      "low": 4327.16,
+      "close": 4330.42
+    },
+    {
+      "time": 1789369200,
+      "open": 4330.41,
+      "high": 4331.67,
+      "low": 4322.18,
+      "close": 4329.57
+    },
+    {
+      "time": 1789372800,
+      "open": 4329.57,
+      "high": 4332.59,
+      "low": 4327.02,
+      "close": 4331.22
     }
   ],
   "ema5": [
-    {
-      "time": 1788858000,
-      "value": 4419.430919028751
-    },
-    {
-      "time": 1788861600,
-      "value": 4410.4272793525015
-    },
-    {
-      "time": 1788865200,
-      "value": 4404.994852901667
-    },
-    {
-      "time": 1788868800,
-      "value": 4404.346568601111
-    },
-    {
-      "time": 1788872400,
-      "value": 4401.367712400741
-    },
-    {
-      "time": 1788876000,
-      "value": 4403.075141600494
-    },
-    {
-      "time": 1788879600,
-      "value": 4405.92009440033
-    },
-    {
-      "time": 1788883200,
-      "value": 4402.513396266886
-    },
     {
       "time": 1788886800,
       "value": 4401.245597511257
@@ -929,6 +897,38 @@
     {
       "time": 1789167600,
       "value": 4352.774076967879
+    },
+    {
+      "time": 1789347600,
+      "value": 4347.816051311919
+    },
+    {
+      "time": 1789351200,
+      "value": 4342.80736754128
+    },
+    {
+      "time": 1789354800,
+      "value": 4341.38824502752
+    },
+    {
+      "time": 1789358400,
+      "value": 4345.405496685013
+    },
+    {
+      "time": 1789362000,
+      "value": 4340.560331123342
+    },
+    {
+      "time": 1789365600,
+      "value": 4337.180220748895
+    },
+    {
+      "time": 1789369200,
+      "value": 4334.643480499263
+    },
+    {
+      "time": 1789372800,
+      "value": 4333.502320332843
     }
   ],
   "levels": [
@@ -999,24 +999,24 @@
   },
   "confluence": {
     "dxy": {
-      "latest": 99.0948255993218,
-      "change_pct": 0.0069377847032302325,
-      "direction": "flat",
+      "latest": 99.33531861206365,
+      "change_pct": 0.22295385478698146,
+      "direction": "rising",
       "symbol": "DXY",
-      "note": "Little directional pull from USD right now"
+      "note": "Typically a headwind for gold"
     },
     "xagusd": {
-      "latest": 64.465,
-      "change_pct": 1.2581678813772335,
+      "latest": 63.856,
+      "change_pct": 1.2382084819659116,
       "direction": "rising",
       "symbol": "XAGUSD",
-      "note": "Metals moving together with gold"
+      "note": "No clear metals confluence right now"
     }
   },
   "goldturns": [
     {
-      "time": "2026-07-20 05:00",
-      "level": 4010.071607785337,
+      "time": "2026-07-20 03:00",
+      "level": 4005.041117517008,
       "turn_type": "support_turn",
       "source": "EMA5_slope_reversal",
       "touched": true
@@ -1029,13 +1029,6 @@
       "touched": true
     },
     {
-      "time": "2026-07-09 13:00",
-      "level": 4100.024701149452,
-      "turn_type": "resistance_turn",
-      "source": "EMA5_slope_reversal",
-      "touched": true
-    },
-    {
       "time": "2026-07-22 20:00",
       "level": 4144.054626282504,
       "turn_type": "resistance_turn",
@@ -1043,18 +1036,25 @@
       "touched": true
     },
     {
-      "time": "2026-09-01 19:00",
-      "level": 4363.575293227541,
+      "time": "2026-09-11 03:00",
+      "level": 4326.879259098081,
+      "turn_type": "support_turn",
+      "source": "EMA5_slope_reversal",
+      "touched": true
+    },
+    {
+      "time": "2026-09-11 17:00",
+      "level": 4370.873782962229,
       "turn_type": "resistance_turn",
       "source": "EMA5_slope_reversal",
       "touched": true
     },
     {
-      "time": "2026-09-04 18:00",
-      "level": 4433.652472273127,
-      "turn_type": "support_turn",
+      "time": "2026-09-10 10:00",
+      "level": 4416.869286983772,
+      "turn_type": "resistance_turn",
       "source": "EMA5_slope_reversal",
-      "touched": true
+      "touched": false
     },
     {
       "time": "2026-08-20 16:00",
