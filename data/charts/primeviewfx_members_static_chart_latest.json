@@ -1,11 +1,11 @@
 {
   "version": "v2.5.3.9",
-  "created_utc": "2026-09-14T05:05:38.153003+00:00",
+  "created_utc": "2026-09-25T05:05:36.869100+00:00",
   "data_dir": "Data",
   "static_site_dir": "PrimeViewFX_Static_Site",
   "outputs": {
     "latest_png": "primeviewfx_members_static_chart_latest.png",
-    "archive_png": "primeviewfx_members_static_chart_20260914_050538.png",
+    "archive_png": "primeviewfx_members_static_chart_20260925_050536.png",
     "metadata_json": "primeviewfx_members_static_chart_latest.json",
     "manifest_json": "primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
     "report_txt": "primeviewfx_members_visual_chart_report_v2_5_3_9.txt",
@@ -49,28 +49,22 @@
     "weekly_bias": "BULLISH",
     "ath_state": "NOT_AT_ALL_TIME_HIGH",
     "channel_zone": "UPPER_HALF",
-    "latest_close": 4331.22,
-    "latest_ema5": 4333.502320332843
+    "latest_close": 4260.11,
+    "latest_ema5": 4268.018767004047
   },
   "state_sources": {
-    "weekly_play_state": "primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
-    "weekly_bias": "primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
-    "ath_state": "primeviewfx_members_visual_chart_manifest_v2_5_3_9.json",
-    "channel_zone": "primeviewfx_members_visual_chart_manifest_v2_5_3_9.json"
+    "weekly_play_state": "primeviewfx_members_static_chart_latest.json",
+    "weekly_bias": "primeviewfx_members_static_chart_latest.json",
+    "ath_state": "primeviewfx_members_static_chart_latest.json",
+    "channel_zone": "primeviewfx_members_static_chart_latest.json"
   },
   "weekly_goldturns": {
     "found": true,
     "method": "weekly_freeze_from_prior_ema5_turns",
-    "week_start": "2026-09-14",
-    "created_utc": "2026-09-13T22:05:31.865808+00:00",
+    "week_start": "2026-09-21",
+    "created_utc": "2026-09-20T22:05:31.705802+00:00",
     "refresh_rule": "Generated once per new week; hourly chart reads latest weekly file.",
     "levels": [
-      {
-        "time": "2026-07-20 03:00",
-        "level": 4005.041117517008,
-        "turn_type": "support_turn",
-        "source": "EMA5_slope_reversal"
-      },
       {
         "time": "2026-08-03 03:00",
         "level": 4059.238131360867,
@@ -84,14 +78,14 @@
         "source": "EMA5_slope_reversal"
       },
       {
-        "time": "2026-09-11 03:00",
-        "level": 4326.879259098081,
-        "turn_type": "support_turn",
+        "time": "2026-09-17 12:00",
+        "level": 4308.879363731429,
+        "turn_type": "resistance_turn",
         "source": "EMA5_slope_reversal"
       },
       {
-        "time": "2026-09-11 17:00",
-        "level": 4370.873782962229,
+        "time": "2026-09-18 22:00",
+        "level": 4377.772458170464,
         "turn_type": "resistance_turn",
         "source": "EMA5_slope_reversal"
       },
@@ -121,8 +115,8 @@
       }
     ]
   },
-  "latest_close": 4331.22,
-  "latest_ema5": 4333.502320332843,
+  "latest_close": 4260.11,
+  "latest_ema5": 4268.018767004047,
   "bars_rendered": 84,
   "level_count": 15
 }
