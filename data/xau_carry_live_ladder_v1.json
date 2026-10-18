@@ -1,12 +1,12 @@
 {
   "summary": {
-    "run_time": "2026-10-16T06:36:33",
+    "run_time": "2026-10-18T06:36:32",
     "status": "live_forward_unscored",
     "forecast_date": "2026-10-19",
     "source_published_date": "2026-10-16",
     "latest_published_date_in_file": "2026-10-16",
     "prior_close_date": "2026-10-16",
-    "prior_close_used": 4173.19,
+    "prior_close_used": 4165.76,
     "source_level_count": 7,
     "source_highest_level": 4212.14,
     "source_lowest_level": 4077.28,
@@ -36,7 +36,7 @@
       "forecast_date": "2026-10-19",
       "source_published_date": "2026-10-16",
       "prior_close_date": "2026-10-16",
-      "prior_close_used": 4173.19,
+      "prior_close_used": 4165.76,
       "combined_confidence": "high_confidence",
       "width_confidence": "high_confidence",
       "source_ladder_width": 134.86000000000013,
@@ -49,13 +49,13 @@
       "tolerance": 24.0,
       "band_low": 4232.599999999998,
       "band_high": 4280.599999999998,
-      "distance_to_prior_close": 83.40999999999804
+      "distance_to_prior_close": 90.83999999999742
     },
     {
       "forecast_date": "2026-10-19",
       "source_published_date": "2026-10-16",
       "prior_close_date": "2026-10-16",
-      "prior_close_used": 4173.19,
+      "prior_close_used": 4165.76,
       "combined_confidence": "high_confidence",
       "width_confidence": "high_confidence",
       "source_ladder_width": 134.86000000000013,
@@ -68,13 +68,13 @@
       "tolerance": 24.0,
       "band_low": 4210.184999999998,
       "band_high": 4258.184999999998,
-      "distance_to_prior_close": 60.99499999999807
+      "distance_to_prior_close": 68.42499999999745
     },
     {
       "forecast_date": "2026-10-19",
       "source_published_date": "2026-10-16",
       "prior_close_date": "2026-10-16",
-      "prior_close_used": 4173.19,
+      "prior_close_used": 4165.76,
       "combined_confidence": "high_confidence",
       "width_confidence": "high_confidence",
       "source_ladder_width": 134.86000000000013,
@@ -87,13 +87,13 @@
       "tolerance": 9.0,
       "band_low": 4202.769999999999,
       "band_high": 4220.769999999999,
-      "distance_to_prior_close": 38.57999999999902
+      "distance_to_prior_close": 46.0099999999984
     },
     {
       "forecast_date": "2026-10-19",
       "source_published_date": "2026-10-16",
       "prior_close_date": "2026-10-16",
-      "prior_close_used": 4173.19,
+      "prior_close_used": 4165.76,
       "combined_confidence": "high_confidence",
       "width_confidence": "high_confidence",
       "source_ladder_width": 134.86000000000013,
@@ -106,13 +106,13 @@
       "tolerance": 9.0,
       "band_low": 4180.354999999999,
       "band_high": 4198.354999999999,
-      "distance_to_prior_close": 16.164999999999054
+      "distance_to_prior_close": 23.594999999998436
     },
     {
       "forecast_date": "2026-10-19",
       "source_published_date": "2026-10-16",
       "prior_close_date": "2026-10-16",
-      "prior_close_used": 4173.19,
+      "prior_close_used": 4165.76,
       "combined_confidence": "high_confidence",
       "width_confidence": "high_confidence",
       "source_ladder_width": 134.86000000000013,
@@ -125,13 +125,13 @@
       "tolerance": 9.0,
       "band_low": 4157.939999999999,
       "band_high": 4175.939999999999,
-      "distance_to_prior_close": -6.2500000000009095
+      "distance_to_prior_close": 1.179999999998472
     },
     {
       "forecast_date": "2026-10-19",
       "source_published_date": "2026-10-16",
       "prior_close_date": "2026-10-16",
-      "prior_close_used": 4173.19,
+      "prior_close_used": 4165.76,
       "combined_confidence": "high_confidence",
       "width_confidence": "high_confidence",
       "source_ladder_width": 134.86000000000013,
@@ -144,13 +144,13 @@
       "tolerance": 9.0,
       "band_low": 4135.524999999999,
       "band_high": 4153.524999999999,
-      "distance_to_prior_close": -28.665000000000873
+      "distance_to_prior_close": -21.23500000000149
     },
     {
       "forecast_date": "2026-10-19",
       "source_published_date": "2026-10-16",
       "prior_close_date": "2026-10-16",
-      "prior_close_used": 4173.19,
+      "prior_close_used": 4165.76,
       "combined_confidence": "high_confidence",
       "width_confidence": "high_confidence",
       "source_ladder_width": 134.86000000000013,
@@ -163,13 +163,13 @@
       "tolerance": 9.0,
       "band_low": 4113.109999999999,
       "band_high": 4131.109999999999,
-      "distance_to_prior_close": -51.08000000000084
+      "distance_to_prior_close": -43.650000000001455
     },
     {
       "forecast_date": "2026-10-19",
       "source_published_date": "2026-10-16",
       "prior_close_date": "2026-10-16",
-      "prior_close_used": 4173.19,
+      "prior_close_used": 4165.76,
       "combined_confidence": "high_confidence",
       "width_confidence": "high_confidence",
       "source_ladder_width": 134.86000000000013,
@@ -182,13 +182,13 @@
       "tolerance": 24.0,
       "band_low": 4075.6949999999997,
       "band_high": 4123.695,
-      "distance_to_prior_close": -73.49499999999989
+      "distance_to_prior_close": -66.06500000000051
     },
     {
       "forecast_date": "2026-10-19",
       "source_published_date": "2026-10-16",
       "prior_close_date": "2026-10-16",
-      "prior_close_used": 4173.19,
+      "prior_close_used": 4165.76,
       "combined_confidence": "high_confidence",
       "width_confidence": "high_confidence",
       "source_ladder_width": 134.86000000000013,
@@ -201,7 +201,7 @@
       "tolerance": 24.0,
       "band_low": 4053.2799999999997,
       "band_high": 4101.28,
-      "distance_to_prior_close": -95.90999999999985
+      "distance_to_prior_close": -88.48000000000047
     }
   ]
 }
