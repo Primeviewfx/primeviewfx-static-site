@@ -1,6 +1,5 @@
 time,level,turn_type,source
-2026-09-28 17:00,4143.572361471349,resistance_turn,EMA5_slope_reversal
-2026-10-09 11:00,4187.834363982174,resistance_turn,EMA5_slope_reversal
+2026-10-13 21:00,4160.350694750613,support_turn,EMA5_slope_reversal
 2026-09-25 18:00,4288.130154009024,support_turn,EMA5_slope_reversal
 2026-09-22 11:00,4324.543335577254,support_turn,EMA5_slope_reversal
 2026-09-18 22:00,4377.772458170464,resistance_turn,EMA5_slope_reversal
